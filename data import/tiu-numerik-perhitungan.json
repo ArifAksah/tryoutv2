@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TIU Numerik Berhitung (Aritmatika Dasar & Pecahan)",
+    "instructions": "Import ke kategori tiu-numerik-berhitung"
+  },
+  "questions": [
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Hasil dari $(0,6 \\times 3) + (0,4 \\times 2)$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "2,4" },
+        { "key": "B", "text": "2,6" },
+        { "key": "C", "text": "2,8" },
+        { "key": "D", "text": "3,2" },
+        { "key": "E", "text": "1,8" }
+      ],
+      "answer_key": { "correct": "B", "score": 5 },
+      "discussion": "$$(0,6 \\times 3) = 1,8$$\n$$(0,4 \\times 2) = 0,8$$\n$$1,8 + 0,8 = 2,6$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Nilai dari $2,5\\%$ dari $400$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "1" },
+        { "key": "B", "text": "10" },
+        { "key": "C", "text": "25" },
+        { "key": "D", "text": "40" },
+        { "key": "E", "text": "100" }
+      ],
+      "answer_key": { "correct": "B", "score": 5 },
+      "discussion": "$$2,5\\% = \\frac{2,5}{100}$$\n$$\\frac{2,5}{100} \\times 400 = 2,5 \\times 4 = 10$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Hasil dari $\\frac{3}{4} + \\frac{2}{5} - \\frac{1}{2}$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$\\frac{11}{20}$" },
+        { "key": "B", "text": "$\\frac{13}{20}$" },
+        { "key": "C", "text": "$\\frac{15}{20}$" },
+        { "key": "D", "text": "$\\frac{9}{20}$" },
+        { "key": "E", "text": "$\\frac{17}{20}$" }
+      ],
+      "answer_key": { "correct": "B", "score": 5 },
+      "discussion": "Samakan penyebut menjadi 20:\n$$\\frac{15}{20} + \\frac{8}{20} - \\frac{10}{20} = \\frac{15+8-10}{20} = \\frac{13}{20}$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Jika $a = 4$ dan $b = 3$, maka nilai dari $(a+b)^2 - 2ab$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "25" },
+        { "key": "B", "text": "36" },
+        { "key": "C", "text": "49" },
+        { "key": "D", "text": "24" },
+        { "key": "E", "text": "81" }
+      ],
+      "answer_key": { "correct": "A", "score": 5 },
+      "discussion": "Substitusi langsung:\n$$(4+3)^2 - 2(4)(3) = 7^2 - 24 = 49 - 24 = 25$$\nAtau pakai rumus aljabar: $(a+b)^2 - 2ab = a^2 + b^2 = 16 + 9 = 25$."
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Berapakah $\\sqrt{625}$?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "15" },
+        { "key": "B", "text": "25" },
+        { "key": "C", "text": "35" },
+        { "key": "D", "text": "45" },
+        { "key": "E", "text": "55" }
+      ],
+      "answer_key": { "correct": "B", "score": 5 },
+      "discussion": "$$25 \\times 25 = 625$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Hasil dari $15 \\times 12 \\div 3 + 5$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "55" },
+        { "key": "B", "text": "60" },
+        { "key": "C", "text": "65" },
+        { "key": "D", "text": "70" },
+        { "key": "E", "text": "75" }
+      ],
+      "answer_key": { "correct": "C", "score": 5 },
+      "discussion": "BODMAS (Kali/Bagi dulu, baru Tambah):\n$$15 \\times 12 = 180$$\n$$180 \\div 3 = 60$$\n$$60 + 5 = 65$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "$0,04 \\div 0,2$ sama dengan...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "0,02" },
+        { "key": "B", "text": "0,2" },
+        { "key": "C", "text": "2" },
+        { "key": "D", "text": "20" },
+        { "key": "E", "text": "0,002" }
+      ],
+      "answer_key": { "correct": "B", "score": 5 },
+      "discussion": "$$\\frac{4}{100} \\div \\frac{2}{10} = \\frac{4}{100} \\times \\frac{10}{2} = \\frac{40}{200} = \\frac{1}{5} = 0,2$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Jika $5x - 7 = 18$, maka $x = ...$",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "3" },
+        { "key": "B", "text": "4" },
+        { "key": "C", "text": "5" },
+        { "key": "D", "text": "6" },
+        { "key": "E", "text": "7" }
+      ],
+      "answer_key": { "correct": "C", "score": 5 },
+      "discussion": "$$5x = 18 + 7$$\n$$5x = 25$$\n$$x = 5$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Manakah pecahan terbesar?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$\\frac{2}{3}$" },
+        { "key": "B", "text": "$\\frac{3}{5}$" },
+        { "key": "C", "text": "$\\frac{4}{7}$" },
+        { "key": "D", "text": "$\\frac{5}{8}$" },
+        { "key": "E", "text": "$\\frac{1}{2}$" }
+      ],
+      "answer_key": { "correct": "A", "score": 5 },
+      "discussion": "Konversi ke desimal:\n$\\frac{2}{3} \\approx 0,66$\n$\\frac{3}{5} = 0,60$\n$\\frac{4}{7} \\approx 0,57$\n$\\frac{5}{8} = 0,625$\n$\\frac{1}{2} = 0,50$\nTerbesar adalah $\\frac{2}{3}$."
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Berapakah $33,33\\%$ dari $63$?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "18" },
+        { "key": "B", "text": "20" },
+        { "key": "C", "text": "21" },
+        { "key": "D", "text": "22" },
+        { "key": "E", "text": "24" }
+      ],
+      "answer_key": { "correct": "C", "score": 5 },
+      "discussion": "$33,33\\%$ adalah pecahan istimewa $\\frac{1}{3}$.\n$$\\frac{1}{3} \\times 63 = 21$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Hasil dari $(180 \\div 9)^2 - (120 \\div 10)^2$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "200" },
+        { "key": "B", "text": "244" },
+        { "key": "C", "text": "256" },
+        { "key": "D", "text": "300" },
+        { "key": "E", "text": "400" }
+      ],
+      "answer_key": { "correct": "C", "score": 5 },
+      "discussion": "$$20^2 - 12^2 = 400 - 144 = 256$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "$216$ adalah berapa persen dari $600$?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "30%" },
+        { "key": "B", "text": "32%" },
+        { "key": "C", "text": "34%" },
+        { "key": "D", "text": "36%" },
+        { "key": "E", "text": "38%" }
+      ],
+      "answer_key": { "correct": "D", "score": 5 },
+      "discussion": "$$\\frac{216}{600} \\times 100\\% = \\frac{216}{6} = 36\\%$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Nilai dari $\\frac{1}{4} \\div 0,5$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "0,25" },
+        { "key": "B", "text": "0,5" },
+        { "key": "C", "text": "1" },
+        { "key": "D", "text": "2" },
+        { "key": "E", "text": "4" }
+      ],
+      "answer_key": { "correct": "B", "score": 5 },
+      "discussion": "$$\\frac{1}{4} \\div \\frac{1}{2} = \\frac{1}{4} \\times \\frac{2}{1} = \\frac{2}{4} = 0,5$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "$2^2 \\times 3^2 + 4^2 = ...$",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "50" },
+        { "key": "B", "text": "52" },
+        { "key": "C", "text": "54" },
+        { "key": "D", "text": "56" },
+        { "key": "E", "text": "60" }
+      ],
+      "answer_key": { "correct": "B", "score": 5 },
+      "discussion": "$$4 \\times 9 + 16 = 36 + 16 = 52$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Jika $12,5\\%$ dari sebuah bilangan adalah $8$, maka bilangan tersebut adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "32" },
+        { "key": "B", "text": "48" },
+        { "key": "C", "text": "64" },
+        { "key": "D", "text": "72" },
+        { "key": "E", "text": "80" }
+      ],
+      "answer_key": { "correct": "C", "score": 5 },
+      "discussion": "$$12,5\\% = \\frac{1}{8}$$\n$$\\frac{1}{8} \\times x = 8 \\rightarrow x = 8 \\times 8 = 64$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Akar pangkat tiga dari $2744$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "12" },
+        { "key": "B", "text": "13" },
+        { "key": "C", "text": "14" },
+        { "key": "D", "text": "16" },
+        { "key": "E", "text": "18" }
+      ],
+      "answer_key": { "correct": "C", "score": 5 },
+      "discussion": "Perhatikan digit terakhir $4$. $4^3 = 64$ (berakhiran 4). Perhatikan angka depan $2$. $1^3=1$, $2^3=8$. Paling dekat adalah 1. Jadi $14$."
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "$3,14 \\times 5^2$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "15,7" },
+        { "key": "B", "text": "31,4" },
+        { "key": "C", "text": "78,5" },
+        { "key": "D", "text": "157" },
+        { "key": "E", "text": "785" }
+      ],
+      "answer_key": { "correct": "C", "score": 5 },
+      "discussion": "$$3,14 \\times 25 = 78,5$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Jumlah dari $1 + 2 + 3 + ... + 20$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "190" },
+        { "key": "B", "text": "200" },
+        { "key": "C", "text": "210" },
+        { "key": "D", "text": "220" },
+        { "key": "E", "text": "230" }
+      ],
+      "answer_key": { "correct": "C", "score": 5 },
+      "discussion": "Rumus jumlah deret aritmatika:\n$$S_n = \\frac{n}{2}(a + U_n) = \\frac{20}{2}(1 + 20) = 10 \\times 21 = 210$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "$1 - 0,1 - 0,01 - 0,001 = ...$",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "0,899" },
+        { "key": "B", "text": "0,889" },
+        { "key": "C", "text": "0,989" },
+        { "key": "D", "text": "0,999" },
+        { "key": "E", "text": "0,888" }
+      ],
+      "answer_key": { "correct": "B", "score": 5 },
+      "discussion": "$$1 - 0,1 = 0,9$$\n$$0,9 - 0,01 = 0,89$$\n$$0,89 - 0,001 = 0,889$$"
+    },
+    {
+      "category_slug": "tiu-numerik-berhitung",
+      "question_text": "Manakah yang senilai dengan $\\frac{7}{5}$?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "140%" },
+        { "key": "B", "text": "1,2" },
+        { "key": "C", "text": "1 1/5" },
+        { "key": "D", "text": "1,45" },
+        { "key": "E", "text": "135%" }
+      ],
+      "answer_key": { "correct": "A", "score": 5 },
+      "discussion": "$$\\frac{7}{5} = \\frac{140}{100} = 140\\%$$"
+    }
+  ]
+}

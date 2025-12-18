@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TWK Bahasa Indonesia (EBI, Kata Baku, Kalimat Efektif)",
+    "instructions": "Import ke kategori twk-bahasa-indonesia"
+  },
+  "questions": [
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Manakah di antara kelompok kata berikut yang semuanya merupakan kata baku?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Apotik, Praktek, Nasihat" },
+        { "key": "B", "text": "Apotek, Praktik, Nasihat" },
+        { "key": "C", "text": "Apotek, Praktek, Nasehat" },
+        { "key": "D", "text": "Apotik, Praktik, Nasehat" },
+        { "key": "E", "text": "Aphotek, Praktik, Nasihat" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Kata baku yang benar adalah: Apotek (bukan Apotik), Praktik (bukan Praktek, ingat: Praktikum), Nasihat (bukan Nasehat)."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Penulisan gelar akademik yang benar menurut EBI adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Prof. Dr. Budi Santoso, S.H, M.H." },
+        { "key": "B", "text": "Prof. Dr. Budi Santoso, SH., MH." },
+        { "key": "C", "text": "Prof. Dr. Budi Santoso, S.H., M.H." },
+        { "key": "D", "text": "Prof, Dr, Budi Santoso, S.H., M.H." },
+        { "key": "E", "text": "Prof. Dr Budi Santoso, S.H., M.H." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Setiap singkatan gelar diakhiri tanda titik, dan antar gelar dipisahkan tanda koma. (S.H. = Sarjana Hukum, M.H. = Magister Hukum)."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Kalimat berikut yang merupakan kalimat efektif adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Bagi semua peserta diharapkan hadir tepat waktu." },
+        { "key": "B", "text": "Semua peserta diharapkan hadir tepat waktu." },
+        { "key": "C", "text": "Para hadirin sekalian dimohon berdiri." },
+        { "key": "D", "text": "Dia masuk ke dalam ruang kelas." },
+        { "key": "E", "text": "Kepada Bapak Kepala Sekolah, waktu dan tempat kami persilakan." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "A salah karena subjek didahului 'Bagi'. C salah karena 'Para' dan 'sekalian' jamak ganda (pleonasme). D salah karena 'masuk' pasti 'ke dalam'. E salah karena 'waktu dan tempat' tidak bisa dipersilakan (yang dipersilakan orangnya)."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Manakah penulisan kata depan 'di' yang tepat pada kalimat berikut?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Buku itu ditaruh dimeja." },
+        { "key": "B", "text": "Kakak sedang dimasak didapur." },
+        { "key": "C", "text": "Kami akan pergi ke luar negeri di bulan depan." },
+        { "key": "D", "text": "Adik bermain di halaman rumah." },
+        { "key": "E", "text": "Surat itu sudah dikirimkan dikantor pos." }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "'Di' sebagai kata depan (menunjukkan tempat) harus dipisah (di halaman, di kantor, di meja). 'Di' sebagai awalan (kata kerja) digabung (ditaruh, dimasak, dikirimkan)."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Penulisan judul karangan yang tepat sesuai EBI adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Peran Pemuda Dalam Pembangunan Bangsa" },
+        { "key": "B", "text": "Peran Pemuda dalam Pembangunan Bangsa" },
+        { "key": "C", "text": "Peran pemuda dalam pembangunan bangsa" },
+        { "key": "D", "text": "Peran Pemuda Dalam Pembangunan bangsa" },
+        { "key": "E", "text": "PERAN PEMUDA DALAM PEMBANGUNAN BANGSA" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Huruf pertama setiap kata pada judul ditulis kapital, KECUALI kata depan/kata tugas (di, ke, dari, dan, yang, untuk, dalam, pada) yang tidak terletak di awal kalimat."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Kata serapan yang penulisannya benar adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Analisa, Resiko, Jadwal" },
+        { "key": "B", "text": "Analisis, Risiko, Jadwal" },
+        { "key": "C", "text": "Analisis, Resiko, Jadual" },
+        { "key": "D", "text": "Analisa, Risiko, Jadual" },
+        { "key": "E", "text": "Analisis, Risiko, Schedule" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Baku: Analisis (Analysis), Risiko (Risk), Jadwal (Arab: Jadwal). Tidak baku: Analisa, Resiko, Jadual."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Bacalah paragraf berikut!\n'Banjir yang melanda ibukota bukan hanya disebabkan oleh curah hujan yang tinggi. Perilaku masyarakat yang membuang sampah sembarangan turut memperparah keadaan. Drainase yang buruk juga membuat air sulit mengalir. Selain itu, berkurangnya daerah resapan air akibat pembangunan gedung juga menjadi faktor utama.'\nIde pokok paragraf tersebut adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Curah hujan tinggi penyebab banjir." },
+        { "key": "B", "text": "Perilaku masyarakat membuang sampah." },
+        { "key": "C", "text": "Faktor-faktor penyebab banjir di ibukota." },
+        { "key": "D", "text": "Pembangunan gedung mengurangi resapan air." },
+        { "key": "E", "text": "Drainase yang buruk di ibukota." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Paragraf tersebut membahas berbagai penyebab (curah hujan, sampah, drainase, pembangunan) dari banjir. Jadi ide pokoknya adalah faktor-faktor penyebab banjir secara umum."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Penggunaan tanda baca koma (,) yang tepat terdapat pada kalimat...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Saya ingin membeli, baju, celana dan sepatu." },
+        { "key": "B", "text": "Saya ingin membeli baju, celana, dan sepatu." },
+        { "key": "C", "text": "Saya ingin membeli baju, celana dan sepatu." },
+        { "key": "D", "text": "Karena sakit dia tidak masuk sekolah." },
+        { "key": "E", "text": "Jakarta, 17 Agustus, 1945." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Pada pemerian (list) yang lebih dari dua unsur, tanda koma dipakai sebelum kata 'dan'. (baju, celana, dan sepatu). Ini disebut Oxford Comma dalam bahasa Inggris, dan diatur juga di EBI."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Manakah kalimat yang menggunakan kata berimbuhan secara tepat?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pemerintah sedang menyosialisasikan program baru." },
+        { "key": "B", "text": "Pemerintah sedang mensosialisasikan program baru." },
+        { "key": "C", "text": "Polisi berhasil mensukseskan acara tersebut." },
+        { "key": "D", "text": "Kita harus mentaati peraturan lalu lintas." },
+        { "key": "E", "text": "Adik sedang menterjemahkan naskah kuno." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Aturan K-P-T-S: Kata dasar yang diawali huruf K, P, T, S luluh jika bertemu awalan me-. Sosialisasi -> Menyosialisasikan (S luluh). Sukses -> Menyukseskan. Taat -> Menaati. Terjemah -> Menerjemahkan."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Penulisan angka dan bilangan yang tepat terdapat pada kalimat...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ayah membeli 3 ekor ayam." },
+        { "key": "B", "text": "Tiga puluh orang tewas dalam kecelakaan itu." },
+        { "key": "C", "text": "Dia menonton drama itu sampai tiga kali." },
+        { "key": "D", "text": "Abad ke 20 ditandai dengan kemajuan teknologi." },
+        { "key": "E", "text": "Harga barang itu Rp. 5000,00." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Bilangan yang dapat dinyatakan dengan satu atau dua kata ditulis dengan huruf (tiga kali), kecuali jika dipakai secara berurutan dalam perincian. Opsi A salah (harus 'tiga'), B benar tapi di awal kalimat angka memang harus huruf, C paling tepat contohnya."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Kata yang mengalami penyempitan makna (spesialisasi) adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Bapak (Dulu ayah, sekarang semua laki-laki dewasa)" },
+        { "key": "B", "text": "Sarjana (Dulu orang pandai, sekarang lulusan universitas)" },
+        { "key": "C", "text": "Ibu (Dulu orang tua wanita, sekarang semua wanita dewasa)" },
+        { "key": "D", "text": "Putra (Dulu anak raja, sekarang anak laki-laki)" },
+        { "key": "E", "text": "Saudara (Dulu satu darah, sekarang siapa saja)" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Spesialisasi: Makna kata menjadi lebih sempit/khusus. Sarjana dulu berarti orang pandai (cendekiawan), sekarang khusus lulusan S1. Opsi A, C, E adalah Generalisasi (meluas)."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Pilihlah kalimat yang TIDAK mengandung pleonasme (pemborosan kata)!",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Dia naik ke atas genteng." },
+        { "key": "B", "text": "Sejak dari pagi dia belum makan." },
+        { "key": "C", "text": "Mereka saling pukul-memukul." },
+        { "key": "D", "text": "Para tamu-tamu undangan dipersilakan duduk." },
+        { "key": "E", "text": "Ibu memasak nasi di dapur." }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "A (naik pasti ke atas), B (sejak = dari), C (saling tidak perlu ulang kata kerja, cukup saling memukul atau pukul-memukul), D (para sudah jamak, tamu-tamu jamak). E adalah kalimat efektif."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Penulisan kata 'pun' yang benar terdapat pada kalimat...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Apa pun yang terjadi, aku tetap pergi." },
+        { "key": "B", "text": "Dia pun akhirnya menyetujui usulan itu." },
+        { "key": "C", "text": "Sekalipun dia belum pernah ke sana." },
+        { "key": "D", "text": "Meskipun hujan, dia tetap datang." },
+        { "key": "E", "text": "Semua jawaban benar." }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "'Pun' dipisah jika berarti 'juga' atau 'saja' (Apa pun, Siapa pun, Satu kali pun). 'Pun' digabung jika merupakan kata penghubung (Meskipun, Walaupun, Sekalipun, Bagaimanapun). Semua opsi A, B, C, D benar penggunaannya."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Sinonim yang paling tepat untuk kata 'Tentatif' adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pasti" },
+        { "key": "B", "text": "Sementara" },
+        { "key": "C", "text": "Kekal" },
+        { "key": "D", "text": "Wajib" },
+        { "key": "E", "text": "Rinci" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Tentatif artinya belum pasti, masih dapat berubah, atau sementara."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Kalimat yang menggunakan majas Hiperbola adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pena menari-nari di atas kertas." },
+        { "key": "B", "text": "Suaranya menggelegar membelah angkasa." },
+        { "key": "C", "text": "Dia hidup sebatang kara." },
+        { "key": "D", "text": "Raja siang telah kembali ke peraduannya." },
+        { "key": "E", "text": "Mukanya pucat seperti mayat." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hiperbola adalah majas yang melebih-lebihkan. 'Suara membelah angkasa' adalah perumpamaan yang berlebihan. A (Personifikasi), C (Asosiasi/Ungkapan), D (Metafora), E (Simile)."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Kesalahan penggunaan tanda baca titik dua (:) terdapat pada kalimat...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ibu membeli buah-buahan: apel, jeruk, dan mangga." },
+        { "key": "B", "text": "Nama: Budi Santoso." },
+        { "key": "C", "text": "Dia membawa: buku, pensil, dan penggaris." },
+        { "key": "D", "text": "Mereka memerlukan perabot rumah tangga: kursi, meja, dan lemari." },
+        { "key": "E", "text": "Ketua: Ahmad Dhani." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Tanda titik dua TIDAK dipakai jika perincian itu merupakan pelengkap yang mengakhiri pernyataan (kalimat belum selesai). Kalimat C seharusnya: 'Dia membawa buku, pensil, dan penggaris.' (Tanpa titik dua)."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Manakah di antara kata berikut yang penulisannya baku?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hakekat" },
+        { "key": "B", "text": "Ijin" },
+        { "key": "C", "text": "Jaman" },
+        { "key": "D", "text": "Kuitansi" },
+        { "key": "E", "text": "Sistim" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Baku: Hakikat (bukan Hakekat), Izin (bukan Ijin), Zaman (bukan Jaman), Kuitansi (bukan Kwitansi), Sistem (bukan Sistim)."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Inti kalimat dari: 'Gadis yang mengenakan baju merah itu sedang membaca buku di perpustakaan' adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Gadis berbaju merah." },
+        { "key": "B", "text": "Gadis sedang membaca." },
+        { "key": "C", "text": "Membaca buku di perpustakaan." },
+        { "key": "D", "text": "Gadis membaca buku." },
+        { "key": "E", "text": "Sedang membaca." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Inti kalimat terdiri dari Subjek + Predikat (S-P) utama. Subjek: Gadis (yang mengenakan baju merah itu = perluasan). Predikat: sedang membaca. Objek: buku. Ket: di perpustakaan. Intinya: Gadis sedang membaca."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Penggunaan huruf miring yang benar adalah untuk...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menuliskan nama orang penting." },
+        { "key": "B", "text": "Menuliskan judul buku dalam daftar pustaka." },
+        { "key": "C", "text": "Menuliskan kata asing atau daerah yang belum diserap." },
+        { "key": "D", "text": "Menuliskan nama lembaga atau organisasi." },
+        { "key": "E", "text": "Menegaskan huruf kapital." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Huruf miring dipakai untuk: Judul buku/nama koran dalam kalimat, menegaskan huruf/kata, dan menuliskan kata/ungkapan bahasa daerah atau asing (misal: *reshuffle*, *tut wuri handayani*)."
+    },
+    {
+      "category_slug": "twk-bahasa-indonesia",
+      "question_text": "Kalimat yang subjeknya tidak jelas (rancu) adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pemerintah menaikkan harga BBM." },
+        { "key": "B", "text": "Dalam rapat itu membahas masalah anggaran." },
+        { "key": "C", "text": "Rapat itu membahas masalah anggaran." },
+        { "key": "D", "text": "Mereka sedang berdiskusi." },
+        { "key": "E", "text": "Ayah membaca koran." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Kalimat B diawali kata depan 'Dalam', sehingga 'rapat itu' menjadi Keterangan Tempat, bukan Subjek. Akibatnya kalimat kehilangan Subjek (Siapa yang membahas? Tidak ada). Seharusnya: 'Dalam rapat itu, peserta membahas...' atau 'Rapat itu membahas...'."
+    }
+  ]
+}

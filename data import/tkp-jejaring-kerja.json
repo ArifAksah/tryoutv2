@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TKP Jejaring Kerja (Skala 1-5)",
+    "instructions": "Import ke kategori tkp-jejaring-kerja"
+  },
+  "questions": [
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Anda ditempatkan dalam satu tim dengan rekan kerja yang memiliki gaya bekerja sangat berbeda dengan Anda, sehingga sering terjadi perdebatan kecil. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Meminta atasan untuk memindahkan saya ke tim lain." },
+        { "key": "B", "text": "Tetap bekerja dengannya namun membatasi komunikasi seperlunya saja." },
+        { "key": "C", "text": "Mencoba memahami gaya bekerjanya dan mencari jalan tengah agar bisa bersinergi." },
+        { "key": "D", "text": "Memaksanya mengikuti gaya bekerja saya agar tugas cepat selesai." },
+        { "key": "E", "text": "Mengalah sepenuhnya agar tidak terjadi konflik." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 3
+      },
+      "discussion": "Poin 5 (C): Adaptif dan Kolaboratif. Kemampuan menjembatani perbedaan adalah kunci jejaring kerja. Poin 1 (A/D): Menghindar atau Otoriter."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Kantor Anda mengadakan acara gathering untuk mempererat hubungan antar pegawai dari berbagai divisi. Anda adalah orang yang cukup pemalu (introvert). Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hadir sebentar untuk absen lalu pulang." },
+        { "key": "B", "text": "Hanya mengobrol dengan rekan satu divisi yang sudah dikenal." },
+        { "key": "C", "text": "Berusaha membaur dan berkenalan dengan rekan dari divisi lain meskipun merasa canggung." },
+        { "key": "D", "text": "Duduk diam di pojokan sambil bermain HP." },
+        { "key": "E", "text": "Menunggu diajak mengobrol oleh orang lain." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 3,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Inisiatif Membangun Hubungan. Keluar dari zona nyaman untuk memperluas jaringan profesional sangat dihargai."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Tim Anda sedang mengerjakan proyek besar dan membutuhkan data dari divisi lain yang terkenal sulit diajak kerjasama. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengeluh kepada atasan tentang divisi tersebut." },
+        { "key": "B", "text": "Mencoba mendekati personal salah satu staf divisi tersebut secara informal untuk meminta bantuan data." },
+        { "key": "C", "text": "Mengirim surat resmi permintaan data dan menunggu balasan." },
+        { "key": "D", "text": "Mengerjakan proyek seadanya tanpa data tersebut." },
+        { "key": "E", "text": "Meminta rekan lain yang mengurusnya karena saya malas berdebat." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 4,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Pendekatan Persuasif/Personal. Dalam jejaring kerja, pendekatan informal seringkali lebih efektif menembus birokrasi kaku."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Rekan kerja satu tim Anda melakukan kesalahan fatal yang menyebabkan target tim tidak tercapai. Atasan marah besar kepada tim. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut menyalahkan rekan tersebut di depan atasan agar saya aman." },
+        { "key": "B", "text": "Diam saja dan membiarkan rekan tersebut menanggung akibatnya." },
+        { "key": "C", "text": "Menerima teguran sebagai tanggung jawab tim dan mengajak rekan tersebut memperbaiki kesalahan bersama-sama." },
+        { "key": "D", "text": "Membelanya mati-matian meskipun dia salah." },
+        { "key": "E", "text": "Menghibur rekan tersebut setelah rapat selesai." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 3,
+        "E": 4
+      },
+      "discussion": "Poin 5 (C): Solidaritas Tim. Mengakui kesalahan sebagai tim (kolektif) dan fokus pada perbaikan (solutif), bukan saling menyalahkan."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Ada pegawai baru di kantor Anda yang terlihat pasif dan belum memiliki teman makan siang. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membiarkannya karena dia harus mandiri beradaptasi." },
+        { "key": "B", "text": "Menyapanya sekadar basa-basi." },
+        { "key": "C", "text": "Mengajaknya bergabung makan siang bersama tim saya agar ia merasa diterima." },
+        { "key": "D", "text": "Menunggu dia yang menyapa duluan karena saya senior." },
+        { "key": "E", "text": "Membicarakan sikap pasifnya dengan teman lain." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 3,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Inklusif dan Proaktif. Membantu orang lain masuk ke dalam jejaring kerja akan memperkuat tim di masa depan."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Anda memiliki ide inovatif untuk kemajuan perusahaan, namun Anda tahu ide tersebut akan ditentang oleh rekan senior yang konservatif. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menyimpan ide tersebut daripada ribut." },
+        { "key": "B", "text": "Menyampaikan ide tersebut secara personal kepada senior untuk meminta masukan dan dukungannya sebelum rapat." },
+        { "key": "C", "text": "Langsung mempresentasikan ide di rapat terbuka untuk mempermalukan senior jika dia menolak." },
+        { "key": "D", "text": "Mencari dukungan rekan lain untuk memojokkan senior." },
+        { "key": "E", "text": "Menyampaikan ide apa adanya, diterima atau tidak terserah." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 3
+      },
+      "discussion": "Poin 5 (B): Strategi Komunikasi. Melakukan lobi/pendekatan personal (menghormati senior) untuk mendapatkan dukungan (aliansi) adalah teknik jejaring kerja tingkat tinggi."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Salah satu anggota tim Anda sedang mengalami musibah keluarga sehingga kinerjanya menurun drastis. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Melaporkan ke atasan agar dia diganti." },
+        { "key": "B", "text": "Meminta dia cuti saja agar tidak membebani tim." },
+        { "key": "C", "text": "Memberikan dukungan moral dan menawarkan bantuan untuk mem-backup tugasnya sementara waktu." },
+        { "key": "D", "text": "Mengerjakan tugasnya sambil menggerutu." },
+        { "key": "E", "text": "Memintanya tetap profesional memisahkan urusan pribadi dan kantor." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 3,
+        "C": 5,
+        "D": 2,
+        "E": 4
+      },
+      "discussion": "Poin 5 (C): Empati dan Kerjasama. Membantu rekan yang kesulitan (backup) memperkuat ikatan tim."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Anda ditugaskan ke luar kota untuk bertemu dengan mitra kerja baru. Apa yang Anda persiapkan untuk membangun hubungan baik?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mempelajari latar belakang mitra dan budaya setempat agar pembicaraan nyambung." },
+        { "key": "B", "text": "Menyiapkan materi presentasi bisnis saja." },
+        { "key": "C", "text": "Membawa oleh-oleh yang mahal." },
+        { "key": "D", "text": "Berpakaian sangat formal dan menjaga jarak agar terlihat wibawa." },
+        { "key": "E", "text": "Mengajak mitra makan di tempat mewah." }
+      ],
+      "answer_key": {
+        "A": 5,
+        "B": 3,
+        "C": 3,
+        "D": 2,
+        "E": 3
+      },
+      "discussion": "Poin 5 (A): Persiapan Matang. Memahami lawan bicara (latar belakang/budaya) adalah kunci sukses membangun _rapport_ (kedekatan) dalam networking."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Dalam grup WhatsApp kantor, terjadi perdebatan panas antara dua kubu mengenai kebijakan baru. Suasana menjadi tidak nyaman. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Keluar dari grup sementara (left group)." },
+        { "key": "B", "text": "Menjadi penengah yang netral dan mengajak kembali fokus pada tujuan kerja." },
+        { "key": "C", "text": "Ikut berdebat membela kubu yang menurut saya benar." },
+        { "key": "D", "text": "Menyimak saja (silent reader)." },
+        { "key": "E", "text": "Membuat lelucon agar suasana cair." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 3,
+        "E": 4
+      },
+      "discussion": "Poin 5 (B): Mediator. Kemampuan meredakan konflik dan menyatukan kembali tim adalah ciri pemimpin yang baik dalam berjejaring."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Anda mendapatkan informasi pelatihan (workshop) gratis yang sangat bermanfaat untuk karir, namun kuotanya terbatas. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mendaftar diam-diam agar saingan sedikit." },
+        { "key": "B", "text": "Membagikan info tersebut di grup kantor agar rekan lain juga berkesempatan ikut." },
+        { "key": "C", "text": "Hanya memberitahu teman dekat saja." },
+        { "key": "D", "text": "Tidak ikut mendaftar karena malas." },
+        { "key": "E", "text": "Mendaftar dulu, baru memberitahu yang lain jika sudah diterima." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 3,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Berbagi Informasi (Sharing). Jejaring kerja yang sehat ditandai dengan kemauan berbagi peluang untuk kemajuan bersama, bukan kompetisi tidak sehat."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Anda diminta atasan untuk memimpin proyek kolaborasi dengan instansi lain. Namun, pihak instansi lain tersebut responsnya sangat lambat. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membatalkan kerjasama tersebut." },
+        { "key": "B", "text": "Terus menerus mengirim email formal penagihan." },
+        { "key": "C", "text": "Berinisiatif menelepon atau mengunjungi kantor mereka untuk berkomunikasi secara langsung dan mencari tahu kendalanya." },
+        { "key": "D", "text": "Melapor ke atasan bahwa mereka tidak kooperatif." },
+        { "key": "E", "text": "Menunggu saja sampai mereka merespons." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 3,
+        "C": 5,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Jemput Bola. Komunikasi langsung (tatap muka/suara) seringkali lebih efektif menyelesaikan hambatan komunikasi daripada sekadar surat-menyurat."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Rekan kerja Anda mendapat promosi jabatan yang sebenarnya Anda incar. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Merasa kecewa dan kinerjanya jadi menurun." },
+        { "key": "B", "text": "Menjauhi rekan tersebut." },
+        { "key": "C", "text": "Mengucapkan selamat dengan tulus dan tetap mendukung kinerjanya sebagai mitra kerja." },
+        { "key": "D", "text": "Mengucapkan selamat dengan terpaksa." },
+        { "key": "E", "text": "Mencari kesalahan rekan tersebut untuk dijatuhkan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 1,
+        "C": 5,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Sportif dan Profesional. Menjaga hubungan baik (jejaring) lebih penting daripada iri hati sesaat. Anda tetap butuh dia sebagai mitra."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Dalam sebuah kepanitiaan, Anda melihat pembagian tugas tidak merata. Ada yang kerja keras, ada yang santai. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Diam saja asalkan tugas saya selesai." },
+        { "key": "B", "text": "Mengusulkan rapat evaluasi untuk mendiskusikan ulang pembagian tugas agar lebih adil dan efektif." },
+        { "key": "C", "text": "Menegur teman yang santai secara langsung." },
+        { "key": "D", "text": "Melaporkan ketidakadilan ini kepada ketua panitia." },
+        { "key": "E", "text": "Ikut-ikutan santai." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 3,
+        "D": 4,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Konstruktif. Menyelesaikan masalah sistemik lewat forum yang tepat (rapat evaluasi) untuk kebaikan kinerja tim."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Anda memiliki kenalan lama yang bekerja di instansi yang sedang menjadi target kerjasama kantor Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pura-pura tidak kenal agar profesional." },
+        { "key": "B", "text": "Memanfaatkan hubungan pertemanan untuk mempermudah komunikasi awal dan membuka jalan kerjasama." },
+        { "key": "C", "text": "Meminta teman tersebut meloloskan proyek tanpa prosedur." },
+        { "key": "D", "text": "Menyerahkan tugas lobi kepada orang lain." },
+        { "key": "E", "text": "Menghubungi teman hanya untuk basa-basi." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 3
+      },
+      "discussion": "Poin 5 (B): Memanfaatkan Jejaring Positif. Networking digunakan untuk membuka akses (akselerasi), bukan untuk melanggar aturan (KKN). Ini adalah aset berharga."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Saat rapat tim, ide Anda dikritik habis-habisan oleh rekan kerja. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Marah dan meninggalkan ruangan." },
+        { "key": "B", "text": "Mendengarkan kritik tersebut dengan terbuka dan menanyakan saran perbaikan." },
+        { "key": "C", "text": "Membela diri dan menyerang balik ide rekan tersebut." },
+        { "key": "D", "text": "Diam saja dan memendam kekecewaan." },
+        { "key": "E", "text": "Mencatat kritikannya untuk dibahas nanti." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 2,
+        "E": 4
+      },
+      "discussion": "Poin 5 (B): Terbuka (Open Minded). Menerima masukan adalah bagian dari kerjasama. Fokus pada substansi perbaikan, bukan ego pribadi."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Anda menyadari ada miskomunikasi antara tim Anda dengan tim pemasaran yang menyebabkan proyek terhambat. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menyalahkan tim pemasaran yang tidak paham instruksi." },
+        { "key": "B", "text": "Segera mengundang perwakilan kedua tim untuk duduk bersama meluruskan kesalahpahaman." },
+        { "key": "C", "text": "Melapor ke direktur." },
+        { "key": "D", "text": "Memperbaiki bagian tim saya saja." },
+        { "key": "E", "text": "Mengirim email klarifikasi." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 3,
+        "E": 4
+      },
+      "discussion": "Poin 5 (B): Koordinasi Aktif. Menyelesaikan miskomunikasi paling efektif dengan pertemuan langsung/mediasi untuk menyamakan persepsi."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Teman kantor Anda sering meminjam barang-barang Anda tanpa izin dan kadang lupa mengembalikan. Ini mulai mengganggu kinerja. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menyembunyikan barang-barang saya." },
+        { "key": "B", "text": "Memarahinya di depan umum." },
+        { "key": "C", "text": "Berbicara empat mata dengannya, menyampaikan keberatan saya dengan tegas namun sopan." },
+        { "key": "D", "text": "Mengikhlaskan saja demi pertemanan." },
+        { "key": "E", "text": "Menyindirnya lewat status media sosial." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 1,
+        "C": 5,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Komunikasi Asertif. Menjaga hubungan kerja bukan berarti membiarkan diri dirugikan. Sampaikan batasan (boundaries) dengan cara dewasa."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Anda harus bekerja lembur bersama tim, tetapi Anda sudah memiliki janji pribadi penting. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pulang diam-diam." },
+        { "key": "B", "text": "Meminta izin pulang kepada tim, menyelesaikan bagian tugas saya lebih awal, atau membawanya pulang." },
+        { "key": "C", "text": "Membatalkan janji pribadi dengan berat hati." },
+        { "key": "D", "text": "Menyuruh teman lain mengerjakan bagian saya." },
+        { "key": "E", "text": "Tetap di kantor tapi tidak bekerja." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 4,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Negosiasi dan Tanggung Jawab. Mencari win-win solution. Hubungan pribadi terjaga, tugas tim tidak terbengkalai."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Perusahaan mewajibkan penggunaan aplikasi kolaborasi baru (seperti Trello/Slack) yang belum Anda kuasai. Rekan-rekan lain sudah mahir. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tetap menggunakan cara lama (email/WA)." },
+        { "key": "B", "text": "Belajar sendiri diam-diam di rumah." },
+        { "key": "C", "text": "Tidak malu bertanya dan meminta rekan kerja mengajari cara penggunaannya." },
+        { "key": "D", "text": "Menunggu ada pelatihan resmi." },
+        { "key": "E", "text": "Protes karena aplikasi itu menyusahkan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 4,
+        "C": 5,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Willingness to Learn & Interact. Meminta bantuan rekan kerja untuk hal positif akan mempererat hubungan dan mempercepat adaptasi tim."
+    },
+    {
+      "category_slug": "tkp-jejaring-kerja",
+      "question_text": "Apa arti rekan kerja bagi Anda?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Saingan yang harus dikalahkan." },
+        { "key": "B", "text": "Orang yang membantu saya menyelesaikan tugas." },
+        { "key": "C", "text": "Partner kolaborasi untuk mencapai tujuan bersama." },
+        { "key": "D", "text": "Teman mengobrol saat bosan." },
+        { "key": "E", "text": "Orang asing yang kebetulan satu kantor." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 3,
+        "C": 5,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Mindset Jejaring Kerja. Rekan kerja adalah mitra setara untuk sinergi, bukan sekadar alat bantu (B) atau musuh (A)."
+    }
+  ]
+}

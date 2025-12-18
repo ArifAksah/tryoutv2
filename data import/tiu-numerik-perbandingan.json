@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TIU Perbandingan Kuantitatif (Format LaTeX)",
+    "instructions": "Import ke kategori tiu-numerik-perbandingan"
+  },
+  "questions": [
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $x = \\frac{1}{3}$ dan $y = 33\\%$, maka hubungan yang tepat adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x > y$" },
+        { "key": "B", "text": "$x < y$" },
+        { "key": "C", "text": "$x = y$" },
+        { "key": "D", "text": "$x$ dan $y$ tidak dapat ditentukan" },
+        { "key": "E", "text": "$2x = y$" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Ubah ke desimal:\n$$x = \\frac{1}{3} = 0,3333...$$\n$$y = 33\\% = \\frac{33}{100} = 0,33$$\nJadi, $0,3333... > 0,33$, maka $x > y$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $a = \\sqrt{25} + \\sqrt{16}$ dan $b = \\sqrt{25 + 16}$, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$a < b$" },
+        { "key": "B", "text": "$a > b$" },
+        { "key": "C", "text": "$a = b$" },
+        { "key": "D", "text": "$a = 2b$" },
+        { "key": "E", "text": "Hubungan tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hitung nilai $a$:\n$$a = 5 + 4 = 9$$\nHitung nilai $b$:\n$$b = \\sqrt{41} \\approx 6,4$$\nJadi, $9 > 6,4$ maka $a > b$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $x = -(3^4)$ dan $y = (-3)^4$, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x = y$" },
+        { "key": "B", "text": "$x > y$" },
+        { "key": "C", "text": "$x < y$" },
+        { "key": "D", "text": "$x \\geq y$" },
+        { "key": "E", "text": "Hubungan tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Nilai $x$:\n$$x = -(3 \\times 3 \\times 3 \\times 3) = -81$$\nNilai $y$:\n$$y = (-3) \\times (-3) \\times (-3) \\times (-3) = 81$$\nJadi, $-81 < 81$, maka $x < y$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Diketahui $p = 0,75$ dan $q = \\frac{6}{8}$. Manakah pernyataan yang benar?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$p > q$" },
+        { "key": "B", "text": "$p < q$" },
+        { "key": "C", "text": "$p = q$" },
+        { "key": "D", "text": "$p \\neq q$" },
+        { "key": "E", "text": "$2p < q$" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Sederhanakan $q$:\n$$q = \\frac{6}{8} = \\frac{3}{4} = 0,75$$\nKarena $p = 0,75$, maka $p = q$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $x$ adalah $15\\%$ dari $40$ dan $y$ adalah $40\\%$ dari $15$, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x > y$" },
+        { "key": "B", "text": "$x < y$" },
+        { "key": "C", "text": "$x = y$" },
+        { "key": "D", "text": "$x = 2y$" },
+        { "key": "E", "text": "Hubungan $x$ dan $y$ tidak tentu" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Sifat komutatif perkalian pada persentase:\n$$x = \\frac{15}{100} \\times 40 = 6$$\n$$y = \\frac{40}{100} \\times 15 = 6$$\nJadi $x = y$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $2x - 4 = 10$ dan $y + 3 = 8$, manakah hubungan yang benar?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x < y$" },
+        { "key": "B", "text": "$x > y$" },
+        { "key": "C", "text": "$x = y$" },
+        { "key": "D", "text": "$x = 3y$" },
+        { "key": "E", "text": "Hubungan tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Cari nilai $x$:\n$$2x = 14 \\rightarrow x = 7$$\nCari nilai $y$:\n$$y = 5$$\nJadi $7 > 5$, maka $x > y$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $a$ adalah luas persegi dengan sisi $10$ cm, dan $b$ adalah luas lingkaran dengan diameter $10$ cm, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$a < b$" },
+        { "key": "B", "text": "$a = b$" },
+        { "key": "C", "text": "$a > b$" },
+        { "key": "D", "text": "$2a = b$" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "$$a = s \\times s = 10 \\times 10 = 100$$\n$$b = \\pi r^2 = 3,14 \\times 5^2 = 3,14 \\times 25 = 78,5$$\nJadi $100 > 78,5$, maka $a > b$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $w, x, y, z$ adalah 4 bilangan bulat positif berurutan, dan $P = wz$ serta $Q = xy$, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$P > Q$" },
+        { "key": "B", "text": "$P < Q$" },
+        { "key": "C", "text": "$P = Q$" },
+        { "key": "D", "text": "$P = 2Q$" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Misal bilangannya 1, 2, 3, 4.\n$$P = 1 \\times 4 = 4$$\n$$Q = 2 \\times 3 = 6$$\nJadi $4 < 6$, maka $P < Q$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Diketahui $x = \\frac{1}{17} - \\frac{1}{18}$ dan $y = \\frac{1}{16} - \\frac{1}{17}$. Hubungan yang tepat adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x > y$" },
+        { "key": "B", "text": "$x < y$" },
+        { "key": "C", "text": "$x = y$" },
+        { "key": "D", "text": "$x \\geq y$" },
+        { "key": "E", "text": "Hubungan tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Semakin kecil penyebut, pecahan semakin besar (jika pembilang sama).\nPerbedaan antara pecahan dengan penyebut lebih kecil ($y$) akan menghasilkan nilai yang lebih besar daripada penyebut besar ($x$).\n$$x = \\frac{1}{17 \\times 18}, \\quad y = \\frac{1}{16 \\times 17}$$\nPenyebut $y$ lebih kecil, maka nilai $y$ lebih besar. $x < y$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $x = 1 - 0,1 - 0,01$ dan $y = 1 - 0,01 - 0,1$, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x > y$" },
+        { "key": "B", "text": "$x < y$" },
+        { "key": "C", "text": "$x = y$" },
+        { "key": "D", "text": "$x \\neq y$" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Pengurangan bersifat tidak komutatif, tapi urutan pengurang di sini sama-sama mengurangi dari 1.\n$$x = 1 - 0,11 = 0,89$$\n$$y = 1 - 0,11 = 0,89$$\nJadi $x = y$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $x = 2^{55}$, $y = 3^{44}$, dan $z = 5^{33}$, manakah pernyataan yang benar?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x < z < y$" },
+        { "key": "B", "text": "$x < y < z$" },
+        { "key": "C", "text": "$z < x < y$" },
+        { "key": "D", "text": "$y < z < x$" },
+        { "key": "E", "text": "$z < y < x$" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Sederhanakan pangkat dengan membagi FPB pangkatnya (11):\n$$x' = 2^5 = 32$$\n$$y' = 3^4 = 81$$\n$$z' = 5^3 = 125$$\nUrutan: $32 < 81 < 125$, maka $x < y < z$.\n*Koreksi*: Pilihan di atas tidak ada $x < y < z$. Mari cek ulang.\n$x = (2^5)^{11} = 32^{11}$\n$y = (3^4)^{11} = 81^{11}$\n$z = (5^3)^{11} = 125^{11}$\nUrutan yang benar: $x < y < z$. Jika tidak ada di opsi, pilih yang paling mendekati atau cek kunci. Di opsi B tertulis $x < y < z$. Benar."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $a$ adalah waktu yang dibutuhkan untuk menempuh jarak 120 km dengan kecepatan 60 km/jam, dan $b$ adalah waktu untuk menempuh 150 km dengan kecepatan 50 km/jam, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$a > b$" },
+        { "key": "B", "text": "$a < b$" },
+        { "key": "C", "text": "$a = b$" },
+        { "key": "D", "text": "$a = 2b$" },
+        { "key": "E", "text": "Hubungan tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "$$a = \\frac{120}{60} = 2 \\text{ jam}$$\n$$b = \\frac{150}{50} = 3 \\text{ jam}$$\nJadi $2 < 3$, maka $a < b$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $x$ bilangan negatif dan $y$ bilangan positif, maka hubungan $x^2$ dan $y$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x^2 > y$" },
+        { "key": "B", "text": "$x^2 < y$" },
+        { "key": "C", "text": "$x^2 = y$" },
+        { "key": "D", "text": "$x^2 \\geq y$" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "Misal $x = -2, y = 1$, maka $x^2 = 4 > y$.\nMisal $x = -2, y = 10$, maka $x^2 = 4 < y$.\nKarena besaran angka tidak diketahui, hubungan tidak dapat ditentukan."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Diketahui $m = \\frac{3}{7} + \\frac{5}{14}$ dan $n = \\frac{11}{14}$. Maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$m < n$" },
+        { "key": "B", "text": "$m > n$" },
+        { "key": "C", "text": "$m = n$" },
+        { "key": "D", "text": "$m = 2n$" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Samakan penyebut untuk $m$:\n$$m = \\frac{6}{14} + \\frac{5}{14} = \\frac{11}{14}$$\nJadi $m = n$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $x = \\sqrt{72} - \\sqrt{72}$ dan $y = 0$, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x > y$" },
+        { "key": "B", "text": "$x < y$" },
+        { "key": "C", "text": "$x = y$" },
+        { "key": "D", "text": "$x = y + 1$" },
+        { "key": "E", "text": "Hubungan tidak tentu" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Apapun nilai $\\sqrt{72}$, jika dikurangi dirinya sendiri hasilnya 0.\n$$x = 0$$\n$$y = 0$$\nJadi $x = y$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $a > b > 0$, maka hubungan $\\frac{1}{a}$ dan $\\frac{1}{b}$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$\\frac{1}{a} > \\frac{1}{b}$" },
+        { "key": "B", "text": "$\\frac{1}{a} < \\frac{1}{b}$" },
+        { "key": "C", "text": "$\\frac{1}{a} = \\frac{1}{b}$" },
+        { "key": "D", "text": "Tidak dapat ditentukan" },
+        { "key": "E", "text": "$\\frac{1}{a} \\geq \\frac{1}{b}$" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Untuk bilangan positif, semakin besar pembagi (penyebut), semakin kecil hasilnya.\nMisal $a=4, b=2$. $\\frac{1}{4} = 0,25$ dan $\\frac{1}{2} = 0,5$.\nJadi $\\frac{1}{a} < \\frac{1}{b}$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $p = 0,555...$ dan $q = \\frac{5}{9}$, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$p > q$" },
+        { "key": "B", "text": "$p < q$" },
+        { "key": "C", "text": "$p = q$" },
+        { "key": "D", "text": "$p \\neq q$" },
+        { "key": "E", "text": "$p = 2q$" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Desimal berulang $0,aaa... = \\frac{a}{9}$.\nJadi $0,555... = \\frac{5}{9}$.\nMaka $p = q$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Diketahui $x = 16\\frac{2}{3}\\%$ dan $y = \\frac{1}{6}$. Hubungan $x$ dan $y$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x > y$" },
+        { "key": "B", "text": "$x < y$" },
+        { "key": "C", "text": "$x = y$" },
+        { "key": "D", "text": "$x = 3y$" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Pecahan istimewa:\n$$16,67\\% = \\frac{16,67}{100} = \\frac{1}{6}$$\nJadi $x = y$."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $a$ bilangan genap positif dan $b$ bilangan ganjil positif, maka $a + b$ adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Selalu genap" },
+        { "key": "B", "text": "Selalu ganjil" },
+        { "key": "C", "text": "Bisa genap atau ganjil" },
+        { "key": "D", "text": "Selalu prima" },
+        { "key": "E", "text": "Selalu habis dibagi 3" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Genap + Ganjil = Ganjil. (Contoh: $2 + 3 = 5$)."
+    },
+    {
+      "category_slug": "tiu-numerik-perbandingan",
+      "question_text": "Jika $x$ adalah harga beli barang Rp100.000 dengan diskon $20\\%$, dan $y$ adalah harga beli barang Rp90.000 dengan diskon $10\\%$, maka...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x > y$" },
+        { "key": "B", "text": "$x < y$" },
+        { "key": "C", "text": "$x = y$" },
+        { "key": "D", "text": "$x \\geq y$" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "$$x = 100.000 \\times (1 - 0,2) = 100.000 \\times 0,8 = 80.000$$\n$$y = 90.000 \\times (1 - 0,1) = 90.000 \\times 0,9 = 81.000$$\nJadi $80.000 < 81.000$, maka $x < y$."
+    }
+  ]
+}

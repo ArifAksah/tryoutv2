@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TKP Teknologi Informasi dan Komunikasi (Skala 1-5)",
+    "instructions": "Import ke kategori tkp-tik"
+  },
+  "questions": [
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Kantor Anda baru saja meluncurkan aplikasi baru untuk pelaporan kinerja harian. Anda merasa aplikasi tersebut cukup rumit dan membingungkan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tetap menggunakan laporan manual seperti biasa." },
+        { "key": "B", "text": "Mengeluh kepada rekan kerja bahwa aplikasi ini menyusahkan." },
+        { "key": "C", "text": "Mempelajari manual book atau tutorialnya di waktu luang dan mencoba menggunakannya sedikit demi sedikit." },
+        { "key": "D", "text": "Menunggu teman lain paham dulu, baru minta diajari." },
+        { "key": "E", "text": "Meminta bagian IT untuk menyederhanakan aplikasinya." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 1,
+        "C": 5,
+        "D": 3,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Kemauan Belajar (Continuous Learning). Adaptasi teknologi membutuhkan usaha mandiri untuk mempelajarinya, bukan resistensi."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Anda sedang mengerjakan tugas penting menggunakan komputer kantor, tiba-tiba listrik padam dan UPS (baterai cadangan) rusak, sehingga komputer mati mendadak sebelum Anda menyimpan data. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Marah-marah dan membanting keyboard." },
+        { "key": "B", "text": "Pasrah dan menunggu listrik menyala." },
+        { "key": "C", "text": "Segera melapor ke teknisi listrik, lalu mencoba mengingat kembali poin-poin pekerjaan tadi dan mencatatnya di kertas/HP agar nanti bisa diketik ulang dengan cepat." },
+        { "key": "D", "text": "Menyalahkan bagian sarpras yang tidak merawat UPS." },
+        { "key": "E", "text": "Pulang saja karena mood sudah rusak." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Ketenangan dan Solusi Darurat. Tetap produktif menggunakan alat yang ada (manual) saat teknologi gagal."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Atasan Anda yang sudah berumur meminta bantuan Anda untuk membuat presentasi menggunakan software terbaru yang belum pernah beliau gunakan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membuatkan presentasi tersebut sepenuhnya agar cepat selesai." },
+        { "key": "B", "text": "Mengajarinya langkah demi langkah dengan sabar agar beliau bisa mandiri di kemudian hari." },
+        { "key": "C", "text": "Menyarankan beliau menggunakan software lama yang beliau kuasai saja." },
+        { "key": "D", "text": "Menolak dengan halus karena pekerjaan saya juga banyak." },
+        { "key": "E", "text": "Meminta rekan lain membantunya." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 5,
+        "C": 2,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Transfer Knowledge. Mengajari orang lain (empowerment) lebih bernilai jangka panjang daripada sekadar melayani (menjadikan ketergantungan)."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Anda menemukan celah keamanan (bug) pada website kantor yang memungkinkan data pegawai bocor. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menceritakannya kepada teman-teman kantor sebagai bahan gosip." },
+        { "key": "B", "text": "Mencoba meretasnya untuk membuktikan kehebatan saya." },
+        { "key": "C", "text": "Segera melaporkannya secara rahasia kepada tim IT atau atasan agar segera diperbaiki." },
+        { "key": "D", "text": "Membiarkannya karena bukan tugas saya." },
+        { "key": "E", "text": "Mempostingnya di media sosial agar viral dan segera ditangani." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 1,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Kesadaran Keamanan Informasi. Melapor lewat jalur resmi (rahasia) adalah tindakan etis dan profesional untuk melindungi data instansi."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Pimpinan mewajibkan seluruh rapat dilakukan secara virtual (online meeting). Namun, koneksi internet di rumah Anda sering tidak stabil. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sering mematikan kamera dan tidak menyimak rapat." },
+        { "key": "B", "text": "Berusaha mengupgrade paket internet atau mencari lokasi (cafe/coworking space) dengan sinyal stabil saat jadwal rapat." },
+        { "key": "C", "text": "Meminta izin tidak ikut rapat." },
+        { "key": "D", "text": "Mengeluh terus-menerus saat rapat berlangsung." },
+        { "key": "E", "text": "Hanya hadir saat dipanggil saja." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Usaha Maksimal. Kendala teknis adalah tanggung jawab pribadi untuk diatasi agar kinerja tetap optimal (profesionalisme)."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Banyak berita hoaks beredar di grup WhatsApp keluarga dan kantor. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Langsung keluar dari grup." },
+        { "key": "B", "text": "Ikut menyebarkannya karena infonya menarik." },
+        { "key": "C", "text": "Diam saja (silent reader)." },
+        { "key": "D", "text": "Mengecek kebenaran berita tersebut (cek fakta), lalu menginformasikan klarifikasinya di grup dengan santun." },
+        { "key": "E", "text": "Memarahi pengirim pesan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 1,
+        "C": 2,
+        "D": 5,
+        "E": 3
+      },
+      "discussion": "Poin 5 (D): Literasi Digital. Menjadi agen penangkal hoaks dengan data yang valid dan cara penyampaian yang baik."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Perusahaan menerapkan kebijakan 'Paperless Office' (tanpa kertas) untuk efisiensi dan lingkungan. Anda terbiasa membaca dokumen fisik (print out). Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tetap mencetak dokumen diam-diam." },
+        { "key": "B", "text": "Mulai membiasakan diri membaca di layar (tablet/laptop) dan memanfaatkan fitur digital note-taking." },
+        { "key": "C", "text": "Memprotes kebijakan tersebut karena membuat mata sakit." },
+        { "key": "D", "text": "Meminta pengecualian kepada atasan." },
+        { "key": "E", "text": "Mencetak hanya yang penting saja." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 2,
+        "E": 4
+      },
+      "discussion": "Poin 5 (B): Adaptasi Perubahan. Mendukung kebijakan organisasi dengan mengubah kebiasaan lama menuju digitalisasi."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Rekan kerja meminjam password akun sistem kantor Anda karena akunnya sedang terkunci dan ada pekerjaan mendesak. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Memberikan password saya karena kasihan dan demi pekerjaan." },
+        { "key": "B", "text": "Menolaknya dengan tegas dan menyarankan dia menghubungi IT Support untuk reset password akunnya sendiri." },
+        { "key": "C", "text": "Membukakan sistem (login) untuknya, tapi saya awasi saat dia bekerja." },
+        { "key": "D", "text": "Memberikan password tapi memintanya merahasiakan." },
+        { "key": "E", "text": "Pura-pura lupa password." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 3,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Kepatuhan Prosedur Keamanan. Password bersifat rahasia pribadi dan tidak boleh dipindahtangankan (share account violation)."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Anda diminta membuat laporan data statistik. Cara manual memakan waktu 3 hari, tapi jika menggunakan rumus Excel/aplikasi data olah, bisa selesai dalam 3 jam. Namun Anda belum terlalu mahir aplikasinya. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengerjakan manual saja agar pasti benar meskipun lama." },
+        { "key": "B", "text": "Mencoba belajar menggunakan rumus/aplikasi tersebut sembari mengerjakan, agar lebih efisien di masa depan." },
+        { "key": "C", "text": "Meminta teman yang mengerjakan semuanya." },
+        { "key": "D", "text": "Meminta perpanjangan waktu." },
+        { "key": "E", "text": "Mengerjakan asal-asalan." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Efisiensi Kerja. Memanfaatkan teknologi untuk efisiensi waktu dan tenaga, serta kemauan meng-upgrade skill."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Bagaimana Anda memanfaatkan media sosial pribadi Anda?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hanya untuk melihat hiburan dan gosip." },
+        { "key": "B", "text": "Tempat curhat masalah kantor." },
+        { "key": "C", "text": "Membangun personal branding positif, berbagi informasi bermanfaat, dan berjejaring profesional." },
+        { "key": "D", "text": "Jarang membukanya." },
+        { "key": "E", "text": "Untuk berdebat politik." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 1,
+        "C": 5,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Pemanfaatan Positif. Media sosial adalah alat yang kuat untuk pengembangan diri dan karir jika digunakan dengan bijak."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Fasilitas Wi-Fi kantor sangat cepat. Saat pekerjaan sedang senggang, apa yang Anda lakukan?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengunduh film/game berukuran besar." },
+        { "key": "B", "text": "Mencari referensi, jurnal, atau tutorial yang berkaitan dengan pengembangan kompetensi pekerjaan." },
+        { "key": "C", "text": "Streaming video hiburan seharian." },
+        { "key": "D", "text": "Membuka media sosial." },
+        { "key": "E", "text": "Tidur." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Integritas Penggunaan Aset. Fasilitas kantor (Wi-Fi) harus digunakan untuk hal produktif yang menunjang pekerjaan."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Komputer kantor Anda terkena virus ransomware dan data terkunci. Hacker meminta tebusan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Panik dan mencoba membayar tebusan dengan uang pribadi." },
+        { "key": "B", "text": "Diam saja dan pura-pura tidak tahu." },
+        { "key": "C", "text": "Segera memutus koneksi internet (cabut kabel LAN/Wifi) untuk mencegah penyebaran, lalu lapor ke tim IT." },
+        { "key": "D", "text": "Mencoba memformat komputer sendiri." },
+        { "key": "E", "text": "Menangis." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 1,
+        "C": 5,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Tanggap Darurat IT. Langkah pertama saat infeksi virus jaringan adalah isolasi (putus koneksi) lalu eskalasi ke ahli (IT)."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Anda diharuskan bekerja dari rumah (WFH). Apa persiapan utama Anda?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menyiapkan camilan yang banyak." },
+        { "key": "B", "text": "Memastikan perangkat kerja (laptop, internet, aplikasi) siap dan membuat ruang kerja yang kondusif agar tetap produktif." },
+        { "key": "C", "text": "Bangun siang karena tidak perlu absen fisik." },
+        { "key": "D", "text": "Bekerja sambil mengasuh anak sepenuhnya." },
+        { "key": "E", "text": "Hanya aktif saat dihubungi atasan." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Kesiapan Digital. WFH menuntut kemandirian dan kesiapan infrastruktur pribadi demi menjaga produktivitas."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Kantor ingin membeli perangkat lunak (software) baru yang mahal untuk efisiensi. Sebagai staf, Anda tahu ada software gratis (open source) yang fungsinya sama bagusnya. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Diam saja karena bukan uang saya." },
+        { "key": "B", "text": "Mengusulkan software gratis tersebut beserta analisis perbandingannya kepada atasan untuk penghematan anggaran." },
+        { "key": "C", "text": "Mengkritik kebijakan kantor di belakang." },
+        { "key": "D", "text": "Membiarkan kantor membeli yang mahal agar terlihat bonafide." },
+        { "key": "E", "text": "Menginstall software bajakan saja." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Inovatif dan Efisien. Memberikan alternatif solusi teknologi yang menguntungkan instansi adalah nilai tambah pegawai."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Data kependudukan warga menumpuk dalam bentuk berkas kertas di gudang dan sulit dicari. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membiarkannya karena sudah tersusun rapi di rak." },
+        { "key": "B", "text": "Mengusulkan dan memulai proyek digitalisasi arsip (scanning/input data) agar mudah diakses dan aman (backup digital)." },
+        { "key": "C", "text": "Membakar berkas yang sudah lama sekali." },
+        { "key": "D", "text": "Menunggu perintah atasan." },
+        { "key": "E", "text": "Mengeluh setiap kali harus mencari berkas." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Transformasi Digital. Berinisiatif mengubah manual ke digital (arsip elektronik) untuk efektivitas pelayanan."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Anda sedang berada di kafe dan menggunakan Wi-Fi publik gratis untuk bekerja. Anda perlu mengakses data rahasia kantor. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Langsung akses saja." },
+        { "key": "B", "text": "Menggunakan VPN perusahaan atau beralih ke tethering (hotspot) pribadi yang lebih aman sebelum mengakses data sensitif." },
+        { "key": "C", "text": "Meminta password wifi khusus ke pemilik kafe." },
+        { "key": "D", "text": "Menunda pekerjaan sampai pulang ke rumah." },
+        { "key": "E", "text": "Meminta teman mengirim data lewat WA." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 3,
+        "D": 4,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Keamanan Siber. Wi-Fi publik rentan penyadapan (sniffing). Menggunakan jalur aman (VPN/Data pribadi) adalah prosedur standar."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Rekan Anda kesulitan membuat grafik di Excel untuk laporan bulanan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menertawakan ketidaktahuannya." },
+        { "key": "B", "text": "Mengerjakannya untuk dia." },
+        { "key": "C", "text": "Mengajarkan caranya membuat grafik tersebut agar dia paham." },
+        { "key": "D", "text": "Menyuruhnya ikut kursus komputer." },
+        { "key": "E", "text": "Pura-pura sibuk." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 3,
+        "C": 5,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Berbagi Ilmu. Membantu rekan meningkatkan skill digital akan meningkatkan produktivitas tim secara keseluruhan."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Bagaimana sikap Anda terhadap perkembangan Artificial Intelligence (AI) dalam dunia kerja?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Takut pekerjaan saya digantikan robot." },
+        { "key": "B", "text": "Menolak menggunakan AI karena tidak manusiawi." },
+        { "key": "C", "text": "Mempelajari cara memanfaatkan AI untuk membantu mempercepat pekerjaan rutin saya (sebagai alat bantu)." },
+        { "key": "D", "text": "Masa bodoh." },
+        { "key": "E", "text": "Hanya ikut-ikutan tren." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 1,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Adaptasi Masa Depan. Melihat teknologi sebagai mitra/alat bantu (enabler) untuk meningkatkan produktivitas, bukan ancaman."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Anda menerima email mencurigakan yang berisi link hadiah (phishing) di email kantor. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengklik link tersebut karena penasaran." },
+        { "key": "B", "text": "Menghapus email tersebut dan menginformasikan ke tim IT agar memblokir pengirimnya." },
+        { "key": "C", "text": "Memforward ke teman lain untuk bertanya." },
+        { "key": "D", "text": "Membalas email dengan marah." },
+        { "key": "E", "text": "Membiarkannya di inbox." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Kewaspadaan Digital. Mengenali ancaman siber (phishing) dan melakukan tindakan pencegahan (lapor & hapus)."
+    },
+    {
+      "category_slug": "tkp-tik",
+      "question_text": "Apa pendapat Anda tentang rapat tatap muka (offline) vs rapat online?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Harus selalu offline agar jelas." },
+        { "key": "B", "text": "Harus selalu online agar santai." },
+        { "key": "C", "text": "Fleksibel. Menggunakan metode hybrid sesuai kebutuhan dan efektivitas waktu." },
+        { "key": "D", "text": "Saya tidak suka rapat." },
+        { "key": "E", "text": "Mengikuti maunya atasan saja." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 3,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Efektivitas Teknologi. Menggunakan teknologi secara tepat guna (sesuai konteks), bukan fanatik pada satu metode."
+    }
+  ]
+}

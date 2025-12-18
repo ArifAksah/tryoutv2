@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TIU Verbal Silogisme (Logika Deduksi)",
+    "instructions": "Import ke kategori tiu-verbal-silogisme"
+  },
+  "questions": [
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua mamalia bernapas dengan paru-paru. Ikan paus adalah mamalia.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikan paus bernapas dengan insang." },
+        { "key": "B", "text": "Ikan paus bernapas dengan paru-paru." },
+        { "key": "C", "text": "Semua yang bernapas dengan paru-paru adalah ikan paus." },
+        { "key": "D", "text": "Sebagian mamalia bernapas dengan insang." },
+        { "key": "E", "text": "Ikan paus bukan mamalia." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Premis Mayor: Semua A = B. Premis Minor: C = A. Kesimpulan: C = B. (Ikan paus bernapas dengan paru-paru)."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Jika hujan deras, maka jalanan basah. Jalanan tidak basah.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hujan deras." },
+        { "key": "B", "text": "Tidak hujan deras." },
+        { "key": "C", "text": "Mungkin hujan rintik-rintik." },
+        { "key": "D", "text": "Jalanan kering karena panas." },
+        { "key": "E", "text": "Tidak dapat disimpulkan." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Modus Tollens: Jika P -> Q. ~Q (Tidak Q) terjadi. Maka ~P (Tidak P) terjadi. Tidak hujan deras."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua anggota DPR adalah politisi. Sebagian politisi adalah pengusaha.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua anggota DPR adalah pengusaha." },
+        { "key": "B", "text": "Sebagian anggota DPR adalah pengusaha." },
+        { "key": "C", "text": "Semua pengusaha adalah politisi." },
+        { "key": "D", "text": "Sebagian pengusaha adalah anggota DPR (Mungkin/Tidak Pasti)." },
+        { "key": "E", "text": "Tidak dapat ditarik kesimpulan mutlak (karena irisan tidak pasti)." }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "Semua A -> B. Sebagian B -> C. Tidak bisa dipastikan apakah A beririsan dengan C. Bisa jadi anggota DPR tidak ada yang pengusaha (hanya politisi murni). Hati-hati dengan jebakan 'Sebagian'."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua pegawai negeri berseragam KORPRI. Pak Budi tidak berseragam KORPRI.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pak Budi bukan pegawai negeri." },
+        { "key": "B", "text": "Pak Budi pegawai swasta." },
+        { "key": "C", "text": "Pak Budi mungkin pegawai negeri yang lupa." },
+        { "key": "D", "text": "Pak Budi belum mendapat seragam." },
+        { "key": "E", "text": "Semua yang tidak berseragam adalah Pak Budi." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Modus Tollens. Jika A -> B. ~B -> ~A. Karena tidak berseragam, maka PASTI bukan pegawai negeri (dalam konteks premis ini)."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Tidak ada pemalas yang sukses. Semua siswa kelas A adalah orang sukses.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sebagian siswa kelas A pemalas." },
+        { "key": "B", "text": "Tidak ada siswa kelas A yang pemalas." },
+        { "key": "C", "text": "Semua pemalas adalah siswa kelas A." },
+        { "key": "D", "text": "Siswa kelas A rajin-rajin." },
+        { "key": "E", "text": "Orang sukses pasti siswa kelas A." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Premis 1: Pemalas -> Tidak Sukses (atau Sukses -> Tidak Pemalas). Premis 2: Siswa A -> Sukses. Kesimpulan: Siswa A -> Tidak Pemalas."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua yang terbuat dari plastik mudah terbakar. Ember itu tidak mudah terbakar.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ember itu terbuat dari plastik tahan api." },
+        { "key": "B", "text": "Ember itu tidak terbuat dari plastik." },
+        { "key": "C", "text": "Ember itu berisi air." },
+        { "key": "D", "text": "Ember itu barang antik." },
+        { "key": "E", "text": "Semua yang tidak mudah terbakar adalah ember." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "P -> Q. ~Q -> ~P. Tidak mudah terbakar -> Tidak terbuat dari plastik."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua bunga membutuhkan air. Mawar adalah bunga.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mawar membutuhkan pupuk." },
+        { "key": "B", "text": "Mawar membutuhkan air." },
+        { "key": "C", "text": "Semua yang membutuhkan air adalah mawar." },
+        { "key": "D", "text": "Mawar tidak layu." },
+        { "key": "E", "text": "Sebagian bunga membutuhkan air." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Silogisme kategorik sederhana. A=B, C=A, maka C=B."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Jika harga BBM naik, maka harga sembako naik. Jika harga sembako naik, maka daya beli masyarakat turun.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Jika harga BBM naik, daya beli masyarakat turun." },
+        { "key": "B", "text": "Jika daya beli turun, maka harga BBM naik." },
+        { "key": "C", "text": "Harga BBM tidak berpengaruh pada daya beli." },
+        { "key": "D", "text": "Harga sembako turun jika BBM turun." },
+        { "key": "E", "text": "Masyarakat tidak membeli sembako." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Silogisme Hipotetik: P -> Q, Q -> R, maka P -> R."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua dokter memiliki izin praktik. Sebagian dokter memiliki klinik sendiri.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua dokter memiliki klinik sendiri." },
+        { "key": "B", "text": "Sebagian yang memiliki izin praktik memiliki klinik sendiri." },
+        { "key": "C", "text": "Semua yang memiliki klinik sendiri adalah dokter." },
+        { "key": "D", "text": "Yang tidak memiliki klinik bukan dokter." },
+        { "key": "E", "text": "Izin praktik hanya untuk yang punya klinik." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Irisan himpunan. Dokter (subset Izin Praktik) beririsan dengan Klinik. Maka ada anggota Izin Praktik yang punya klinik."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Tidak ada ikan yang bernapas dengan paru-paru. Paus bernapas dengan paru-paru.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Paus adalah ikan istimewa." },
+        { "key": "B", "text": "Sebagian ikan bernapas paru-paru." },
+        { "key": "C", "text": "Paus bukan ikan." },
+        { "key": "D", "text": "Semua yang di laut adalah ikan." },
+        { "key": "E", "text": "Paus hidup di darat." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "P -> ~Q. R -> Q. Maka R -> ~P (Paus bukan ikan)."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua atlit menjaga pola makan. Dani tidak menjaga pola makan.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Dani adalah atlit yang bandel." },
+        { "key": "B", "text": "Dani bukan atlit." },
+        { "key": "C", "text": "Dani ingin menjadi atlit." },
+        { "key": "D", "text": "Sebagian atlit tidak menjaga makan." },
+        { "key": "E", "text": "Dani sehat." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Modus Tollens. Syarat atlit = jaga makan. Tidak jaga makan = Bukan atlit."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua A adalah B. Semua B adalah C. Kesimpulannya?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sebagian A adalah C." },
+        { "key": "B", "text": "Semua C adalah A." },
+        { "key": "C", "text": "Semua A adalah C." },
+        { "key": "D", "text": "Sebagian B bukan A." },
+        { "key": "E", "text": "Tidak dapat disimpulkan." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Hukum transitif. A subset B, B subset C, maka otomatis A subset C."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Pengurus koperasi seharusnya berjiwa sosial. Sebagian ketua RT adalah pengurus koperasi.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pengurus koperasi adalah ketua RT." },
+        { "key": "B", "text": "Ketua RT itu selalu berjiwa sosial." },
+        { "key": "C", "text": "Sebagian ketua RT seharusnya berjiwa sosial." },
+        { "key": "D", "text": "Semua orang berjiwa sosial adalah ketua RT." },
+        { "key": "E", "text": "Ketua RT yang tidak jadi pengurus tidak berjiwa sosial." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Irisan antara Ketua RT dan Pengurus Koperasi membawa sifat 'Berjiwa Sosial' kepada sebagian Ketua RT tersebut."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua anak bergembira jika bermain di taman. Hari ini anak-anak bermain di taman.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Anak-anak tidak bergembira." },
+        { "key": "B", "text": "Hari ini anak-anak bergembira." },
+        { "key": "C", "text": "Taman membuat sedih." },
+        { "key": "D", "text": "Anak-anak bergembira di rumah." },
+        { "key": "E", "text": "Sebagian anak bergembira." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Modus Ponens. P -> Q. P terjadi, maka Q terjadi."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Merpati terbang ke utara. Merpati adalah burung. Kesimpulan?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Beberapa burung terbang ke utara." },
+        { "key": "B", "text": "Semua burung terbang ke utara." },
+        { "key": "C", "text": "Tidak semua burung merpati." },
+        { "key": "D", "text": "Merpati bukan burung." },
+        { "key": "E", "text": "Utara adalah arah burung." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Karena Merpati adalah bagian dari burung, dan Merpati terbang ke utara, maka bisa dikatakan 'Beberapa burung (yaitu si Merpati) terbang ke utara'."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Jika pernyataan 'Semua koruptor dihukum' adalah SALAH, maka yang benar adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua koruptor tidak dihukum." },
+        { "key": "B", "text": "Tidak ada koruptor yang dihukum." },
+        { "key": "C", "text": "Ada/Sebagian koruptor yang tidak dihukum." },
+        { "key": "D", "text": "Sebagian koruptor dihukum." },
+        { "key": "E", "text": "Koruptor bebas." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Negasi dari kuantor Universal (Semua) adalah Eksistensial (Ada/Sebagian) + Negasi predikat. Negasi 'Semua P adalah Q' = 'Ada P yang bukan Q'."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Kertas yang murah sangat berguna. Sebagian kertas sangat berguna harganya murah. (Hati-hati, ini premis bolak-balik). Premis 1: Semua kertas gambar sangat berguna. Premis 2: Sebagian kertas yang sangat berguna harganya murah.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua kertas gambar harganya murah." },
+        { "key": "B", "text": "Sebagian kertas gambar harganya murah." },
+        { "key": "C", "text": "Semua kertas yang murah adalah kertas gambar." },
+        { "key": "D", "text": "Tidak dapat ditarik kesimpulan." },
+        { "key": "E", "text": "Kertas gambar mahal." }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "A -> B. Sebagian B -> C. Tidak ada jaminan A berhubungan dengan C. (Kertas gambar ada di dalam lingkaran 'Berguna', Barang Murah juga irisan dengan 'Berguna', tapi belum tentu Kertas Gambar kena irisan Murah)."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Setiap peserta ujian membawa pensil 2B. Si A tidak membawa pensil 2B.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Si A bukan peserta ujian." },
+        { "key": "B", "text": "Si A peserta ujian yang lalai." },
+        { "key": "C", "text": "Si A lulus ujian." },
+        { "key": "D", "text": "Si A membawa pulpen." },
+        { "key": "E", "text": "Semua peserta adalah Si A." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Modus Tollens yang jelas. P -> Q. ~Q -> ~P."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Semua harimau adalah pemakan daging. Sebagian binatang di kebun binatang adalah harimau.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua binatang di kebun binatang pemakan daging." },
+        { "key": "B", "text": "Sebagian binatang di kebun binatang adalah pemakan daging." },
+        { "key": "C", "text": "Tidak ada pemakan daging di kebun binatang." },
+        { "key": "D", "text": "Semua pemakan daging adalah harimau." },
+        { "key": "E", "text": "Harimau makan rumput." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Binatang KB (sebagian) -> Harimau -> Pemakan Daging. Maka Sebagian Binatang KB adalah Pemakan Daging."
+    },
+    {
+      "category_slug": "tiu-verbal-silogisme",
+      "question_text": "Jika laut pasang, nelayan tidak melaut. Jika nelayan tidak melaut, tidak ada ikan di pasar.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Jika laut pasang, tidak ada ikan di pasar." },
+        { "key": "B", "text": "Jika ada ikan di pasar, laut pasang." },
+        { "key": "C", "text": "Laut pasang ikan banyak." },
+        { "key": "D", "text": "Nelayan melaut saat pasang." },
+        { "key": "E", "text": "Ikan di pasar habis." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Silogisme Hipotetik berantai. P -> Q -> R, kesimpulan P -> R."
+    }
+  ]
+}

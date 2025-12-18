@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TIU Verbal Analogi (Padanan Kata)",
+    "instructions": "Import ke kategori tiu-verbal-analogi"
+  },
+  "questions": [
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "KAKI : SEPATU = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Cat : Kuas" },
+        { "key": "B", "text": "Meja : Ruangan" },
+        { "key": "C", "text": "Telinga : Anting" },
+        { "key": "D", "text": "Tangan : Sarung Tangan" },
+        { "key": "E", "text": "Cincin : Jari" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Hubungan: Kaki dilindungi oleh Sepatu. Tangan dilindungi oleh Sarung Tangan. (Fungsi perlindungan/pakaian)."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "MENDUNG : HUJAN = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Siang : Malam" },
+        { "key": "B", "text": "Senja : Malam" },
+        { "key": "C", "text": "Lari : Lelah" },
+        { "key": "D", "text": "Matahari : Panas" },
+        { "key": "E", "text": "Awan : Petir" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hubungan: Mendung adalah tanda akan turun Hujan. Senja adalah tanda akan datang Malam. (Urutan waktu/tanda)."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "UMUM : LAZIM = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Kurus : Gemuk" },
+        { "key": "B", "text": "Langsing : Ramping" },
+        { "key": "C", "text": "Lapar : Haus" },
+        { "key": "D", "text": "Garam : Asin" },
+        { "key": "E", "text": "Cinta : Tinta" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hubungan: Sinonim (Persamaan kata). Umum sama artinya dengan Lazim. Langsing sama artinya dengan Ramping."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "SISWA : BELAJAR = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Santri : Garam" },
+        { "key": "B", "text": "Ayah : Ibu" },
+        { "key": "C", "text": "Ilmuwan : Meneliti" },
+        { "key": "D", "text": "Guru : Murid" },
+        { "key": "E", "text": "Karyawan : Gaji" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Hubungan: Tugas utama. Siswa tugas utamanya Belajar. Ilmuwan tugas utamanya Meneliti."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "KOSONG : HAMPA = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Cair : Encer" },
+        { "key": "B", "text": "Siang : Malam" },
+        { "key": "C", "text": "Ubi : Akar" },
+        { "key": "D", "text": "Ribut : Serak" },
+        { "key": "E", "text": "Penuh : Sesak" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Hubungan: Sinonim. Kosong bersinonim dengan Hampa. Cair bersinonim dengan Encer."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "TELUK : LAUT = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semenanjung : Daratan" },
+        { "key": "B", "text": "Kapal : Pelabuhan" },
+        { "key": "C", "text": "Karang : Tanjung" },
+        { "key": "D", "text": "Selat : Pulau" },
+        { "key": "E", "text": "Sepeda : Pedal" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Hubungan: Definisi Geografis. Teluk adalah bagian laut yang menjorok ke darat. Semenanjung adalah bagian daratan yang menjorok ke laut."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "ABRASI : HEMPASAN = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Serpihan : Potongan" },
+        { "key": "B", "text": "Reruntuhan : Penghancuran" },
+        { "key": "C", "text": "Rayuan : Pujian" },
+        { "key": "D", "text": "Memasak : Panas" },
+        { "key": "E", "text": "Gempa : Bumi" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hubungan: Sebab-Akibat. Abrasi disebabkan oleh Hempasan (air laut). Reruntuhan disebabkan oleh Penghancuran."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "APOTEKER : OBAT = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pesawat : Penyakit" },
+        { "key": "B", "text": "Koki : Masakan" },
+        { "key": "C", "text": "Montir : Rusak" },
+        { "key": "D", "text": "Guru : Sekolah" },
+        { "key": "E", "text": "Dokter : Pasien" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hubungan: Profesi dan Objek yang dibuat/diracik. Apoteker meracik Obat. Koki membuat Masakan."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "PILOT : PESAWAT = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Masinis : Kapal" },
+        { "key": "B", "text": "Kusir : Kereta Api" },
+        { "key": "C", "text": "Sopir : Mobil" },
+        { "key": "D", "text": "Nahkoda : Bus" },
+        { "key": "E", "text": "Nelayan : Ikan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Hubungan: Pengemudi dan Kendaraan. Pilot mengemudikan Pesawat. Sopir mengemudikan Mobil."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "GANDUM : KUE TART = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Besi : Gerbang" },
+        { "key": "B", "text": "Emas : Tambang" },
+        { "key": "C", "text": "Buku : Kertas" },
+        { "key": "D", "text": "Pasir : Semen" },
+        { "key": "E", "text": "Benang : Pintal" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Hubungan: Bahan Baku. Kue Tart terbuat dari Gandum (tepung). Gerbang terbuat dari Besi."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "GEMPA : RICHTER = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Suhu : Termometer" },
+        { "key": "B", "text": "Jarak : Dinamo" },
+        { "key": "C", "text": "Obat : Dosis" },
+        { "key": "D", "text": "Listrik : Volt" },
+        { "key": "E", "text": "Banjir : Air" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Hubungan: Satuan Ukur. Gempa diukur dengan skala Richter. Listrik (tegangan) diukur dengan Volt. (Opsi A salah karena Termometer adalah alat, bukan satuan)."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "JANJI : BUKTI = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ucapan : Tindakan" },
+        { "key": "B", "text": "Maling : Penjara" },
+        { "key": "C", "text": "Materi : Soal" },
+        { "key": "D", "text": "Harta : Kendaraan" },
+        { "key": "E", "text": "Tuan : Tuhan" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Hubungan: Syarat/Realisasi. Janji harus dibuktikan (Bukti). Ucapan harus direalisasikan dengan Tindakan."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "MATAHARI : BUMI = BUMI : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Gravitasi" },
+        { "key": "B", "text": "Bulan" },
+        { "key": "C", "text": "Planet" },
+        { "key": "D", "text": "Matahari" },
+        { "key": "E", "text": "Bintang" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hubungan: Mengelilingi. Bumi mengelilingi Matahari. Bulan mengelilingi Bumi."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "SAPI : RUMPUT = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ayam : Beras" },
+        { "key": "B", "text": "Manusia : Nasi" },
+        { "key": "C", "text": "Harimau : Rusa" },
+        { "key": "D", "text": "Ulat : Daun" },
+        { "key": "E", "text": "Kucing : Ikan" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Hubungan: Makanan Utama (Herbivora). Sapi makan rumput (tumbuhan). Ulat makan daun (tumbuhan). Harimau dan Kucing karnivora, Manusia omnivora."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "PEDAS : CABAI = MANIS : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Garam" },
+        { "key": "B", "text": "Gula" },
+        { "key": "C", "text": "Teh" },
+        { "key": "D", "text": "Sakit" },
+        { "key": "E", "text": "Manisan" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hubungan: Sifat Rasa dan Sumbernya. Pedas adalah rasa dari Cabai. Manis adalah rasa dari Gula."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "MOBIL : BENSIN = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pesawat : Propeler" },
+        { "key": "B", "text": "Motor : Solar" },
+        { "key": "C", "text": "Manusia : Makanan" },
+        { "key": "D", "text": "Sapi : Susu" },
+        { "key": "E", "text": "Penyakit : Virus" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Hubungan: Sumber Energi. Mobil butuh Bensin untuk bergerak. Manusia butuh Makanan untuk bergerak."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "AIR : MENGUAP = ES : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mendidih" },
+        { "key": "B", "text": "Mencair" },
+        { "key": "C", "text": "Membeku" },
+        { "key": "D", "text": "Dingin" },
+        { "key": "E", "text": "Uap" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hubungan: Perubahan Wujud saat dipanaskan. Air dipanaskan akan Menguap. Es dipanaskan akan Mencair."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "KAYU : DIKETAM = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Besi : Ditempa" },
+        { "key": "B", "text": "Kain : Dijahit" },
+        { "key": "C", "text": "Beras : Ditanak" },
+        { "key": "D", "text": "Daging : Dimasak" },
+        { "key": "E", "text": "Tembok : Dicat" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Hubungan: Proses pembentukan/penghalusan. Kayu diketam agar halus/lurus. Besi ditempa agar terbentuk."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "TELESKOP : BINTANG = MIKROSKOP : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Bulan" },
+        { "key": "B", "text": "Matahari" },
+        { "key": "C", "text": "Bakteri" },
+        { "key": "D", "text": "Lensa" },
+        { "key": "E", "text": "Kacamata" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Hubungan: Alat dan Objek yang dilihat. Teleskop untuk melihat benda jauh (Bintang). Mikroskop untuk melihat benda kecil (Bakteri)."
+    },
+    {
+      "category_slug": "tiu-verbal-analogi",
+      "question_text": "SUARA : DESIBEL = ... : ...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Listrik : Ampere" },
+        { "key": "B", "text": "Berat : Kalori" },
+        { "key": "C", "text": "Jarak : Meter" },
+        { "key": "D", "text": "Suhu : Barometer" },
+        { "key": "E", "text": "Merah : Warna" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Hubungan: Satuan Intensitas/Ukuran. Suara diukur dengan Desibel. Listrik (Arus) diukur dengan Ampere. Jarak diukur dengan Meter juga benar, tapi Ampere lebih spesifik sebagai satuan fisika yang setara."
+    }
+  ]
+}

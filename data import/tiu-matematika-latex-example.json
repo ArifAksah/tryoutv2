@@ -1,0 +1,92 @@
+[
+  {
+    "category_slug": "aljabar",
+    "question_text": "Jika $x = 3$ dan $y = 5$, maka nilai dari $x^2 + y^2$ adalah...",
+    "question_type": "multiple_choice",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "$34$" },
+      { "key": "B", "text": "$25$" },
+      { "key": "C", "text": "$16$" },
+      { "key": "D", "text": "$9$" },
+      { "key": "E", "text": "$8$" }
+    ],
+    "answer_key": {
+      "correct": "A",
+      "score": 5
+    },
+    "discussion": "Substitusi nilai: $x^2 + y^2 = 3^2 + 5^2 = 9 + 25 = 34$"
+  },
+  {
+    "category_slug": "aljabar",
+    "question_text": "Bentuk sederhana dari $$\\frac{x^2 - 9}{x + 3}$$ adalah...",
+    "question_type": "multiple_choice",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "$x - 3$" },
+      { "key": "B", "text": "$x + 3$" },
+      { "key": "C", "text": "$x^2 - 3$" },
+      { "key": "D", "text": "$x - 9$" },
+      { "key": "E", "text": "$9 - x$" }
+    ],
+    "answer_key": {
+      "correct": "A",
+      "score": 5
+    },
+    "discussion": "Faktorkan pembilang: $$\\frac{(x-3)(x+3)}{x+3} = x - 3$$ dengan syarat $x \\neq -3$"
+  },
+  {
+    "category_slug": "geometri",
+    "question_text": "Luas lingkaran dengan jari-jari $r = 7$ cm adalah... (gunakan $\\pi = \\frac{22}{7}$)",
+    "question_type": "multiple_choice",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "$154 \\text{ cm}^2$" },
+      { "key": "B", "text": "$144 \\text{ cm}^2$" },
+      { "key": "C", "text": "$134 \\text{ cm}^2$" },
+      { "key": "D", "text": "$124 \\text{ cm}^2$" },
+      { "key": "E", "text": "$114 \\text{ cm}^2$" }
+    ],
+    "answer_key": {
+      "correct": "A",
+      "score": 5
+    },
+    "discussion": "Rumus luas lingkaran: $$L = \\pi r^2 = \\frac{22}{7} \\times 7^2 = \\frac{22}{7} \\times 49 = 154 \\text{ cm}^2$$"
+  },
+  {
+    "category_slug": "persamaan",
+    "question_text": "Akar-akar persamaan kuadrat $x^2 - 5x + 6 = 0$ adalah...",
+    "question_type": "multiple_choice",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "$x_1 = 2$ dan $x_2 = 3$" },
+      { "key": "B", "text": "$x_1 = 1$ dan $x_2 = 6$" },
+      { "key": "C", "text": "$x_1 = -2$ dan $x_2 = -3$" },
+      { "key": "D", "text": "$x_1 = 0$ dan $x_2 = 5$" },
+      { "key": "E", "text": "$x_1 = 1$ dan $x_2 = 5$" }
+    ],
+    "answer_key": {
+      "correct": "A",
+      "score": 5
+    },
+    "discussion": "Faktorkan: $x^2 - 5x + 6 = (x - 2)(x - 3) = 0$, sehingga $x_1 = 2$ dan $x_2 = 3$. Atau gunakan rumus ABC: $$x = \\frac{5 \\pm \\sqrt{25-24}}{2} = \\frac{5 \\pm 1}{2}$$"
+  },
+  {
+    "category_slug": "statistika",
+    "question_text": "Mean dari data: $4, 6, 8, 10, 12$ adalah...",
+    "question_type": "multiple_choice",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "$8$" },
+      { "key": "B", "text": "$7$" },
+      { "key": "C", "text": "$9$" },
+      { "key": "D", "text": "$10$" },
+      { "key": "E", "text": "$6$" }
+    ],
+    "answer_key": {
+      "correct": "A",
+      "score": 5
+    },
+    "discussion": "$$\\bar{x} = \\frac{4 + 6 + 8 + 10 + 12}{5} = \\frac{40}{5} = 8$$"
+  }
+]

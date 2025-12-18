@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TKP Profesionalisme (Skala 1-5)",
+    "instructions": "Import ke kategori tkp-profesionalisme"
+  },
+  "questions": [
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Anda diberikan tugas mendadak oleh atasan yang harus selesai besok pagi, padahal Anda sudah memiliki rencana untuk makan malam merayakan ulang tahun pasangan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak tugas tersebut karena sudah ada janji pribadi." },
+        { "key": "B", "text": "Menerima tugas tersebut, lalu meminta izin kepada pasangan untuk menunda makan malam atau merayakannya secara sederhana setelah tugas selesai." },
+        { "key": "C", "text": "Mengerjakan tugas seadanya agar cepat selesai." },
+        { "key": "D", "text": "Meminta rekan lain mengerjakan tugas tersebut." },
+        { "key": "E", "text": "Mematikan HP agar tidak bisa dihubungi atasan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Dedikasi dan Negosiasi. Profesionalisme menuntut prioritas pada tugas mendesak, namun tetap mengelola kehidupan pribadi dengan komunikasi yang baik."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Anda melakukan kesalahan fatal dalam sebuah laporan yang sudah diserahkan ke atasan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Diam saja dan berharap atasan tidak teliti." },
+        { "key": "B", "text": "Menyalahkan rekan kerja yang memberikan data salah." },
+        { "key": "C", "text": "Segera menghadap atasan, mengakui kesalahan, meminta maaf, dan segera menyerahkan revisi perbaikannya." },
+        { "key": "D", "text": "Pura-pura sakit agar tidak dimarahi." },
+        { "key": "E", "text": "Mencari alasan pembenar." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 1,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Tanggung Jawab. Ciri utama profesional adalah berani mengakui kesalahan dan fokus pada perbaikan (solutif), bukan melempar kesalahan."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Pekerjaan kantor sedang menumpuk dan stres kerja sangat tinggi. Rekan-rekan Anda mulai mengeluh dan bekerja lambat. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut mengeluh agar beban terasa ringan." },
+        { "key": "B", "text": "Tetap fokus bekerja dengan semangat, membuat skala prioritas, dan menyemangati rekan kerja lain." },
+        { "key": "C", "text": "Meminta atasan mengurangi beban kerja." },
+        { "key": "D", "text": "Sering mengambil jam istirahat." },
+        { "key": "E", "text": "Mengerjakan yang mudah-mudah saja." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 3,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Ketahanan Kerja (Resilience). Profesional mampu bekerja di bawah tekanan (under pressure) dan tetap menjadi energi positif bagi lingkungan."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Atasan memberikan tugas yang menurut Anda metodenya kurang efektif dan Anda memiliki ide cara yang lebih efisien. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengerjakan sesuai perintah atasan saja agar aman (asal bapak senang)." },
+        { "key": "B", "text": "Mengerjakan dengan cara saya sendiri diam-diam." },
+        { "key": "C", "text": "Menghadap atasan, menyampaikan usulan metode baru dengan santun serta menjelaskan keuntungan efisiensinya." },
+        { "key": "D", "text": "Mengkritik metode atasan di depan rekan lain." },
+        { "key": "E", "text": "Menolak mengerjakan tugas." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Inisiatif dan Kreativitas. Profesionalisme bukan kepatuhan buta, tapi memberikan kontribusi pemikiran terbaik untuk organisasi dengan cara yang etis."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Anda ditempatkan di posisi yang tidak sesuai dengan latar belakang pendidikan Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Protes keras dan minta pindah." },
+        { "key": "B", "text": "Bekerja seadanya sampai dipindahkan." },
+        { "key": "C", "text": "Menerima sebagai tantangan, belajar mandiri dengan cepat, dan berusaha menguasai bidang baru tersebut." },
+        { "key": "D", "text": "Sering membolos karena tidak paham pekerjaan." },
+        { "key": "E", "text": "Mengeluh di media sosial." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Adaptabilitas dan Semangat Belajar. ASN harus siap ditempatkan di mana saja dan memiliki agility (kelincahan) belajar hal baru."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Rekan kerja Anda sering datang terlambat dan pulang lebih awal, namun gajinya sama dengan Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut-ikutan malas karena merasa tidak adil." },
+        { "key": "B", "text": "Menyindirnya setiap hari." },
+        { "key": "C", "text": "Tetap disiplin dan bekerja maksimal karena integritas saya tidak bergantung pada orang lain." },
+        { "key": "D", "text": "Melaporkannya secara anonim." },
+        { "key": "E", "text": "Menegurnya dengan keras." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 3,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Motivasi Internal. Profesional sejati bekerja berdasarkan standar nilai diri sendiri, bukan karena pengaruh buruk lingkungan."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Di tengah jam kerja yang sibuk, teman lama Anda datang ke kantor untuk mengajak mengobrol santai. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Meninggalkan pekerjaan dan menemaninya mengobrol lama." },
+        { "key": "B", "text": "Menyapanya sebentar, menjelaskan bahwa sedang banyak pekerjaan, dan berjanji bertemu setelah jam kerja." },
+        { "key": "C", "text": "Mengusirnya karena mengganggu." },
+        { "key": "D", "text": "Pura-pura sibuk dan tidak melihatnya." },
+        { "key": "E", "text": "Meminta rekan lain menemaninya." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Manajemen Waktu. Mampu memisahkan urusan pribadi dan dinas dengan asertif tanpa menyinggung perasaan teman."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Hasil kerja Anda dikritik tajam oleh atasan di depan banyak orang. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Merasa dipermalukan dan sakit hati." },
+        { "key": "B", "text": "Membantah kritikan tersebut saat itu juga." },
+        { "key": "C", "text": "Mendengarkan dengan tenang, mencatat poin perbaikan, dan menjadikan itu motivasi untuk membuktikan kinerja lebih baik." },
+        { "key": "D", "text": "Mengundurkan diri (resign)." },
+        { "key": "E", "text": "Curhat kepada rekan kerja betapa jahatnya atasan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Pengendalian Diri. Menerima kritik secara objektif untuk pengembangan diri, tidak baper (terbawa perasaan)."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Anda melihat ada peluang beasiswa pendidikan lanjut dari kantor, namun syaratnya cukup berat dan harus bersaing ketat. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tidak mendaftar karena takut gagal." },
+        { "key": "B", "text": "Mendaftar jika dipaksa atasan." },
+        { "key": "C", "text": "Segera mempersiapkan diri sebaik mungkin, melengkapi berkas, dan mendaftar dengan optimis." },
+        { "key": "D", "text": "Mencari 'orang dalam' agar lolos." },
+        { "key": "E", "text": "Menunggu teman lain mendaftar dulu." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Semangat Berprestasi. Memiliki motivasi tinggi untuk mengembangkan kompetensi diri (self-development) melalui pendidikan."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Menjelang akhir tahun, sisa anggaran masih banyak dan atasan meminta Anda membuat kegiatan fiktif agar anggaran terserap. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Melaksanakannya karena itu perintah atasan." },
+        { "key": "B", "text": "Menolak dengan tegas dan memberikan solusi kegiatan produktif yang bisa dilakukan dalam waktu singkat secara sah." },
+        { "key": "C", "text": "Pura-pura sakit agar tidak terlibat." },
+        { "key": "D", "text": "Melaporkan atasan ke KPK diam-diam." },
+        { "key": "E", "text": "Meminta bagian lain saja yang mengerjakan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 4,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Integritas Profesional. Menolak penyimpangan namun tetap solutif (memberikan alternatif kegiatan sah) agar kinerja penyerapan anggaran tetap tercapai dengan benar."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Apa definisi keberhasilan dalam bekerja menurut Anda?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mendapat gaji besar dan jabatan tinggi." },
+        { "key": "B", "text": "Tidak pernah dimarahi atasan." },
+        { "key": "C", "text": "Menyelesaikan tugas dengan kualitas terbaik dan memberikan manfaat bagi orang banyak/organisasi." },
+        { "key": "D", "text": "Memiliki banyak waktu luang." },
+        { "key": "E", "text": "Bisa menyuruh-nyuruh bawahan." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Orientasi Mutu. Fokus pada kualitas hasil kerja dan kebermanfaatan (impact), bukan sekadar materi atau jabatan."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Anda ditugaskan memimpin sebuah tim, namun anggota tim Anda lebih senior dan berpengalaman dari Anda. Mereka terlihat meremehkan Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Bersikap otoriter agar ditakuti." },
+        { "key": "B", "text": "Merasa minder dan menyerahkan kepemimpinan pada yang senior." },
+        { "key": "C", "text": "Menunjukkan rasa hormat, mendengarkan masukan mereka, namun tetap tegas dalam mengambil keputusan dan pembagian tugas." },
+        { "key": "D", "text": "Meminta atasan mengganti anggota tim." },
+        { "key": "E", "text": "Bekerja sendiri tanpa melibatkan mereka." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Kepemimpinan. Mampu menempatkan diri (low profile but high profit), menghargai senioritas tanpa kehilangan wibawa sebagai pemimpin."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Saat sedang mengerjakan laporan, komputer Anda mendadak lambat karena spesifikasinya rendah. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Berhenti bekerja dan menunggu komputer baru." },
+        { "key": "B", "text": "Mengeluh terus menerus." },
+        { "key": "C", "text": "Berusaha mengoptimalkan kinerja komputer (menutup aplikasi lain) atau menggunakan laptop pribadi sementara agar pekerjaan tetap selesai." },
+        { "key": "D", "text": "Memarahi bagian IT." },
+        { "key": "E", "text": "Pulang cepat." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 1,
+        "C": 5,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Orientasi Hasil. Kendala sarana prasarana tidak boleh menjadi alasan untuk berhenti berkinerja."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Anda memiliki masalah pribadi yang berat di rumah (perceraian/hutang) yang membuat Anda sulit berkonsentrasi. Sikap Anda di kantor...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sering menangis di meja kerja." },
+        { "key": "B", "text": "Menceritakan masalah saya ke semua orang." },
+        { "key": "C", "text": "Berusaha profesional, memisahkan urusan pribadi, dan tetap fokus bekerja. Jika perlu, ambil cuti sebentar untuk menyelesaikan masalah." },
+        { "key": "D", "text": "Bekerja asal-asalan." },
+        { "key": "E", "text": "Sering izin pulang cepat." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Profesionalisme. Mampu memanajemen emosi dan memisahkan kehidupan pribadi dengan kewajiban kantor."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Perusahaan mewajibkan seluruh karyawan menggunakan seragam baru yang modelnya menurut Anda aneh dan tidak nyaman. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak memakainya." },
+        { "key": "B", "text": "Memodifikasi seragam tersebut sesuka hati." },
+        { "key": "C", "text": "Memakainya dengan bangga sebagai identitas instansi dan mematuhi aturan." },
+        { "key": "D", "text": "Hanya memakai saat ada atasan." },
+        { "key": "E", "text": "Memakainya sambil menggerutu." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 2,
+        "E": 3
+      },
+      "discussion": "Poin 5 (C): Kepatuhan pada Peraturan. Loyalitas terhadap identitas organisasi di atas selera pribadi."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Anda diminta mewakili kantor dalam sebuah pertemuan penting, namun Anda merasa kurang percaya diri berbicara di depan umum. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak dan menyarankan teman lain." },
+        { "key": "B", "text": "Menerima tugas tersebut, lalu berlatih intensif dan mempersiapkan materi sebaik-baiknya sebelum hari H." },
+        { "key": "C", "text": "Menerima tapi nanti saat pertemuan diam saja." },
+        { "key": "D", "text": "Pura-pura sakit saat hari H." },
+        { "key": "E", "text": "Meminta didampingi teman untuk bicara menggantikan saya." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 1,
+        "E": 3
+      },
+      "discussion": "Poin 5 (B): Pengembangan Diri. Kepercayaan diri timbul dari persiapan yang matang. Berani mengambil tantangan untuk tumbuh."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Bagaimana sikap Anda terhadap target kerja (KPI)?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Target hanyalah formalitas." },
+        { "key": "B", "text": "Berusaha mencapai target minimal saja supaya aman." },
+        { "key": "C", "text": "Selalu berusaha melampaui target yang ditetapkan dengan kualitas terbaik." },
+        { "key": "D", "text": "Stres jika mendengar kata target." },
+        { "key": "E", "text": "Meminta target diturunkan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 3,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Achievement Orientation. Selalu ingin memberikan lebih (exceed expectation) adalah ciri profesional sejati."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Rekan kerja Anda meminta Anda memalsukan tanda tangan presensi karena dia terlambat datang. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membantunya karena kasihan (solidaritas teman)." },
+        { "key": "B", "text": "Menolak dengan tegas dan mengingatkannya untuk jujur." },
+        { "key": "C", "text": "Membantunya kali ini saja." },
+        { "key": "D", "text": "Pura-pura tidak dengar." },
+        { "key": "E", "text": "Melaporkannya ke atasan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 2,
+        "E": 4
+      },
+      "discussion": "Poin 5 (B): Integritas. Solidaritas tidak boleh melanggar aturan/kejujuran. Menolak manipulasi adalah tindakan profesional."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Anda sudah menyelesaikan pekerjaan Anda, sementara rekan satu tim masih lembur mengerjakan bagiannya yang belum selesai. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Langsung pulang karena tugas saya sudah selesai." },
+        { "key": "B", "text": "Menunggu dia selesai sambil main HP." },
+        { "key": "C", "text": "Menawarkan bantuan untuk mengerjakan bagiannya agar bisa pulang bersama-sama dan target tim tercapai." },
+        { "key": "D", "text": "Mengejeknya karena lambat." },
+        { "key": "E", "text": "Pulang diam-diam." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 3,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Kerjasama Tim. Keberhasilan tim lebih penting daripada keberhasilan individu. Membantu rekan adalah investasi hubungan profesional."
+    },
+    {
+      "category_slug": "tkp-profesionalisme",
+      "question_text": "Saat rapat, Anda menyadari bahwa data yang Anda sajikan ternyata salah. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Diam saja dan berharap tidak ada yang tahu." },
+        { "key": "B", "text": "Berdebat mempertahankan data tersebut." },
+        { "key": "C", "text": "Segera mengoreksi kesalahan tersebut saat itu juga, meminta maaf, dan menyajikan data yang benar." },
+        { "key": "D", "text": "Menyalahkan staf yang menyiapkan data." },
+        { "key": "E", "text": "Mengalihkan pembicaraan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 1,
+        "C": 5,
+        "D": 2,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Akuntabilitas. Mengoreksi diri sendiri (self-correction) menunjukkan integritas dan tanggung jawab tinggi."
+    }
+  ]
+}

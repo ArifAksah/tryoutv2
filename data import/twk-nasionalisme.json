@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TWK Nasionalisme (SKD CPNS)",
+    "instructions": "Import ke kategori twk-nasionalisme"
+  },
+  "questions": [
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Nasionalisme dalam arti sempit sering disamakan dengan Chauvinisme. Apa dampak negatif dari paham Chauvinisme bagi hubungan antarnegara?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Meningkatkan kerjasama bilateral di bidang ekonomi." },
+        { "key": "B", "text": "Menganggap rendah bangsa lain sehingga memicu konflik." },
+        { "key": "C", "text": "Mendorong pertukaran budaya yang lebih intensif." },
+        { "key": "D", "text": "Memperkuat identitas nasional tanpa merugikan orang lain." },
+        { "key": "E", "text": "Menciptakan perdamaian dunia melalui kesetaraan." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Chauvinisme adalah rasa cinta tanah air yang berlebihan hingga merendahkan bangsa lain. Hal ini menghambat perdamaian dunia dan memicu konflik."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Salah satu tonggak sejarah lahirnya nasionalisme Indonesia adalah berdirinya Budi Utomo pada tahun 1908. Organisasi ini mengubah strategi perjuangan bangsa Indonesia dari...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Diplomasi menjadi konfrontasi fisik." },
+        { "key": "B", "text": "Kedaerahan (lokal) menjadi bersifat nasional." },
+        { "key": "C", "text": "Radikal menjadi kooperatif." },
+        { "key": "D", "text": "Gerilya menjadi perang terbuka." },
+        { "key": "E", "text": "Politik menjadi ekonomi." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Budi Utomo menandai era Kebangkitan Nasional, di mana perjuangan yang tadinya bersifat kedaerahan (fisik dan terpecah) berubah menjadi terorganisir, modern, dan bervisi nasional."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Di era globalisasi, banyak budaya asing masuk ke Indonesia. Sikap nasionalisme yang tepat dalam menghadapi fenomena tersebut adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak semua budaya asing agar budaya asli tidak luntur." },
+        { "key": "B", "text": "Menerima semua budaya asing sebagai tanda kemajuan zaman." },
+        { "key": "C", "text": "Menyeleksi budaya asing yang sesuai dengan kepribadian bangsa." },
+        { "key": "D", "text": "Mempelajari budaya asing dan melupakan budaya sendiri." },
+        { "key": "E", "text": "Menutup diri dari pergaulan internasional." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Nasionalisme modern bukan menutup diri (isolasi), melainkan kemampuan menyaring (filter) budaya asing agar sesuai dengan nilai-nilai Pancasila dan budaya luhur bangsa."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Penggunaan Bahasa Indonesia yang baik dan benar merupakan wujud nasionalisme karena...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Bahasa Indonesia lebih mudah dipelajari dibanding bahasa asing." },
+        { "key": "B", "text": "Merupakan alat pemersatu bangsa dan identitas nasional." },
+        { "key": "C", "text": "Diwajibkan oleh undang-undang semata." },
+        { "key": "D", "text": "Agar terlihat formal dalam pergaulan." },
+        { "key": "E", "text": "Untuk menghindari penggunaan bahasa daerah." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Bahasa Indonesia lahir dari Sumpah Pemuda sebagai bahasa persatuan. Menggunakannya adalah wujud bangga akan identitas nasional di tengah keberagaman suku bangsa."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Andi lebih memilih membeli sepatu buatan Cibaduyut daripada sepatu impor meskipun harganya tidak jauh berbeda. Tindakan Andi mencerminkan sikap...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Patriotisme" },
+        { "key": "B", "text": "Nasionalisme Ekonomi" },
+        { "key": "C", "text": "Chauvinisme" },
+        { "key": "D", "text": "Etnosentrisme" },
+        { "key": "E", "text": "Provinsialisme" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Mencintai produk dalam negeri adalah implementasi nasionalisme dalam bidang ekonomi, karena membantu perekonomian bangsa sendiri."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Tujuan utama dari paham nasionalisme adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Memperluas wilayah kekuasaan negara." },
+        { "key": "B", "text": "Menghapuskan perbedaan suku dan budaya." },
+        { "key": "C", "text": "Menjamin kemauan dan kekuatan mempertahankan masyarakat nasional melawan musuh dari luar." },
+        { "key": "D", "text": "Membentuk negara yang homogen tanpa perbedaan." },
+        { "key": "E", "text": "Menguasai perekonomian dunia." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Nasionalisme bertujuan untuk menjamin kemauan dan kekuatan mempertahankan eksistensi masyarakat nasional (bangsa) dari tantangan internal maupun eksternal."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Sumpah Pemuda 28 Oktober 1928 merupakan kristalisasi semangat nasionalisme. Nilai utama yang terkandung di dalamnya adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Satu wilayah, satu negara, satu pemimpin." },
+        { "key": "B", "text": "Satu nusa, satu bangsa, satu bahasa." },
+        { "key": "C", "text": "Kebebasan, kesetaraan, dan persaudaraan." },
+        { "key": "D", "text": "Berbeda-beda tetapi tetap satu jua." },
+        { "key": "E", "text": "Kemerdekaan ialah hak segala bangsa." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Isi Sumpah Pemuda secara eksplisit menyatakan: Bertumpah darah yang satu (Nusa), Berbangsa yang satu (Bangsa), dan Menjunjung bahasa persatuan (Bahasa)."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Apa yang dimaksud dengan nasionalisme kewarganegaraan (civic nationalism)?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Nasionalisme yang didasarkan pada kesamaan etnis dan darah." },
+        { "key": "B", "text": "Nasionalisme di mana negara memperoleh kebenaran politik dari partisipasi aktif rakyatnya." },
+        { "key": "C", "text": "Nasionalisme yang didasarkan pada kesamaan agama." },
+        { "key": "D", "text": "Nasionalisme yang menekankan pada kekuatan militer." },
+        { "key": "E", "text": "Nasionalisme yang terbentuk karena perasaan senasib akibat penjajahan." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Civic nationalism (Nasionalisme sipil) berfokus pada kewarganegaraan dan partisipasi rakyat (kehendak rakyat), bukan pada etnis atau keturunan."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Seorang atlet bulu tangkis berjuang keras dalam latihan demi mengibarkan bendera Merah Putih di ajang Olimpiade. Sikap ini menunjukkan...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Profesionalisme semata demi hadiah uang." },
+        { "key": "B", "text": "Nasionalisme melalui prestasi yang mengharumkan nama bangsa." },
+        { "key": "C", "text": "Kewajiban bela negara secara fisik." },
+        { "key": "D", "text": "Upaya mencari popularitas pribadi." },
+        { "key": "E", "text": "Tuntutan sponsor." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Berprestasi di kancah internasional untuk kebanggaan negara adalah bentuk nyata nasionalisme di masa damai (non-fisik)."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Faktor internal yang mendorong lahirnya nasionalisme di Indonesia pada masa pergerakan adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Kemenangan Jepang atas Rusia tahun 1905." },
+        { "key": "B", "text": "Munculnya paham liberalisme di Eropa." },
+        { "key": "C", "text": "Kenangan kejayaan masa lampau (Majapahit & Sriwijaya)." },
+        { "key": "D", "text": "Revolusi Perancis." },
+        { "key": "E", "text": "Pergerakan nasional di India dan Filipina." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Faktor internal meliputi: Penderitaan akibat penjajahan, kenangan kejayaan masa lampau, dan munculnya golongan terpelajar. Opsi A, B, D, E adalah faktor eksternal."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Sikap provinsialisme dapat menghambat nasionalisme karena...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengutamakan kepentingan provinsi/daerah sendiri di atas kepentingan nasional." },
+        { "key": "B", "text": "Terlalu mencintai budaya asing." },
+        { "key": "C", "text": "Tidak mau menerima bantuan dari pemerintah pusat." },
+        { "key": "D", "text": "Ingin memisahkan diri dari NKRI secara langsung." },
+        { "key": "E", "text": "Hanya fokus pada pembangunan ekonomi." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Provinsialisme adalah sifat kedaerahan yang berlebihan. Ini bertentangan dengan Nasionalisme yang mengutamakan persatuan dan kepentingan nasional di atas kepentingan golongan/daerah."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Batik telah diakui oleh UNESCO sebagai warisan budaya Indonesia. Sebagai wujud nasionalisme, tindakan paling tepat bagi generasi muda adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menyimpan kain batik di museum agar awet." },
+        { "key": "B", "text": "Hanya memakai batik saat upacara resmi." },
+        { "key": "C", "text": "Mempelajari, mengenakan, dan mempromosikan batik sebagai identitas bangsa." },
+        { "key": "D", "text": "Menjual batik ke luar negeri dengan harga sangat mahal." },
+        { "key": "E", "text": "Memprotes negara lain yang memproduksi tekstil bermotif." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Nasionalisme budaya diwujudkan dengan melestarikan (mempelajari/memakai) dan bangga akan budaya tersebut."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Organisasi pergerakan nasional yang pertama kali secara tegas menggunakan istilah 'Indonesia' dan berpolitik untuk kemerdekaan adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Budi Utomo" },
+        { "key": "B", "text": "Sarekat Islam" },
+        { "key": "C", "text": "Indische Partij" },
+        { "key": "D", "text": "Perhimpunan Indonesia" },
+        { "key": "E", "text": "PNI" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Indische Partij (1912) adalah partai politik pertama yang berani mencantumkan tujuan kemerdekaan dan membangun nasionalisme Hindia (Indonesia) tanpa membedakan ras."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Dalam suasana rapat RT, Pak Budi menerima keputusan mayoritas meskipun pendapatnya ditolak. Sikap Pak Budi mencerminkan nasionalisme dalam aspek...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Demokrasi dan toleransi" },
+        { "key": "B", "text": "Cinta tanah air" },
+        { "key": "C", "text": "Rela berkorban harta" },
+        { "key": "D", "text": "Kesadaran hukum" },
+        { "key": "E", "text": "Pertahanan keamanan" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Mengutamakan musyawarah dan menerima hasil keputusan bersama adalah ciri demokrasi Pancasila yang memperkuat persatuan (nasionalisme)."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Manakah di bawah ini yang BUKAN merupakan prinsip nasionalisme Indonesia?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Kesatuan sejarah" },
+        { "key": "B", "text": "Kesatuan nasib" },
+        { "key": "C", "text": "Kesatuan kebudayaan" },
+        { "key": "D", "text": "Kesatuan asas kerohanian" },
+        { "key": "E", "text": "Kesatuan keturunan (darah)" }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "Nasionalisme Indonesia tidak didasarkan pada kesatuan keturunan/darah/biologis (ras), melainkan kesatuan sejarah, nasib, wilayah, dan cita-cita."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Nasionalisme Pancasila adalah nasionalisme yang...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengagungkan bangsa sendiri dan merendahkan bangsa lain." },
+        { "key": "B", "text": "Berdasarkan pada nilai-nilai ketuhanan, kemanusiaan, dan persatuan." },
+        { "key": "C", "text": "Memisahkan urusan agama dari urusan negara secara total." },
+        { "key": "D", "text": "Menolak segala bentuk kerjasama asing." },
+        { "key": "E", "text": "Mewajibkan militerisme bagi seluruh rakyat." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Nasionalisme Pancasila bersifat religius, humanis, dan demokratis. Ia mencintai bangsa sendiri namun tetap menghormati bangsa lain (sila ke-2 dan ke-3)."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Tantangan terbesar nasionalisme bagi generasi milenial di era digital adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Kurangnya akses internet di daerah terpencil." },
+        { "key": "B", "text": "Mahalnya harga gadget buatan dalam negeri." },
+        { "key": "C", "text": "Lunturnya nilai-nilai kebangsaan akibat hoaks dan ideologi transnasional." },
+        { "key": "D", "text": "Banyaknya lowongan kerja dari perusahaan asing." },
+        { "key": "E", "text": "Persaingan bisnis online." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Era digital membawa arus informasi bebas yang bisa membawa ideologi yang bertentangan dengan Pancasila (radikalisme/liberalisme ekstrem) dan memecah belah persatuan (hoaks)."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Membayar pajak tepat waktu merupakan wujud nasionalisme karena...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Takut didenda oleh petugas pajak." },
+        { "key": "B", "text": "Merupakan bentuk partisipasi aktif dalam pembangunan negara." },
+        { "key": "C", "text": "Agar mendapat pujian dari pemerintah." },
+        { "key": "D", "text": "Pajak adalah sumber kekayaan pejabat." },
+        { "key": "E", "text": "Hanya berlaku bagi orang kaya." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Pajak adalah sumber pendapatan negara untuk pembangunan. Membayarnya berarti berkontribusi langsung bagi keberlangsungan negara (Nasionalisme tindakan)."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Apa perbedaan mendasar antara Nasionalisme dan Patriotisme?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tidak ada perbedaan, keduanya sama persis." },
+        { "key": "B", "text": "Nasionalisme adalah sikap rela berkorban, Patriotisme adalah kesetiaan." },
+        { "key": "C", "text": "Nasionalisme menekankan kesetiaan/identitas, Patriotisme menekankan pengorbanan." },
+        { "key": "D", "text": "Nasionalisme untuk tentara, Patriotisme untuk warga sipil." },
+        { "key": "E", "text": "Nasionalisme bersifat masa lalu, Patriotisme masa kini." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Nasionalisme = Paham/kesadaran keanggotaan dalam suatu bangsa (Loyalty/Identity). Patriotisme = Semangat cinta tanah air yang diwujudkan dengan rela berkorban (Sacrifice/Heroism)."
+    },
+    {
+      "category_slug": "twk-nasionalisme",
+      "question_text": "Keikutsertaan warga negara dalam menjaga ketertiban lingkungan (Siskamling) merupakan implementasi nasionalisme di lingkungan...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Keluarga" },
+        { "key": "B", "text": "Sekolah" },
+        { "key": "C", "text": "Masyarakat" },
+        { "key": "D", "text": "Berbangsa dan Bernegara" },
+        { "key": "E", "text": "Internasional" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Siskamling adalah wujud kepedulian dan persatuan di tingkat masyarakat terkecil untuk menjaga keamanan bersama."
+    }
+  ]
+}

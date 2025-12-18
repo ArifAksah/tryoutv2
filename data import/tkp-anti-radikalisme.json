@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TKP Anti-Radikalisme (Skala 1-5)",
+    "instructions": "Import ke kategori tkp-anti-radikalisme"
+  },
+  "questions": [
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Di grup WhatsApp kantor, seorang rekan kerja membagikan artikel yang isinya menghina simbol negara dan mengajak untuk mengganti ideologi Pancasila. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Langsung keluar dari grup." },
+        { "key": "B", "text": "Mengingatkan rekan tersebut di grup bahwa konten itu berbahaya dan melanggar hukum, serta memintanya menghapus." },
+        { "key": "C", "text": "Diam saja (silent reader) agar tidak dimusuhi." },
+        { "key": "D", "text": "Melaporkan tangkapan layar (screenshot) percakapan tersebut kepada atasan atau tim kepatuhan internal." },
+        { "key": "E", "text": "Ikut menyebarkan karena isinya menarik." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 2,
+        "D": 4,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Kontra-Narasi Aktif. Berani meluruskan pemahaman yang salah secara langsung (edukasi). Poin 4 (D) juga baik (penindakan), tapi edukasi persuasif didahulukan dalam konteks rekan kerja."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Anda melihat tetangga baru Anda sering mengadakan pertemuan tertutup hingga larut malam dengan orang-orang asing yang berpakaian seragam tertentu. Warga mulai resah. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Masa bodoh selama tidak mengganggu rumah saya." },
+        { "key": "B", "text": "Mengintip kegiatan mereka diam-diam." },
+        { "key": "C", "text": "Melaporkan hal tersebut kepada Ketua RT/RW dan Babinsa/Bhabinkamtibmas agar ditelusuri kebenarannya." },
+        { "key": "D", "text": "Menggerebek rumah tersebut bersama warga yang marah." },
+        { "key": "E", "text": "Menyebarkan isu bahwa mereka teroris." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Deteksi Dini. Melibatkan aparat berwenang (RT/Babinsa) adalah langkah prosedural yang tepat untuk mencegah potensi radikalisme tanpa main hakim sendiri."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Rekan kerja Anda yang dulunya ceria tiba-tiba berubah menjadi pendiam, menjauh dari pergaulan, dan sering berbicara tentang kebencian terhadap pemerintah/golongan tertentu. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menjauhinya karena takut tertular pemikirannya." },
+        { "key": "B", "text": "Mencoba mendekatinya secara personal, mengajaknya berdiskusi ringan, dan mencari tahu masalah yang dihadapinya (pendekatan humanis)." },
+        { "key": "C", "text": "Melaporkannya ke BNPT." },
+        { "key": "D", "text": "Menggunjingkannya dengan teman lain." },
+        { "key": "E", "text": "Memarahinya agar sadar." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 3,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Deradikalisasi Humanis. Perubahan perilaku drastis adalah tanda awal paparan. Pendekatan personal (merangkul) lebih efektif daripada mengucilkan."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Anda diajak teman untuk menghadiri sebuah kajian keagamaan. Namun di tengah acara, penceramah mulai menyampaikan materi yang menyalahkan Pancasila dan mengajak mendirikan negara baru. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tetap duduk mendengarkan sampai selesai untuk menghormati teman." },
+        { "key": "B", "text": "Segera meninggalkan tempat tersebut (walk out) dan mengajak teman Anda untuk pulang." },
+        { "key": "C", "text": "Mendebat penceramah di depan umum." },
+        { "key": "D", "text": "Merekam diam-diam untuk diviralkan." },
+        { "key": "E", "text": "Terpengaruh dan setuju dengan isinya." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 3,
+        "D": 4,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Benteng Diri. Segera memisahkan diri dari paparan ideologi radikal adalah tindakan pencegahan terbaik. Mengajak teman pulang adalah upaya menyelamatkan orang lain."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Bagaimana pandangan Anda tentang jihad di masa modern ini dalam konteks bernegara?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Jihad adalah perang fisik melawan orang beda agama." },
+        { "key": "B", "text": "Jihad adalah bekerja sungguh-sungguh, berprestasi, dan membangun bangsa sesuai profesi masing-masing." },
+        { "key": "C", "text": "Jihad hanya tugas TNI/Polri." },
+        { "key": "D", "text": "Jihad adalah demonstrasi setiap hari." },
+        { "key": "E", "text": "Tidak peduli dengan istilah jihad." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Pemahaman Moderat. Jihad (bersungguh-sungguh) di masa damai adalah mengisi kemerdekaan dengan prestasi dan pembangunan."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Di media sosial, viral video pembakaran rumah ibadah agama tertentu. Komentar netizen penuh dengan provokasi untuk membalas dendam. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut marah dan berkomentar pedas." },
+        { "key": "B", "text": "Tidak berkomentar, tidak membagikan video tersebut, dan melaporkan konten tersebut sebagai ujaran kebencian." },
+        { "key": "C", "text": "Membagikan video agar semua orang tahu." },
+        { "key": "D", "text": "Menonaktifkan media sosial." },
+        { "key": "E", "text": "Hanya melihat saja." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 3
+      },
+      "discussion": "Poin 5 (B): Literasi Digital & Pencegahan Konflik. Memutus rantai penyebaran konten provokatif (stop di kita) dan melaporkannya."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Atasan Anda membuat kebijakan yang menurut Anda sedikit menyimpang dari aturan, namun tidak sampai radikal. Rekan kerja Anda mengajak untuk melakukan demonstrasi anarkis di kantor. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut demonstrasi sebagai bentuk solidaritas." },
+        { "key": "B", "text": "Menolak ajakan demonstrasi anarkis dan memilih jalur dialog/audiensi resmi untuk menyampaikan keberatan." },
+        { "key": "C", "text": "Diam saja cari aman." },
+        { "key": "D", "text": "Memprovokasi teman lain agar demo makin besar." },
+        { "key": "E", "text": "Resign dari kantor." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Kritis Konstruktif. Menolak cara-cara kekerasan/anarkis dalam menyelesaikan masalah. Menggunakan jalur konstitusional (dialog)."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Anak Anda yang masih remaja mulai menunjukkan tanda-tanda intoleran terhadap teman sekolahnya yang berbeda agama. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membiarkannya karena itu hak dia memilih teman." },
+        { "key": "B", "text": "Mendukungnya agar iman kuat." },
+        { "key": "C", "text": "Mengajaknya berdialog, memberikan pemahaman tentang Bhinneka Tunggal Ika, dan mencontohkan pergaulan yang inklusif." },
+        { "key": "D", "text": "Memarahinya dan menghukumnya fisik." },
+        { "key": "E", "text": "Memindahkan sekolahnya." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 1,
+        "C": 5,
+        "D": 2,
+        "E": 3
+      },
+      "discussion": "Poin 5 (C): Peran Keluarga. Keluarga adalah benteng pertama anti-radikalisme. Orang tua wajib menanamkan nilai toleransi sejak dini."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Anda menemukan buku-buku beraliran ekstrem kiri/kanan di meja kerja rekan Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membakarnya diam-diam." },
+        { "key": "B", "text": "Bertanya kepadanya tujuan membaca buku tersebut (apakah untuk referensi akademis atau diyakini) dan berdiskusi meluruskan jika ada pemahaman keliru." },
+        { "key": "C", "text": "Langsung lapor polisi." },
+        { "key": "D", "text": "Masa bodoh." },
+        { "key": "E", "text": "Ikut meminjam dan membacanya." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 3,
+        "D": 2,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Tabayyun (Klarifikasi). Memiliki buku belum tentu radikal (bisa jadi peneliti). Diskusi terbuka diperlukan untuk memastikan dan mencegah paparan."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Apa pendapat Anda tentang Pancasila sebagai ideologi negara?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sudah final dan harga mati, namun implementasinya perlu terus diperbaiki." },
+        { "key": "B", "text": "Perlu diganti karena sudah kuno." },
+        { "key": "C", "text": "Hanya sekadar simbol tanpa makna." },
+        { "key": "D", "text": "Bisa diganti jika mayoritas setuju." },
+        { "key": "E", "text": "Kurang relevan dengan ajaran agama saya." }
+      ],
+      "answer_key": {
+        "A": 5,
+        "B": 1,
+        "C": 2,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (A): Loyalitas Kebangsaan. Meyakini Pancasila sebagai konsensus final bangsa Indonesia adalah syarat mutlak ASN."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Terjadi aksi terorisme (bom bunuh diri) di kota lain. Beberapa orang di lingkungan Anda mengatakan bahwa itu adalah rekayasa/pengalihan isu. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut mempercayai teori konspirasi tersebut." },
+        { "key": "B", "text": "Diam saja agar aman." },
+        { "key": "C", "text": "Menjelaskan bahwa terorisme adalah musuh kemanusiaan yang nyata dan mengajak mereka untuk tetap waspada serta percaya pada penegak hukum." },
+        { "key": "D", "text": "Marah kepada mereka." },
+        { "key": "E", "text": "Menyebarkan opini mereka di medsos." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Melawan Hoaks/Konspirasi. Menolak narasi yang melemahkan penegakan hukum terhadap terorisme."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Anda bekerja di pelayanan publik. Datang seorang pemohon layanan yang menggunakan atribut/simbol yang dilarang negara (misal: bendera organisasi terlarang). Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak melayani dan mengusirnya kasar." },
+        { "key": "B", "text": "Tetap melayani hak administratifnya, namun setelah itu melaporkan kepada pihak keamanan/atasan mengenai atribut yang dikenakan." },
+        { "key": "C", "text": "Melayani dengan ramah dan memuji atributnya." },
+        { "key": "D", "text": "Pura-pura tidak lihat." },
+        { "key": "E", "text": "Mengajaknya berfoto." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Profesional & Waspada. Hak layanan publik tetap diberikan (profesional), tapi kewajiban lapor keamanan tetap dijalankan (anti-radikalisme)."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Bagaimana sikap Anda terhadap orang yang berbeda agama?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hanya mau berteman di kantor, tidak di luar." },
+        { "key": "B", "text": "Menganggap mereka sesat dan harus dijauhi." },
+        { "key": "C", "text": "Bersahabat baik, saling menghormati, dan bekerjasama dalam urusan dunia/muamalah tanpa mencampuradukkan akidah." },
+        { "key": "D", "text": "Mengikuti ibadah mereka sebagai bentuk toleransi." },
+        { "key": "E", "text": "Pura-pura baik." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 1,
+        "C": 5,
+        "D": 2,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Toleransi Aktif & Proporsional. Menjalin hubungan sosial yang inklusif adalah antitesis dari radikalisme (eksklusivisme)."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Ada penceramah agama yang populer namun sering menyelipkan pesan kebencian terhadap pemerintah yang sah (legitimate). Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Berhenti mendengarkan ceramahnya dan mencari referensi pembanding yang lebih menyejukkan." },
+        { "key": "B", "text": "Tetap mendengarkan dan membenarkan isinya." },
+        { "key": "C", "text": "Membagikan potongan videonya di status WA." },
+        { "key": "D", "text": "Mencaci maki penceramah tersebut." },
+        { "key": "E", "text": "Mengajak teman nonton bareng." }
+      ],
+      "answer_key": {
+        "A": 5,
+        "B": 1,
+        "C": 1,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (A): Selektif Informasi. Memiliki filter pribadi untuk tidak mengonsumsi narasi kebencian."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Dalam sebuah diskusi, teman Anda menyatakan bahwa demokrasi sistem thaghut (berhala) dan harus diganti khilafah/sistem agama tertentu. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Setuju karena demokrasi banyak korupsi." },
+        { "key": "B", "text": "Diam saja menghindari debat." },
+        { "key": "C", "text": "Memberikan pandangan bahwa Pancasila adalah kesepakatan ulama dan pendiri bangsa yang sudah final dan sesuai dengan nilai agama (Mitsaqan Ghaliza)." },
+        { "key": "D", "text": "Langsung memutus pertemanan." },
+        { "key": "E", "text": "Menertawakan pendapatnya." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 3,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Argumentasi Kebangsaan. Mampu menjelaskan posisi Pancasila secara logis dan relijius untuk mematahkan argumen radikal."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Anda mengetahui ada situs web yang mengajarkan cara merakit bom panci. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mencobanya karena penasaran." },
+        { "key": "B", "text": "Mengabaikannya." },
+        { "key": "C", "text": "Melaporkan situs tersebut melalui layanan Aduan Konten Kominfo atau kepolisian." },
+        { "key": "D", "text": "Membagikan linknya ke teman untuk waspada (tapi malah menyebarkan)." },
+        { "key": "E", "text": "Menyimpan halamannya." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Partisipasi Aktif. Melaporkan konten berbahaya adalah wujud bela negara di dunia maya."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Organisasi masyarakat (Ormas) tertentu dibubarkan pemerintah karena bertentangan dengan Pancasila. Mantan anggotanya ada di lingkungan kerja Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengucilkannya dan meminta dia dipecat." },
+        { "key": "B", "text": "Tetap berinteraksi secara profesional, sambil perlahan mengajaknya kembali mencintai NKRI (inklusif)." },
+        { "key": "C", "text": "Waspada berlebihan dan mencurigai gerak-geriknya." },
+        { "key": "D", "text": "Mendukung dia menghidupkan kembali ormasnya." },
+        { "key": "E", "text": "Mengejeknya." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 3,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Reintegrasi Sosial. Tidak mengucilkan (yang justru membuat makin radikal), tapi merangkul kembali ke pangkuan NKRI."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Menurut Anda, penyebab utama seseorang terpapar radikalisme adalah...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Kurangnya pemahaman agama yang komprehensif dan literasi yang rendah." },
+        { "key": "B", "text": "Kemiskinan semata." },
+        { "key": "C", "text": "Kesalahan pemerintah." },
+        { "key": "D", "text": "Konspirasi asing." },
+        { "key": "E", "text": "Takdir." }
+      ],
+      "answer_key": {
+        "A": 5,
+        "B": 3,
+        "C": 1,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (A): Analisis Tepat. Radikalisme seringkali masuk melalui pemahaman yang dangkal (tekstual) dan ketidakmampuan memfilter informasi."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Pemerintah mewajibkan ASN mengucapkan ikrar setia kepada NKRI. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengucapkan dengan lantang dan sepenuh hati sebagai wujud komitmen." },
+        { "key": "B", "text": "Mengucapkan hanya di mulut saja." },
+        { "key": "C", "text": "Menolak karena merasa sudah setia tanpa ikrar." },
+        { "key": "D", "text": "Menganggapnya seremonial buang waktu." },
+        { "key": "E", "text": "Ikut-ikutan saja." }
+      ],
+      "answer_key": {
+        "A": 5,
+        "B": 1,
+        "C": 2,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (A): Integritas Kebangsaan. Ikrar adalah peneguhan komitmen yang harus dilakukan dengan kesadaran penuh."
+    },
+    {
+      "category_slug": "tkp-anti-radikalisme",
+      "question_text": "Jika Anda menjadi pimpinan, bagaimana cara Anda mencegah radikalisme di kantor?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Memasang CCTV di mana-mana." },
+        { "key": "B", "text": "Mengadakan kegiatan pembinaan ideologi secara berkala dan membangun suasana kerja yang toleran/inklusif." },
+        { "key": "C", "text": "Melarang kegiatan keagamaan di kantor." },
+        { "key": "D", "text": "Mencurigai staf yang rajin ibadah." },
+        { "key": "E", "text": "Membiarkan mengalir saja." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 5,
+        "C": 1,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Tindakan Preventif Sistematis. Membangun lingkungan kerja yang sehat dan menanamkan nilai kebangsaan adalah kunci pencegahan."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Template untuk import soal ke aplikasi tryout",
+    "instructions": "1. Isi field sesuai kebutuhan, 2. Upload file ini di Admin Panel → Bank Soal → Import Soal, 3. Pastikan category_slug sudah ada di database"
+  },
+  "questions": [
+    {
+      "category_slug": "bilangan-deret",
+      "question_text": "Berapa angka selanjutnya dari deret: 2, 4, 6, 8, ...?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "9" },
+        { "key": "B", "text": "10" },
+        { "key": "C", "text": "11" },
+        { "key": "D", "text": "12" },
+        { "key": "E", "text": "13" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Deret bilangan genap dengan pola +2. Setelah 8 adalah 10."
+    },
+    {
+      "category_slug": "silogisme",
+      "question_text": "Semua siswa pandai. Budi adalah siswa. Kesimpulannya?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Budi pandai" },
+        { "key": "B", "text": "Budi tidak pandai" },
+        { "key": "C", "text": "Budi mungkin pandai" },
+        { "key": "D", "text": "Tidak dapat disimpulkan" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Silogisme deduktif: premis mayor + premis minor = kesimpulan pasti."
+    },
+    {
+      "category_slug": "integritas",
+      "question_text": "Saya selalu jujur meskipun dalam situasi sulit",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sangat tidak setuju" },
+        { "key": "B", "text": "Tidak setuju" },
+        { "key": "C", "text": "Netral" },
+        { "key": "D", "text": "Setuju" },
+        { "key": "E", "text": "Sangat setuju" }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      },
+      "discussion": "Pernyataan positif tentang integritas, skor tertinggi untuk sangat setuju."
+    },
+    {
+      "category_slug": "pola-gambar",
+      "question_text": "Gambar manakah yang melanjutkan pola di atas?",
+      "question_type": "figural",
+      "question_image_url": "https://your-supabase-url.supabase.co/storage/v1/object/public/question-images/questions/pattern-01.jpg",
+      "options": [
+        { "key": "A", "text": "Pilihan A", "image_url": "https://your-supabase-url.supabase.co/storage/v1/object/public/question-images/options/pattern-01-a.jpg" },
+        { "key": "B", "text": "Pilihan B", "image_url": "https://your-supabase-url.supabase.co/storage/v1/object/public/question-images/options/pattern-01-b.jpg" },
+        { "key": "C", "text": "Pilihan C", "image_url": "https://your-supabase-url.supabase.co/storage/v1/object/public/question-images/options/pattern-01-c.jpg" },
+        { "key": "D", "text": "Pilihan D", "image_url": "https://your-supabase-url.supabase.co/storage/v1/object/public/question-images/options/pattern-01-d.jpg" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Pola menunjukkan rotasi 90 derajat searah jarum jam."
+    },
+    {
+      "category_slug": "aljabar",
+      "question_text": "Jika $x^2 - 5x + 6 = 0$, maka nilai $x$ yang memenuhi adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$x = 1$ atau $x = 6$" },
+        { "key": "B", "text": "$x = 2$ atau $x = 3$" },
+        { "key": "C", "text": "$x = -2$ atau $x = -3$" },
+        { "key": "D", "text": "$x = 5$ atau $x = 1$" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Faktorkan: $(x - 2)(x - 3) = 0$. Jadi $x = 2$ atau $x = 3$"
+    },
+    {
+      "category_slug": "fisika",
+      "question_text": "Energi kinetik benda bermassa $m = 2$ kg dengan kecepatan $v = 5$ m/s adalah... (gunakan $E_k = \\frac{1}{2}mv^2$)",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "$10$ J" },
+        { "key": "B", "text": "$25$ J" },
+        { "key": "C", "text": "$50$ J" },
+        { "key": "D", "text": "$100$ J" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "$$E_k = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 2 \\times 5^2 = 1 \\times 25 = 25 \\text{ J}$$"
+    }
+  ]
+}

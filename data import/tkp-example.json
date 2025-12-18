@@ -1,0 +1,107 @@
+[
+  {
+    "category_slug": "integritas",
+    "question_text": "Saya selalu berusaha menyelesaikan pekerjaan tepat waktu meskipun tidak ada yang mengawasi",
+    "question_type": "scale_tkp",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "Sangat tidak setuju" },
+      { "key": "B", "text": "Tidak setuju" },
+      { "key": "C", "text": "Netral" },
+      { "key": "D", "text": "Setuju" },
+      { "key": "E", "text": "Sangat setuju" }
+    ],
+    "answer_key": {
+      "A": 1,
+      "B": 2,
+      "C": 3,
+      "D": 4,
+      "E": 5
+    },
+    "discussion": "Pernyataan positif tentang integritas. Semakin setuju semakin baik (E=5 paling tepat, A=1 kurang tepat)"
+  },
+  {
+    "category_slug": "kerjasama",
+    "question_text": "Ketika rekan kerja meminta bantuan, saya merasa terganggu dan menolaknya",
+    "question_type": "scale_tkp",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "Sangat tidak setuju" },
+      { "key": "B", "text": "Tidak setuju" },
+      { "key": "C", "text": "Netral" },
+      { "key": "D", "text": "Setuju" },
+      { "key": "E", "text": "Sangat setuju" }
+    ],
+    "answer_key": {
+      "A": 5,
+      "B": 4,
+      "C": 3,
+      "D": 2,
+      "E": 1
+    },
+    "discussion": "Pernyataan NEGATIF tentang kerjasama. Semakin tidak setuju semakin baik (A=5 paling tepat karena tidak setuju dengan sikap buruk, E=1 kurang tepat)"
+  },
+  {
+    "category_slug": "pelayanan-publik",
+    "question_text": "Anda melihat warga kesulitan mengisi formulir online. Sikap terbaik yang Anda lakukan adalah:",
+    "question_type": "scale_tkp",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "Menyuruh kembali esok hari" },
+      { "key": "B", "text": "Meminta menunggu karena antrean panjang" },
+      { "key": "C", "text": "Mengarahkan ke panduan tertulis saja" },
+      { "key": "D", "text": "Memberitahu nomor telepon helpdesk" },
+      { "key": "E", "text": "Membantu langsung dan memberi contoh pengisian" }
+    ],
+    "answer_key": {
+      "A": 1,
+      "B": 1,
+      "C": 2,
+      "D": 3,
+      "E": 5
+    },
+    "discussion": "Orientasi layanan publik mengutamakan bantuan langsung dan edukasi. E (membantu langsung) = 5 paling tepat. A dan B (mengabaikan) = 1 kurang tepat"
+  },
+  {
+    "category_slug": "jejaring-kerja",
+    "question_text": "Dalam situasi krisis, saya lebih suka bekerja sendiri daripada berkoordinasi dengan tim",
+    "question_type": "scale_tkp",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "Sangat tidak setuju" },
+      { "key": "B", "text": "Tidak setuju" },
+      { "key": "C", "text": "Netral" },
+      { "key": "D", "text": "Setuju" },
+      { "key": "E", "text": "Sangat setuju" }
+    ],
+    "answer_key": {
+      "A": 5,
+      "B": 4,
+      "C": 3,
+      "D": 2,
+      "E": 1
+    },
+    "discussion": "Pernyataan NEGATIF. Dalam krisis justru koordinasi tim sangat penting. Tidak setuju dengan pernyataan ini (A=5) adalah sikap terbaik"
+  },
+  {
+    "category_slug": "adaptabilitas",
+    "question_text": "Saya mampu menyesuaikan diri dengan perubahan kebijakan baru di kantor",
+    "question_type": "scale_tkp",
+    "question_image_url": null,
+    "options": [
+      { "key": "A", "text": "Sangat tidak setuju" },
+      { "key": "B", "text": "Tidak setuju" },
+      { "key": "C", "text": "Netral" },
+      { "key": "D", "text": "Setuju" },
+      { "key": "E", "text": "Sangat setuju" }
+    ],
+    "answer_key": {
+      "A": 1,
+      "B": 2,
+      "C": 3,
+      "D": 4,
+      "E": 5
+    },
+    "discussion": "Pernyataan positif tentang adaptabilitas. Semakin mampu beradaptasi (E=5) semakin baik untuk ASN"
+  }
+]

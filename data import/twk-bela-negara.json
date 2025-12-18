@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TWK Bela Negara (SKD CPNS)",
+    "instructions": "Import ke kategori twk-bela-negara"
+  },
+  "questions": [
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Landasan konstitusional bela negara tercantum dalam UUD 1945 Pasal 27 ayat (3) yang berbunyi...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tiap-tiap warga negara berhak dan wajib ikut serta dalam usaha pertahanan dan keamanan negara." },
+        { "key": "B", "text": "Setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara." },
+        { "key": "C", "text": "Bumi dan air dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara." },
+        { "key": "D", "text": "Kemerdekaan berserikat dan berkumpul ditetapkan dengan undang-undang." },
+        { "key": "E", "text": "Negara berdasar atas Ketuhanan Yang Maha Esa." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Pasal 27 ayat (3) bicara soal 'upaya pembelaan negara'. Sedangkan Pasal 30 ayat (1) bicara soal 'usaha pertahanan dan keamanan negara'."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Seorang guru yang mengajar di daerah perbatasan dengan penuh dedikasi merupakan wujud bela negara secara...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Fisik" },
+        { "key": "B", "text": "Non-fisik (Pengabdian sesuai profesi)" },
+        { "key": "C", "text": "Militer" },
+        { "key": "D", "text": "Wajib Militer" },
+        { "key": "E", "text": "Politis" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Bela negara non-fisik dilakukan melalui pengabdian sesuai profesi, pendidikan kewarganegaraan, dan pengabdian masyarakat. Guru mencerdaskan kehidupan bangsa adalah bela negara."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Ancaman militer dari luar negeri yang berupa pelanggaran batas wilayah sering terjadi di laut. Lembaga yang berwenang menjaga kedaulatan laut Indonesia adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Polri" },
+        { "key": "B", "text": "TNI Angkatan Darat" },
+        { "key": "C", "text": "TNI Angkatan Laut dan Bakamla" },
+        { "key": "D", "text": "Basarnas" },
+        { "key": "E", "text": "Bea Cukai" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "TNI AL bertugas menjaga kedaulatan di laut (pertahanan), dibantu Bakamla (Badan Keamanan Laut) untuk keamanan dan keselamatan laut."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Spektrum ancaman bela negara saat ini telah bergeser menjadi 'Proxy War'. Apa yang dimaksud dengan Proxy War?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Perang terbuka menggunakan senjata nuklir." },
+        { "key": "B", "text": "Perang gerilya di hutan." },
+        { "key": "C", "text": "Konfrontasi antar dua negara secara langsung di perbatasan." },
+        { "key": "D", "text": "Perang kepanjangan tangan dimana pihak ketiga digunakan untuk melawan musuh tanpa terjun langsung." },
+        { "key": "E", "text": "Latihan militer bersama antar negara." }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Proxy War adalah perang proksi dimana musuh tidak menyerang langsung, tapi menggunakan pihak ketiga (LSM asing, media, narkoba, separatis) untuk melemahkan negara target dari dalam."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Hari Bela Negara diperingati setiap tanggal 19 Desember untuk mengenang peristiwa...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Serangan Umum 1 Maret." },
+        { "key": "B", "text": "Pembentukan Pemerintah Darurat Republik Indonesia (PDRI) di Bukittinggi." },
+        { "key": "C", "text": "Pertempuran Surabaya." },
+        { "key": "D", "text": "Proklamasi Kemerdekaan." },
+        { "key": "E", "text": "Sumpah Pemuda." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "19 Desember 1948 adalah momen Sjafruddin Prawiranegara membentuk PDRI saat pemimpin negara ditangkap Belanda (Agresi Militer II), sehingga eksistensi RI tetap terjaga."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Batik diklaim oleh negara lain. Sebagai warga negara, aksi bela negara yang paling tepat adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menyerang akun media sosial negara tersebut." },
+        { "key": "B", "text": "Mendaftarkan hak paten internasional dan melestarikan pemakaian batik." },
+        { "key": "C", "text": "Membakar bendera negara tersebut." },
+        { "key": "D", "text": "Memboikot semua produk luar negeri." },
+        { "key": "E", "text": "Diam saja karena itu urusan pemerintah." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Bela negara budaya dilakukan dengan cara legal (diplomasi/paten) dan aksi nyata (pelestarian), bukan dengan anarkisme."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Penyalahgunaan narkoba di kalangan pemuda merupakan bentuk ancaman non-militer yang serius karena...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Harganya mahal sehingga memicu inflasi." },
+        { "key": "B", "text": "Merusak mental dan fisik generasi penerus bangsa (Lost Generation)." },
+        { "key": "C", "text": "Membuat penjara penuh." },
+        { "key": "D", "text": "Mengurangi devisa negara." },
+        { "key": "E", "text": "Hanya merugikan penggunanya sendiri." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Narkoba adalah ancaman nirmiliter yang menghancurkan 'human capital' atau SDM bangsa, melemahkan ketahanan nasional dari dalam."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Komponen Utama dalam sistem pertahanan negara Indonesia (Sishankamrata) adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Seluruh Rakyat Indonesia" },
+        { "key": "B", "text": "Kepolisian Republik Indonesia" },
+        { "key": "C", "text": "Tentara Nasional Indonesia (TNI)" },
+        { "key": "D", "text": "Hansip dan Satpol PP" },
+        { "key": "E", "text": "Sumber Daya Alam" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Sesuai UU Pertahanan Negara: TNI adalah Komponen Utama. Rakyat dan Sumber Daya adalah Komponen Cadangan dan Pendukung."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Apa yang dimaksud dengan 'Sishankamrata'?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sistem Pertahanan Keamanan Rakyat Semesta" },
+        { "key": "B", "text": "Sistem Pertahanan Khusus Militer" },
+        { "key": "C", "text": "Sistem Pertahanan Keamanan Raja-Raja" },
+        { "key": "D", "text": "Sistem Pertahanan Anti Teroris" },
+        { "key": "E", "text": "Sistem Keamanan Lingkungan Terpadu" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Sishankamrata adalah doktrin pertahanan Indonesia yang melibatkan seluruh potensi rakyat, wilayah, dan sumber daya nasional (Semesta)."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Hoaks dan ujaran kebencian di media sosial dapat memecah belah bangsa. Menangkal hoaks adalah wujud bela negara dalam menghadapi ancaman...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Militer" },
+        { "key": "B", "text": "Hibrida" },
+        { "key": "C", "text": "Nirmiliter bidang Ideologi dan Sosial Budaya" },
+        { "key": "D", "text": "Ekonomi" },
+        { "key": "E", "text": "Politik praktis" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Hoaks menyerang pola pikir dan persatuan (Ideologi/Sosbud), bukan serangan fisik. Menangkalnya adalah kewajiban setiap netizen (warga negara)."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Tindakan korupsi dikategorikan sebagai ancaman terhadap negara karena...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Melanggar hukum pidana saja." },
+        { "key": "B", "text": "Hanya merugikan keuangan perusahaan." },
+        { "key": "C", "text": "Melemahkan sendi-sendi perekonomian dan kepercayaan rakyat pada negara." },
+        { "key": "D", "text": "Membuat pejabat menjadi kaya." },
+        { "key": "E", "text": "Tidak ada hubungannya dengan keamanan." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Korupsi melemahkan ketahanan nasional dari dalam (internal), merusak ekonomi, dan memicu ketidakstabilan sosial."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Esensi dari bela negara adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengangkat senjata melawan penjajah." },
+        { "key": "B", "text": "Sikap dan perilaku warga negara yang dijiwai kecintaannya kepada NKRI." },
+        { "key": "C", "text": "Wajib militer bagi pemuda usia 18 tahun." },
+        { "key": "D", "text": "Membayar pajak tepat waktu saja." },
+        { "key": "E", "text": "Menjadi anggota TNI/Polri." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Definisi bela negara (UU No 3 Tahun 2002): Sikap dan perilaku warga negara yang dijiwai oleh kecintaannya kepada NKRI yang berdasarkan Pancasila dan UUD 1945."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Ancaman di bidang ekonomi yang paling nyata di era perdagangan bebas adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Masuknya tenaga kerja asing ilegal." },
+        { "key": "B", "text": "Membanjirnya produk impor yang mematikan UMKM lokal." },
+        { "key": "C", "text": "Investasi asing yang membangun infrastruktur." },
+        { "key": "D", "text": "Ekspor Indonesia meningkat." },
+        { "key": "E", "text": "Alih teknologi." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Ketergantungan pada produk impor dan matinya industri lokal adalah ancaman serius bagi kedaulatan ekonomi."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Nilai dasar bela negara meliputi hal-hal berikut, KECUALI...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Cinta Tanah Air" },
+        { "key": "B", "text": "Sadar Berbangsa dan Bernegara" },
+        { "key": "C", "text": "Setia pada Pancasila sebagai Ideologi Negara" },
+        { "key": "D", "text": "Rela Berkorban untuk Bangsa dan Negara" },
+        { "key": "E", "text": "Fanatisme Golongan yang Berlebihan" }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "5 Nilai Dasar Bela Negara: Cinta tanah air, Sadar berbangsa bernegara, Setia pada Pancasila, Rela berkorban, dan Kemampuan awal bela negara. Fanatisme golongan justru merusak persatuan."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Peristiwa Agresi Militer Belanda II menyebabkan Ibukota RI (Yogyakarta) jatuh. Siapakah yang diberi mandat membentuk PDRI?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Jenderal Soedirman" },
+        { "key": "B", "text": "Sjafruddin Prawiranegara" },
+        { "key": "C", "text": "Soekarno" },
+        { "key": "D", "text": "Moh. Hatta" },
+        { "key": "E", "text": "Sri Sultan Hamengkubuwono IX" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Sjafruddin Prawiranegara (Menteri Kemakmuran saat itu) yang berada di Sumatera diberi mandat kawat untuk membentuk Pemerintah Darurat."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Apa yang dimaksud dengan 'Kemampuan Awal Bela Negara'?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Harus jago menembak dan bela diri." },
+        { "key": "B", "text": "Memiliki senjata api di rumah." },
+        { "key": "C", "text": "Memiliki kesehatan fisik dan mental (psikis) yang prima untuk berkarya." },
+        { "key": "D", "text": "Menjadi anggota partai politik." },
+        { "key": "E", "text": "Memiliki banyak uang untuk menyumbang." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Kemampuan awal bela negara adalah kesiapan fisik (sehat jasmani) dan mental (disiplin, ulet, tangguh) untuk menjalankan tugas/profesi sehari-hari."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Dalam menghadapi ancaman siber (cyber attack), bentuk bela negara yang dapat dilakukan oleh seorang ahli IT adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membuat virus untuk menyerang negara lain." },
+        { "key": "B", "text": "Membantu pemerintah mengamankan infrastruktur digital negara." },
+        { "key": "C", "text": "Membocorkan data penduduk." },
+        { "key": "D", "text": "Menggunakan keahlian untuk membobol bank." },
+        { "key": "E", "text": "Tidak peduli karena bukan tugas militer." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Pengabdian sesuai profesi. Ahli IT berperan dalam pertahanan siber (Cyber Defense) yang merupakan domain pertahanan nirmiliter."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "ATHG adalah singkatan dari Ancaman, Tantangan, Hambatan, dan Gangguan. Yang dimaksud dengan 'Hambatan' adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Usaha dari luar yang bertujuan melemahkan secara konsepsional." },
+        { "key": "B", "text": "Usaha dari dalam diri sendiri yang bertujuan melemahkan secara tidak konsepsional." },
+        { "key": "C", "text": "Hal yang menggugah kemampuan." },
+        { "key": "D", "text": "Usaha yang bersifat merombak kebijaksanaan." },
+        { "key": "E", "text": "Serangan fisik dari musuh." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hambatan: Dari DALAM, melemahkan, tidak konsepsional (misal: fanatisme sempit, buta huruf). Ancaman: Merombak kebijaksanaan. Tantangan: Menggugah kemampuan. Gangguan: Dari LUAR, melemahkan."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Jenderal Soedirman tetap memimpin perang gerilya meskipun dalam keadaan sakit parah (paru-paru). Sikap beliau mencerminkan nilai bela negara...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Rela berkorban untuk bangsa dan negara." },
+        { "key": "B", "text": "Cinta tanah air." },
+        { "key": "C", "text": "Yakin akan kebenaran Pancasila." },
+        { "key": "D", "text": "Kesadaran berbangsa." },
+        { "key": "E", "text": "Kemampuan awal bela negara." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Mengorbankan kenyamanan pribadi, kesehatan, bahkan nyawa demi kedaulatan negara adalah puncak dari sikap Rela Berkorban."
+    },
+    {
+      "category_slug": "twk-bela-negara",
+      "question_text": "Berikut ini adalah contoh bela negara di lingkungan sekolah, KECUALI...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengikuti upacara bendera dengan khidmat." },
+        { "key": "B", "text": "Belajar dengan rajin untuk meraih prestasi." },
+        { "key": "C", "text": "Mematuhi tata tertib sekolah." },
+        { "key": "D", "text": "Tawuran dengan sekolah lain untuk menjaga kehormatan sekolah." },
+        { "key": "E", "text": "Menjaga kebersihan lingkungan sekolah." }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Tawuran adalah tindakan kriminal dan merusak persatuan, bertentangan dengan nilai bela negara."
+    }
+  ]
+}

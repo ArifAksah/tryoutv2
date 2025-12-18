@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan Silogisme (Logika Penarikan Kesimpulan)",
+    "instructions": "Import ke kategori tiu-silogisme"
+  },
+  "questions": [
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua karyawan di perusahaan A wajib memakai seragam. Sebagian orang yang ada di kantin perusahaan A tidak memakai seragam.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua orang yang ada di kantin perusahaan A adalah karyawan." },
+        { "key": "B", "text": "Sebagian orang yang ada di kantin perusahaan A bukan karyawan perusahaan A." },
+        { "key": "C", "text": "Semua karyawan perusahaan A tidak boleh makan di kantin." },
+        { "key": "D", "text": "Sebagian karyawan perusahaan A tidak memakai seragam." },
+        { "key": "E", "text": "Tidak ada orang di kantin yang merupakan karyawan." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Premis 1: Semua karyawan = Pakai Seragam.\nPremis 2: Sebagian di kantin = Tidak Pakai Seragam.\nKesimpulan: Yang tidak pakai seragam PASTI bukan karyawan. Maka, sebagian orang di kantin bukan karyawan."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua anggota asosiasi profesi harus hadir dalam rapat tahunan. Dokter Budi adalah anggota asosiasi profesi.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sebagian anggota tidak hadir rapat." },
+        { "key": "B", "text": "Dokter Budi mungkin hadir dalam rapat tahunan." },
+        { "key": "C", "text": "Dokter Budi harus hadir dalam rapat tahunan." },
+        { "key": "D", "text": "Selain Dokter Budi tidak wajib hadir." },
+        { "key": "E", "text": "Rapat tahunan hanya untuk Dokter Budi." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Premis 1: Semua A -> B.\nPremis 2: x adalah A.\nKesimpulan: x -> B. (Modus Ponens)"
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Jika musim hujan tiba, maka petani bahagia. Petani tidak bahagia.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Musim hujan tidak tiba." },
+        { "key": "B", "text": "Musim hujan tiba tapi petani sedih." },
+        { "key": "C", "text": "Petani bahagia walau tidak hujan." },
+        { "key": "D", "text": "Mungkin musim hujan tiba." },
+        { "key": "E", "text": "Tidak dapat ditarik kesimpulan." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Premis 1: P -> Q (Hujan -> Bahagia)\nPremis 2: ~Q (Tidak Bahagia)\nKesimpulan: ~P (Tidak Hujan). (Modus Tollens)"
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua model mengenakan gaun. Sebagian model mengenakan perhiasan.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua yang mengenakan perhiasan mengenakan gaun." },
+        { "key": "B", "text": "Sebagian yang mengenakan gaun mengenakan perhiasan." },
+        { "key": "C", "text": "Semua yang mengenakan gaun adalah model." },
+        { "key": "D", "text": "Tidak ada model yang tidak mengenakan perhiasan." },
+        { "key": "E", "text": "Semua yang mengenakan perhiasan adalah model." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Model (M) -> Gaun (G). Sebagian M -> Perhiasan (P). Maka ada irisan antara Gaun dan Perhiasan. Sebagian yang mengenakan gaun (yaitu si model tadi) mengenakan perhiasan."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Tidak ada pemalas yang sukses. Semua atlit adalah orang yang sukses.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sebagian atlit adalah pemalas." },
+        { "key": "B", "text": "Tidak ada atlit yang pemalas." },
+        { "key": "C", "text": "Semua pemalas adalah atlit." },
+        { "key": "D", "text": "Sebagian orang sukses adalah pemalas." },
+        { "key": "E", "text": "Pemalas itu mungkin atlit." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Premis 1: Pemalas -> Tidak Sukses.\nPremis 2: Atlit -> Sukses.\nKesimpulan: Atlit -> Tidak Pemalas. (Tidak ada atlit yang pemalas)."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua mahasiswa yang mendapat IPK di atas 3.5 berhak mendapat beasiswa. Rina tidak berhak mendapat beasiswa.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Rina bukan mahasiswa." },
+        { "key": "B", "text": "Rina mahasiswa dengan IPK pas 3.5." },
+        { "key": "C", "text": "IPK Rina tidak di atas 3.5." },
+        { "key": "D", "text": "Rina mahasiswa yang malas." },
+        { "key": "E", "text": "Tidak dapat disimpulkan." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "P -> Q (IPK > 3.5 -> Beasiswa). ~Q (Tidak dapat beasiswa). Maka ~P (IPK tidak > 3.5)."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua kertas gambar sangat berguna. Sebagian kertas yang sangat berguna harganya murah.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua kertas gambar harganya murah." },
+        { "key": "B", "text": "Semua kertas yang harganya murah adalah kertas gambar." },
+        { "key": "C", "text": "Sebagian kertas gambar harganya murah." },
+        { "key": "D", "text": "Kertas yang murah sangat berguna." },
+        { "key": "E", "text": "Tidak dapat ditarik kesimpulan." }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "Semua A -> B. Sebagian B -> C. Kita TIDAK BISA menyimpulkan hubungan antara A (Kertas gambar) dan C (Murah). Bisa saja kertas gambar itu bagian dari B yang 'mahal'."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Jika air laut pasang, maka nelayan tidak melaut. Jika nelayan tidak melaut, maka tidak ada ikan di pasar.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Jika air laut pasang, maka tidak ada ikan di pasar." },
+        { "key": "B", "text": "Jika tidak ada ikan di pasar, maka air laut pasang." },
+        { "key": "C", "text": "Jika nelayan melaut, maka air laut pasang." },
+        { "key": "D", "text": "Air laut tidak pasang namun tidak ada ikan." },
+        { "key": "E", "text": "Ada ikan di pasar meskipun air laut pasang." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Silogisme Hipotetik: P -> Q, Q -> R. Kesimpulan: P -> R."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua Guide pandai berbahasa asing. Budi bukan seorang Guide.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Budi tidak pandai berbahasa asing." },
+        { "key": "B", "text": "Budi pandai berbahasa asing." },
+        { "key": "C", "text": "Orang yang pandai berbahasa asing adalah Guide." },
+        { "key": "D", "text": "Mungkin Budi pandai berbahasa asing, mungkin tidak." },
+        { "key": "E", "text": "Budi pasti turis." }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "P -> Q. ~P. Ini adalah kesalahan logika (Denying the antecedent). Kita tidak bisa menyimpulkan Q atau ~Q. Budi bisa saja pandai bahasa asing meski bukan guide."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Setiap peserta ujian membawa pensil 2B. Si A tidak membawa pensil 2B.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Si A bukan peserta ujian." },
+        { "key": "B", "text": "Si A peserta ujian yang lupa." },
+        { "key": "C", "text": "Si A membawa pulpen." },
+        { "key": "D", "text": "Sebagian peserta tidak membawa pensil 2B." },
+        { "key": "E", "text": "Pensil 2B hanya untuk Si A." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Modus Tollens. Semua Peserta -> Bawa Pensil. Tidak Bawa Pensil -> Bukan Peserta."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua harimau adalah pemakan daging. Sebagian binatang di kebun binatang adalah harimau.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua binatang di kebun binatang pemakan daging." },
+        { "key": "B", "text": "Sebagian binatang di kebun binatang adalah pemakan daging." },
+        { "key": "C", "text": "Tidak ada pemakan daging di kebun binatang." },
+        { "key": "D", "text": "Semua pemakan daging adalah harimau." },
+        { "key": "E", "text": "Harimau bukan binatang di kebun binatang." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Semua A -> B. Sebagian C adalah A. Maka Sebagian C adalah B."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Kendaraan yang lewat tol harus membayar e-toll. Ambulans tidak membayar e-toll.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ambulans bukan kendaraan." },
+        { "key": "B", "text": "Ambulans tidak lewat tol." },
+        { "key": "C", "text": "Ambulans lewat tol gratis." },
+        { "key": "D", "text": "Kendaraan yang tidak membayar e-toll bukan kendaraan yang lewat tol (sesuai aturan premis ini)." },
+        { "key": "E", "text": "Semua kendaraan lewat tol." }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Secara logika premis tertutup: Jika Lewat Tol -> Bayar. Tidak Bayar -> Tidak Lewat Tol (atau premis dikecualikan). Namun opsi D yang paling logis menurut struktur Modus Tollens murni: Jika P -> Q, maka ~Q -> ~P (Tidak bayar -> Tidak masuk kategori lewat tol yang dimaksud di premis)."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua yang terbuat dari emas berkilau. Cincin itu berkilau.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Cincin itu terbuat dari emas." },
+        { "key": "B", "text": "Cincin itu belum tentu terbuat dari emas." },
+        { "key": "C", "text": "Emas selalu berbentuk cincin." },
+        { "key": "D", "text": "Sesuatu yang berkilau pasti emas." },
+        { "key": "E", "text": "Cincin itu palsu." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Affirming the consequent (Fallacy). P -> Q. Q terjadi. P belum tentu terjadi. (Berkilau bisa kaca, perak, dll)."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Pengurus koperasi seharusnya berjiwa sosial. Sebagian ketua RT adalah pengurus koperasi.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ketua RT itu selalu berjiwa sosial." },
+        { "key": "B", "text": "Semua orang yang berjiwa sosial adalah ketua RT." },
+        { "key": "C", "text": "Sebagian pengurus koperasi ingin menjadi ketua RT." },
+        { "key": "D", "text": "Sebagian ketua RT seharusnya berjiwa sosial." },
+        { "key": "E", "text": "Semua ketua RT berjiwa sosial." }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Semua A -> B. Sebagian C -> A. Maka Sebagian C -> B. (Sebagian ketua RT -> Pengurus Koperasi -> Berjiwa sosial)."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua A adalah B. Semua B adalah C. Sebagian C adalah D.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua A adalah D." },
+        { "key": "B", "text": "Semua B adalah D." },
+        { "key": "C", "text": "Sebagian A mungkin D." },
+        { "key": "D", "text": "Tidak ada A yang D." },
+        { "key": "E", "text": "Semua D adalah A." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "A subset B subset C. C beririsan dengan D. Karena A ada di dalam C, ada kemungkinan irisan C dan D juga mengenai A, tapi tidak pasti (Mungkin)."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Jika pernyataan 'Semua koruptor dihukum' adalah SALAH, maka pernyataan yang benar adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Semua koruptor tidak dihukum." },
+        { "key": "B", "text": "Tidak ada koruptor yang dihukum." },
+        { "key": "C", "text": "Sebagian koruptor tidak dihukum." },
+        { "key": "D", "text": "Sebagian koruptor dihukum." },
+        { "key": "E", "text": "Beberapa yang dihukum bukan koruptor." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Negasi dari kuantor Universal (Semua) adalah Eksistensial (Ada/Sebagian) + Negasi predikat. Negasi 'Semua A adalah B' = 'Ada/Sebagian A yang bukan B'."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Tanaman akan tumbuh subur jika diberi pupuk. Tanaman ini tidak tumbuh subur.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tanaman ini tidak diberi pupuk." },
+        { "key": "B", "text": "Tanaman ini diberi pupuk tapi palsu." },
+        { "key": "C", "text": "Tanaman ini mungkin diberi pupuk." },
+        { "key": "D", "text": "Tanaman ini mati." },
+        { "key": "E", "text": "Pupuknya habis." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Modus Tollens: Jika P (Pupuk) -> Q (Subur). ~Q (Tidak Subur) -> ~P (Tidak Pupuk)."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Semua anggota pramuka membawa tongkat. Andi anggota pramuka.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Andi membawa tali." },
+        { "key": "B", "text": "Andi tidak membawa tongkat." },
+        { "key": "C", "text": "Andi membawa tongkat." },
+        { "key": "D", "text": "Hanya Andi yang membawa tongkat." },
+        { "key": "E", "text": "Kecuali Andi, semua bawa tongkat." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Syllogisme Kategorial sederhana. Semua A = B. Andi = A. Maka Andi = B."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Barang pecah belah harus ditangani dengan hati-hati. Gelas kaca adalah barang pecah belah.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Gelas kaca tidak perlu hati-hati." },
+        { "key": "B", "text": "Semua barang harus ditangani hati-hati." },
+        { "key": "C", "text": "Gelas kaca harus ditangani dengan hati-hati." },
+        { "key": "D", "text": "Hanya gelas kaca yang pecah belah." },
+        { "key": "E", "text": "Barang hati-hati adalah gelas kaca." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Kesimpulan langsung dari dua premis umum ke khusus."
+    },
+    {
+      "category_slug": "tiu-silogisme",
+      "question_text": "Tidak ada ikan yang bernapas dengan paru-paru. Paus bernapas dengan paru-paru.",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Paus adalah ikan." },
+        { "key": "B", "text": "Sebagian ikan bernapas dengan paru-paru." },
+        { "key": "C", "text": "Paus bukan ikan." },
+        { "key": "D", "text": "Semua yang bernapas dengan paru-paru adalah paus." },
+        { "key": "E", "text": "Ikan dan paus sama-sama berenang." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Premis 1: Ikan -> Tidak Paru-paru. Premis 2: Paus -> Paru-paru. Kesimpulan: Paus -> Bukan Ikan."
+    }
+  ]
+}

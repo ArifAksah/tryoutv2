@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TWK Pilar Negara (Pancasila, UUD 1945, NKRI, Bhinneka Tunggal Ika)",
+    "instructions": "Import ke kategori twk-pilar-negara"
+  },
+  "questions": [
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Kedudukan Pancasila sebagai 'Staatsfundamentalnorm' mengandung arti bahwa Pancasila adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hukum dasar tertulis." },
+        { "key": "B", "text": "Pokok kaidah negara yang fundamental dan sumber dari segala sumber hukum." },
+        { "key": "C", "text": "Pandangan hidup bangsa sehari-hari." },
+        { "key": "D", "text": "Perjanjian luhur bangsa." },
+        { "key": "E", "text": "Alat pemersatu bangsa." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Staatsfundamentalnorm (Norma Fundamental Negara) menempatkan Pancasila di puncak hierarki hukum, di atas UUD 1945, sebagai sumber dari segala sumber hukum."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Amandemen UUD 1945 yang membatasi masa jabatan Presiden dan Wakil Presiden maksimal dua periode (Pasal 7) dilakukan pada...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Amandemen Pertama (1999)" },
+        { "key": "B", "text": "Amandemen Kedua (2000)" },
+        { "key": "C", "text": "Amandemen Ketiga (2001)" },
+        { "key": "D", "text": "Amandemen Keempat (2002)" },
+        { "key": "E", "text": "Dekrit Presiden" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Amandemen Pertama (19-21 Oktober 1999) fokus pada pembatasan kekuasaan eksekutif, termasuk Pasal 7 tentang masa jabatan presiden."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Dalam mengambil keputusan di lingkungan masyarakat, Pak RT selalu mengedepankan musyawarah untuk mencapai mufakat. Hal ini merupakan pengamalan Pancasila sila ke-...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pertama" },
+        { "key": "B", "text": "Kedua" },
+        { "key": "C", "text": "Ketiga" },
+        { "key": "D", "text": "Keempat" },
+        { "key": "E", "text": "Kelima" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Sila ke-4 (Kerakyatan yang dipimpin oleh hikmat kebijaksanaan...) menekankan pada demokrasi, musyawarah, dan mufakat."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Lembaga negara yang berwenang memutus perselisihan hasil pemilihan umum (PHPU) dan pembubaran partai politik adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mahkamah Agung (MA)" },
+        { "key": "B", "text": "Komisi Yudisial (KY)" },
+        { "key": "C", "text": "Mahkamah Konstitusi (MK)" },
+        { "key": "D", "text": "Komisi Pemilihan Umum (KPU)" },
+        { "key": "E", "text": "MPR" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Kewenangan MK (UUD Pasal 24C): Menguji UU terhadap UUD, memutus sengketa kewenangan lembaga negara, memutus pembubaran parpol, dan memutus perselisihan hasil pemilu."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Semboyan 'Bhinneka Tunggal Ika' diambil dari kitab Sutasoma karangan...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mpu Prapanca" },
+        { "key": "B", "text": "Mpu Tantular" },
+        { "key": "C", "text": "Mpu Gandring" },
+        { "key": "D", "text": "Mpu Panuluh" },
+        { "key": "E", "text": "Mpu Sedah" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Frasa Bhinneka Tunggal Ika Tan Hana Dharma Mangrwa terdapat dalam Kakawin Sutasoma karya Mpu Tantular pada masa Majapahit."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Mengakui persamaan derajat, persamaan hak, dan kewajiban asasi setiap manusia tanpa membeda-bedakan suku, keturunan, agama, dan warna kulit adalah butir pengamalan sila ke-...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "1" },
+        { "key": "B", "text": "2" },
+        { "key": "C", "text": "3" },
+        { "key": "D", "text": "4" },
+        { "key": "E", "text": "5" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Sila ke-2 (Kemanusiaan yang adil dan beradab) fokus pada penghormatan terhadap HAM, humanisme, dan persamaan derajat manusia."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Sebelum disahkan, sila pertama Pancasila dalam Piagam Jakarta berbunyi...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ketuhanan Yang Maha Esa." },
+        { "key": "B", "text": "Ketuhanan yang berkebudayaan." },
+        { "key": "C", "text": "Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya." },
+        { "key": "D", "text": "Peri Ketuhanan." },
+        { "key": "E", "text": "Ketuhanan Yang Maha Esa dan Beradab." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Sila pertama Piagam Jakarta (22 Juni 1945) awalnya memuat 'tujuh kata' yang kemudian dihapus demi persatuan bangsa menjadi 'Ketuhanan Yang Maha Esa' pada 18 Agustus 1945."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Pasal 1 Ayat (3) UUD 1945 menegaskan bahwa 'Negara Indonesia adalah negara...'",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hukum (Rechtsstaat)" },
+        { "key": "B", "text": "Kekuasaan (Machtsstaat)" },
+        { "key": "C", "text": "Kesatuan" },
+        { "key": "D", "text": "Republik" },
+        { "key": "E", "text": "Demokrasi" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Pasal 1 Ayat (3) UUD 1945 (Hasil Amandemen): 'Negara Indonesia adalah negara hukum.'"
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Hubungan antara Pemerintah Pusat dan Pemerintah Daerah (Otonomi Daerah) diatur dalam UUD 1945 Pasal...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pasal 18" },
+        { "key": "B", "text": "Pasal 20" },
+        { "key": "C", "text": "Pasal 24" },
+        { "key": "D", "text": "Pasal 33" },
+        { "key": "E", "text": "Pasal 34" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Pasal 18, 18A, dan 18B mengatur tentang Pemerintahan Daerah (Desentralisasi dan Otonomi Daerah)."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Panitia Sembilan yang merumuskan Piagam Jakarta diketuai oleh...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Moh. Hatta" },
+        { "key": "B", "text": "Ir. Soekarno" },
+        { "key": "C", "text": "Dr. Radjiman Wedyodiningrat" },
+        { "key": "D", "text": "Mr. Moh. Yamin" },
+        { "key": "E", "text": "Abikoesno Tjokrosoejoso" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Ir. Soekarno adalah ketua Panitia Sembilan yang dibentuk BPUPKI untuk merumuskan dasar negara."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Sikap 'Tidak bergaya hidup mewah' dan 'Suka bekerja keras' merupakan butir pengamalan Pancasila sila ke-...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "1" },
+        { "key": "B", "text": "2" },
+        { "key": "C", "text": "3" },
+        { "key": "D", "text": "4" },
+        { "key": "E", "text": "5" }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "Sila ke-5 (Keadilan Sosial) menekankan pada keseimbangan hak dan kewajiban, menghargai karya orang lain, hemat, dan tidak bergaya hidup boros."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Sistem pemerintahan yang dianut oleh Indonesia berdasarkan UUD 1945 adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Parlementer" },
+        { "key": "B", "text": "Presidensial" },
+        { "key": "C", "text": "Monarki Konstitusional" },
+        { "key": "D", "text": "Liberal" },
+        { "key": "E", "text": "Komunis" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Indonesia menganut sistem Presidensial, di mana Presiden berkedudukan sebagai Kepala Negara sekaligus Kepala Pemerintahan dan tidak bertanggung jawab kepada Parlemen."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Hak DPR untuk meminta keterangan kepada pemerintah mengenai kebijakan pemerintah yang penting dan strategis disebut...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hak Angket" },
+        { "key": "B", "text": "Hak Interpelasi" },
+        { "key": "C", "text": "Hak Menyatakan Pendapat" },
+        { "key": "D", "text": "Hak Imunitas" },
+        { "key": "E", "text": "Hak Budget" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hak Interpelasi = Meminta keterangan. Hak Angket = Melakukan penyelidikan. Hak Menyatakan Pendapat = Tindak lanjut interpelasi/angket."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Dalam hierarki peraturan perundang-undangan di Indonesia (UU No. 12 Tahun 2011), urutan tertinggi setelah UUD 1945 adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Undang-Undang (UU)" },
+        { "key": "B", "text": "Peraturan Pemerintah (PP)" },
+        { "key": "C", "text": "Ketetapan MPR (Tap MPR)" },
+        { "key": "D", "text": "Peraturan Presiden (Perpres)" },
+        { "key": "E", "text": "Peraturan Daerah (Perda)" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Urutan Hierarki: 1. UUD 1945, 2. Tap MPR, 3. UU/Perppu, 4. PP, 5. Perpres, 6. Perda Provinsi, 7. Perda Kab/Kota."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Paham radikalisme yang ingin mengganti ideologi Pancasila dengan ideologi lain bertentangan secara langsung dengan sila ke-...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "1 (Ketuhanan)" },
+        { "key": "B", "text": "2 (Kemanusiaan)" },
+        { "key": "C", "text": "3 (Persatuan)" },
+        { "key": "D", "text": "1 dan 3 (Utamanya)" },
+        { "key": "E", "text": "5 (Keadilan)" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Radikalisme agama seringkali memaksakan kehendak (melanggar Sila 1 yang toleran) dan memecah belah bangsa (melanggar Sila 3)."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Bentuk negara Indonesia adalah Kesatuan (Unitaris), sedangkan bentuk pemerintahannya adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Serikat" },
+        { "key": "B", "text": "Kerajaan" },
+        { "key": "C", "text": "Republik" },
+        { "key": "D", "text": "Federasi" },
+        { "key": "E", "text": "Otokrasi" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Pasal 1 Ayat (1) UUD 1945: Negara Indonesia ialah Negara Kesatuan, yang berbentuk Republik."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Pancasila sebagai ideologi terbuka memiliki ciri-ciri berikut, KECUALI...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Nilai-nilainya digali dari budaya bangsa sendiri." },
+        { "key": "B", "text": "Bersifat dinamis dan reformis." },
+        { "key": "C", "text": "Dapat berinteraksi dengan perkembangan zaman." },
+        { "key": "D", "text": "Isinya bersifat mutlak dan dogmatis (kaku)." },
+        { "key": "E", "text": "Menghargai pluralitas/keberagaman." }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Ideologi terbuka bersifat fleksibel, tidak kaku, dan tidak dogmatis. Opsi D adalah ciri ideologi tertutup."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Siapakah yang pertama kali mengusulkan nama 'Pancasila' dalam sidang BPUPKI?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Moh. Yamin" },
+        { "key": "B", "text": "Soepomo" },
+        { "key": "C", "text": "Ir. Soekarno" },
+        { "key": "D", "text": "Moh. Hatta" },
+        { "key": "E", "text": "Ki Bagus Hadikusumo" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Ir. Soekarno dalam pidatonya tanggal 1 Juni 1945 mengusulkan nama Pancasila (atas saran seorang ahli bahasa) untuk dasar negara."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Pasal 29 Ayat (2) UUD 1945 menjamin kemerdekaan tiap-tiap penduduk untuk...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Bekerja dan mendapat penghidupan yang layak." },
+        { "key": "B", "text": "Memeluk agamanya masing-masing dan beribadah menurut agamanya itu." },
+        { "key": "C", "text": "Berserikat dan berkumpul." },
+        { "key": "D", "text": "Mendapatkan pendidikan." },
+        { "key": "E", "text": "Ikut serta dalam usaha pertahanan negara." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Pasal 29 Ayat (2) adalah jaminan konstitusional atas kebebasan beragama dan beribadah di Indonesia."
+    },
+    {
+      "category_slug": "twk-pilar-negara",
+      "question_text": "Apa yang dimaksud dengan 'Trias Politica' yang diterapkan di Indonesia (dengan modifikasi)?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pemisahan kekuasaan menjadi Eksekutif, Legislatif, dan Yudikatif." },
+        { "key": "B", "text": "Penyatuan kekuasaan di tangan Presiden." },
+        { "key": "C", "text": "Kekuasaan di tangan MPR sepenuhnya." },
+        { "key": "D", "text": "Pemisahan antara Agama dan Negara." },
+        { "key": "E", "text": "Pembagian kekuasaan Pusat dan Daerah." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Indonesia menerapkan pembagian kekuasaan (distribution of power) berdasarkan prinsip Trias Politica (Montesquieu): Eksekutif (Presiden), Legislatif (DPR, DPD), Yudikatif (MA, MK, KY)."
+    }
+  ]
+}

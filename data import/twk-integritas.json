@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TWK Integritas (Anti-Korupsi & Kejujuran)",
+    "instructions": "Import ke kategori twk-integritas"
+  },
+  "questions": [
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Secara etimologis, integritas berasal dari bahasa Latin 'integer' yang berarti...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sikap jujur dan berani." },
+        { "key": "B", "text": "Utuh, lengkap, dan tidak cacat." },
+        { "key": "C", "text": "Konsistensi ucapan dan perbuatan." },
+        { "key": "D", "text": "Kepatuhan terhadap aturan." },
+        { "key": "E", "text": "Kekuasaan tertinggi." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Integer berarti utuh atau lengkap. Orang yang berintegritas memiliki kepribadian yang utuh (tidak terpecah) antara hati, ucapan, dan tindakan."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Anda adalah seorang panitia pengadaan barang. Rekan dekat Anda mengikuti tender dan meminta bocoran spesifikasi teknis agar bisa menang. Sikap Anda sebagai ASN yang berintegritas adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Memberikan sedikit bocoran karena dia teman baik yang sedang butuh bantuan." },
+        { "key": "B", "text": "Menolak dengan tegas dan menjelaskan bahwa hal tersebut melanggar kode etik." },
+        { "key": "C", "text": "Pura-pura tidak tahu dan mengalihkan pembicaraan." },
+        { "key": "D", "text": "Melaporkan teman tersebut ke pihak berwajib segera." },
+        { "key": "E", "text": "Menyarankan dia bertanya kepada panitia lain saja." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Integritas menuntut ketegasan dalam menolak konflik kepentingan (Conflict of Interest), meskipun terhadap teman sendiri."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Terdapat 9 Nilai Integritas yang dirumuskan oleh KPK, yang dikelompokkan menjadi Inti, Etos Kerja, dan Sikap. Manakah yang termasuk nilai 'Inti'?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Jujur, Disiplin, Tanggung Jawab" },
+        { "key": "B", "text": "Kerja Keras, Sederhana, Mandiri" },
+        { "key": "C", "text": "Berani, Peduli, Adil" },
+        { "key": "D", "text": "Jujur, Peduli, Mandiri" },
+        { "key": "E", "text": "Jujur, Tanggung Jawab, Disiplin" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Pengelompokan Nilai KPK:\n1. Inti: Jujur, Disiplin, Tanggung Jawab.\n2. Etos Kerja: Kerja Keras, Sederhana, Mandiri.\n3. Sikap: Adil, Berani, Peduli."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Seorang ASN menerima bingkisan lebaran dari vendor yang sedang mengerjakan proyek di kantornya. Bingkisan tersebut termasuk dalam kategori...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Suap" },
+        { "key": "B", "text": "Pemerasan" },
+        { "key": "C", "text": "Gratifikasi" },
+        { "key": "D", "text": "Uang Pelicin" },
+        { "key": "E", "text": "Hadiah kekeluargaan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Gratifikasi adalah pemberian dalam arti luas (uang, barang, diskon, dll) yang berkaitan dengan jabatan dan berlawanan dengan kewajiban/tugasnya."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Batas waktu maksimal pelaporan gratifikasi kepada KPK agar penerima terbebas dari ancaman pidana adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "7 hari kerja" },
+        { "key": "B", "text": "14 hari kerja" },
+        { "key": "C", "text": "30 hari kerja" },
+        { "key": "D", "text": "60 hari kerja" },
+        { "key": "E", "text": "24 jam" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Sesuai UU No. 20 Tahun 2001, penerima gratifikasi wajib melapor ke KPK paling lambat 30 hari kerja sejak menerima gratifikasi."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Sikap 'Whistleblowing' dalam sistem integritas merujuk pada...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tindakan membiarkan pelanggaran demi menjaga nama baik instansi." },
+        { "key": "B", "text": "Pelaporan pelanggaran atau indikasi tindak pidana korupsi yang terjadi di dalam organisasi." },
+        { "key": "C", "text": "Membocorkan rahasia negara kepada publik." },
+        { "key": "D", "text": "Sikap mencari kesalahan rekan kerja untuk menjatuhkannya." },
+        { "key": "E", "text": "Menyebarkan aib atasan di media sosial." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Whistleblowing system adalah mekanisme pelaporan pelanggaran (fraud/korupsi) yang dilakukan oleh orang dalam (internal) dengan jaminan kerahasiaan pelapor."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Korupsi seringkali dimulai dari hal kecil, seperti menggunakan fasilitas kantor untuk kepentingan pribadi. Perilaku ini menunjukkan lemahnya nilai...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Kerja keras" },
+        { "key": "B", "text": "Sederhana" },
+        { "key": "C", "text": "Berani" },
+        { "key": "D", "text": "Akuntabilitas dan Kejujuran" },
+        { "key": "E", "text": "Toleransi" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Menggunakan fasilitas kantor (milik negara) untuk pribadi adalah bentuk ketidakjujuran (korupsi waktu/fasilitas) dan tidak akuntabel."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Apa perbedaan mendasar antara Suap dan Gratifikasi?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Suap nilainya besar, gratifikasi nilainya kecil." },
+        { "key": "B", "text": "Suap ada kesepakatan/transaksi di awal (meeting of mind), gratifikasi tidak selalu ada kesepakatan (tanam budi)." },
+        { "key": "C", "text": "Suap dilakukan pejabat tinggi, gratifikasi oleh staf." },
+        { "key": "D", "text": "Suap legal, gratifikasi ilegal." },
+        { "key": "E", "text": "Tidak ada perbedaan, keduanya sama." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Suap bersifat transaksional (ada janji: 'saya kasih ini, kamu lakukan itu'). Gratifikasi seringkali tanpa janji eksplisit tapi mengharap imbal balik di masa depan (tanam budi)."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Seorang atasan meminta Anda memanipulasi laporan keuangan agar anggaran terserap habis di akhir tahun. Sikap Anda?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menuruti perintah atasan karena loyalitas pegawai adalah yang utama." },
+        { "key": "B", "text": "Menolak secara halus dan mengingatkan resiko hukumnya." },
+        { "key": "C", "text": "Melakukan perintah tersebut tapi meminta surat perintah tertulis agar aman." },
+        { "key": "D", "text": "Menceritakan keburukan atasan kepada rekan kerja lain." },
+        { "key": "E", "text": "Resign dari pekerjaan saat itu juga." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Integritas berarti berani menolak ketidakjujuran meskipun diperintah atasan. Loyalitas kepada negara/aturan lebih tinggi daripada loyalitas kepada pimpinan yang salah."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Nilai 'Sederhana' dalam anti-korupsi mengajarkan kita untuk...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hidup miskin dan menolak kekayaan." },
+        { "key": "B", "text": "Memprioritaskan kebutuhan daripada keinginan dan tidak bergaya hidup mewah." },
+        { "key": "C", "text": "Selalu membeli barang termurah meskipun kualitas buruk." },
+        { "key": "D", "text": "Tidak mau bergaul dengan orang kaya." },
+        { "key": "E", "text": "Menolak kenaikan gaji." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Sederhana bukan berarti miskin, melainkan pola hidup yang wajar, tidak hedonis, dan sesuai kemampuan (needs over wants). Gaya hidup mewah seringkali menjadi pemicu korupsi."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Konflik Kepentingan (Conflict of Interest) terjadi ketika...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Seorang pegawai bertengkar dengan atasan." },
+        { "key": "B", "text": "Kepentingan pribadi/golongan bertentangan dengan tugas dan tanggung jawab jabatan." },
+        { "key": "C", "text": "Dua pegawai bersaing mendapatkan promosi." },
+        { "key": "D", "text": "Masyarakat menolak kebijakan pemerintah." },
+        { "key": "E", "text": "Terjadi perbedaan pendapat dalam rapat." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Konflik kepentingan adalah situasi dimana penyelenggara negara memiliki kepentingan pribadi (bisnis, keluarga, dll) yang dapat mempengaruhi objektivitas dalam pengambilan keputusan dinas."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Anda menemukan dompet berisi uang dan identitas di lobi kantor. Tidak ada orang yang melihat Anda mengambilnya. Tindakan berintegritas adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengambil uangnya dan membuang dompetnya." },
+        { "key": "B", "text": "Membawa dompet tersebut ke pos keamanan atau mencari pemiliknya sesuai identitas." },
+        { "key": "C", "text": "Menunggu sampai pemiliknya mengumumkan kehilangan." },
+        { "key": "D", "text": "Menyimpannya karena merasa itu rezeki." },
+        { "key": "E", "text": "Meninggalkannya begitu saja agar tidak tertuduh mencuri." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Kejujuran diuji saat tidak ada orang yang melihat. Mengembalikan hak orang lain adalah wujud integritas moral."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Salah satu ciri orang yang memiliki integritas tinggi adalah 'Walk the Talk', yang artinya...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Suka berjalan-jalan sambil berbicara." },
+        { "key": "B", "text": "Banyak bicara sedikit bekerja." },
+        { "key": "C", "text": "Keselarasan antara perkataan dan perbuatan." },
+        { "key": "D", "text": "Mampu berbicara di depan umum dengan baik." },
+        { "key": "E", "text": "Bekerja dalam diam." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Walk the talk (melakukan apa yang dikatakan) adalah inti dari integritas: satunya kata dengan perbuatan."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Fungsi utama Laporan Harta Kekayaan Penyelenggara Negara (LHKPN) dalam upaya pencegahan korupsi adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Untuk memamerkan kekayaan pejabat." },
+        { "key": "B", "text": "Untuk menentukan besaran pajak pejabat." },
+        { "key": "C", "text": "Sebagai instrumen transparansi dan kontrol atas kewajaran harta pejabat." },
+        { "key": "D", "text": "Agar pejabat takut membeli barang mewah." },
+        { "key": "E", "text": "Untuk keperluan sensus penduduk." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "LHKPN berfungsi mendeteksi 'Illicit Enrichment' (kekayaan yang tidak wajar/tidak sebanding dengan penghasilan sah), sehingga menjadi alat kontrol transparansi."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Di sebuah antrean pelayanan publik yang panjang, seorang bapak tua meminta tolong agar didahulukan karena sakit. Sikap petugas yang berintegritas namun tetap humanis adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak tegas karena melanggar aturan antrean." },
+        { "key": "B", "text": "Meminta izin kepada antrean lain untuk mendahulukan bapak tersebut karena alasan prioritas (kemanusiaan)." },
+        { "key": "C", "text": "Menyuruh bapak itu pulang saja." },
+        { "key": "D", "text": "Pura-pura tidak dengar." },
+        { "key": "E", "text": "Membawanya masuk lewat pintu belakang diam-diam." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Integritas (aturan) dan Kemanusiaan (Sila ke-2) harus berjalan beriringan. Pelayanan publik memiliki SOP jalur prioritas untuk lansia/difabel/sakit."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Apa dampak korupsi terhadap perekonomian negara secara makro?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Meningkatkan investasi asing." },
+        { "key": "B", "text": "Mempercepat perputaran uang." },
+        { "key": "C", "text": "Menghambat pertumbuhan ekonomi, menurunkan kualitas infrastruktur, dan meningkatkan kemiskinan." },
+        { "key": "D", "text": "Meningkatkan kesejahteraan pegawai." },
+        { "key": "E", "text": "Menurunkan harga barang." }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Korupsi menciptakan ekonomi biaya tinggi, ketidakpastian hukum, dan kebocoran anggaran yang menghambat investasi dan pembangunan."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Seorang ASN membolos kerja untuk liburan namun menitipkan absen kepada rekannya (absen manual). Tindakan ini melanggar nilai integritas...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Berani" },
+        { "key": "B", "text": "Mandiri" },
+        { "key": "C", "text": "Jujur dan Disiplin" },
+        { "key": "D", "text": "Peduli" },
+        { "key": "E", "text": "Sederhana" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Titip absen adalah bentuk ketidakjujuran (memalsukan kehadiran) dan ketidakdisiplinan (tidak hadir kerja)."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Dalam Undang-Undang ASN, integritas menjadi salah satu prinsip dasar. Kode etik ASN menuntut pegawai untuk...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Loyal kepada partai politik penguasa." },
+        { "key": "B", "text": "Menjaga rahasia jabatan dan negara." },
+        { "key": "C", "text": "Mencari keuntungan pribadi dari jabatan." },
+        { "key": "D", "text": "Bersikap diskriminatif dalam pelayanan." },
+        { "key": "E", "text": "Mengkritik pemerintah di media sosial secara terbuka." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Menjaga rahasia jabatan adalah bagian dari kode etik dan integritas ASN. ASN harus profesional dan tidak membocorkan informasi rahasia."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Sikap 'Berani' dalam nilai integritas KPK maksudnya adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Berani melawan atasan secara fisik." },
+        { "key": "B", "text": "Berani melaporkan tindak korupsi dan menolak ajakan berbuat curang." },
+        { "key": "C", "text": "Berani mengambil uang negara." },
+        { "key": "D", "text": "Berani bolos kerja." },
+        { "key": "E", "text": "Berani memarahi masyarakat." }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Berani dalam konteks integritas adalah keberanian moral untuk menegakkan kebenaran, menolak suap, dan melaporkan kecurangan."
+    },
+    {
+      "category_slug": "twk-integritas",
+      "question_text": "Role model atau keteladanan pimpinan sangat penting dalam membangun budaya integritas karena...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Bawahan cenderung meniru perilaku atasan (patron-client)." },
+        { "key": "B", "text": "Pimpinan memiliki gaji terbesar." },
+        { "key": "C", "text": "Aturan hanya berlaku untuk bawahan." },
+        { "key": "D", "text": "Pimpinan tidak mungkin salah." },
+        { "key": "E", "text": "Agar pimpinan menjadi populer." }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Keteladanan (Ing Ngarso Sung Tulodo) adalah metode paling efektif. Jika pimpinan korup, bawahan akan permisif terhadap korupsi. Jika pimpinan jujur, bawahan akan segan berbuat curang."
+    }
+  ]
+}

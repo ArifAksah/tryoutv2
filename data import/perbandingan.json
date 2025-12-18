@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Perbandingan Senilai dan Berbalik Nilai (TIU)",
+    "instructions": "Import ke kategori tiu-perbandingansenilai-taksenilai"
+  },
+  "questions": [
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Sebuah mobil memerlukan 5 liter bensin untuk menempuh jarak 60 km. Jika mobil tersebut menghabiskan 40 liter bensin, berapa jarak yang ditempuh?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "400 km" },
+        { "key": "B", "text": "480 km" },
+        { "key": "C", "text": "300 km" },
+        { "key": "D", "text": "500 km" },
+        { "key": "E", "text": "450 km" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Ini adalah Perbandingan Senilai (Semakin banyak bensin, semakin jauh jarak).\n5 liter -> 60 km\n40 liter -> X\nX = (40 / 5) * 60 = 8 * 60 = 480 km."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Suatu pekerjaan dapat diselesaikan oleh 12 orang dalam waktu 20 hari. Jika pekerjaan tersebut ingin diselesaikan dalam waktu 15 hari, berapa tambahan pekerja yang diperlukan?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "4 orang" },
+        { "key": "B", "text": "5 orang" },
+        { "key": "C", "text": "16 orang" },
+        { "key": "D", "text": "3 orang" },
+        { "key": "E", "text": "6 orang" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Ini adalah Perbandingan Berbalik Nilai (Waktu berkurang, pekerja harus bertambah).\n12 orang * 20 hari = X orang * 15 hari\n240 = 15X\nX = 240 / 15 = 16 orang.\nTambahan pekerja = 16 - 12 = 4 orang."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Harga 3 kodi pulpen adalah Rp 180.000. Berapakah harga 10 buah pulpen tersebut?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Rp 25.000" },
+        { "key": "B", "text": "Rp 30.000" },
+        { "key": "C", "text": "Rp 35.000" },
+        { "key": "D", "text": "Rp 40.000" },
+        { "key": "E", "text": "Rp 20.000" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Ini adalah Perbandingan Senilai.\n1 kodi = 20 buah. 3 kodi = 60 buah.\nHarga per buah = 180.000 / 60 = Rp 3.000.\nHarga 10 buah = 10 * 3.000 = Rp 30.000."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Seorang peternak memiliki persediaan makanan untuk 20 ekor sapi selama 30 hari. Jika ia membeli 5 ekor sapi lagi, maka persediaan makanan akan habis dalam waktu berapa hari?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "20 hari" },
+        { "key": "B", "text": "24 hari" },
+        { "key": "C", "text": "25 hari" },
+        { "key": "D", "text": "28 hari" },
+        { "key": "E", "text": "18 hari" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Ini adalah Perbandingan Berbalik Nilai (Sapi bertambah, waktu habis makin cepat).\nTotal sapi awal = 20.\nTotal sapi akhir = 20 + 5 = 25.\n20 ekor * 30 hari = 25 ekor * X hari\n600 = 25X\nX = 600 / 25 = 24 hari."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Untuk membuat 5 loyang kue diperlukan 3 kg tepung terigu. Jika Ibu ingin membuat 15 loyang kue, berapa kg tepung yang dibutuhkan?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "6 kg" },
+        { "key": "B", "text": "9 kg" },
+        { "key": "C", "text": "10 kg" },
+        { "key": "D", "text": "12 kg" },
+        { "key": "E", "text": "15 kg" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Ini adalah Perbandingan Senilai.\n5 loyang -> 3 kg\n15 loyang -> X kg\nX = (15 / 5) * 3 = 3 * 3 = 9 kg."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Jarak kota A ke kota B dapat ditempuh dengan kecepatan rata-rata 60 km/jam dalam waktu 4 jam. Jika ingin sampai dalam waktu 3 jam, berapa kecepatan rata-rata yang diperlukan?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "70 km/jam" },
+        { "key": "B", "text": "75 km/jam" },
+        { "key": "C", "text": "80 km/jam" },
+        { "key": "D", "text": "90 km/jam" },
+        { "key": "E", "text": "85 km/jam" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Ini adalah Perbandingan Berbalik Nilai (Waktu makin singkat, kecepatan harus makin tinggi).\n60 km/jam * 4 jam = X * 3 jam\n240 = 3X\nX = 80 km/jam."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Uang sebesar Rp 60.000 dapat ditukar dengan 4 dolar Amerika. Berapa rupiah yang diperlukan untuk mendapatkan 15 dolar Amerika?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Rp 200.000" },
+        { "key": "B", "text": "Rp 225.000" },
+        { "key": "C", "text": "Rp 250.000" },
+        { "key": "D", "text": "Rp 180.000" },
+        { "key": "E", "text": "Rp 215.000" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Ini adalah Perbandingan Senilai.\n4 dolar = Rp 60.000 -> 1 dolar = Rp 15.000.\n15 dolar = 15 * 15.000 = Rp 225.000."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Sebuah proyek pembangunan direncanakan selesai dalam 40 hari oleh 30 pekerja. Setelah berjalan 10 hari, pekerjaan terhenti selama 5 hari karena cuaca buruk. Agar proyek selesai tepat waktu, berapa tambahan pekerja yang dibutuhkan?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "5 pekerja" },
+        { "key": "B", "text": "6 pekerja" },
+        { "key": "C", "text": "8 pekerja" },
+        { "key": "D", "text": "10 pekerja" },
+        { "key": "E", "text": "12 pekerja" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Perbandingan Berbalik Nilai (Sisa waktu).\nSisa hari normal = 40 - 10 = 30 hari.\nBeban kerja sisa = 30 pekerja x 30 hari.\nWaktu tersisa karena libur = 30 - 5 = 25 hari.\nJumlah pekerja total yg dibutuhkan = (30 * 30) / 25 = 900 / 25 = 36 pekerja.\nTambahan = 36 - 30 = 6 pekerja."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Jika 8 buah buku tulis harganya Rp 24.000, berapakah harga 1,5 lusin buku tulis tersebut?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Rp 36.000" },
+        { "key": "B", "text": "Rp 48.000" },
+        { "key": "C", "text": "Rp 54.000" },
+        { "key": "D", "text": "Rp 72.000" },
+        { "key": "E", "text": "Rp 60.000" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Ini adalah Perbandingan Senilai.\n8 buku = 24.000 -> 1 buku = 3.000.\n1,5 lusin = 18 buah.\n18 * 3.000 = Rp 54.000."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Sebuah asrama memiliki persediaan beras yang cukup untuk 40 orang selama 15 hari. Jika penghuni asrama bertambah 10 orang, berapa hari persediaan beras akan habis?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "10 hari" },
+        { "key": "B", "text": "12 hari" },
+        { "key": "C", "text": "11 hari" },
+        { "key": "D", "text": "8 hari" },
+        { "key": "E", "text": "13 hari" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Perbandingan Berbalik Nilai (Orang bertambah, waktu habis makin cepat).\nTotal orang awal = 40.\nTotal orang akhir = 40 + 10 = 50.\n40 orang * 15 hari = 50 orang * X hari\n600 = 50X\nX = 600 / 50 = 12 hari."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Sebuah mobil menghabiskan 8 liter bensin untuk menempuh jarak 96 km. Jika mobil menempuh jarak 144 km, bensin yang dibutuhkan adalah?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "10 liter" },
+        { "key": "B", "text": "11 liter" },
+        { "key": "C", "text": "12 liter" },
+        { "key": "D", "text": "14 liter" },
+        { "key": "E", "text": "15 liter" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Perbandingan Senilai.\n8 liter -> 96 km.\n1 liter -> 96 / 8 = 12 km.\nUntuk 144 km -> 144 / 12 = 12 liter."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Enam orang pekerja dapat menyelesaikan pengecatan gedung dalam waktu 8 hari. Jika 2 pekerja sakit dan tidak bisa bekerja, berapa lama waktu yang dibutuhkan sisa pekerja untuk menyelesaikan pengecatan?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "10 hari" },
+        { "key": "B", "text": "12 hari" },
+        { "key": "C", "text": "14 hari" },
+        { "key": "D", "text": "16 hari" },
+        { "key": "E", "text": "9 hari" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Perbandingan Berbalik Nilai.\n6 pekerja -> 8 hari.\nSisa pekerja = 6 - 2 = 4 pekerja.\n6 * 8 = 4 * X\n48 = 4X\nX = 12 hari."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Bayangan sebuah tiang bendera yang tingginya 3 m adalah 1,5 m. Pada saat yang sama, sebuah pohon memiliki bayangan sepanjang 6 m. Berapakah tinggi pohon tersebut?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "9 m" },
+        { "key": "B", "text": "10 m" },
+        { "key": "C", "text": "12 m" },
+        { "key": "D", "text": "15 m" },
+        { "key": "E", "text": "8 m" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Perbandingan Senilai.\nTinggi/Bayangan = Konstan.\n3/1.5 = Tinggi Pohon/6\n2 = Tinggi Pohon/6\nTinggi Pohon = 12 meter."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Sebuah roda berdiameter 50 cm berputar sebanyak 60 kali untuk menempuh jarak tertentu. Jika roda diganti dengan yang berdiameter 30 cm, berapa kali roda tersebut harus berputar untuk menempuh jarak yang sama?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "80 kali" },
+        { "key": "B", "text": "90 kali" },
+        { "key": "C", "text": "100 kali" },
+        { "key": "D", "text": "120 kali" },
+        { "key": "E", "text": "150 kali" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Perbandingan Berbalik Nilai (Diameter makin kecil, putaran makin banyak).\nKeliling sebanding diameter.\nD1 * Putaran1 = D2 * Putaran2\n50 * 60 = 30 * X\n3000 = 30X\nX = 100 kali."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Seorang penjahit mampu menjahit 3 kemeja dalam waktu 4 jam. Berapa banyak kemeja yang dapat dijahit dalam waktu 20 jam?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "12 kemeja" },
+        { "key": "B", "text": "15 kemeja" },
+        { "key": "C", "text": "18 kemeja" },
+        { "key": "D", "text": "20 kemeja" },
+        { "key": "E", "text": "25 kemeja" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Perbandingan Senilai.\n3 kemeja -> 4 jam.\nX kemeja -> 20 jam.\nKelipatan waktu = 20/4 = 5 kali lipat.\nJumlah kemeja = 3 * 5 = 15 kemeja."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Seorang kontraktor memperkirakan dapat menyelesaikan pembuatan jembatan dalam 60 hari dengan 24 pekerja. Setelah 15 hari bekerja, pekerjaan terhenti selama 9 hari. Agar selesai tepat waktu, berapa banyak pekerja tambahan yang diperlukan?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "4 pekerja" },
+        { "key": "B", "text": "5 pekerja" },
+        { "key": "C", "text": "6 pekerja" },
+        { "key": "D", "text": "8 pekerja" },
+        { "key": "E", "text": "10 pekerja" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Perbandingan Berbalik Nilai (Sisa waktu).\nSisa hari normal = 60 - 15 = 45 hari.\nBeban sisa = 24 pekerja * 45 hari.\nSisa waktu setelah libur = 45 - 9 = 36 hari.\nTotal pekerja = (24 * 45) / 36 = 1080 / 36 = 30 pekerja.\nTambahan = 30 - 24 = 6 pekerja."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Dalam peta dengan skala 1 : 2.500.000, jarak dua kota adalah 4 cm. Berapakah jarak sebenarnya kedua kota tersebut?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "80 km" },
+        { "key": "B", "text": "100 km" },
+        { "key": "C", "text": "120 km" },
+        { "key": "D", "text": "150 km" },
+        { "key": "E", "text": "200 km" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Perbandingan Senilai.\nJarak sebenarnya = Jarak Peta x Skala\n= 4 cm x 2.500.000\n= 10.000.000 cm\n= 100 km."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Persediaan rumput untuk 18 ekor kuda habis dalam 4 hari. Jika peternak menjual 6 ekor kudanya, berapa hari persediaan rumput akan habis?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "5 hari" },
+        { "key": "B", "text": "6 hari" },
+        { "key": "C", "text": "8 hari" },
+        { "key": "D", "text": "9 hari" },
+        { "key": "E", "text": "10 hari" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Perbandingan Berbalik Nilai.\n18 kuda -> 4 hari.\nSisa kuda = 18 - 6 = 12 kuda.\n18 * 4 = 12 * X\n72 = 12X\nX = 6 hari."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Biaya sewa mobil selama 3 hari adalah Rp 1.350.000. Jika Pak Budi menyewa mobil tersebut selama seminggu, berapa biaya yang harus dibayar?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Rp 2.800.000" },
+        { "key": "B", "text": "Rp 3.000.000" },
+        { "key": "C", "text": "Rp 3.150.000" },
+        { "key": "D", "text": "Rp 3.500.000" },
+        { "key": "E", "text": "Rp 2.700.000" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Perbandingan Senilai.\n3 hari = 1.350.000 -> 1 hari = 450.000.\nSeminggu = 7 hari.\n7 * 450.000 = Rp 3.150.000."
+    },
+    {
+      "category_slug": "tiu-perbandingansenilai-taksenilai",
+      "question_text": "Sebuah mesin dapat mencetak 100 lembar kertas dalam 4 menit. Berapa waktu yang dibutuhkan untuk mencetak 350 lembar?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "12 menit" },
+        { "key": "B", "text": "14 menit" },
+        { "key": "C", "text": "15 menit" },
+        { "key": "D", "text": "16 menit" },
+        { "key": "E", "text": "10 menit" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Perbandingan Senilai.\n100 lembar -> 4 menit.\n1 lembar -> 4/100 = 0.04 menit.\n350 lembar -> 350 * 0.04 = 14 menit."
+    }
+  ]
+}

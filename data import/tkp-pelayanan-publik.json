@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TKP Pelayanan Publik (Skala 1-5)",
+    "instructions": "Import ke kategori tkp-pelayanan-publik"
+  },
+  "questions": [
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Saat Anda sedang melayani pelanggan di loket, tiba-tiba seorang kakek tua menyerobot antrean dan meminta untuk didahulukan karena merasa pusing. Padahal, antrean sedang cukup panjang. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Meminta kakek tersebut untuk kembali ke antrean belakang agar adil bagi pelanggan lain." },
+        { "key": "B", "text": "Meminta izin kepada pelanggan yang sedang dilayani dan antrean di depannya untuk mendahulukan kakek tersebut." },
+        { "key": "C", "text": "Menyarankan kakek tersebut duduk dulu dan meminta rekan kerja lain untuk membantunya." },
+        { "key": "D", "text": "Langsung melayani kakek tersebut tanpa memperdulikan antrean." },
+        { "key": "E", "text": "Meminta satpam untuk menertibkan kakek tersebut." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 5,
+        "C": 4,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Solutif dan Humanis. Tetap menghargai antrean (minta izin) namun memprioritaskan kemanusiaan (orang tua sakit). Poin 1 (E): Terlalu kaku dan tidak empatik."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Ada seorang pelanggan yang komplain dengan nada tinggi karena pelayanan sistem online kantor Anda sedang gangguan (down). Ia mendesak agar urusannya diselesaikan saat itu juga. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mendengarkan keluhannya, meminta maaf, dan menjelaskan bahwa sistem sedang perbaikan sambil menawarkan solusi manual jika memungkinkan." },
+        { "key": "B", "text": "Meminta maaf dan memintanya untuk datang kembali besok saat sistem sudah pulih." },
+        { "key": "C", "text": "Menjelaskan bahwa itu bukan kesalahan Anda, melainkan kesalahan tim IT." },
+        { "key": "D", "text": "Diam saja mendengarkan sampai ia lelah marah-marah." },
+        { "key": "E", "text": "Memanggil keamanan karena pelanggan tersebut membuat keributan." }
+      ],
+      "answer_key": {
+        "A": 5,
+        "B": 3,
+        "C": 2,
+        "D": 1,
+        "E": 4
+      },
+      "discussion": "Poin 5 (A): Responsif (mendengarkan), Bertanggung jawab (minta maaf), dan Solutif (cari alternatif). Poin 1 (D): Apatis."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Anda sedang mengerjakan laporan yang sangat penting dan harus selesai hari ini. Tiba-tiba rekan kerja Anda meminta bantuan untuk melayani pelanggan karena ia mendadak sakit perut. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak dengan halus karena pekerjaan Anda juga sangat penting (deadline)." },
+        { "key": "B", "text": "Menghentikan pekerjaan Anda sebentar untuk menggantikannya melayani pelanggan sampai ia kembali." },
+        { "key": "C", "text": "Meminta rekan kerja lain yang sedang santai untuk menggantikannya." },
+        { "key": "D", "text": "Melapor ke atasan agar atasan yang memutuskan siapa yang menggantikan." },
+        { "key": "E", "text": "Menyarankan dia menahan sakitnya sebentar sampai jam istirahat." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 4,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Orientasi pelayanan tinggi. Pelayanan publik tidak boleh berhenti. Anda berkorban sebentar (fleksibel). Poin 4 (C): Solutif tapi melempar tanggung jawab."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Seorang warga datang ke kantor Anda untuk mengurus surat izin, tetapi ia tidak membawa salah satu persyaratan utama. Jarak rumahnya sangat jauh dari kantor. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak melayani dengan tegas sesuai SOP." },
+        { "key": "B", "text": "Meminta dia pulang untuk mengambil persyaratan tersebut." },
+        { "key": "C", "text": "Membantunya dengan mengecek apakah dokumen tersebut bisa dikirimkan via email/WhatsApp dan dicetak di kantor." },
+        { "key": "D", "text": "Memberikan pengecualian karena kasihan melihatnya sudah jauh-jauh datang." },
+        { "key": "E", "text": "Pura-pura tidak tahu ada syarat yang kurang." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 3,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Inovatif dan Solutif. Tidak melanggar SOP (syarat tetap ada), tapi memudahkan cara penyampaiannya. Poin 1 (D/E): Melanggar aturan (Integritas rendah)."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Kantor Anda baru saja menerapkan sistem pelayanan berbasis aplikasi. Banyak masyarakat, terutama lansia, yang kesulitan menggunakannya. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membuat panduan tertulis (brosur) tentang cara penggunaan aplikasi." },
+        { "key": "B", "text": "Menyarankan mereka meminta bantuan anak atau cucu di rumah." },
+        { "key": "C", "text": "Membimbing mereka secara langsung satu per satu dengan sabar saat mereka datang." },
+        { "key": "D", "text": "Meminta atasan untuk kembali ke sistem manual saja." },
+        { "key": "E", "text": "Membiarkan mereka belajar sendiri karena tuntutan zaman." }
+      ],
+      "answer_key": {
+        "A": 4,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Pelayanan prima (Service Excellence). Langsung turun tangan membantu kesulitan pelanggan. Poin 4 (A): Bagus, tapi kurang personal untuk lansia."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Jam pelayanan kantor sudah berakhir 10 menit yang lalu. Anda sudah bersiap pulang, namun tiba-tiba ada satu orang warga datang terengah-engah ingin mengurus dokumen penting yang mendesak. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menjelaskan bahwa loket sudah tutup dan memintanya datang besok pagi." },
+        { "key": "B", "text": "Melayani warga tersebut dengan ramah meskipun harus menunda waktu pulang sebentar." },
+        { "key": "C", "text": "Melayani dengan wajah masam agar dia tahu kalau dia terlambat." },
+        { "key": "D", "text": "Pura-pura tidak melihat dan bergegas pulang." },
+        { "key": "E", "text": "Meminta satpam untuk memberitahu bahwa kantor sudah tutup." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 5,
+        "C": 2,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Dedikasi tinggi. Selama masih ada di kantor dan sifatnya mendesak, pelayanan harus diutamakan melebihi kepentingan pribadi (pulang)."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Anda melihat rekan kerja Anda sedang melayani pelanggan sambil bermain handphone dan tidak menatap wajah pelanggan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menegurnya secara langsung di depan pelanggan." },
+        { "key": "B", "text": "Membiarkannya karena itu bukan urusan saya." },
+        { "key": "C", "text": "Melaporkannya kepada atasan agar diberi sanksi." },
+        { "key": "D", "text": "Memberikan kode atau menegurnya secara halus setelah pelanggan pergi agar ia memperbaiki sikapnya." },
+        { "key": "E", "text": "Ikut melayani pelanggan tersebut agar pelanggan merasa diperhatikan." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 1,
+        "C": 3,
+        "D": 5,
+        "E": 4
+      },
+      "discussion": "Poin 5 (D): Korektif namun tetap menjaga etika dan kehormatan rekan kerja. Menegur di depan umum (A) menjatuhkan citra instansi."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Seorang pelanggan memberikan uang tip kepada Anda karena merasa puas dengan pelayanan cepat yang Anda berikan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menerimanya sebagai tanda terima kasih dan rezeki." },
+        { "key": "B", "text": "Menolak dengan halus dan sopan, serta menjelaskan bahwa pelayanan terbaik adalah kewajiban Anda tanpa biaya tambahan." },
+        { "key": "C", "text": "Menerimanya lalu menyumbangkannya ke kotak amal masjid." },
+        { "key": "D", "text": "Menerimanya tapi tidak memberitahu rekan kerja lain." },
+        { "key": "E", "text": "Marah karena merasa dihina dengan uang tersebut." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 3,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Integritas dalam pelayanan. Menolak gratifikasi (uang pelicin/tip) dengan cara yang santun agar pelanggan tidak tersinggung."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Saat istirahat makan siang, Anda bertemu dengan pelanggan di kantin yang menanyakan progres berkas yang sedang Anda urus. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menjelaskan secara garis besar dengan ramah, namun meminta izin untuk membahas detailnya di kantor setelah jam istirahat." },
+        { "key": "B", "text": "Mengabaikannya karena ini jam istirahat pribadi Anda." },
+        { "key": "C", "text": "Meninggalkan makan siang Anda dan langsung kembali ke kantor untuk mengecek berkasnya." },
+        { "key": "D", "text": "Memintanya jangan mengganggu waktu makan siang." },
+        { "key": "E", "text": "Menjelaskan detail berkas panjang lebar di kantin." }
+      ],
+      "answer_key": {
+        "A": 5,
+        "B": 1,
+        "C": 3,
+        "D": 2,
+        "E": 4
+      },
+      "discussion": "Poin 5 (A): Proporsional. Tetap ramah (pelayanan) tapi menjaga batasan profesionalisme dan waktu istirahat."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Perusahaan Anda mengubah prosedur pelayanan menjadi lebih rumit demi keamanan data. Banyak pelanggan mengeluh karena prosesnya jadi lama. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut mengeluh bersama pelanggan agar mereka merasa didengar." },
+        { "key": "B", "text": "Menjelaskan kepada pelanggan manfaat prosedur baru tersebut bagi keamanan data mereka dengan bahasa yang mudah dimengerti." },
+        { "key": "C", "text": "Bekerja seperti biasa dan tidak memperdulikan keluhan." },
+        { "key": "D", "text": "Menyalahkan manajemen yang membuat aturan tersebut." },
+        { "key": "E", "text": "Mempercepat proses dengan cara melompati beberapa prosedur keamanan." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 1,
+        "E": 3
+      },
+      "discussion": "Poin 5 (B): Komunikatif dan Persuasif. Mengedukasi pelanggan adalah bagian dari pelayanan agar mereka paham nilai tambah (keamanan) yang didapat."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Di kantor, telepon berdering terus menerus padahal Anda sedang melayani tamu di depan meja Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membiarkan telepon berdering sampai berhenti sendiri." },
+        { "key": "B", "text": "Meminta izin tamu sebentar untuk mengangkat telepon dan meminta penelepon menunggu atau menghubungi kembali." },
+        { "key": "C", "text": "Mengangkat telepon dan mengobrol panjang lebar sambil membiarkan tamu menunggu." },
+        { "key": "D", "text": "Mencabut kabel telepon agar tidak berisik." },
+        { "key": "E", "text": "Meminta rekan kerja lain untuk mengangkat telepon tersebut." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 1,
+        "E": 4
+      },
+      "discussion": "Poin 5 (B): Multitasking yang sopan. Tamu fisik prioritas, tapi telepon juga harus direspon (tidak diabaikan) dengan manajemen waktu yang baik."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Ada pelanggan difabel (kursi roda) yang kesulitan menaiki tangga menuju ruang pelayanan kantor Anda yang belum memiliki akses ramah disabilitas. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Melihat saja karena itu tugas satpam." },
+        { "key": "B", "text": "Segera menghampiri dan menawarkan bantuan untuk mengangkat kursi rodanya bersama rekan lain, atau melayaninya di lantai bawah." },
+        { "key": "C", "text": "Memberitahu atasan bahwa kantor butuh jalur disabilitas." },
+        { "key": "D", "text": "Menyarankan pelanggan tersebut menyuruh wakilnya saja yang naik." },
+        { "key": "E", "text": "Meminta maaf atas ketidaknyamanan fasilitas kantor." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 3,
+        "D": 2,
+        "E": 4
+      },
+      "discussion": "Poin 5 (B): Aksi nyata (Helpfulness). Melayani jemput bola (di lantai bawah) atau membantu fisik adalah solusi terbaik saat itu juga."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Anda adalah petugas customer service. Seorang pelanggan datang menanyakan informasi yang tidak Anda ketahui jawabannya. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menjawab seadanya (mengarang) agar terlihat pintar." },
+        { "key": "B", "text": "Mengatakan 'Saya tidak tahu' dengan jujur." },
+        { "key": "C", "text": "Meminta maaf, meminta waktu sebentar untuk mencari informasi valid (bertanya ke atasan/senior), lalu menyampaikannya ke pelanggan." },
+        { "key": "D", "text": "Melempar pelanggan tersebut ke petugas lain." },
+        { "key": "E", "text": "Menyarankan pelanggan mencari sendiri di internet." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 3,
+        "C": 5,
+        "D": 2,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Bertanggung jawab dan Akurat. Tidak boleh memberikan info sesat, tapi juga tidak boleh lepas tangan. Usaha mencari info adalah kunci."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Anda sedang cuti liburan bersama keluarga di luar kota. Tiba-tiba atasan menelepon menanyakan data penting untuk pelayanan masyarakat yang tersimpan di laptop Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tidak mengangkat telepon karena sedang cuti." },
+        { "key": "B", "text": "Mengangkat telepon dan mengatakan bahwa Anda tidak membawa laptop." },
+        { "key": "C", "text": "Mengangkat telepon, mencoba membantu mengingat password atau letak file, atau memandu rekan kerja membuka data tersebut dari jarak jauh." },
+        { "key": "D", "text": "Marah karena merasa waktu libur diganggu." },
+        { "key": "E", "text": "Mematikan HP." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 3,
+        "C": 5,
+        "D": 2,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Komitmen Profesi. Cuti adalah hak, tapi jika urgensi menyangkut pelayanan publik/data penting, tetap harus responsif membantu sebisanya."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Seorang pelanggan yang merupakan teman sekolah Anda datang mengurus dokumen. Ia meminta agar prosesnya dipercepat tanpa antre. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak dengan tegas." },
+        { "key": "B", "text": "Membantunya diam-diam." },
+        { "key": "C", "text": "Menjelaskan dengan santun bahwa semua pelanggan sama kedudukannya dan meminta ia tetap mengikuti prosedur antrean." },
+        { "key": "D", "text": "Membantu hanya jika tidak ada orang lain yang melihat." },
+        { "key": "E", "text": "Menyuruhnya menemui atasan." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 1,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Adil dan Berintegritas. Menolak nepotisme tapi tetap menjaga hubungan baik dengan bahasa yang santun (Asertif)."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Apa prioritas utama Anda ketika bekerja sebagai pelayan publik?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menyelesaikan pekerjaan secepat mungkin agar bisa pulang." },
+        { "key": "B", "text": "Mendapatkan pujian dari atasan." },
+        { "key": "C", "text": "Kepuasan masyarakat dan pemenuhan kebutuhan mereka sesuai aturan." },
+        { "key": "D", "text": "Mendapatkan insentif tambahan." },
+        { "key": "E", "text": "Menjalin koneksi dengan orang penting." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 3,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Esensi Pelayanan Publik. Orientasi pada kepuasan pelanggan (Customer Satisfaction) dalam koridor hukum."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Rekan kerja di sebelah Anda sering bersikap ketus dan judes kepada pelanggan, sehingga pelanggan sering komplain ke Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut mendiamkan rekan tersebut." },
+        { "key": "B", "text": "Mengajaknya bicara dari hati ke hati dan mengingatkan pentingnya keramahan dalam pelayanan demi citra tim." },
+        { "key": "C", "text": "Melaporkan ke atasan agar dia dipindahkan." },
+        { "key": "D", "text": "Meminta maaf kepada pelanggan atas sikap rekan saya tersebut." },
+        { "key": "E", "text": "Menyindirnya saat rapat." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 3,
+        "D": 4,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Kolaboratif dan Konstruktif. Mengingatkan rekan demi kebaikan bersama (tim work). Poin 4 (D): Bagus (recovery), tapi tidak menyelesaikan akar masalah."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Masyarakat mengeluhkan ruang tunggu pelayanan yang panas dan pengap. AC kantor sudah lama rusak dan anggaran perbaikan belum turun. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Masa bodoh karena bukan wewenang saya." },
+        { "key": "B", "text": "Membuka semua jendela dan pintu, serta berinisiatif membawa kipas angin pribadi/kantor untuk sementara waktu." },
+        { "key": "C", "text": "Menyuruh masyarakat menunggu di luar saja." },
+        { "key": "D", "text": "Terus menerus menanyakan anggaran ke atasan." },
+        { "key": "E", "text": "Meminta maaf kepada setiap pengunjung yang datang." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 3,
+        "E": 4
+      },
+      "discussion": "Poin 5 (B): Inisiatif Tinggi. Tidak hanya menunggu anggaran, tapi melakukan tindakan perbaikan kecil (membuka jendela/kipas) untuk kenyamanan pelanggan."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Anda ditugaskan di bagian pengaduan. Seorang warga datang marah-marah sambil gebrak meja karena laporannya tidak ditanggapi selama seminggu. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Memarahinya balik karena tidak sopan." },
+        { "key": "B", "text": "Memanggil keamanan untuk mengusirnya." },
+        { "key": "C", "text": "Tetap tenang, meminta maaf, mengajaknya duduk, dan segera mengecek status laporannya untuk memberikan kepastian." },
+        { "key": "D", "text": "Mendiamkannya sampai emosinya reda." },
+        { "key": "E", "text": "Mengatakan bahwa itu bukan kesalahan Anda." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 3,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Pengendalian Diri dan Profesional. Menghadapi komplain emosional harus dengan kepala dingin, empati, dan solusi nyata."
+    },
+    {
+      "category_slug": "tkp-pelayanan-publik",
+      "question_text": "Seorang pelanggan asing (bule) datang dan bertanya menggunakan bahasa Inggris. Kemampuan bahasa Inggris Anda pas-pasan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak melayani karena takut salah." },
+        { "key": "B", "text": "Berusaha menjawab sebisanya dengan bantuan gestur tubuh atau aplikasi penerjemah di HP." },
+        { "key": "C", "text": "Segera memanggil rekan kerja yang mahir bahasa Inggris untuk membantu melayani." },
+        { "key": "D", "text": "Diam saja." },
+        { "key": "E", "text": "Menyuruhnya membawa penerjemah." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 4,
+        "C": 5,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Efektif dan Efisien. Jika ada sumber daya (rekan) yang lebih ahli, lebih baik minta bantuan agar tidak terjadi miskomunikasi. Poin 4 (B) juga baik (usaha keras) jika tidak ada rekan lain."
+    }
+  ]
+}

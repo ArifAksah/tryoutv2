@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TKP Sosial Budaya (Skala 1-5)",
+    "instructions": "Import ke kategori tkp-sosial-budaya"
+  },
+  "questions": [
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Anda ditempatkan bertugas di daerah terpencil yang memiliki adat istiadat yang sangat berbeda dengan latar belakang Anda. Masyarakat setempat memiliki kebiasaan yang menurut Anda aneh. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tetap berpegang teguh pada kebiasaan saya sendiri." },
+        { "key": "B", "text": "Berusaha mempelajari dan menghormati adat istiadat tersebut selama tidak melanggar hukum dan norma agama." },
+        { "key": "C", "text": "Hanya bergaul dengan pendatang lain yang satu budaya dengan saya." },
+        { "key": "D", "text": "Mengkritik kebiasaan tersebut agar mereka mau berubah menjadi lebih modern." },
+        { "key": "E", "text": "Pura-pura mengikuti adat tersebut agar diterima." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 1,
+        "E": 3
+      },
+      "discussion": "Poin 5 (B): Adaptabilitas dan Toleransi. Mampu menyesuaikan diri (adaptasi) dan menghargai perbedaan adalah inti kompetensi sosial budaya."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Di lingkungan tempat tinggal baru Anda, warga rutin mengadakan kerja bakti setiap hari Minggu pagi. Namun, hari Minggu adalah satu-satunya waktu istirahat Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Tidak ikut kerja bakti karena lelah bekerja seminggu penuh." },
+        { "key": "B", "text": "Membayar iuran pengganti saja agar tidak perlu ikut." },
+        { "key": "C", "text": "Ikut serta dalam kerja bakti tersebut sebagai wujud kebersamaan dengan warga." },
+        { "key": "D", "text": "Ikut sebentar saja lalu pulang untuk tidur." },
+        { "key": "E", "text": "Menyuruh pembantu atau orang lain mewakili saya." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 3,
+        "C": 5,
+        "D": 4,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Orientasi Sosial. Mengorbankan sedikit kenyamanan pribadi demi kepentingan bersama (sosial) menunjukkan kematangan sosial."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Rekan kerja di sebelah Anda sering melakukan ritual ibadah sesuai keyakinannya di jam istirahat. Anda merasa sedikit terganggu dengan suara yang ditimbulkannya. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menegurnya agar beribadah dalam hati saja." },
+        { "key": "B", "text": "Melaporkan ke atasan karena mengganggu ketenangan." },
+        { "key": "C", "text": "Menghargai haknya beribadah dan mencoba mengabaikan suara tersebut atau menggunakan earphone jika perlu." },
+        { "key": "D", "text": "Meminta pindah meja." },
+        { "key": "E", "text": "Ikut membuat keributan agar dia sadar." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 2,
+        "C": 5,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Toleransi Umat Beragama. Menghargai perbedaan keyakinan adalah mutlak dalam lingkungan kerja yang majemuk."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Terjadi konflik antar warga di lingkungan Anda yang dipicu oleh perbedaan suku. Suasana menjadi tegang. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mengunci diri di rumah agar aman." },
+        { "key": "B", "text": "Berpihak pada warga yang satu suku dengan saya." },
+        { "key": "C", "text": "Berusaha menjadi mediator atau mengajak tokoh masyarakat untuk mendamaikan kedua belah pihak." },
+        { "key": "D", "text": "Pindah rumah ke lingkungan yang lebih homogen." },
+        { "key": "E", "text": "Menonton kejadian tersebut." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 1,
+        "C": 5,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Perekat Bangsa. Berani mengambil peran aktif untuk meredam konflik SARA (Suku Agama Ras Antargolongan)."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Anda diundang ke acara pernikahan rekan kerja yang menyajikan makanan yang tidak biasa Anda makan (namun halal/sesuai aturan Anda). Tuan rumah menawarkannya dengan antusias. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak mentah-mentah karena jijik." },
+        { "key": "B", "text": "Mencicipinya sedikit untuk menghormati tuan rumah." },
+        { "key": "C", "text": "Pura-pura makan lalu membuangnya saat tidak dilihat." },
+        { "key": "D", "text": "Hanya meminum air saja." },
+        { "key": "E", "text": "Menanyakan bahannya secara detail dengan nada curiga." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 3,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Penghormatan Budaya. Mencoba hal baru (selama tidak melanggar prinsip dasar) adalah bentuk apresiasi terhadap budaya orang lain."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Dalam diskusi kelompok, mayoritas anggota menyetujui keputusan yang menurut Anda kurang tepat dan berpotensi merugikan kelompok minoritas. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Diam saja karena suara saya kalah banyak." },
+        { "key": "B", "text": "Mengajukan pendapat alternatif dengan santun dan memberikan argumen logis mengenai dampak bagi minoritas." },
+        { "key": "C", "text": "Langsung memprotes keras keputusan tersebut." },
+        { "key": "D", "text": "Keluar dari kelompok (Walk Out)." },
+        { "key": "E", "text": "Mengikuti arus saja." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 3,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Demokrasi Santun. Menyampaikan aspirasi secara asertif untuk melindungi kepentingan semua pihak tanpa merusak suasana diskusi."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Anda memiliki tetangga baru yang sangat tertutup dan jarang bersosialisasi. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membiarkannya karena itu privasinya." },
+        { "key": "B", "text": "Mencoba menyapanya ramah saat berpapasan atau berkunjung sebentar membawakan makanan untuk berkenalan." },
+        { "key": "C", "text": "Mencurigainya sebagai orang jahat." },
+        { "key": "D", "text": "Membicarakannya (gosip) dengan tetangga lain." },
+        { "key": "E", "text": "Menunggu dia datang ke rumah saya." }
+      ],
+      "answer_key": {
+        "A": 3,
+        "B": 5,
+        "C": 1,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Proaktif Sosial. Memulai hubungan baik (inisiatif) menciptakan lingkungan sosial yang harmonis."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Atasan Anda sering melontarkan lelucon yang menyinggung fisik (body shaming) atau SARA di grup WhatsApp kantor. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut tertawa agar dianggap asik." },
+        { "key": "B", "text": "Diam saja (silent reader)." },
+        { "key": "C", "text": "Menjapri (PM) atasan dengan sopan menyampaikan bahwa lelucon tersebut mungkin kurang pantas." },
+        { "key": "D", "text": "Langsung menegurnya di grup." },
+        { "key": "E", "text": "Keluar dari grup." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 2,
+        "C": 5,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Kontrol Sosial. Berani mengingatkan (kontrol) hal negatif namun dengan cara yang beretika (personal) agar tidak mempermalukan atasan."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Anda ditawari promosi jabatan, namun harus pindah ke daerah yang fasilitas pendidikannya kurang memadai untuk anak-anak Anda. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak promosi tersebut demi masa depan anak." },
+        { "key": "B", "text": "Menerima promosi tersebut dan berusaha mencari solusi pendidikan terbaik (homeschooling/asrama) untuk anak." },
+        { "key": "C", "text": "Menerima dengan berat hati." },
+        { "key": "D", "text": "Meminta atasan membatalkan mutasi." },
+        { "key": "E", "text": "Pergi sendiri dan meninggalkan keluarga di kota asal." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 3,
+        "D": 1,
+        "E": 4
+      },
+      "discussion": "Poin 5 (B): Siap Ditempatkan di Mana Saja. Ini adalah komitmen ASN. Tantangan (keluarga) diatasi dengan solusi, bukan penolakan tugas."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Di kantor, Anda melihat kelompok pegawai senior cenderung meremehkan kemampuan pegawai junior/milenial. Sikap Anda sebagai pegawai junior...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Melawan dan membantah mereka." },
+        { "key": "B", "text": "Membuktikan kemampuan dengan kinerja terbaik dan tetap bersikap hormat kepada senior." },
+        { "key": "C", "text": "Menjauhi kelompok senior tersebut." },
+        { "key": "D", "text": "Mengadu ke atasan." },
+        { "key": "E", "text": "Bekerja biasa saja." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 3
+      },
+      "discussion": "Poin 5 (B): Kematangan Emosi. Menjawab keraguan dengan prestasi (karya) tanpa kehilangan tata krama (culture) menghormati orang tua."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Saat antre pembagian sembako, Anda melihat petugas berlaku tidak adil dengan mendahulukan kerabatnya. Warga mulai marah. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ikut marah dan memprovokasi warga." },
+        { "key": "B", "text": "Menenangkan warga dan mengingatkan petugas tersebut secara baik-baik agar berlaku adil." },
+        { "key": "C", "text": "Diam saja asal saya dapat bagian." },
+        { "key": "D", "text": "Pulang saja daripada ribut." },
+        { "key": "E", "text": "Memvideokan kejadian untuk diviralkan." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 1,
+        "D": 2,
+        "E": 3
+      },
+      "discussion": "Poin 5 (B): Problem Solver. Mampu menjadi penengah di tengah gejolak sosial dan meluruskan ketidakadilan secara persuasif."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Anda sedang berpuasa, namun rekan kerja Anda yang tidak berpuasa mengajak makan siang bersama karena ada perayaan ulang tahunnya. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak hadir karena sedang puasa." },
+        { "key": "B", "text": "Memintanya menghormati orang yang berpuasa." },
+        { "key": "C", "text": "Tetap hadir untuk menghormati undangannya, mengobrol, namun tidak ikut makan." },
+        { "key": "D", "text": "Marah karena merasa digoda." },
+        { "key": "E", "text": "Menyuruhnya menggeser acara ke waktu berbuka." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 3
+      },
+      "discussion": "Poin 5 (C): Toleransi Aktif. Menghargai undangan rekan (sosial) tanpa mengorbankan prinsip ibadah pribadi."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Perusahaan Anda kedatangan tamu dari luar negeri. Anda diminta menemani mereka, namun kemampuan bahasa Inggris Anda pas-pasan. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menolak tugas tersebut." },
+        { "key": "B", "text": "Menerima tugas dan berusaha berkomunikasi sebisanya dengan bantuan alat penerjemah serta bersikap ramah." },
+        { "key": "C", "text": "Meminta rekan lain yang jago bahasa Inggris untuk menggantikan." },
+        { "key": "D", "text": "Diam saja selama menemani tamu." },
+        { "key": "E", "text": "Hanya senyum-senyum saja." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 4,
+        "D": 2,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Percaya Diri & Adaptasi. Bahasa tubuh dan keramahan (cultural intelligence) seringkali lebih penting daripada tata bahasa yang sempurna."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Anda melihat anak-anak muda di lingkungan Anda sering berkumpul tanpa kegiatan positif (nongkrong). Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Membiarkan karena itu masa muda mereka." },
+        { "key": "B", "text": "Mengusir mereka agar tidak berisik." },
+        { "key": "C", "text": "Mengajak mereka berdiskusi dan menginisiasi kegiatan positif seperti olahraga atau karang taruna." },
+        { "key": "D", "text": "Melapor ke Pak RT agar ditertibkan." },
+        { "key": "E", "text": "Bergabung nongkrong bersama mereka." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 1,
+        "C": 5,
+        "D": 3,
+        "E": 2
+      },
+      "discussion": "Poin 5 (C): Penggerak Perubahan. Mengarahkan potensi sosial menjadi hal positif."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Apa pandangan Anda tentang perubahan sosial yang terjadi sangat cepat akibat teknologi?",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sangat mengkhawatirkan karena merusak budaya lama." },
+        { "key": "B", "text": "Menerima dengan terbuka, mengambil sisi positifnya, dan tetap memegang teguh jati diri bangsa." },
+        { "key": "C", "text": "Menerima semua perubahan tanpa seleksi." },
+        { "key": "D", "text": "Tidak peduli." },
+        { "key": "E", "text": "Menolak teknologi agar hidup tenang." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 5,
+        "C": 2,
+        "D": 1,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Modern namun Berkarakter. Adaptif terhadap perubahan zaman namun tetap memiliki filter budaya."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Anda sedang menaiki transportasi umum dan melihat seorang ibu hamil berdiri, sementara kursi prioritas diduduki anak muda yang asik main HP. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Diam saja karena bukan urusan saya." },
+        { "key": "B", "text": "Memberikan kursi saya (jika saya duduk) atau menegur anak muda tersebut dengan sopan agar memberikan kursinya." },
+        { "key": "C", "text": "Menatap sinis anak muda tersebut." },
+        { "key": "D", "text": "Memarahi anak muda tersebut dengan keras." },
+        { "key": "E", "text": "Pura-pura tidur." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (B): Kepekaan Sosial. Bertindak nyata membantu orang yang membutuhkan (vulnerable group)."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Di kantor, ada tradisi 'traktiran' setiap kali ada yang ulang tahun. Bulan ini keuangan Anda sedang menipis, tapi Anda ulang tahun. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Berhutang untuk tetap mentraktir teman-teman agar tidak malu." },
+        { "key": "B", "text": "Pura-pura lupa ulang tahun." },
+        { "key": "C", "text": "Membawa makanan ringan buatan sendiri dari rumah sebagai simbolis perayaan yang sederhana." },
+        { "key": "D", "text": "Menolak mentraktir dengan alasan tidak punya uang." },
+        { "key": "E", "text": "Meminta teman lain yang menalanginya dulu." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 2,
+        "C": 5,
+        "D": 3,
+        "E": 1
+      },
+      "discussion": "Poin 5 (C): Bijaksana dan Kreatif. Menghargai tradisi sosial tanpa memaksakan diri (hidup sederhana/sesuai kemampuan)."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Anda bekerja di lingkungan yang mayoritas laki-laki. Sebagai seorang perempuan (atau sebaliknya), Anda sering merasa pendapat Anda kurang didengar. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Merasa minder dan diam saja." },
+        { "key": "B", "text": "Tetap percaya diri menyampaikan pendapat yang berkualitas dan menunjukkan kinerja profesional." },
+        { "key": "C", "text": "Mengadu ke Komnas HAM." },
+        { "key": "D", "text": "Mencari perhatian dengan cara lain." },
+        { "key": "E", "text": "Meminta perlakuan khusus." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Kesetaraan Gender & Profesionalisme. Fokus pada kompetensi, bukan gender. Mematahkan stigma dengan prestasi."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Tetangga Anda mengadakan pesta pernikahan yang suaranya cukup bising hingga larut malam. Besok Anda harus bekerja pagi. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Datang dan marah-marah membubarkan pesta." },
+        { "key": "B", "text": "Memaklumi karena itu acara sekali seumur hidup dan mencoba tidur menggunakan penutup telinga." },
+        { "key": "C", "text": "Melapor polisi." },
+        { "key": "D", "text": "Membalas dengan membunyikan musik keras besoknya." },
+        { "key": "E", "text": "Mengupdate status keluhan di medsos." }
+      ],
+      "answer_key": {
+        "A": 1,
+        "B": 5,
+        "C": 2,
+        "D": 1,
+        "E": 2
+      },
+      "discussion": "Poin 5 (B): Toleransi Bertetangga (Tepo Seliro). Selama masih dalam batas wajar (acara hajatan), memaklumi adalah bentuk kerukunan warga."
+    },
+    {
+      "category_slug": "tkp-sosial-budaya",
+      "question_text": "Anda baru saja dipindahkan ke divisi baru. Rekan-rekan baru Anda terlihat dingin dan sibuk sendiri. Sikap Anda...",
+      "question_type": "scale_tkp",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Menunggu mereka menyapa duluan." },
+        { "key": "B", "text": "Fokus bekerja saja dan tidak peduli pertemanan." },
+        { "key": "C", "text": "Berinisiatif memperkenalkan diri, bersikap ramah, dan menawarkan bantuan jika ada yang butuh." },
+        { "key": "D", "text": "Merasa tidak nyaman dan ingin pindah lagi." },
+        { "key": "E", "text": "Membelikan makanan agar mereka mau bicara." }
+      ],
+      "answer_key": {
+        "A": 2,
+        "B": 2,
+        "C": 5,
+        "D": 1,
+        "E": 3
+      },
+      "discussion": "Poin 5 (C): Kemampuan Beradaptasi. Menjadi orang pertama yang membuka komunikasi (ice breaking) menunjukkan kepercayaan diri dan keterbukaan."
+    }
+  ]
+}

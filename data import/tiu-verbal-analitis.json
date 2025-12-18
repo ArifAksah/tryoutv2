@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan TIU Verbal Analitis (Logika Posisi & Urutan)",
+    "instructions": "Import ke kategori tiu-verbal-analitis"
+  },
+  "questions": [
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Andi lebih tinggi dari Budi. Budi lebih tinggi dari Cica. Siapa yang paling pendek?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Andi" },
+        { "key": "B", "text": "Budi" },
+        { "key": "C", "text": "Cica" },
+        { "key": "D", "text": "Andi dan Budi" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Urutan tinggi badan: Andi > Budi > Cica. Maka yang paling pendek adalah Cica."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Dalam antrian tiket, Rina ada di depan Susi. Tono ada di belakang Susi. Siapa yang berada di posisi tengah?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Rina" },
+        { "key": "B", "text": "Susi" },
+        { "key": "C", "text": "Tono" },
+        { "key": "D", "text": "Rina dan Tono" },
+        { "key": "E", "text": "Tidak ada yang di tengah" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Urutan antrian: Rina - Susi - Tono. Posisi tengah ditempati oleh Susi."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Lima pelari (A, B, C, D, E) mencapai garis finish. A finish sebelum B tetapi setelah C. D finish sebelum E tetapi setelah B. Siapa yang finish terakhir?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "A" },
+        { "key": "B", "text": "B" },
+        { "key": "C", "text": "C" },
+        { "key": "D", "text": "D" },
+        { "key": "E", "text": "E" }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "1. C > A > B\n2. B > D > E\nGabungan: C > A > B > D > E. Yang terakhir adalah E."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Rumah A di utara rumah B. Rumah C di timur rumah B. Di arah manakah rumah A terhadap rumah C?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Barat Laut" },
+        { "key": "B", "text": "Timur Laut" },
+        { "key": "C", "text": "Barat Daya" },
+        { "key": "D", "text": "Tenggara" },
+        { "key": "E", "text": "Utara" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Bayangkan koordinat kartesius. B di (0,0). A di (0, y). C di (x, 0). Posisi A dari C adalah menarik garis dari C ke kiri atas. Arah antara Utara dan Barat adalah Barat Laut."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Buku Sejarah lebih tebal dari Matematika. Buku Bahasa tidak lebih tebal dari Matematika. Buku Fisika lebih tebal dari Sejarah. Buku apa yang paling tipis?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sejarah" },
+        { "key": "B", "text": "Matematika" },
+        { "key": "C", "text": "Bahasa" },
+        { "key": "D", "text": "Fisika" },
+        { "key": "E", "text": "Semua sama tebal" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Fisika > Sejarah > Matematika. Bahasa <= Matematika. Maka kemungkinan besar Bahasa adalah yang paling tipis."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Lima orang duduk melingkar (A, B, C, D, E). A duduk di sebelah kanan B. C duduk di antara B dan D. E duduk di sebelah kiri D. Siapa yang duduk di sebelah kiri A?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "B" },
+        { "key": "B", "text": "C" },
+        { "key": "C", "text": "D" },
+        { "key": "D", "text": "E" },
+        { "key": "E", "text": "Tidak ada" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Susunan melingkar (misal searah jarum jam): B - A - E - D - C - (kembali ke B). Cek syarat: A kanan B (ok). C antara B dan D? Tidak, urutan harus diatur ulang.\nCoba: D - C - B - A - E.\nCek: A kanan B? Ya. C antara B dan D? Ya. E kiri D? Ya. Kiri A adalah E."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Hari ini hari Rabu. Jatuh pada hari apakah 100 hari yang akan datang?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Rabu" },
+        { "key": "B", "text": "Kamis" },
+        { "key": "C", "text": "Jumat" },
+        { "key": "D", "text": "Sabtu" },
+        { "key": "E", "text": "Minggu" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "1 minggu = 7 hari. 100 dibagi 7 = 14 sisa 2.\nJadi 100 hari lagi sama dengan 2 hari setelah Rabu = Kamis, Jumat."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Umur Amir 2 kali umur Budi. Umur Cici 5 tahun lebih muda dari Amir. Jika umur Budi 10 tahun, berapa umur Cici?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "10" },
+        { "key": "B", "text": "15" },
+        { "key": "C", "text": "20" },
+        { "key": "D", "text": "25" },
+        { "key": "E", "text": "30" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Budi = 10.\nAmir = 2 x 10 = 20.\nCici = Amir - 5 = 20 - 5 = 15."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Di sebuah gedung, Lantai 3 ada di atas Lantai 2. Lantai 5 ada di bawah Lantai 6 tetapi di atas Lantai 4. Urutan lantai dari bawah ke atas yang benar adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "1-2-3-4-5-6" },
+        { "key": "B", "text": "6-5-4-3-2-1" },
+        { "key": "C", "text": "2-3-4-5-6" },
+        { "key": "D", "text": "2-3-5-4-6" },
+        { "key": "E", "text": "3-2-4-5-6" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Logika umum gedung bertingkat: Angka kecil di bawah. Urutan 2, 3, 4, 5, 6 sudah sesuai premis (3 di atas 2, 5 di atas 4 dan di bawah 6)."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "X lebih berat dari Y. Z lebih ringan dari W. W lebih ringan dari Y. Urutan dari yang terberat adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "X, Y, W, Z" },
+        { "key": "B", "text": "Z, W, Y, X" },
+        { "key": "C", "text": "X, W, Y, Z" },
+        { "key": "D", "text": "Y, X, W, Z" },
+        { "key": "E", "text": "X, Y, Z, W" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "1. X > Y\n2. Z < W\n3. W < Y\nGabungan: X > Y > W > Z."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Ani menyukai Bakso dan Mie Ayam. Budi menyukai Mie Ayam dan Nasi Goreng. Cica menyukai Bakso dan Nasi Goreng. Makanan apa yang disukai oleh dua orang?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Hanya Bakso" },
+        { "key": "B", "text": "Hanya Mie Ayam" },
+        { "key": "C", "text": "Bakso, Mie Ayam, dan Nasi Goreng" },
+        { "key": "D", "text": "Tidak ada" },
+        { "key": "E", "text": "Hanya Nasi Goreng" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Bakso: Ani & Cica (2 orang).\nMie Ayam: Ani & Budi (2 orang).\nNasi Goreng: Budi & Cica (2 orang).\nKetiga makanan tersebut masing-masing disukai oleh 2 orang."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Jarak kota A ke B adalah 50 km. Jarak kota B ke C adalah 30 km. A, B, C satu garis lurus. Jika B berada di antara A dan C, berapa jarak A ke C?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "20 km" },
+        { "key": "B", "text": "30 km" },
+        { "key": "C", "text": "50 km" },
+        { "key": "D", "text": "80 km" },
+        { "key": "E", "text": "100 km" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "A -----50km----- B -----30km----- C. Total = 50 + 30 = 80 km."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Tidak ada siswa yang nilainya sama. Nilai Dita lebih tinggi dari Eka. Nilai Fani lebih rendah dari Eka. Siapa yang nilainya paling rendah?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Dita" },
+        { "key": "B", "text": "Eka" },
+        { "key": "C", "text": "Fani" },
+        { "key": "D", "text": "Dita dan Fani" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Dita > Eka.\nEka > Fani (karena Fani < Eka).\nUrutan: Dita > Eka > Fani. Terendah Fani."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Di rak buku, Buku Merah di atas Buku Biru. Buku Hijau di bawah Buku Biru. Buku Kuning di atas Buku Merah. Urutan dari atas ke bawah adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Kuning, Merah, Biru, Hijau" },
+        { "key": "B", "text": "Merah, Kuning, Biru, Hijau" },
+        { "key": "C", "text": "Hijau, Biru, Merah, Kuning" },
+        { "key": "D", "text": "Kuning, Biru, Merah, Hijau" },
+        { "key": "E", "text": "Merah, Biru, Hijau, Kuning" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "1. Merah > Biru\n2. Biru > Hijau\n3. Kuning > Merah\nGabungan: Kuning > Merah > Biru > Hijau."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "P adalah ayah Q. Q adalah saudari perempuan R. Apa hubungan P dengan R?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Paman" },
+        { "key": "B", "text": "Kakek" },
+        { "key": "C", "text": "Ayah" },
+        { "key": "D", "text": "Kakak" },
+        { "key": "E", "text": "Suami" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Jika Q dan R bersaudara, maka ayah Q (yaitu P) otomatis adalah ayah R juga."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Mobil A lebih cepat dari B. Mobil C lebih lambat dari B. Mobil D sama cepatnya dengan A. Mana pernyataan yang BENAR?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "C lebih cepat dari A" },
+        { "key": "B", "text": "B paling lambat" },
+        { "key": "C", "text": "D lebih cepat dari B" },
+        { "key": "D", "text": "A lebih lambat dari C" },
+        { "key": "E", "text": "C sama dengan D" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "A > B. B > C. D = A.\nUrutan: D = A > B > C.\nOpsi C (D > B) adalah benar."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Dalam rapat meja bundar, Ketua tidak boleh duduk bersebelahan dengan Sekretaris. Bendahara harus duduk di sebelah kiri Ketua. Jika urutannya Bendahara - Ketua - X, siapakah X?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sekretaris" },
+        { "key": "B", "text": "Anggota Biasa" },
+        { "key": "C", "text": "Bendahara" },
+        { "key": "D", "text": "Tidak ada" },
+        { "key": "E", "text": "Wakil Ketua (yang bukan sekretaris)" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "X ada di sebelah kanan Ketua. Karena Ketua tidak boleh sebelah Sekretaris, maka X bukan Sekretaris. Pilihan paling logis yang tersisa adalah Anggota Biasa (atau jabatan lain selain Sekretaris)."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Tugas A harus selesai sebelum B. Tugas C selesai setelah B. Tugas D selesai sebelum A. Urutan penyelesaian tugas yang benar adalah...",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "D - A - B - C" },
+        { "key": "B", "text": "A - B - C - D" },
+        { "key": "C", "text": "C - B - A - D" },
+        { "key": "D", "text": "D - B - A - C" },
+        { "key": "E", "text": "A - D - B - C" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "1. A < B\n2. B < C\n3. D < A\nGabungan: D < A < B < C."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Gaji Ali > Bima. Gaji Candra < Bima. Gaji Dedi = Ali. Siapa gaji terkecil?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ali" },
+        { "key": "B", "text": "Bima" },
+        { "key": "C", "text": "Candra" },
+        { "key": "D", "text": "Dedi" },
+        { "key": "E", "text": "Ali dan Dedi" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Urutan: Dedi = Ali > Bima > Candra. Terkecil Candra."
+    },
+    {
+      "category_slug": "tiu-verbal-analitis",
+      "question_text": "Tim A memakai baju merah. Tim B tidak boleh memakai baju merah. Si X memakai baju merah. Kesimpulan?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Si X anggota Tim A" },
+        { "key": "B", "text": "Si X bukan anggota Tim B" },
+        { "key": "C", "text": "Si X anggota Tim B" },
+        { "key": "D", "text": "Si X tidak punya tim" },
+        { "key": "E", "text": "Si X pasti ketua Tim A" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Karena Tim B dilarang merah, dan X pakai merah, maka X pasti BUKAN Tim B. (X bisa jadi Tim A, atau tim lain, tapi yang pasti bukan B)."
+    }
+  ]
+}

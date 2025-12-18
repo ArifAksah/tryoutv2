@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "20 Soal Latihan Logika Analitis",
+    "instructions": "Import ke kategori tiu-logika"
+  },
+  "questions": [
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Andi lebih tinggi dari Budi. Budi lebih tinggi dari Cica. Siapa yang paling pendek?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Andi" },
+        { "key": "B", "text": "Budi" },
+        { "key": "C", "text": "Cica" },
+        { "key": "D", "text": "Andi dan Budi" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Urutan tinggi: Andi > Budi > Cica. Yang paling pendek adalah Cica."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Dalam antrian tiket, Rina ada di depan Susi. Tono ada di belakang Susi. Siapa yang berada di posisi tengah?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Rina" },
+        { "key": "B", "text": "Susi" },
+        { "key": "C", "text": "Tono" },
+        { "key": "D", "text": "Rina dan Tono" },
+        { "key": "E", "text": "Tidak ada yang di tengah" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Urutan: Rina - Susi - Tono. Susi ada di tengah."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "A, B, C, D, dan E berlomba lari. A finish sebelum B, tetapi setelah C. D finish sebelum E, tetapi setelah B. Siapa yang finish terakhir?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "A" },
+        { "key": "B", "text": "B" },
+        { "key": "C", "text": "C" },
+        { "key": "D", "text": "D" },
+        { "key": "E", "text": "E" }
+      ],
+      "answer_key": {
+        "correct": "E",
+        "score": 5
+      },
+      "discussion": "Urutan: C > A > B. Kemudian D finish setelah B (B > D) dan sebelum E (D > E). Gabungan: C > A > B > D > E. Terakhir E."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Rumah A terletak di sebelah utara rumah B. Rumah C terletak di sebelah timur rumah B. Di arah manakah rumah A dari rumah C?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Barat Laut" },
+        { "key": "B", "text": "Timur Laut" },
+        { "key": "C", "text": "Barat Daya" },
+        { "key": "D", "text": "Tenggara" },
+        { "key": "E", "text": "Utara" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "A di Utara B. C di Timur B. Maka posisi A terhadap C adalah serong kiri atas, yaitu Barat Laut."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Buku Sejarah lebih tebal dari buku Matematika. Buku Bahasa tidak lebih tebal dari buku Matematika. Buku Fisika lebih tebal dari buku Sejarah. Buku apa yang paling tipis?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sejarah" },
+        { "key": "B", "text": "Matematika" },
+        { "key": "C", "text": "Bahasa" },
+        { "key": "D", "text": "Fisika" },
+        { "key": "E", "text": "Semua sama tebal" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Fisika > Sejarah > Matematika. Bahasa <= Matematika. Maka Bahasa paling tipis (atau sama dengan Matematika, tapi opsi paling mungkin paling tipis adalah Bahasa)."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Lima orang duduk melingkar. A duduk di sebelah kanan B. C duduk di antara B dan D. E duduk di sebelah kiri D. Siapa yang duduk di sebelah kiri A?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "B" },
+        { "key": "B", "text": "C" },
+        { "key": "C", "text": "D" },
+        { "key": "D", "text": "E" },
+        { "key": "E", "text": "Tidak ada" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "Urutan melingkar (searah jarum jam misal): B - C - D - E - A. (A dikanan B). Maka di kiri A adalah E."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Senin adalah hari sebelum Selasa. Jika hari ini Rabu, dua hari yang lalu adalah hari?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Minggu" },
+        { "key": "B", "text": "Senin" },
+        { "key": "C", "text": "Selasa" },
+        { "key": "D", "text": "Kamis" },
+        { "key": "E", "text": "Jumat" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Hari ini Rabu. Kemarin Selasa. Dua hari lalu Senin."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Umur Amir 2 kali umur Budi. Umur Cici 5 tahun lebih muda dari Amir. Jika umur Budi 10 tahun, berapa umur Cici?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "10" },
+        { "key": "B", "text": "15" },
+        { "key": "C", "text": "20" },
+        { "key": "D", "text": "25" },
+        { "key": "E", "text": "30" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Budi = 10. Amir = 2 * 10 = 20. Cici = Amir - 5 = 15."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Di sebuah gedung, Lantai 3 ada di atas Lantai 2. Lantai 5 ada di bawah Lantai 6 tetapi di atas Lantai 4. Lantai berapakah yang berada tepat di tengah antara Lantai 2 dan Lantai 6?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Lantai 3" },
+        { "key": "B", "text": "Lantai 4" },
+        { "key": "C", "text": "Lantai 5" },
+        { "key": "D", "text": "Lantai 3 dan 4" },
+        { "key": "E", "text": "Lantai 4 dan 5" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Urutan: 2, 3, 4, 5, 6. Tengah-tengahnya adalah Lantai 4."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "X lebih berat dari Y. Z lebih ringan dari W. W lebih ringan dari Y. Urutan dari yang terberat adalah?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "X, Y, W, Z" },
+        { "key": "B", "text": "Z, W, Y, X" },
+        { "key": "C", "text": "X, W, Y, Z" },
+        { "key": "D", "text": "Y, X, W, Z" },
+        { "key": "E", "text": "X, Y, Z, W" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "X > Y. W < Y (atau Y > W). Z < W (atau W > Z). Gabung: X > Y > W > Z."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Ani menyukai Bakso dan Mie Ayam. Budi menyukai Mie Ayam dan Nasi Goreng. Cica menyukai Bakso dan Nasi Goreng. Siapa yang menyukai Mie Ayam?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Ani dan Cica" },
+        { "key": "B", "text": "Budi dan Cica" },
+        { "key": "C", "text": "Ani dan Budi" },
+        { "key": "D", "text": "Hanya Ani" },
+        { "key": "E", "text": "Hanya Budi" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Ani suka Mie Ayam (Ya). Budi suka Mie Ayam (Ya). Cica suka Bakso & Nasi Goreng (Tidak sebut Mie Ayam). Jadi Ani dan Budi."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Jarak kota A ke B adalah 50 km. Jarak kota B ke C adalah 30 km. Kota A, B, dan C terletak pada satu garis lurus. Berapa jarak A ke C jika B terletak di antara A dan C?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "20 km" },
+        { "key": "B", "text": "30 km" },
+        { "key": "C", "text": "50 km" },
+        { "key": "D", "text": "80 km" },
+        { "key": "E", "text": "100 km" }
+      ],
+      "answer_key": {
+        "correct": "D",
+        "score": 5
+      },
+      "discussion": "A --- 50 --- B --- 30 --- C. Total = 50 + 30 = 80 km."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Tidak ada dua siswa yang memiliki nilai sama. Nilai Dita lebih tinggi dari Eka. Nilai Fani lebih rendah dari Eka. Siapa yang memiliki nilai terendah?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Dita" },
+        { "key": "B", "text": "Eka" },
+        { "key": "C", "text": "Fani" },
+        { "key": "D", "text": "Dita dan Fani" },
+        { "key": "E", "text": "Tidak dapat ditentukan" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Dita > Eka. Fani < Eka (atau Eka > Fani). Urutan: Dita > Eka > Fani. Terendah Fani."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Dalam lemari, Baju Merah diletakkan di atas Baju Biru. Baju Hijau diletakkan di bawah Baju Biru. Baju Kuning diletakkan di atas Baju Merah. Urutan dari paling atas adalah?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Kuning, Merah, Biru, Hijau" },
+        { "key": "B", "text": "Merah, Kuning, Biru, Hijau" },
+        { "key": "C", "text": "Hijau, Biru, Merah, Kuning" },
+        { "key": "D", "text": "Kuning, Biru, Merah, Hijau" },
+        { "key": "E", "text": "Merah, Biru, Hijau, Kuning" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "Merah > Biru. Biru > Hijau. Kuning > Merah. Gabung: Kuning > Merah > Biru > Hijau."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Jika P adalah ayah Q, dan Q adalah saudari R, maka hubungan P dengan R adalah?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Kakek" },
+        { "key": "B", "text": "Paman" },
+        { "key": "C", "text": "Ayah" },
+        { "key": "D", "text": "Kakak" },
+        { "key": "E", "text": "Adik" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Q dan R bersaudara. P adalah ayah Q, maka P juga ayah R."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Mobil A lebih cepat dari Mobil B. Mobil C lebih lambat dari Mobil B. Mobil D sama cepatnya dengan Mobil A. Manakah pernyataan yang BENAR?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Mobil C lebih cepat dari Mobil A" },
+        { "key": "B", "text": "Mobil B paling lambat" },
+        { "key": "C", "text": "Mobil D lebih cepat dari Mobil B" },
+        { "key": "D", "text": "Mobil A lebih lambat dari Mobil C" },
+        { "key": "E", "text": "Mobil C sama dengan Mobil D" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "A > B. C < B. D = A. Urutan: D = A > B > C. Cek opsi: D > B adalah benar."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Dalam suatu rapat, Ketua tidak boleh duduk bersebelahan dengan Sekretaris. Bendahara harus duduk di sebelah kiri Ketua. Jika mereka duduk berderet (Bendahara - Ketua - X), siapakah X yang MUNGKIN?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Sekretaris" },
+        { "key": "B", "text": "Anggota Biasa" },
+        { "key": "C", "text": "Bendahara (Lagi)" },
+        { "key": "D", "text": "Tidak ada" },
+        { "key": "E", "text": "Ketua" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "X ada di sebelah kanan Ketua. Syarat: Ketua tidak boleh sebelah Sekretaris. Maka X bukan Sekretaris. X harus orang lain (Anggota Biasa)."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Pekerjaan X harus diselesaikan sebelum Y. Pekerjaan Z harus diselesaikan setelah Y. Pekerjaan W diselesaikan sebelum X. Urutan penyelesaian pekerjaan adalah?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "W, X, Y, Z" },
+        { "key": "B", "text": "X, Y, Z, W" },
+        { "key": "C", "text": "Z, Y, X, W" },
+        { "key": "D", "text": "W, Y, X, Z" },
+        { "key": "E", "text": "X, W, Y, Z" }
+      ],
+      "answer_key": {
+        "correct": "A",
+        "score": 5
+      },
+      "discussion": "X < Y. Y < Z. W < X. Gabung: W < X < Y < Z."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Gaji Pak Ali lebih besar dari Pak Bima. Gaji Pak Candra lebih kecil dari Pak Bima. Gaji Pak Dedi sama dengan Pak Ali. Siapa yang memiliki gaji terkecil?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Pak Ali" },
+        { "key": "B", "text": "Pak Bima" },
+        { "key": "C", "text": "Pak Candra" },
+        { "key": "D", "text": "Pak Dedi" },
+        { "key": "E", "text": "Pak Bima dan Pak Candra" }
+      ],
+      "answer_key": {
+        "correct": "C",
+        "score": 5
+      },
+      "discussion": "Ali > Bima. Candra < Bima. Dedi = Ali. Urutan: Dedi = Ali > Bima > Candra. Terkecil Candra."
+    },
+    {
+      "category_slug": "tiu-logika",
+      "question_text": "Semua anggota tim A memakai baju merah. Tidak ada anggota tim B yang memakai baju merah. Si X memakai baju merah. Kesimpulan?",
+      "question_type": "multiple_choice",
+      "question_image_url": null,
+      "options": [
+        { "key": "A", "text": "Si X anggota tim A" },
+        { "key": "B", "text": "Si X bukan anggota tim B" },
+        { "key": "C", "text": "Si X anggota tim B" },
+        { "key": "D", "text": "Si X bukan anggota tim A" },
+        { "key": "E", "text": "Si X tidak punya tim" }
+      ],
+      "answer_key": {
+        "correct": "B",
+        "score": 5
+      },
+      "discussion": "Tim B tidak pakai merah. X pakai merah. Maka X PASTI bukan Tim B. (X belum tentu Tim A, bisa saja Tim C yang juga pakai merah, tapi pasti bukan B)."
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "20 Soal Latihan SKB STMKG Fisika - Mekanika",
+        "instructions": "Import ke kategori fisika-mekanika"
+    },
+    "questions": [
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah mobil bergerak dengan kecepatan awal $20$ m/s dan dipercepat dengan percepatan tetap $2$ m/s$^2$. Jarak yang ditempuh mobil setelah $10$ detik adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "200 m"
+                },
+                {
+                    "key": "B",
+                    "text": "250 m"
+                },
+                {
+                    "key": "C",
+                    "text": "300 m"
+                },
+                {
+                    "key": "D",
+                    "text": "350 m"
+                },
+                {
+                    "key": "E",
+                    "text": "400 m"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Rumus GLBB (Jarak):\n$$s = v_0 t + \\frac{1}{2} a t^2$$\n$$s = (20)(10) + \\frac{1}{2}(2)(10^2)$$\n$$s = 200 + 100 = 300 \\text{ m}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah benda bermassa $5$ kg ditarik dengan gaya $F = 25$ N di atas lantai kasar yang mendatar. Jika koefisien gesek kinetis antara benda dan lantai adalah $\\mu_k = 0,2$ dan $g = 10$ m/s$^2$, maka percepatan benda tersebut adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$1$ m/s$^2$"
+                },
+                {
+                    "key": "B",
+                    "text": "$2$ m/s$^2$"
+                },
+                {
+                    "key": "C",
+                    "text": "$3$ m/s$^2$"
+                },
+                {
+                    "key": "D",
+                    "text": "$4$ m/s$^2$"
+                },
+                {
+                    "key": "E",
+                    "text": "$5$ m/s$^2$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Gaya gesek ($f_k$):\n$$f_k = \\mu_k \\cdot N = \\mu_k \\cdot m \\cdot g = 0,2 \\cdot 5 \\cdot 10 = 10 \\text{ N}$$\nHukum II Newton:\n$$\\Sigma F = m \\cdot a$$\n$$F - f_k = m \\cdot a$$\n$$25 - 10 = 5 \\cdot a$$\n$$15 = 5a \\rightarrow a = 3 \\text{ m/s}^2$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah peluru ditembakkan dengan kecepatan awal $100$ m/s dan sudut elevasi $30^\\circ$. Tinggi maksimum yang dapat dicapai peluru tersebut adalah... ($g = 10$ m/s$^2$)",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "100 m"
+                },
+                {
+                    "key": "B",
+                    "text": "125 m"
+                },
+                {
+                    "key": "C",
+                    "text": "250 m"
+                },
+                {
+                    "key": "D",
+                    "text": "500 m"
+                },
+                {
+                    "key": "E",
+                    "text": "1000 m"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Rumus Tinggi Maksimum ($h_{max}$):\n$$h_{max} = \\frac{v_0^2 \\sin^2 \\theta}{2g}$$\n$$h_{max} = \\frac{100^2 \\cdot (\\sin 30^\\circ)^2}{2 \\cdot 10}$$\n$$h_{max} = \\frac{10000 \\cdot (0,5)^2}{20} = \\frac{10000 \\cdot 0,25}{20}$$\n$$h_{max} = \\frac{2500}{20} = 125 \\text{ m}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Dua buah benda masing-masing bermassa $m_1 = 4$ kg dan $m_2 = 6$ kg dihubungkan dengan tali melalui katrol licin. Jika $g = 10$ m/s$^2$, maka percepatan sistem adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$1$ m/s$^2$"
+                },
+                {
+                    "key": "B",
+                    "text": "$2$ m/s$^2$"
+                },
+                {
+                    "key": "C",
+                    "text": "$3$ m/s$^2$"
+                },
+                {
+                    "key": "D",
+                    "text": "$4$ m/s$^2$"
+                },
+                {
+                    "key": "E",
+                    "text": "$5$ m/s$^2$"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Hukum II Newton untuk Katrol:\n$$a = \\frac{w_2 - w_1}{m_1 + m_2}$$\n$$a = \\frac{(6 \\cdot 10) - (4 \\cdot 10)}{4 + 6}$$\n$$a = \\frac{60 - 40}{10} = \\frac{20}{10} = 2 \\text{ m/s}^2$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah benda bermassa $2$ kg jatuh bebas dari ketinggian $20$ m di atas tanah. Energi kinetik benda saat berada pada ketinggian $5$ m dari tanah adalah... ($g = 10$ m/s$^2$)",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "100 J"
+                },
+                {
+                    "key": "B",
+                    "text": "200 J"
+                },
+                {
+                    "key": "C",
+                    "text": "300 J"
+                },
+                {
+                    "key": "D",
+                    "text": "400 J"
+                },
+                {
+                    "key": "E",
+                    "text": "500 J"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Hukum Kekekalan Energi Mekanik:\n$$EM_1 = EM_2$$\n$$mgh_1 + \\frac{1}{2}mv_1^2 = mgh_2 + EK_2$$\nKarena jatuh bebas, $v_1 = 0$, maka:\n$$mgh_1 = mgh_2 + EK_2$$\n$$2 \\cdot 10 \\cdot 20 = 2 \\cdot 10 \\cdot 5 + EK_2$$\n$$400 = 100 + EK_2$$\n$$EK_2 = 300 \\text{ J}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah bola bermassa $0,2$ kg dilempar horizontal dengan kecepatan $10$ m/s, kemudian memantul kembali dengan kecepatan yang sama namun berlawanan arah. Besar impuls yang bekerja pada bola adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "0 N.s"
+                },
+                {
+                    "key": "B",
+                    "text": "2 N.s"
+                },
+                {
+                    "key": "C",
+                    "text": "4 N.s"
+                },
+                {
+                    "key": "D",
+                    "text": "6 N.s"
+                },
+                {
+                    "key": "E",
+                    "text": "8 N.s"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Impuls = Perubahan Momentum (perhatikan tanda arah):\n$$I = m(v_2 - v_1)$$\n$$v_1 = 10 \\text{ m/s}, \\quad v_2 = -10 \\text{ m/s}$$\n$$I = 0,2(-10 - 10) = 0,2(-20) = -4 \\text{ N.s}$$\nBesarnya adalah $4$ N.s."
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah mobil bermassa $1000$ kg bergerak dengan kecepatan $20$ m/s. Agar mobil berhenti dalam jarak $50$ m, gaya pengereman yang dibutuhkan adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1000 N"
+                },
+                {
+                    "key": "B",
+                    "text": "2000 N"
+                },
+                {
+                    "key": "C",
+                    "text": "4000 N"
+                },
+                {
+                    "key": "D",
+                    "text": "5000 N"
+                },
+                {
+                    "key": "E",
+                    "text": "8000 N"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Konsep Usaha = Perubahan Energi Kinetik:\n$$W = \\Delta EK$$\n$$F \\cdot s = \\frac{1}{2} m v^2$$\n$$F \\cdot 50 = \\frac{1}{2} \\cdot 1000 \\cdot 20^2$$\n$$50F = 500 \\cdot 400$$\n$$50F = 200.000 \\rightarrow F = 4.000 \\text{ N}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah benda melakukan gerak melingkar beraturan dengan jari-jari $2$ m dan periode $4$ detik. Kecepatan sudut benda tersebut adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\pi$ rad/s"
+                },
+                {
+                    "key": "B",
+                    "text": "$0,5\\pi$ rad/s"
+                },
+                {
+                    "key": "C",
+                    "text": "$2\\pi$ rad/s"
+                },
+                {
+                    "key": "D",
+                    "text": "$4\\pi$ rad/s"
+                },
+                {
+                    "key": "E",
+                    "text": "$0,25\\pi$ rad/s"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Rumus Kecepatan Sudut ($\\omega$):\n$$\\omega = \\frac{2\\pi}{T}$$\n$$\\omega = \\frac{2\\pi}{4} = 0,5\\pi \\text{ rad/s}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Seseorang dengan berat $600$ N berada di dalam lift. Jika lift bergerak ke atas dengan percepatan $2$ m/s$^2$, maka gaya desakan kaki orang tersebut pada lantai lift adalah... ($g = 10$ m/s$^2$)",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "480 N"
+                },
+                {
+                    "key": "B",
+                    "text": "600 N"
+                },
+                {
+                    "key": "C",
+                    "text": "720 N"
+                },
+                {
+                    "key": "D",
+                    "text": "800 N"
+                },
+                {
+                    "key": "E",
+                    "text": "840 N"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Hukum II Newton pada Lift (bergerak ke atas):\n$$N - w = m \\cdot a$$\n$$m = w/g = 600/10 = 60 \\text{ kg}$$\n$$N = m(g + a)$$\n$$N = 60(10 + 2) = 60(12) = 720 \\text{ N}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Tiga buah pegas identik dengan konstanta $k = 200$ N/m disusun seperti berikut: dua pegas diparalel, kemudian diserikan dengan satu pegas lainnya. Konstanta pegas pengganti total sistem adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "100 N/m"
+                },
+                {
+                    "key": "B",
+                    "text": "133 N/m"
+                },
+                {
+                    "key": "C",
+                    "text": "200 N/m"
+                },
+                {
+                    "key": "D",
+                    "text": "300 N/m"
+                },
+                {
+                    "key": "E",
+                    "text": "400 N/m"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "1. Paralel: $k_p = k + k = 200 + 200 = 400$ N/m.\n2. Seri ($k_p$ dengan $k$): \n$$\\frac{1}{k_{tot}} = \\frac{1}{k_p} + \\frac{1}{k} = \\frac{1}{400} + \\frac{1}{200}$$\n$$\\frac{1}{k_{tot}} = \\frac{1}{400} + \\frac{2}{400} = \\frac{3}{400}$$\n$$k_{tot} = \\frac{400}{3} \\approx 133,3 \\text{ N/m}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah benda bergerak lurus dengan persamaan posisi $x(t) = 2t^2 - 4t + 5$ dalam meter. Kecepatan benda saat $t = 3$ detik adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "4 m/s"
+                },
+                {
+                    "key": "B",
+                    "text": "6 m/s"
+                },
+                {
+                    "key": "C",
+                    "text": "8 m/s"
+                },
+                {
+                    "key": "D",
+                    "text": "10 m/s"
+                },
+                {
+                    "key": "E",
+                    "text": "12 m/s"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Kecepatan adalah turunan pertama dari posisi:\n$$v(t) = \\frac{dx}{dt} = 4t - 4$$\nSaat $t = 3$:\n$$v(3) = 4(3) - 4 = 12 - 4 = 8 \\text{ m/s}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Jika jari-jari bumi $R$ dan percepatan gravitasi di permukaan bumi $g$, maka percepatan gravitasi pada ketinggian $R$ di atas permukaan bumi adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$g$"
+                },
+                {
+                    "key": "B",
+                    "text": "$0,5 g$"
+                },
+                {
+                    "key": "C",
+                    "text": "$0,25 g$"
+                },
+                {
+                    "key": "D",
+                    "text": "$2 g$"
+                },
+                {
+                    "key": "E",
+                    "text": "$4 g$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Rumus gravitasi: $g \\sim \\frac{1}{r^2}$.\nJarak awal dari pusat = $R$.\nJarak baru dari pusat = $R + R = 2R$.\nPerbandingan:\n$$\\frac{g'}{g} = \\left( \\frac{R}{2R} \\right)^2 = \\left( \\frac{1}{2} \\right)^2 = \\frac{1}{4}$$\n$$g' = 0,25 g$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah balok bermassa $2$ kg meluncur pada bidang miring licin yang membentuk sudut $30^\\circ$ terhadap horizontal. Gaya normal yang bekerja pada balok adalah... ($g = 10$ m/s$^2$)",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "10 N"
+                },
+                {
+                    "key": "B",
+                    "text": "$10\\sqrt{3}$ N"
+                },
+                {
+                    "key": "C",
+                    "text": "20 N"
+                },
+                {
+                    "key": "D",
+                    "text": "$20\\sqrt{3}$ N"
+                },
+                {
+                    "key": "E",
+                    "text": "5 N"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Gaya Normal pada bidang miring:\n$$N = m \\cdot g \\cdot \\cos \\theta$$\n$$N = 2 \\cdot 10 \\cdot \\cos 30^\\circ$$\n$$N = 20 \\cdot \\frac{1}{2}\\sqrt{3} = 10\\sqrt{3} \\text{ N}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Dua benda bertumbukan lenting sempurna. Pernyataan yang benar mengenai tumbukan tersebut adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Hanya berlaku hukum kekekalan momentum"
+                },
+                {
+                    "key": "B",
+                    "text": "Hanya berlaku hukum kekekalan energi kinetik"
+                },
+                {
+                    "key": "C",
+                    "text": "Berlaku hukum kekekalan momentum dan energi kinetik"
+                },
+                {
+                    "key": "D",
+                    "text": "Setelah tumbukan kedua benda menyatu"
+                },
+                {
+                    "key": "E",
+                    "text": "Koefisien restitusi $e = 0$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Syarat Tumbukan Lenting Sempurna:\n1. Berlaku Kekekalan Momentum.\n2. Berlaku Kekekalan Energi Kinetik.\n3. Koefisien restitusi $e = 1$."
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Untuk memindahkan benda sejauh $10$ m, gaya $F$ melakukan usaha sebesar $250$ J. Jika gaya $F$ membentuk sudut $60^\\circ$ terhadap arah perpindahan, besar gaya $F$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "25 N"
+                },
+                {
+                    "key": "B",
+                    "text": "50 N"
+                },
+                {
+                    "key": "C",
+                    "text": "100 N"
+                },
+                {
+                    "key": "D",
+                    "text": "250 N"
+                },
+                {
+                    "key": "E",
+                    "text": "500 N"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Rumus Usaha:\n$$W = F \\cdot s \\cdot \\cos \\theta$$\n$$250 = F \\cdot 10 \\cdot \\cos 60^\\circ$$\n$$250 = F \\cdot 10 \\cdot 0,5$$\n$$250 = 5F \\rightarrow F = 50 \\text{ N}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah mobil menikung pada jalan datar dengan jari-jari kelengkungan $20$ m. Jika koefisien gesekan statis antara ban dan jalan adalah $0,5$ dan $g = 10$ m/s$^2$, kecepatan maksimum mobil agar tidak selip adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "5 m/s"
+                },
+                {
+                    "key": "B",
+                    "text": "10 m/s"
+                },
+                {
+                    "key": "C",
+                    "text": "15 m/s"
+                },
+                {
+                    "key": "D",
+                    "text": "20 m/s"
+                },
+                {
+                    "key": "E",
+                    "text": "25 m/s"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Kecepatan maksimum tikungan datar kasar:\n$$v_{max} = \\sqrt{\\mu_s \\cdot g \\cdot R}$$\n$$v_{max} = \\sqrt{0,5 \\cdot 10 \\cdot 20}$$\n$$v_{max} = \\sqrt{100} = 10 \\text{ m/s}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Dimensi dari besaran Daya adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$[M][L][T]^{-2}$"
+                },
+                {
+                    "key": "B",
+                    "text": "$[M][L]^2[T]^{-2}$"
+                },
+                {
+                    "key": "C",
+                    "text": "$[M][L]^2[T]^{-3}$"
+                },
+                {
+                    "key": "D",
+                    "text": "$[M][L][T]^{-3}$"
+                },
+                {
+                    "key": "E",
+                    "text": "$[M][L]^{-1}[T]^{-2}$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Daya ($P$) = Usaha ($W$) / Waktu ($t$).\nUsaha = Gaya $\\times$ Jarak = $[M][L][T]^{-2} \\times [L] = [M][L]^2[T]^{-2}$.\nDaya = $\\frac{[M][L]^2[T]^{-2}}{[T]} = [M][L]^2[T]^{-3}$."
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah benda dilempar vertikal ke atas dengan kecepatan awal $30$ m/s. Waktu yang diperlukan untuk mencapai titik tertinggi adalah... ($g = 10$ m/s$^2$)",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1 detik"
+                },
+                {
+                    "key": "B",
+                    "text": "2 detik"
+                },
+                {
+                    "key": "C",
+                    "text": "3 detik"
+                },
+                {
+                    "key": "D",
+                    "text": "4 detik"
+                },
+                {
+                    "key": "E",
+                    "text": "6 detik"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Di titik tertinggi, $v_t = 0$.\n$$v_t = v_0 - gt$$\n$$0 = 30 - 10t$$\n$$10t = 30 \\rightarrow t = 3 \\text{ detik}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Benda bermassa $4$ kg bergerak dengan kecepatan $6$ m/s, kemudian menabrak benda lain bermassa $2$ kg yang diam. Jika setelah tumbukan kedua benda menyatu, kecepatan keduanya adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "2 m/s"
+                },
+                {
+                    "key": "B",
+                    "text": "3 m/s"
+                },
+                {
+                    "key": "C",
+                    "text": "4 m/s"
+                },
+                {
+                    "key": "D",
+                    "text": "6 m/s"
+                },
+                {
+                    "key": "E",
+                    "text": "8 m/s"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Tumbukan tidak lenting sama sekali (menyatu):\n$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v'$$\n$$4(6) + 2(0) = (4 + 2) v'$$\n$$24 = 6 v' \\rightarrow v' = 4 \\text{ m/s}$$"
+        },
+        {
+            "category_slug": "fisika-mekanika",
+            "question_text": "Sebuah roda gila memiliki momen inersia $4$ kg.m$^2$ berputar dengan kecepatan sudut $10$ rad/s. Energi kinetik rotasi roda tersebut adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "100 J"
+                },
+                {
+                    "key": "B",
+                    "text": "200 J"
+                },
+                {
+                    "key": "C",
+                    "text": "400 J"
+                },
+                {
+                    "key": "D",
+                    "text": "50 J"
+                },
+                {
+                    "key": "E",
+                    "text": "20 J"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Energi Kinetik Rotasi:\n$$EK_{rot} = \\frac{1}{2} I \\omega^2$$\n$$EK_{rot} = \\frac{1}{2} \\cdot 4 \\cdot (10)^2$$\n$$EK_{rot} = 2 \\cdot 100 = 200 \\text{ J}$$"
+        }
+    ]
+}

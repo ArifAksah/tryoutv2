@@ -1,0 +1,669 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "20 Soal Latihan SKB STMKG Fisika - Fluida, Suhu, dan Kalor",
+        "instructions": "Import ke kategori fisika-fluida-kalor"
+    },
+    "questions": [
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Seorang penyelam berada pada kedalaman $20$ m di bawah permukaan air laut. Jika massa jenis air laut $1.030$ kg/m$^3$ dan tekanan udara luar $10^5$ Pa, maka tekanan total yang dialami penyelam adalah... ($g = 10$ m/s$^2$)",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$2,06 \\times 10^5$ Pa"
+                },
+                {
+                    "key": "B",
+                    "text": "$3,06 \\times 10^5$ Pa"
+                },
+                {
+                    "key": "C",
+                    "text": "$1,03 \\times 10^5$ Pa"
+                },
+                {
+                    "key": "D",
+                    "text": "$4,12 \\times 10^5$ Pa"
+                },
+                {
+                    "key": "E",
+                    "text": "$2,00 \\times 10^5$ Pa"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Tekanan Total = Tekanan Hidrostatis + Tekanan Atmosfer\n$$P = P_0 + \\rho g h$$\n$$P = 10^5 + (1.030 \\cdot 10 \\cdot 20)$$\n$$P = 100.000 + 206.000 = 306.000 \\text{ Pa}$$\n$$P = 3,06 \\times 10^5 \\text{ Pa}$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Sebuah benda memiliki berat $50$ N di udara. Ketika ditimbang di dalam air, beratnya menjadi $45$ N. Jika massa jenis air $1000$ kg/m$^3$ dan $g = 10$ m/s$^2$, volume benda tersebut adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$5 \\times 10^{-4}$ m$^3$"
+                },
+                {
+                    "key": "B",
+                    "text": "$5 \\times 10^{-3}$ m$^3$"
+                },
+                {
+                    "key": "C",
+                    "text": "$2 \\times 10^{-4}$ m$^3$"
+                },
+                {
+                    "key": "D",
+                    "text": "$10^{-3}$ m$^3$"
+                },
+                {
+                    "key": "E",
+                    "text": "$2 \\times 10^{-3}$ m$^3$"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Gaya Apung ($F_A$) = Berat di udara - Berat di air\n$$F_A = 50 - 45 = 5 \\text{ N}$$\nHukum Archimedes:\n$$F_A = \\rho_f \\cdot g \\cdot V_b$$\n$$5 = 1000 \\cdot 10 \\cdot V_b$$\n$$5 = 10^4 \\cdot V_b \\rightarrow V_b = \\frac{5}{10^4} = 5 \\times 10^{-4} \\text{ m}^3$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Dongkrak hidrolik memiliki penampang kecil berdiameter $2$ cm dan penampang besar berdiameter $40$ cm. Jika gaya $5$ N diberikan pada penampang kecil, gaya yang dihasilkan pada penampang besar adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "100 N"
+                },
+                {
+                    "key": "B",
+                    "text": "400 N"
+                },
+                {
+                    "key": "C",
+                    "text": "1000 N"
+                },
+                {
+                    "key": "D",
+                    "text": "2000 N"
+                },
+                {
+                    "key": "E",
+                    "text": "4000 N"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 5
+            },
+            "discussion": "Hukum Pascal:\n$$\\frac{F_1}{A_1} = \\frac{F_2}{A_2} \\rightarrow \\frac{F_1}{d_1^2} = \\frac{F_2}{d_2^2}$$\n$$F_2 = F_1 \\left( \\frac{d_2}{d_1} \\right)^2$$\n$$F_2 = 5 \\left( \\frac{40}{2} \\right)^2 = 5 (20)^2 = 5(400) = 2000 \\text{ N}$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Air mengalir melalui pipa horizontal dengan luas penampang $A_1 = 10$ cm$^2$ dan $A_2 = 5$ cm$^2$. Jika kecepatan air di penampang besar adalah $2$ m/s, maka kecepatan air di penampang kecil adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1 m/s"
+                },
+                {
+                    "key": "B",
+                    "text": "2 m/s"
+                },
+                {
+                    "key": "C",
+                    "text": "4 m/s"
+                },
+                {
+                    "key": "D",
+                    "text": "8 m/s"
+                },
+                {
+                    "key": "E",
+                    "text": "10 m/s"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Azas Kontinuitas:\n$$A_1 v_1 = A_2 v_2$$\n$$10 \\cdot 2 = 5 \\cdot v_2$$\n$$20 = 5 v_2 \\rightarrow v_2 = 4 \\text{ m/s}$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Sebuah tangki air bocor pada ketinggian $5$ m dari permukaan air dalam tangki. Kecepatan keluarnya air dari lubang bocoran tersebut adalah... ($g = 10$ m/s$^2$)",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "5 m/s"
+                },
+                {
+                    "key": "B",
+                    "text": "10 m/s"
+                },
+                {
+                    "key": "C",
+                    "text": "15 m/s"
+                },
+                {
+                    "key": "D",
+                    "text": "20 m/s"
+                },
+                {
+                    "key": "E",
+                    "text": "25 m/s"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Teorema Torricelli:\n$$v = \\sqrt{2gh}$$\n$$v = \\sqrt{2 \\cdot 10 \\cdot 5} = \\sqrt{100} = 10 \\text{ m/s}$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Gaya angkat pada sayap pesawat terbang timbul karena...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tekanan di atas sayap lebih besar dari di bawah sayap"
+                },
+                {
+                    "key": "B",
+                    "text": "Kecepatan udara di atas sayap lebih besar daripada di bawah sayap"
+                },
+                {
+                    "key": "C",
+                    "text": "Kecepatan udara di atas sayap lebih kecil daripada di bawah sayap"
+                },
+                {
+                    "key": "D",
+                    "text": "Massa jenis udara di atas sayap lebih besar"
+                },
+                {
+                    "key": "E",
+                    "text": "Suhu di atas sayap lebih tinggi"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Hukum Bernoulli: Agar ada gaya angkat, tekanan di bawah harus lebih besar dari di atas ($P_{bawah} > P_{atas}$). Agar tekanan di atas kecil, maka kecepatan udara di atas sayap harus lebih besar ($v_{atas} > v_{bawah}$)."
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Suhu suatu benda adalah $50^\\circ$C. Jika diukur dengan termometer Fahrenheit, suhunya adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$90^\\circ$F"
+                },
+                {
+                    "key": "B",
+                    "text": "$112^\\circ$F"
+                },
+                {
+                    "key": "C",
+                    "text": "$122^\\circ$F"
+                },
+                {
+                    "key": "D",
+                    "text": "$132^\\circ$F"
+                },
+                {
+                    "key": "E",
+                    "text": "$102^\\circ$F"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Konversi Celcius ke Fahrenheit:\n$$T_F = \\frac{9}{5} T_C + 32$$\n$$T_F = \\frac{9}{5}(50) + 32 = 9(10) + 32 = 90 + 32 = 122^\\circ\\text{F}$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Batang besi panjangnya $2$ m pada suhu $20^\\circ$C. Jika koefisien muai panjang besi $1,1 \\times 10^{-5} / ^\\circ$C, panjang batang pada suhu $120^\\circ$C adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "2,0011 m"
+                },
+                {
+                    "key": "B",
+                    "text": "2,0022 m"
+                },
+                {
+                    "key": "C",
+                    "text": "2,0220 m"
+                },
+                {
+                    "key": "D",
+                    "text": "2,0010 m"
+                },
+                {
+                    "key": "E",
+                    "text": "2,0110 m"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Pemuaian Panjang:\n$$\\Delta L = L_0 \\cdot \\alpha \\cdot \\Delta T$$\n$$\\Delta L = 2 \\cdot (1,1 \\times 10^{-5}) \\cdot (120 - 20)$$\n$$\\Delta L = 2 \\cdot 1,1 \\times 10^{-5} \\cdot 100 = 2,2 \\times 10^{-3} = 0,0022 \\text{ m}$$\n$$L_t = L_0 + \\Delta L = 2 + 0,0022 = 2,0022 \\text{ m}$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Es bermassa $200$ gram bersuhu $-5^\\circ$C dipanaskan hingga menjadi air bersuhu $20^\\circ$C. Jika kalor jenis es $0,5$ kal/g$^\\circ$C, kalor lebur es $80$ kal/g, dan kalor jenis air $1$ kal/g$^\\circ$C, total kalor yang diperlukan adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "16.000 kal"
+                },
+                {
+                    "key": "B",
+                    "text": "18.500 kal"
+                },
+                {
+                    "key": "C",
+                    "text": "20.500 kal"
+                },
+                {
+                    "key": "D",
+                    "text": "21.000 kal"
+                },
+                {
+                    "key": "E",
+                    "text": "25.000 kal"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "1. Es $-5$ ke $0$: $Q_1 = m c_{es} \\Delta T = 200 \\cdot 0,5 \\cdot 5 = 500$ kal.\n2. Melebur: $Q_2 = m L = 200 \\cdot 80 = 16.000$ kal.\n3. Air $0$ ke $20$: $Q_3 = m c_{air} \\Delta T = 200 \\cdot 1 \\cdot 20 = 4.000$ kal.\nTotal = $500 + 16.000 + 4.000 = 20.500$ kal."
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Air sebanyak $100$ gram bersuhu $80^\\circ$C dicampur dengan $200$ gram air bersuhu $20^\\circ$C. Suhu campuran pada keadaan setimbang adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$30^\\circ$C"
+                },
+                {
+                    "key": "B",
+                    "text": "$40^\\circ$C"
+                },
+                {
+                    "key": "C",
+                    "text": "$50^\\circ$C"
+                },
+                {
+                    "key": "D",
+                    "text": "$60^\\circ$C"
+                },
+                {
+                    "key": "E",
+                    "text": "$45^\\circ$C"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Azas Black ($Q_{lepas} = Q_{terima}$):\n$$m_1 c (T_1 - T_c) = m_2 c (T_c - T_2)$$\n$$100(80 - T_c) = 200(T_c - 20)$$\n$$80 - T_c = 2(T_c - 20)$$\n$$80 - T_c = 2T_c - 40$$\n$$120 = 3T_c \\rightarrow T_c = 40^\\circ\\text{C}$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Perpindahan kalor yang disertai dengan perpindahan partikel-partikel zat perantaranya disebut...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Konduksi"
+                },
+                {
+                    "key": "B",
+                    "text": "Konveksi"
+                },
+                {
+                    "key": "C",
+                    "text": "Radiasi"
+                },
+                {
+                    "key": "D",
+                    "text": "Evaporasi"
+                },
+                {
+                    "key": "E",
+                    "text": "Sublimasi"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Konduksi = tanpa perpindahan partikel (logam dipanaskan). Konveksi = dengan perpindahan partikel (air mendidih/angin). Radiasi = tanpa zat perantara (sinar matahari)."
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Gas ideal berada dalam ruang tertutup dengan volume $2$ liter, tekanan $1$ atm, dan suhu $27^\\circ$C. Jika suhunya dinaikkan menjadi $127^\\circ$C dan tekanannya menjadi $2$ atm, volume gas menjadi...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1,33 liter"
+                },
+                {
+                    "key": "B",
+                    "text": "2,67 liter"
+                },
+                {
+                    "key": "C",
+                    "text": "3 liter"
+                },
+                {
+                    "key": "D",
+                    "text": "0,75 liter"
+                },
+                {
+                    "key": "E",
+                    "text": "1,5 liter"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Hukum Boyle-Gay Lussac:\n$$\\frac{P_1 V_1}{T_1} = \\frac{P_2 V_2}{T_2}$$\n$T_1 = 27 + 273 = 300$ K.\n$T_2 = 127 + 273 = 400$ K.\n$$\\frac{1 \\cdot 2}{300} = \\frac{2 \\cdot V_2}{400}$$\n$$\\frac{2}{3} = \\frac{2 V_2}{4} \\rightarrow \\frac{1}{3} = \\frac{V_2}{4} \\rightarrow V_2 = \\frac{4}{3} = 1,33 \\text{ liter}$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Energi dalam gas ideal monoatomik sebanding dengan...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tekanan"
+                },
+                {
+                    "key": "B",
+                    "text": "Volume"
+                },
+                {
+                    "key": "C",
+                    "text": "Suhu mutlak"
+                },
+                {
+                    "key": "D",
+                    "text": "Massa jenis"
+                },
+                {
+                    "key": "E",
+                    "text": "Massa molekul"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Energi dalam ($U$) gas monoatomik:\n$$U = \\frac{3}{2} N k T$$\n$U$ sebanding dengan suhu mutlak ($T$)."
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Sebuah mesin Carnot bekerja antara suhu tinggi $800$ K dan suhu rendah $400$ K. Efisiensi mesin tersebut adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "25%"
+                },
+                {
+                    "key": "B",
+                    "text": "40%"
+                },
+                {
+                    "key": "C",
+                    "text": "50%"
+                },
+                {
+                    "key": "D",
+                    "text": "75%"
+                },
+                {
+                    "key": "E",
+                    "text": "80%"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Efisiensi Mesin Carnot ($\\eta$):\n$$\\eta = (1 - \\frac{T_{rendah}}{T_{tinggi}}) \\times 100\\%$$\n$$\\eta = (1 - \\frac{400}{800}) \\times 100\\% = (1 - 0,5) \\times 100\\% = 50\\%$$"
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Proses termodinamika yang terjadi pada tekanan tetap disebut...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Isotermik"
+                },
+                {
+                    "key": "B",
+                    "text": "Isobarik"
+                },
+                {
+                    "key": "C",
+                    "text": "Isokhorik"
+                },
+                {
+                    "key": "D",
+                    "text": "Adiabatik"
+                },
+                {
+                    "key": "E",
+                    "text": "Isentropik"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Isobarik = Tekanan tetap. Isotermik = Suhu tetap. Isokhorik = Volume tetap. Adiabatik = Tidak ada kalor keluar/masuk."
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Sebuah pipa kapiler dengan jari-jari $r$ dimasukkan ke dalam air. Kenaikan air dalam pipa akan sebanding dengan...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Jari-jari pipa ($r$)"
+                },
+                {
+                    "key": "B",
+                    "text": "Massa jenis cairan ($\\rho$)"
+                },
+                {
+                    "key": "C",
+                    "text": "Berbanding terbalik dengan jari-jari pipa ($1/r$)"
+                },
+                {
+                    "key": "D",
+                    "text": "Luas penampang pipa"
+                },
+                {
+                    "key": "E",
+                    "text": "Tekanan udara luar"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Rumus Kapilaritas ($h$):\n$$h = \\frac{2 \\gamma \\cos \\theta}{\\rho g r}$$\n$h$ berbanding terbalik dengan jari-jari ($r$). Semakin kecil pipa, air semakin naik tinggi."
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Laju perpindahan kalor secara konduksi pada suatu batang logam berbanding terbalik dengan...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Perbedaan suhu"
+                },
+                {
+                    "key": "B",
+                    "text": "Luas penampang"
+                },
+                {
+                    "key": "C",
+                    "text": "Konduktivitas termal"
+                },
+                {
+                    "key": "D",
+                    "text": "Panjang batang"
+                },
+                {
+                    "key": "E",
+                    "text": "Massa jenis"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 5
+            },
+            "discussion": "Laju Konduksi ($H$):\n$$H = \\frac{k A \\Delta T}{L}$$\n$H$ sebanding dengan $A$ dan $\\Delta T$, tapi berbanding terbalik dengan panjang ($L$)."
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Suatu gas dimampatkan secara isobarik. Jika volume gas berkurang, maka usaha yang dilakukan gas bernilai...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Positif"
+                },
+                {
+                    "key": "B",
+                    "text": "Negatif"
+                },
+                {
+                    "key": "C",
+                    "text": "Nol"
+                },
+                {
+                    "key": "D",
+                    "text": "Tak terhingga"
+                },
+                {
+                    "key": "E",
+                    "text": "Tetap"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Usaha gas ($W$) = $P \\Delta V$. Jika volume berkurang (kompresi), $\\Delta V$ negatif, maka $W$ negatif (lingkungan melakukan kerja pada gas)."
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Manakah pernyataan yang benar terkait gas ideal?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tumbukan antar partikel bersifat tidak lenting sama sekali"
+                },
+                {
+                    "key": "B",
+                    "text": "Gaya tarik menarik antar partikel sangat kuat"
+                },
+                {
+                    "key": "C",
+                    "text": "Partikel gas bergerak secara acak"
+                },
+                {
+                    "key": "D",
+                    "text": "Ukuran partikel gas diperhitungkan"
+                },
+                {
+                    "key": "E",
+                    "text": "Hukum Newton tidak berlaku"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Sifat gas ideal: Partikel bergerak acak, tumbukan lenting sempurna, tidak ada gaya tarik menarik antar partikel, ukuran partikel diabaikan, berlaku hukum Newton."
+        },
+        {
+            "category_slug": "fisika-fluida-kalor",
+            "question_text": "Pada mesin pendingin (kulkas), kalor dibuang ke lingkungan melalui komponen...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Evaporator"
+                },
+                {
+                    "key": "B",
+                    "text": "Kompresor"
+                },
+                {
+                    "key": "C",
+                    "text": "Kondensor"
+                },
+                {
+                    "key": "D",
+                    "text": "Katup ekspansi"
+                },
+                {
+                    "key": "E",
+                    "text": "Termostat"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Evaporator menyerap kalor dari dalam kulkas. Kondensor (di belakang kulkas) membuang kalor ke lingkungan (terasa panas)."
+        }
+    ]
+}

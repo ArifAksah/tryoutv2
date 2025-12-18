@@ -264,15 +264,25 @@ export async function fetchExamStructure(opts?: {
 
   const supabase = await getSupabaseServerClient("read");
 
+  /* 
+     Dynamic Fetching: 
+     Fetch all categories where parent_id is null.
+     We treat 'skd' as SKD, and everything else as SKB (or generic sections).
+  */
   const { data: roots, error: rootError } = await supabase
     .from("categories")
-    .select("id, slug")
-    .in("slug", ["skd", "skb"]);
+    .select("id, slug, name")
+    .is("parent_id", null)
+    .order("name");
 
   if (rootError || !roots?.length) {
     if (rootError) {
       console.warn("Supabase categories(root) error", rootError.message);
     }
+    // If we fail to get dynamic data, fallback to sample ONLY if environment is not set properly,
+    // but here we know environment is set, so it might just be empty DB.
+    // If completely empty, sampleExamSections might be returned, or just empty list.
+    // Preserving existing fallback behavior for now.
     return { sections: sampleExamSections, source: "sample" };
   }
 
@@ -281,16 +291,34 @@ export async function fetchExamStructure(opts?: {
     return { sections: normalized, source: "supabase" };
   }
 
+  // Separate roots
   const skdRoot = roots.find((r) => r.slug === "skd") ?? null;
-  const skbRoot = roots.find((r) => r.slug === "skb") ?? null;
+  // All other roots are considered "SKB" or "Custom Sections"
+  // We exclude SKD from this list to avoid duplication
+  const otherRoots = roots.filter((r) => r.slug !== "skd");
 
   const skdSections = skdRoot
     ? await fetchCategoryBasedStructure(supabase, [skdRoot])
     : [];
 
-  const skbSections = skbRoot ? await fetchSkbInstitutionStructure(supabase) : [];
+  // For other roots, we also use the category-based structure.
+  // The original code used `fetchSkbInstitutionStructure` which looked at `institutions` table.
+  // User wants "Subject Categories" (from categories table) to be the source of truth for SKB now.
+  // So we arguably should use `fetchCategoryBasedStructure` for these too, 
+  // OR we keep the old logic if "institutions" table is still used? 
+  // The user showed "SKB STMKG" in the CATEGORY table in the screenshot.
+  // So we should definitely use `fetchCategoryBasedStructure` for `otherRoots`.
 
-  return { sections: [...skdSections, ...skbSections], source: "supabase" };
+  const dynamicSkbSections = await fetchCategoryBasedStructure(supabase, otherRoots);
+
+  // We can still try to fetch 'old style' institution SKBs if they exist and are NOT covered by the category roots?
+  // But likely the user is migrating to everything-in-categories. 
+  // For safety, let's append dynamicSkbSections. 
+  // Note: `fetchSkbInstitutionStructure` logic is specific to `institutions` table + `exam_blueprints`.
+  // If the user is moving to `categories` table for SKB, we should rely on that.
+  // We will assume `otherRoots` covers the new SKB needs.
+
+  return { sections: [...skdSections, ...dynamicSkbSections], source: "supabase" };
 }
 
 async function fetchCategoryBasedStructure(
@@ -299,7 +327,8 @@ async function fetchCategoryBasedStructure(
 ): Promise<ExamSection[]> {
   const rootById = new Map<string, "SKD" | "SKB">();
   roots.forEach((r) => {
-    rootById.set(r.id, r.slug === "skb" ? "SKB" : "SKD");
+    // If root slug is 'skd', it's SKD. Everything else is SKB.
+    rootById.set(r.id, r.slug === "skd" ? "SKD" : "SKB");
   });
 
   const rootIds = roots.map((r) => r.id);

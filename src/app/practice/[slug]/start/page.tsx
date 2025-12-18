@@ -14,7 +14,7 @@ type Props = {
 export default async function PracticeStartPage({ params, searchParams }: Props) {
   const user = await requireUser(`/practice/${(await params).slug}/start`);
   const { slug } = await params;
-  const { take } = await searchParams;
+  const { take, questionIds } = await searchParams;
   const takeCount = Math.max(1, Math.min(100, parseInt(take || "10", 10)));
 
   const supabase = await getSupabaseServerClient("read");
@@ -30,11 +30,29 @@ export default async function PracticeStartPage({ params, searchParams }: Props)
     redirect("/");
   }
 
-  // Get questions from this category (with recursive descendants)
-  const { data: questions } = await supabase.rpc("pick_random_questions", {
-    p_category_id: category.id,
-    p_take: takeCount,
-  });
+  let questions: unknown[] | null = null;
+
+  if (questionIds) {
+    const ids = questionIds.split(",").filter(Boolean);
+    if (ids.length > 0) {
+      const { data } = await supabase
+        .from("questions")
+        .select("id, question_text, question_type, options, answer_key, discussion")
+        .in("id", ids);
+
+      // Preserve order of IDs if possible, or just return result
+      questions = data;
+    }
+  }
+
+  // Fallback to random pick if no specific Ids or failed
+  if (!questions || questions.length === 0) {
+    const { data } = await supabase.rpc("pick_random_questions", {
+      p_category_id: category.id,
+      p_take: takeCount,
+    });
+    questions = data;
+  }
 
   if (!questions || questions.length === 0) {
     return (
@@ -64,14 +82,14 @@ export default async function PracticeStartPage({ params, searchParams }: Props)
     questionType: q.question_type,
     options: Array.isArray(q.options)
       ? q.options.map((opt: unknown) => ({
-          key: typeof opt === "string" ? opt : (opt as { key?: string }).key || "",
-          text:
-            typeof opt === "string"
-              ? opt
-              : (opt as { text?: string; value?: string }).text ||
-                (opt as { text?: string; value?: string }).value ||
-                "",
-        }))
+        key: typeof opt === "string" ? opt : (opt as { key?: string }).key || "",
+        text:
+          typeof opt === "string"
+            ? opt
+            : (opt as { text?: string; value?: string }).text ||
+            (opt as { text?: string; value?: string }).value ||
+            "",
+      }))
       : [],
     answerKey: (q.answer_key || {}) as Record<string, string | number>,
     discussion: q.discussion || null,

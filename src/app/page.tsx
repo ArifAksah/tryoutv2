@@ -1,7 +1,9 @@
 import { ExamSectionCard } from "@/components/exam-section-card";
+import { SkbSectionCard } from "@/components/skb-section-card";
 import { ConfirmStartTryoutButton } from "@/components/confirm-start-tryout-button";
 import { SidebarShell } from "@/components/sidebar-shell";
 import { fetchExamStructure } from "@/lib/exam-structure";
+import { fetchQuestionsForSection, Question } from "@/lib/questions";
 import { getCurrentUser, isAdminUser, requireUser } from "@/lib/auth";
 import { getSupabaseServerClient, hasSupabasePublicEnv } from "@/lib/supabase/server";
 
@@ -54,9 +56,9 @@ export default async function Home() {
 
     const { data: blueprintsData } = packageIds.length
       ? await supabase
-          .from("exam_package_blueprints")
-          .select("package_id, category_id, question_count")
-          .in("package_id", packageIds)
+        .from("exam_package_blueprints")
+        .select("package_id, category_id, question_count")
+        .in("package_id", packageIds)
       : { data: [] as unknown[] };
 
     const blueprints = (blueprintsData ?? []) as BlueprintRow[];
@@ -121,6 +123,19 @@ export default async function Home() {
     0
   );
 
+  // Parallel fetch questions for ALL SKB sections to display them dynamically
+  const skbQuestionsMap = new Map<string, Question[]>();
+  if (skbSections.length > 0) {
+    await Promise.all(
+      skbSections.map(async (section) => {
+        const result = await fetchQuestionsForSection(section.id);
+        if (result.questions.length > 0) {
+          skbQuestionsMap.set(section.id, result.questions);
+        }
+      })
+    );
+  }
+
   return (
     <SidebarShell
       title="Dashboard"
@@ -144,7 +159,7 @@ export default async function Home() {
             <h1 className="text-3xl font-bold text-slate-900">Selamat Datang, {user?.email?.split('@')[0] || 'User'}!</h1>
             <p className="text-slate-600">Pilih jenis tryout yang ingin kamu kerjakan</p>
           </div>
-          
+
           <div className="grid gap-4 md:grid-cols-3">
             <div className="rounded-lg border border-slate-200 bg-white p-6 hover:border-slate-300 transition">
               <div className="space-y-2">
@@ -290,9 +305,16 @@ export default async function Home() {
           ) : null}
 
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {skbSections.map((section) => (
-              <ExamSectionCard key={section.id} section={section} />
-            ))}
+            {skbSections.map((section) => {
+              const questions = skbQuestionsMap.get(section.id) ?? [];
+              return (
+                <SkbSectionCard
+                  key={section.id}
+                  section={section}
+                  questions={questions}
+                />
+              );
+            })}
           </div>
         </section>
 

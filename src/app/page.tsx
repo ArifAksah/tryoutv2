@@ -10,8 +10,15 @@ import { getSupabaseServerClient, hasSupabasePublicEnv } from "@/lib/supabase/se
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  await requireUser("/");
+  try {
+    await requireUser("/");
+  } catch (e) {
+    console.error("Home page requireUser failed:", e);
+    // Let the error propagate or handle redirection naturally
+    throw e;
+  }
   const user = await getCurrentUser();
+  console.log("Home page user:", user?.id);
   const admin = await isAdminUser();
   const { sections, source } = await fetchExamStructure();
 

@@ -45,7 +45,7 @@ export default async function PracticePage({ params }: Props) {
     .not("package_number", "is", null);
 
   const completedSet = new Set(completedPackages?.map((p) => p.package_number) ?? []);
-  const totalPackages = totalQuestions ? Math.floor(totalQuestions / 10) : 0;
+  const totalPackages = totalQuestions ? Math.ceil(totalQuestions / 10) : 0;
   const packages = Array.from({ length: totalPackages }, (_, i) => i + 1);
 
   const { count: attemptCount } = await supabase

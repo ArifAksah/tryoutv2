@@ -36,13 +36,20 @@ export async function middleware(request: NextRequest) {
 
   // Avoid refreshing auth session on prefetch requests to prevent race conditions
   // that trigger Supabase's "Token Reuse Detection".
-  const isPrefetch = request.headers.get("purpose") === "prefetch";
+  const isPrefetch =
+    request.headers.get("purpose") === "prefetch" ||
+    request.headers.get("sec-purpose") === "prefetch" ||
+    request.headers.get("x-purpose") === "prefetch" ||
+    request.headers.get("x-nextjs-data"); // Also skip for next/data requests if deemed appropriate, though usually we just care about prefetch.
 
   if (!isPrefetch) {
     // Keeps the auth session fresh and ensures cookies are synced.
-    await supabase.auth.getUser();
+    const { error } = await supabase.auth.getUser();
+    if (error) {
+      console.error(`[Middleware] Auth error on ${request.nextUrl.pathname}:`, error.message);
+    }
   } else {
-    console.log(`Skipping auth refresh for prefetch: ${request.nextUrl.pathname}`);
+    // console.log(`Skipping auth refresh for prefetch: ${request.nextUrl.pathname}`);
   }
 
   return response;

@@ -6,23 +6,23 @@ import { getSupabaseServerClient } from "@/lib/supabase/server";
 export type SubmitPracticeState =
   | { ok: false; error: string }
   | {
-      ok: true;
-      attemptNumber: number;
-      sessionId: string;
-      scoreTotal: number;
-      maxScore: number;
-      correctCount: number;
-      totalQuestions: number;
-      recentAttempts: Array<{
-        id: string;
-        started_at: string;
-        finished_at: string | null;
-        score_total: number;
-        max_score: number;
-        correct_count: number;
-        total_questions: number;
-      }>;
-    };
+    ok: true;
+    attemptNumber: number;
+    sessionId: string;
+    scoreTotal: number;
+    maxScore: number;
+    correctCount: number;
+    totalQuestions: number;
+    recentAttempts: Array<{
+      id: string;
+      started_at: string;
+      finished_at: string | null;
+      score_total: number;
+      max_score: number;
+      correct_count: number;
+      total_questions: number;
+    }>;
+  };
 
 function getString(formData: FormData, name: string): string {
   return String(formData.get(name) ?? "").trim();
@@ -53,6 +53,8 @@ export async function submitPracticeAttempt(
   const answersJson = getString(formData, "answers_json");
   const doubtsJson = getString(formData, "doubts_json");
   const startedAtRaw = getString(formData, "started_at");
+  const packageNumberRaw = getString(formData, "package_number");
+  const packageNumber = packageNumberRaw ? parseInt(packageNumberRaw, 10) : null;
 
   if (!categoryId) return { ok: false, error: "Kategori tidak valid." };
 
@@ -140,6 +142,7 @@ export async function submitPracticeAttempt(
       total_questions: takeCount,
       started_at: startedAtSafe.toISOString(),
       finished_at: finishedAt.toISOString(),
+      package_number: packageNumber,
     })
     .select("id")
     .maybeSingle();

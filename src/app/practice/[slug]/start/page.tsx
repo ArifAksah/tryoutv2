@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { requireUser } from "@/lib/auth";
 import { getSupabaseServerClient } from "@/lib/supabase/server";
@@ -8,18 +9,15 @@ export const dynamic = "force-dynamic";
 
 type Props = {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ take?: string; questionIds?: string }>;
+  searchParams: Promise<{ take?: string; questionIds?: string; package?: string }>; // Added package to searchParams
 };
 
 export default async function PracticeStartPage({ params, searchParams }: Props) {
-  const user = await requireUser(`/practice/${(await params).slug}/start`);
   const { slug } = await params;
-  const { take, questionIds } = await searchParams;
-  const takeCount = Math.max(1, Math.min(100, parseInt(take || "10", 10)));
+  const user = await requireUser(`/practice/${slug}`); // Updated requireUser path
 
+  // Fetch Category
   const supabase = await getSupabaseServerClient("read");
-
-  // Get category
   const { data: category } = await supabase
     .from("categories")
     .select("id, name, slug")
@@ -30,23 +28,57 @@ export default async function PracticeStartPage({ params, searchParams }: Props)
     redirect("/");
   }
 
-  let questions: unknown[] | null = null;
+  const { take, questionIds, package: packageParam } = await searchParams; // Destructure packageParam
+  const takeCount = Math.max(1, Math.min(100, parseInt(take || "10", 10)));
+  const packageNumber = packageParam ? parseInt(packageParam, 10) : null;
+
+  let questions: any[] | null = []; // Changed type and initialized to empty array
+  let durationMinutes: number | undefined;
 
   if (questionIds) {
-    const ids = questionIds.split(",").filter(Boolean);
-    if (ids.length > 0) {
+    // 1. Direct Question IDs (e.g. from retry)
+    const ids = questionIds.split(",").filter(Boolean); // Added filter(Boolean)
+    if (ids.length > 0) { // Added check for empty ids array
       const { data } = await supabase
         .from("questions")
-        .select("id, question_text, question_type, options, answer_key, discussion")
+        .select(`
+          id,
+          question_text,
+          question_type,
+          options,
+          answer_key,
+          discussion,
+          inserted_at
+        `)
         .in("id", ids);
-
-      // Preserve order of IDs if possible, or just return result
       questions = data;
     }
-  }
+  } else if (packageNumber) {
+    // 2. Package Mode
+    // Deterministic ordering by 'inserted_at' or 'id' to ensure "Package 1" is always the same
+    // Pages are 1-indexed (Package 1 = Offset 0)
+    const pageSize = 10;
+    const offset = (packageNumber - 1) * pageSize;
 
-  // Fallback to random pick if no specific Ids or failed
-  if (!questions || questions.length === 0) {
+    const { data } = await supabase
+      .from("questions")
+      .select(`
+        id,
+        question_text,
+        question_type,
+        options,
+        answer_key,
+        discussion,
+        inserted_at
+      `)
+      .eq("category_id", category.id)
+      .order("inserted_at", { ascending: true }) // Deterministic order with correct column
+      .range(offset, offset + pageSize - 1);
+
+    questions = data;
+    durationMinutes = 10; // 10 minutes for practice packages
+  } else { // Changed to else for fallback
+    // 3. Random / Custom Mode
     const { data } = await supabase.rpc("pick_random_questions", {
       p_category_id: category.id,
       p_take: takeCount,
@@ -56,46 +88,30 @@ export default async function PracticeStartPage({ params, searchParams }: Props)
 
   if (!questions || questions.length === 0) {
     return (
-      <div className="mx-auto min-h-screen max-w-3xl space-y-6 p-6">
-        <div className="rounded-lg border border-amber-200 bg-amber-50 p-6 text-center">
-          <p className="font-semibold text-amber-900">Belum ada soal untuk topik ini.</p>
-          <a href={`/practice/${slug}`} className="mt-3 text-sm text-amber-700 underline">
-            Kembali
-          </a>
-        </div>
+      <div className="flex min-h-screen flex-col items-center justify-center gap-4 p-6">
+        <p className="text-xl font-semibold text-slate-700">Tidak ada soal yang tersedia.</p>
+        <Link href={`/practice/${slug}`} className="text-sky-600 hover:underline">
+          Kembali
+        </Link>
       </div>
     );
   }
 
-  type DbQuestion = {
-    id: string;
-    question_text: string;
-    question_type: "multiple_choice" | "scale_tkp";
-    options: unknown;
-    answer_key: unknown;
-    discussion: string | null;
-  };
-
-  const formattedQuestions = (questions as DbQuestion[]).map((q, idx) => ({
+  const formattedQuestions = (questions as any[]).map((q, idx) => ({ // Changed type assertion to any[]
     id: q.id,
-    questionText: q.question_text,
+    questionText: q.question_text, // Changed from content to question_text
     questionType: q.question_type,
-    options: Array.isArray(q.options)
-      ? q.options.map((opt: unknown) => ({
-        key: typeof opt === "string" ? opt : (opt as { key?: string }).key || "",
-        text:
-          typeof opt === "string"
-            ? opt
-            : (opt as { text?: string; value?: string }).text ||
-            (opt as { text?: string; value?: string }).value ||
-            "",
-      }))
-      : [],
-    answerKey: (q.answer_key || {}) as Record<string, string | number>,
-    discussion: q.discussion || null,
+    options: ((q.options as any[]) ?? []).map((opt: any) => ({ // Updated options mapping
+      key: opt.key,
+      text: opt.value,
+    })),
+    answerKey: q.answer_key,
+    discussion: q.discussion,
     order: idx + 1,
   }));
 
+  // Get user's attempt count for this specific session type if needed, 
+  // or just general attempt count.
   const { count } = await supabase
     .from("user_practice_sessions")
     .select("id", { count: "exact", head: true })
@@ -104,6 +120,7 @@ export default async function PracticeStartPage({ params, searchParams }: Props)
 
   const initialAttemptNumber = (count ?? 0) + 1;
 
+  // Get recent attempts
   const { data: recent } = await supabase
     .from("user_practice_sessions")
     .select("id, started_at, finished_at, score_total, max_score, correct_count, total_questions")
@@ -129,6 +146,9 @@ export default async function PracticeStartPage({ params, searchParams }: Props)
         correct_count: number;
         total_questions: number;
       }>}
+      durationMinutes={durationMinutes} // Passed durationMinutes
+      packageNumber={packageNumber ?? undefined} // Passed packageNumber
     />
   );
 }
+

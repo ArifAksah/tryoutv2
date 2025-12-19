@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ExamSectionCard } from "@/components/exam-section-card";
 import { SkbSectionCard } from "@/components/skb-section-card";
 import { ConfirmStartTryoutButton } from "@/components/confirm-start-tryout-button";
@@ -149,169 +150,141 @@ export default async function Home() {
       roleLabel={admin ? "Admin" : "User"}
       userEmail={user?.email}
       nav={[
-        { href: "/", label: "Dashboard", description: "Beranda" },
-        { href: "/account", label: "Akun", description: "Profil" },
-        { href: "/leaderboard", label: "Leaderboard", description: "Ranking" },
-        { href: "/tryout/history", label: "Riwayat Tryout", description: "Review" },
-        { href: "/practice/history", label: "Riwayat Latihan", description: "Review" },
-        { href: "/#skd", label: "SKD", description: "TWK · TIU · TKP" },
-        { href: "/#skb", label: "SKB", description: "Per sekolah" },
-        ...(admin ? [{ href: "/admin", label: "Admin", description: "Kelola data", variant: "primary" as const }] : []),
-        { href: "/logout", label: "Keluar", description: "Sign out", variant: "danger" as const },
+        { href: "/", label: "Dashboard", description: "Beranda", group: "Menu Utama" },
+        { href: "/leaderboard", label: "Leaderboard", description: "Ranking", group: "Menu Utama" },
+        { href: "/tryout/history", label: "Riwayat Tryout", description: "Review", group: "Latihan" },
+        { href: "/practice/history", label: "Riwayat Latihan", description: "Review", group: "Latihan" },
+        { href: "/account", label: "Akun", description: "Profil", group: "Akun" },
+        ...(admin ? [{ href: "/admin", label: "Admin", description: "Kelola data", variant: "primary" as const, group: "Admin" }] : []),
+        { href: "/logout", label: "Keluar", description: "Sign out", variant: "danger" as const, group: "Akun" },
       ]}
     >
-      <div className="flex flex-col gap-6 pb-20 md:gap-8 md:pb-10">
-        <section className="space-y-3 md:space-y-4">
-          <div className="space-y-1 md:space-y-2">
-            <h1 className="text-2xl font-bold text-slate-900 md:text-3xl">Selamat Datang, {user?.email?.split('@')[0] || 'User'}!</h1>
-            <p className="text-sm text-slate-600 md:text-base">Pilih jenis tryout yang ingin kamu kerjakan</p>
+      <div className="flex flex-col gap-6 pb-24 md:gap-8 md:pb-10">
+        {/* Welcome Section */}
+        <section className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-600 to-violet-700 p-6 text-white shadow-lg md:p-8">
+          <div className="relative z-10 space-y-4">
+            <div className="space-y-1">
+              <h1 className="text-2xl font-bold md:text-3xl">Hai, {user?.email?.split('@')[0] || 'Pejuang'}! 👋</h1>
+              <p className="text-indigo-100 opacity-90">Siap untuk latihan hari ini?</p>
+            </div>
+
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <ConfirmStartTryoutButton
+                href="/tryout/real/skd"
+                durationMinutes={100}
+                title="Mulai Tryout SKD?"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 font-bold text-indigo-700 shadow-sm transition hover:bg-indigo-50 active:scale-95 sm:w-auto"
+              >
+                🚀 Mulai Tryout SKD
+              </ConfirmStartTryoutButton>
+              <a
+                href="#skb-section"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-indigo-400/30 bg-indigo-500/20 px-5 py-3 font-semibold text-white backdrop-blur-sm transition hover:bg-indigo-500/30 active:scale-95 sm:w-auto"
+              >
+                📚 Latihan SKB
+              </a>
+            </div>
           </div>
 
-          <div className="grid gap-4 md:grid-cols-3">
-            <div className="rounded-xl border border-slate-200 bg-white p-5 hover:border-slate-300 transition md:p-6">
-              <div className="space-y-3 md:space-y-2">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">SKD</span>
-                  <span className="rounded-full bg-sky-100 px-2.5 py-0.5 text-xs font-semibold text-sky-700">{skdSections.length} Modul</span>
-                </div>
-                <h3 className="text-lg font-bold text-slate-900">Seleksi Kompetensi Dasar</h3>
-                <p className="text-sm text-slate-600">TWK, TIU, dan TKP dalam satu paket</p>
-                <div className="mt-4 flex flex-col gap-2 md:flex-row">
-                  <a href="#skd" className="flex-1 inline-block text-center rounded-lg border border-sky-600 px-4 py-2.5 text-sm font-semibold text-sky-700 hover:bg-sky-50 transition md:py-2">
-                    Lihat Modul
-                  </a>
-                  <ConfirmStartTryoutButton
-                    href="/tryout/real/skd"
-                    durationMinutes={100}
-                    title="Mulai Tryout Full SKD?"
-                    className="flex-1 inline-block text-center rounded-lg bg-sky-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-sky-700 transition md:py-2"
-                  >
-                    Tryout Full ⏱️
-                  </ConfirmStartTryoutButton>
-                </div>
+          {/* Decorative shapes */}
+          <div className="absolute -right-4 -top-4 h-32 w-32 rounded-full bg-white/10 blur-2xl" />
+          <div className="absolute bottom-0 right-10 h-24 w-24 rounded-full bg-purple-500/20 blur-xl" />
+        </section>
+
+        {/* Stats & Quick Info - Horizontal Scroll on Mobile */}
+        <section className="-mx-4 flex gap-4 overflow-x-auto px-4 pb-2 md:mx-0 md:grid md:grid-cols-3 md:overflow-visible md:p-0">
+          <div className="min-w-[240px] flex-1 rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+            <div className="flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600">
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              </div>
+              <div>
+                <p className="text-sm font-medium text-slate-500">Modul SKD</p>
+                <p className="text-xl font-bold text-slate-900">{skdSections.length}</p>
               </div>
             </div>
-
-            <div className="rounded-xl border border-slate-200 bg-white p-5 hover:border-slate-300 transition md:p-6">
-              <div className="space-y-3 md:space-y-2">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">SKB</span>
-                  <span className="rounded-full bg-purple-100 px-2.5 py-0.5 text-xs font-semibold text-purple-700">{skbSections.length} Sekolah</span>
-                </div>
-                <h3 className="text-lg font-bold text-slate-900">Seleksi Kompetensi Bidang</h3>
-                <p className="text-sm text-slate-600">Materi per sekolah kedinasan</p>
-                <a href="#skb" className="mt-4 inline-block w-full text-center rounded-lg bg-purple-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-purple-700 transition md:w-auto md:py-2">
-                  Mulai SKB →
-                </a>
+          </div>
+          <div className="min-w-[240px] flex-1 rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+            <div className="flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-sky-100 text-sky-600">
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+              </div>
+              <div>
+                <p className="text-sm font-medium text-slate-500">Sekolah SKB</p>
+                <p className="text-xl font-bold text-slate-900">{skbSections.length}</p>
               </div>
             </div>
-
-            <div className="rounded-xl border border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100 p-5 md:p-6">
-              <div className="space-y-2">
-                <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">Statistik</span>
-                <div className="space-y-3 pt-2">
-                  <div>
-                    <div className="text-2xl font-bold text-slate-900">{totalTopics}</div>
-                    <div className="text-xs text-slate-600">Total Sub-Topik</div>
-                  </div>
-                  <div>
-                    <div className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold ${source === "supabase" ? "bg-emerald-100 text-emerald-700" : "bg-amber-100 text-amber-700"}`}>
-                      <span className={`h-1.5 w-1.5 rounded-full ${source === "supabase" ? "bg-emerald-500" : "bg-amber-500"}`}></span>
-                      {source === "supabase" ? "Live Database" : "Sample Data"}
-                    </div>
-                  </div>
-                </div>
+          </div>
+          <div className="min-w-[240px] flex-1 rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+            <div className="flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-amber-100 text-amber-600">
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+              </div>
+              <div>
+                <p className="text-sm font-medium text-slate-500">Total Sub-topik</p>
+                <p className="text-xl font-bold text-slate-900">{totalTopics}</p>
               </div>
             </div>
           </div>
         </section>
 
+        {/* SKD Section */}
         <section id="skd" className="space-y-4">
-          <div className="flex items-center justify-between">
-            <h2 className="text-xl font-bold text-slate-900 md:text-2xl">SKD - Seleksi Kompetensi Dasar</h2>
-            <span className="rounded-full bg-sky-100 px-3 py-1 text-xs font-semibold text-sky-700">{skdSections.length} Modul</span>
+          <div className="flex items-center justify-between px-1">
+            <h2 className="text-lg font-bold text-slate-900">Materi SKD</h2>
+            <Link href="/leaderboard" className="text-xs font-semibold text-indigo-600 hover:text-indigo-700">
+              Lihat Ranking →
+            </Link>
           </div>
 
-          {skdPackages.length > 0 ? (
-            <div className="space-y-3">
-              <div className="flex items-center justify-between">
-                <p className="text-sm font-semibold text-slate-900">Tryout Paket (Custom)</p>
-                <p className="text-xs text-slate-500">{skdPackages.length} paket aktif</p>
-              </div>
-              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                {skdPackages.map((pkg) => (
-                  <div key={pkg.slug} className="rounded-lg border border-slate-200 bg-white p-5">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Tryout Paket</p>
-                    <h3 className="mt-1 text-lg font-bold text-slate-900">{pkg.title}</h3>
-                    <p className="mt-1 text-xs text-slate-500">
-                      {pkg.totalQuestions} soal
-                      {pkg.durationMinutes ? ` · ${pkg.durationMinutes} menit` : ""}
-                      {pkg.slug ? ` · ${pkg.slug}` : ""}
-                    </p>
-                    {pkg.description ? <p className="mt-2 text-sm text-slate-600 line-clamp-2">{pkg.description}</p> : null}
-                    <div className="mt-4">
-                      <ConfirmStartTryoutButton
-                        href={`/tryout/real/${encodeURIComponent(pkg.slug)}`}
-                        durationMinutes={pkg.durationMinutes}
-                        title={`Mulai Tryout: ${pkg.title}?`}
-                        className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700 md:py-2"
-                      >
-                        Mulai Tryout ⏱️
-                      </ConfirmStartTryoutButton>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ) : null}
-
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {skdSections.map((section) => (
               <ExamSectionCard key={section.id} section={section} />
             ))}
           </div>
-        </section>
 
-        <section id="skb" className="space-y-4">
-          <div className="flex items-center justify-between">
-            <h2 className="text-xl font-bold text-slate-900 md:text-2xl">SKB - Seleksi Kompetensi Bidang</h2>
-            <span className="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-700">{skbSections.length} Sekolah</span>
-          </div>
-
-          {skbPackages.length > 0 ? (
-            <div className="space-y-3">
-              <div className="flex items-center justify-between">
-                <p className="text-sm font-semibold text-slate-900">Tryout Paket (Custom)</p>
-                <p className="text-xs text-slate-500">{skbPackages.length} paket aktif</p>
-              </div>
-              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                {skbPackages.map((pkg) => (
-                  <div key={pkg.slug} className="rounded-lg border border-slate-200 bg-white p-5">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Tryout Paket</p>
-                    <h3 className="mt-1 text-lg font-bold text-slate-900">{pkg.title}</h3>
-                    <p className="mt-1 text-xs text-slate-500">
-                      {pkg.totalQuestions} soal
-                      {pkg.durationMinutes ? ` · ${pkg.durationMinutes} menit` : ""}
-                      {pkg.slug ? ` · ${pkg.slug}` : ""}
-                    </p>
-                    {pkg.description ? <p className="mt-2 text-sm text-slate-600 line-clamp-2">{pkg.description}</p> : null}
+          {skdPackages.length > 0 && (
+            <div className="mt-4 space-y-3">
+              <p className="px-1 text-sm font-semibold text-slate-500 uppercase tracking-wider">Tryout Paket</p>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {skdPackages.map((pkg) => (
+                  <div key={pkg.slug} className="group relative overflow-hidden rounded-xl border border-emerald-100 bg-emerald-50/50 p-4 transition hover:border-emerald-200 hover:bg-emerald-50">
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <h3 className="font-bold text-slate-900">{pkg.title}</h3>
+                        <p className="text-xs text-slate-500 mt-1">{pkg.totalQuestions} Soal · {pkg.durationMinutes} Menit</p>
+                      </div>
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-emerald-600 shadow-sm">
+                        ⏱️
+                      </span>
+                    </div>
                     <div className="mt-4">
                       <ConfirmStartTryoutButton
                         href={`/tryout/real/${encodeURIComponent(pkg.slug)}`}
                         durationMinutes={pkg.durationMinutes}
-                        title={`Mulai Tryout: ${pkg.title}?`}
-                        className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700 md:py-2"
+                        title={`Mulai ${pkg.title}?`}
+                        className="block w-full rounded-lg bg-emerald-600 py-2 text-center text-sm font-semibold text-white transition hover:bg-emerald-700 active:scale-95"
                       >
-                        Mulai Tryout ⏱️
+                        Mulai
                       </ConfirmStartTryoutButton>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
-          ) : null}
+          )}
+        </section>
 
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {/* SKB Section */}
+        <section id="skb-section" className="space-y-4">
+          <div className="flex items-center justify-between px-1">
+            <h2 className="text-lg font-bold text-slate-900">Materi SKB</h2>
+            <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-semibold text-slate-600">
+              {skbSections.length} Sekolah
+            </span>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {skbSections.map((section) => {
               const questions = skbQuestionsMap.get(section.id) ?? [];
               return (
@@ -323,39 +296,31 @@ export default async function Home() {
               );
             })}
           </div>
-        </section>
 
-        {otherPackages.length > 0 ? (
-          <section className="space-y-4">
-            <div className="flex items-center justify-between">
-              <h2 className="text-xl font-bold text-slate-900 md:text-2xl">Tryout Paket Lainnya</h2>
-              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">{otherPackages.length} Paket</span>
-            </div>
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {otherPackages.map((pkg) => (
-                <div key={pkg.slug} className="rounded-lg border border-slate-200 bg-white p-5">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Tryout Paket</p>
-                  <h3 className="mt-1 text-lg font-bold text-slate-900">{pkg.title}</h3>
-                  <p className="mt-1 text-xs text-slate-500">
-                    {pkg.totalQuestions} soal
-                    {pkg.durationMinutes ? ` · ${pkg.durationMinutes} menit` : ""}
-                    {pkg.slug ? ` · ${pkg.slug}` : ""}
-                  </p>
-                  <div className="mt-4">
-                    <ConfirmStartTryoutButton
-                      href={`/tryout/real/${encodeURIComponent(pkg.slug)}`}
-                      durationMinutes={pkg.durationMinutes}
-                      title={`Mulai Tryout: ${pkg.title}?`}
-                      className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700 md:py-2"
-                    >
-                      Mulai Tryout ⏱️
-                    </ConfirmStartTryoutButton>
+          {skbPackages.length > 0 && (
+            <div className="mt-4 space-y-3">
+              <p className="px-1 text-sm font-semibold text-slate-500 uppercase tracking-wider">Tryout SKB Paket</p>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {skbPackages.map((pkg) => (
+                  <div key={pkg.slug} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition hover:border-indigo-300">
+                    <h3 className="font-bold text-slate-900">{pkg.title}</h3>
+                    <p className="text-xs text-slate-500 mt-1">{pkg.totalQuestions} Soal</p>
+                    <div className="mt-3">
+                      <ConfirmStartTryoutButton
+                        href={`/tryout/real/${encodeURIComponent(pkg.slug)}`}
+                        durationMinutes={pkg.durationMinutes}
+                        title={`Mulai ${pkg.title}?`}
+                        className="block w-full rounded-lg bg-indigo-600 py-2 text-center text-sm font-semibold text-white transition hover:bg-indigo-700 active:scale-95"
+                      >
+                        Mulai
+                      </ConfirmStartTryoutButton>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </section>
-        ) : null}
+          )}
+        </section>
       </div>
     </SidebarShell>
   );

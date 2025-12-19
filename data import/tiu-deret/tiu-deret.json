@@ -1,0 +1,669 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "20 Soal Latihan TIU Numerik Deret Angka (Pola Bilangan)",
+        "instructions": "Import ke kategori tiu-numerik-deret"
+    },
+    "questions": [
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "2, 8, 5, 20, 16, ..., 59",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "61"
+                },
+                {
+                    "key": "B",
+                    "text": "62"
+                },
+                {
+                    "key": "C",
+                    "text": "63"
+                },
+                {
+                    "key": "D",
+                    "text": "64"
+                },
+                {
+                    "key": "E",
+                    "text": "65"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 5
+            },
+            "discussion": "Pola kombinasi perkalian dan pengurangan bertingkat:\n2 (x4) = 8\n8 (-3) = 5\n5 (x4) = 20\n20 (-4) = 16\n16 (x4) = 64\n64 (-5) = 59\nJadi, bilangan yang tepat adalah 64."
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "2, 4, 2, 4, 0, 0, -6, ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "-9"
+                },
+                {
+                    "key": "B",
+                    "text": "-12"
+                },
+                {
+                    "key": "C",
+                    "text": "-14"
+                },
+                {
+                    "key": "D",
+                    "text": "9"
+                },
+                {
+                    "key": "E",
+                    "text": "12"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Pola operasi berulang (kali 2, kurang 2, kali 2, kurang 4, dst):\n2 (x2) = 4\n4 (-2) = 2\n2 (x2) = 4\n4 (-4) = 0\n0 (x2) = 0\n0 (-6) = -6\n-6 (x2) = -12"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "15, 5, 15, 0, 0, -20, ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "-40"
+                },
+                {
+                    "key": "B",
+                    "text": "-60"
+                },
+                {
+                    "key": "C",
+                    "text": "-80"
+                },
+                {
+                    "key": "D",
+                    "text": "-120"
+                },
+                {
+                    "key": "E",
+                    "text": "-180"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Pola operasi selang-seling:\n15 (-10) = 5\n5 (x3) = 15\n15 (-15) = 0\n0 (x?) = 0 (pola perkalian bebas karena hasilnya 0)\n0 (-20) = -20\n-20 (x3) = -60\nPola pengurangannya: -10, -15, -20. Pola perkaliannya konstan x3."
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "2, 5, 10, 25, ..., 300, 600",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "100"
+                },
+                {
+                    "key": "B",
+                    "text": "120"
+                },
+                {
+                    "key": "C",
+                    "text": "150"
+                },
+                {
+                    "key": "D",
+                    "text": "30"
+                },
+                {
+                    "key": "E",
+                    "text": "60"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Pola Larik Ganda (Lompat satu angka):\nLarik 1: 2, 10, ..., 600. (Pola: x5, x12, x5). 2x5=10, 10x12=120, 120x5=600.\nLarik 2: 5, 25, 300. (Pola: x5, x12). 5x5=25, 25x12=300.\nBilangan yang hilang ada di Larik 1: 10 x 12 = 120."
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "11, 9, 4, 2, -3, ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "-4"
+                },
+                {
+                    "key": "B",
+                    "text": "-5"
+                },
+                {
+                    "key": "C",
+                    "text": "-6"
+                },
+                {
+                    "key": "D",
+                    "text": "3"
+                },
+                {
+                    "key": "E",
+                    "text": "2"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Pola pengurangan berulang -2 dan -5:\n11 (-2) = 9\n9 (-5) = 4\n4 (-2) = 2\n2 (-5) = -3\n-3 (-2) = -5"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "4, 1, 2, -3, -6, -13, ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "-26"
+                },
+                {
+                    "key": "B",
+                    "text": "-16"
+                },
+                {
+                    "key": "C",
+                    "text": "-10"
+                },
+                {
+                    "key": "D",
+                    "text": "26"
+                },
+                {
+                    "key": "E",
+                    "text": "16"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Pola operasi berulang (kurang ganjil, kali 2):\n4 (-3) = 1\n1 (x2) = 2\n2 (-5) = -3\n-3 (x2) = -6\n-6 (-7) = -13\n-13 (x2) = -26"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "3, 6, 3, 6, 0, 0, ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "6"
+                },
+                {
+                    "key": "B",
+                    "text": "9"
+                },
+                {
+                    "key": "C",
+                    "text": "0"
+                },
+                {
+                    "key": "D",
+                    "text": "-6"
+                },
+                {
+                    "key": "E",
+                    "text": "-9"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Pola kombinasi kali 2 dan pengurangan kelipatan 3:\n3 (x2) = 6\n6 (-3) = 3\n3 (x2) = 6\n6 (-6) = 0\n0 (x2) = 0\n0 (-9) = -9"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "10, 20, 5, 20, 0, ..., -25, -300",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "-25"
+                },
+                {
+                    "key": "B",
+                    "text": "-20"
+                },
+                {
+                    "key": "C",
+                    "text": "0"
+                },
+                {
+                    "key": "D",
+                    "text": "20"
+                },
+                {
+                    "key": "E",
+                    "text": "25"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Pola operasi bertingkat:\n10 (x2) = 20\n20 (-15) = 5\n5 (x4) = 20\n20 (-20) = 0\n0 (x6) = 0\n0 (-25) = -25\nBilangan yang hilang adalah 0."
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "2, 8, 5, 20, 18, 72, ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "17"
+                },
+                {
+                    "key": "B",
+                    "text": "19"
+                },
+                {
+                    "key": "C",
+                    "text": "73"
+                },
+                {
+                    "key": "D",
+                    "text": "71"
+                },
+                {
+                    "key": "E",
+                    "text": "70"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 5
+            },
+            "discussion": "Pola perkalian konstan dan pengurangan urut:\n2 (x4) = 8\n8 (-3) = 5\n5 (x4) = 20\n20 (-2) = 18\n18 (x4) = 72\n72 (-1) = 71"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "1536, -768, 384, -192, 96, -48, 24, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "8, -4"
+                },
+                {
+                    "key": "B",
+                    "text": "-8, 4"
+                },
+                {
+                    "key": "C",
+                    "text": "-8, 2"
+                },
+                {
+                    "key": "D",
+                    "text": "12, -6"
+                },
+                {
+                    "key": "E",
+                    "text": "-12, 6"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Pola pembagian dengan -2:\n1536 : -2 = -768\n... dan seterusnya ...\n24 : -2 = -12\n-12 : -2 = 6\nJawaban: -12, 6"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "2, 10, 60, 420, 3360, 30240, 302400, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "3326400, 39916800"
+                },
+                {
+                    "key": "B",
+                    "text": "3326400, 39916802"
+                },
+                {
+                    "key": "C",
+                    "text": "3326402, 39916804"
+                },
+                {
+                    "key": "D",
+                    "text": "3326404, 39916806"
+                },
+                {
+                    "key": "E",
+                    "text": "3326406, 39916808"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Pola perkalian bertingkat (x5, x6, x7, dst):\n2 (x5) = 10\n10 (x6) = 60\n...\n30240 (x10) = 302400\n302400 (x11) = 3.326.400\n3.326.400 (x12) = 39.916.800"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "4, 8, 16, 32, 64, 128, 256, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "528, 1032"
+                },
+                {
+                    "key": "B",
+                    "text": "664, 1328"
+                },
+                {
+                    "key": "C",
+                    "text": "512, 1024"
+                },
+                {
+                    "key": "D",
+                    "text": "522, 1114"
+                },
+                {
+                    "key": "E",
+                    "text": "516, 1224"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Pola perkalian 2 (Geometri):\n256 x 2 = 512\n512 x 2 = 1024"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "2, 4, 12, 48, 240, 1440, 10080, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "80640, 725760"
+                },
+                {
+                    "key": "B",
+                    "text": "80540, 725760"
+                },
+                {
+                    "key": "C",
+                    "text": "70560, 564480"
+                },
+                {
+                    "key": "D",
+                    "text": "70560, 635040"
+                },
+                {
+                    "key": "E",
+                    "text": "90720, 907200"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Pola perkalian bertingkat (x2, x3, x4, dst):\n2 (x2) = 4\n4 (x3) = 12\n...\n1440 (x7) = 10080\n10080 (x8) = 80640\n80640 (x9) = 725760"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "144, 288, 72, 144, 36, 72, 18, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "36, 72"
+                },
+                {
+                    "key": "B",
+                    "text": "9, 72"
+                },
+                {
+                    "key": "C",
+                    "text": "9, 36"
+                },
+                {
+                    "key": "D",
+                    "text": "72, 9"
+                },
+                {
+                    "key": "E",
+                    "text": "36, 9"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Pola operasi: kali 2, bagi 4:\n144 (x2) = 288\n288 (/4) = 72\n72 (x2) = 144\n144 (/4) = 36\n36 (x2) = 72\n72 (/4) = 18\n18 (x2) = 36\n36 (/4) = 9\nJawaban: 36, 9"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "9, 108, 27, 324, 81, 972, 243, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "2916, 729"
+                },
+                {
+                    "key": "B",
+                    "text": "972, 81"
+                },
+                {
+                    "key": "C",
+                    "text": "2961, 740"
+                },
+                {
+                    "key": "D",
+                    "text": "729, 8748"
+                },
+                {
+                    "key": "E",
+                    "text": "3159, 789"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Pola Larik Ganda:\nLarik 1: 9, 27, 81, 243, ... (x3)\nLarik 2: 108, 324, 972, ... (x3)\nSelanjutnya di Larik 2: 972 x 3 = 2916\nSelanjutnya di Larik 1: 243 x 3 = 729"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "21, 42, 126, 504, 2520, 15120, 105840, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "846720, 7620480"
+                },
+                {
+                    "key": "B",
+                    "text": "258048, 774144"
+                },
+                {
+                    "key": "C",
+                    "text": "258048, 1376256"
+                },
+                {
+                    "key": "D",
+                    "text": "740880, 5927040"
+                },
+                {
+                    "key": "E",
+                    "text": "864720, 7782480"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Pola perkalian bertingkat (x2, x3, x4, dst):\n21 (x2) = 42\n...\n105840 (x8) = 846720\n846720 (x9) = 7620480"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "4, 8, 8, 16, 16, 32, 32, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "62, 62"
+                },
+                {
+                    "key": "B",
+                    "text": "64, 64"
+                },
+                {
+                    "key": "C",
+                    "text": "68, 68"
+                },
+                {
+                    "key": "D",
+                    "text": "74, 74"
+                },
+                {
+                    "key": "E",
+                    "text": "78, 78"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Pola operasi berulang (kali 2, kali 1):\n4 (x2) = 8\n8 (x1) = 8\n8 (x2) = 16\n16 (x1) = 16\n32 (x2) = 64\n64 (x1) = 64"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "288, 11, 144, 17, 72, 23, 36, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "29, 18"
+                },
+                {
+                    "key": "B",
+                    "text": "29, 6"
+                },
+                {
+                    "key": "C",
+                    "text": "27, 18"
+                },
+                {
+                    "key": "D",
+                    "text": "27, 24"
+                },
+                {
+                    "key": "E",
+                    "text": "25, 4"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Pola Larik Ganda Interleaving:\nLarik 1: 288, 144, 72, 36, ... (Pola dibagi 2). Next: 36 / 2 = 18.\nLarik 2: 11, 17, 23, ... (Pola tambah 6). Next: 23 + 6 = 29.\nUrutan di soal meminta Larik 2 dulu baru Larik 1 (setelah 36). Jadi: 29, 18."
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "315, 630, 210, 840, 168, 1008, 144, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1152, 256"
+                },
+                {
+                    "key": "B",
+                    "text": "1152, 218"
+                },
+                {
+                    "key": "C",
+                    "text": "1152, 128"
+                },
+                {
+                    "key": "D",
+                    "text": "128, 1152"
+                },
+                {
+                    "key": "E",
+                    "text": "218, 1152"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Pola operasi bertingkat (kali n, bagi n+1):\n315 (x2) = 630\n630 (/3) = 210\n210 (x4) = 840\n840 (/5) = 168\n168 (x6) = 1008\n1008 (/7) = 144\nNext: 144 (x8) = 1152\nNext: 1152 (/9) = 128"
+        },
+        {
+            "category_slug": "tiu-numerik-deret",
+            "question_text": "161280, 161280, 80640, 26880, 6720, 1344, 224, ..., ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "8, 4"
+                },
+                {
+                    "key": "B",
+                    "text": "4, 8"
+                },
+                {
+                    "key": "C",
+                    "text": "32, 4"
+                },
+                {
+                    "key": "D",
+                    "text": "32, 8"
+                },
+                {
+                    "key": "E",
+                    "text": "4, 32"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Pola pembagian bertingkat (/1, /2, /3, dst):\n161280 (/1) = 161280\n161280 (/2) = 80640\n80640 (/3) = 26880\n...\n1344 (/6) = 224\n224 (/7) = 32\n32 (/8) = 4"
+        }
+    ]
+}

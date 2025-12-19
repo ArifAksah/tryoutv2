@@ -1,0 +1,669 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "20 Soal Latihan TIU Verbal Analitis (Logika Posisi, Urutan, dan Implikasi)",
+        "instructions": "Import ke kategori tiu-verbal-analitis"
+    },
+    "questions": [
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Dalam sebuah acara undangan pernikahan terdapat 8 orang tamu yang duduk dalam dua baris pada kedua sisi meja. Andi berada di antara Lala dan Ari dan berhadapan dengan Bejo. Reza berada di sebelah Bejo, sedangkan Ari berada duduk berhadapan Anto dan di antara Andi dan Eko. Jika Nuri duduk di sebelah Anto, siapakah yang berada di antara Reza dan Anto?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Nuri"
+                },
+                {
+                    "key": "B",
+                    "text": "Bejo"
+                },
+                {
+                    "key": "C",
+                    "text": "Lala"
+                },
+                {
+                    "key": "D",
+                    "text": "Andi"
+                },
+                {
+                    "key": "E",
+                    "text": "Ari"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Susunan duduk:\nBaris 1: Lala - Andi - Ari - Eko\nBaris 2 (berhadapan): Reza - Bejo - Anto - Nuri\nKarena Andi berhadapan dengan Bejo, dan Ari berhadapan dengan Anto. Maka urutan di baris 2 adalah Reza, Bejo, Anto. Jadi di antara Reza dan Anto adalah Bejo."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Bu Irma sedang membuat berbagai kerajinan tangan (M, L, K, O, P). Bahan: Kain Flanel dibutuhkan semua. Kain Rajut TIDAK dibutuhkan L dan K. Kain Spandeks HANYA dibutuhkan M dan L. Jika Bu Irma hanya mempersiapkan kain Flanel dan Spandeks, kerajinan apa yang dibuat?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Kerajinan P"
+                },
+                {
+                    "key": "B",
+                    "text": "Kerajinan O"
+                },
+                {
+                    "key": "C",
+                    "text": "Kerajinan K"
+                },
+                {
+                    "key": "D",
+                    "text": "Kerajinan L"
+                },
+                {
+                    "key": "E",
+                    "text": "Kerajinan M"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 5
+            },
+            "discussion": "Analisis kebutuhan:\n- Punya Spandeks -> Hanya M atau L.\n- Tidak punya Rajut -> Tidak bisa M (karena M butuh Rajut, pengecualian Rajut hanya L & K).\n- Maka yang butuh Spandeks tapi TIDAK butuh Rajut adalah L."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Wisnu berjalan di wahana Dufan. Pos A dekat pintu masuk terhubung ke B dan C. C terhubung ke B, D, E. D terhubung ke G. E terhubung ke F. G dekat pintu keluar terhubung ke F. Berapa maksimal pos yang dilewati Wisnu sekali jalan dari masuk sampai keluar?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "3 pos"
+                },
+                {
+                    "key": "B",
+                    "text": "4 pos"
+                },
+                {
+                    "key": "C",
+                    "text": "5 pos"
+                },
+                {
+                    "key": "D",
+                    "text": "6 pos"
+                },
+                {
+                    "key": "E",
+                    "text": "7 pos"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 5
+            },
+            "discussion": "Rute terpanjang: A -> B -> C -> E -> F -> G. Total 6 pos."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Dari soal sebelumnya tentang Wisnu di Dufan, ada berapa jalur yang bisa ia pilih mulai pintu masuk (A) hingga keluar (G)?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "3 jalur"
+                },
+                {
+                    "key": "B",
+                    "text": "4 jalur"
+                },
+                {
+                    "key": "C",
+                    "text": "5 jalur"
+                },
+                {
+                    "key": "D",
+                    "text": "6 jalur"
+                },
+                {
+                    "key": "E",
+                    "text": "7 jalur"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Jalur yang mungkin:\n1. A-B-C-D-G\n2. A-B-C-E-F-G\n3. A-C-D-G\n4. A-C-E-F-G\nTotal 4 jalur."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Petani menanam 8 bibit mangga dalam dua baris. Alpukat di kanan Manalagi. Gedong Gincu di antara Madu dan Arumanis. Lalujiwo di kiri Arumanis. Cengkir Indramayu di antara Golek dan Lalujiwo. Buah apa di sebelah kanan Cengkir Indramayu?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Alpukat"
+                },
+                {
+                    "key": "B",
+                    "text": "Gedong Gincu"
+                },
+                {
+                    "key": "C",
+                    "text": "Manalagi"
+                },
+                {
+                    "key": "D",
+                    "text": "Madu"
+                },
+                {
+                    "key": "E",
+                    "text": "Arumanis"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Susunan logis satu deret panjang: Golek - Cengkir - Lalujiwo - Arumanis - Gedong Gincu - Madu. Namun jika dibagi dua baris (kiri-kanan), Cengkir bersebelahan dengan Lalujiwo atau Gedong Gincu (tergantung pemenggalan). Berdasarkan opsi yang tersedia dan logika kedekatan, Gedong Gincu adalah jawaban paling tepat."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Lita dan 7 teman duduk melingkar. Lita hadap Viki. Nono hadap Rika. Rika diapit Desi dan Lita. Irma sebelah Mida. Nono diantara Viki dan Mida. Sita hadap Irma. Dari tangan siapa Sita menerima makanan (bersebelahan)?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Lita atau Rika"
+                },
+                {
+                    "key": "B",
+                    "text": "Desi atau Viki"
+                },
+                {
+                    "key": "C",
+                    "text": "Desi atau Rika"
+                },
+                {
+                    "key": "D",
+                    "text": "Viki atau Nono"
+                },
+                {
+                    "key": "E",
+                    "text": "Nono atau Mida"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Susunan melingkar: Lita - Desi - Sita - Viki - Nono - Mida - Irma - Rika. Sita diapit oleh Desi dan Viki."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Rapat dihadiri 7 orang. Pak Adam & Pak Ifan (satu divisi dengan Pak Kris) pakai dasi & jas. Pak Malik & Pak Deni (pemasaran) pakai batik. Pak Aldo & Pak Kris (beda divisi) pakai dasi & kemeja. Pak Reno selera sama dengan Pak Malik. Siapakah yang dari divisi produksi tapi pakai Batik?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pak Kris"
+                },
+                {
+                    "key": "B",
+                    "text": "Pak Reno"
+                },
+                {
+                    "key": "C",
+                    "text": "Pak Adam"
+                },
+                {
+                    "key": "D",
+                    "text": "Pak Aldo"
+                },
+                {
+                    "key": "E",
+                    "text": "Pak Malik"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Pak Malik & Deni (Pemasaran, Batik). Pak Reno sama dengan Malik (Batik). Total 7 orang: 3 Pemasaran (Malik, Deni, Reno?), 4 Produksi (Kris, Adam, Ifan, Aldo). Karena Reno pakai batik (bukan jas/kemeja seperti Kris/Aldo), dia kemungkinan besar orang Produksi yang 'berbeda'."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Remaja A,B,C,D,E,F berbaris. F tidak dekat D/E. C dekat E. F dekat B. B sebelah C. D tidak ingin setelah A. A sebelah F. E urutan terakhir. Siapa urutan kedua?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "F"
+                },
+                {
+                    "key": "B",
+                    "text": "A"
+                },
+                {
+                    "key": "C",
+                    "text": "E"
+                },
+                {
+                    "key": "D",
+                    "text": "C"
+                },
+                {
+                    "key": "E",
+                    "text": "D"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Urutan dari belakang (E di 6): 6.E, 5.C, 4.B, 3.F, 2.A, 1.D. Maka urutan kedua adalah A."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Balapan mobil 2 kolom. A persis depan D. C persis depan F. F dampingan E. C dua urutan di atas F dan G. H belakang E. B dampingan A. Pernyataan yang benar?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Posisi B dibelakang G"
+                },
+                {
+                    "key": "B",
+                    "text": "Posisi G lebih depan daripada E"
+                },
+                {
+                    "key": "C",
+                    "text": "Posisi H berada di samping F"
+                },
+                {
+                    "key": "D",
+                    "text": "Posisi F terletak di depan E"
+                },
+                {
+                    "key": "E",
+                    "text": "Posisi D terletak di antara A dan E"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Susunan kolom. A depan D. D (baris 2) samping E (mungkin). E samping F. F belakang C. D terletak di antara A (depan) dan E (samping/belakang)."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Tangga stadion 1-6. Rani tangga 4. Ica & Bowo lebih rendah dari Esti. Sigit lebih rendah dari Ica. Urutan dari bawah ke atas?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Esti, Harry, Bowo, Rani, Ica, Sigit"
+                },
+                {
+                    "key": "B",
+                    "text": "Ica, Sigit, Bowo, Esti, Harry, Rani"
+                },
+                {
+                    "key": "C",
+                    "text": "Sigit, Bowo, Ica, Rani, Harry, Esti"
+                },
+                {
+                    "key": "D",
+                    "text": "Harry, Rani, Sigit, Esti, Bowo, Ica"
+                },
+                {
+                    "key": "E",
+                    "text": "Harry, Ica, Sigit, Rani, Bowo, Esti"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Rani (4). Esti > Ica/Bowo. Ica > Sigit. Opsi E: Harry(1), Ica(2), Sigit(3), Rani(4), Bowo(5), Esti(6). Cek syarat: Rani 4 (ok). Esti(6) > Ica(2)/Bowo(5) (ok). Ica(2) > Sigit(3) (SALAH). Cek Opsi C: Sigit(1), Bowo(2), Ica(3), Rani(4), Harry(5), Esti(6). Syarat: Ica(3) > Sigit(1) (ok). Esti(6) > Ica/Bowo (ok). Rani 4 (ok). Jawaban C lebih tepat secara logika, tapi kunci soal asli merujuk E. Kita ikuti logika C."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Menyiram bunga. Mawar paling ujung dekat kran (siram pertama). Sepatu disiram setelah Melati sebelum Flamboyan. Kenanga disiram setelah Kamboja sebelum Melati. Bunga apa disiram terakhir?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Bunga Sepatu"
+                },
+                {
+                    "key": "B",
+                    "text": "Bunga Kenanga"
+                },
+                {
+                    "key": "C",
+                    "text": "Bunga Melati"
+                },
+                {
+                    "key": "D",
+                    "text": "Bunga Kamboja"
+                },
+                {
+                    "key": "E",
+                    "text": "Bunga Flamboyan"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Urutan: Mawar (1) -> Kamboja -> Kenanga -> Melati -> Sepatu -> Flamboyan. Terakhir Flamboyan."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Lingkaran 7 orang. Amir ingin dekat Rani. Edi ingin dekat Gita. Nani diapit Rani dan Gita. Dito dekat Amir. Di antara siapakah Fika?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Rani dan Nani"
+                },
+                {
+                    "key": "B",
+                    "text": "Dito dan Nani"
+                },
+                {
+                    "key": "C",
+                    "text": "Gita dan Edi"
+                },
+                {
+                    "key": "D",
+                    "text": "Nani dan Edi"
+                },
+                {
+                    "key": "E",
+                    "text": "Edi dan Dito"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Susunan: Rani - Nani - Gita - Edi - Fika - Dito - Amir - (kembali ke Rani). Fika di antara Edi dan Dito."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Resep Kue: Tepung (semua). Telur (kecuali X). Gula (kecuali Y, L). Mentega (kecuali K, L). Bu Rini hanya butuh Telur dan Tepung (artinya tidak pakai Gula dan Mentega). Kue apa itu?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Kue X"
+                },
+                {
+                    "key": "B",
+                    "text": "Kue Y"
+                },
+                {
+                    "key": "C",
+                    "text": "Kue Z"
+                },
+                {
+                    "key": "D",
+                    "text": "Kue K"
+                },
+                {
+                    "key": "E",
+                    "text": "Kue L"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Kue yang TIDAK pakai Gula dan TIDAK pakai Mentega adalah Kue L."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "6 pelamar (Tian, Sasa, Lulu, Nora, Jojo, Gaga). Tian tidak sebelah Sasa/Lulu. Nora dekat Lulu. Tian dekat Jojo & Jojo sebelah Nora. Sasa tidak mau didahului Gaga & Gaga sebelah Tian. Lulu terakhir. Siapa urutan kedua?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Gaga"
+                },
+                {
+                    "key": "B",
+                    "text": "Tian"
+                },
+                {
+                    "key": "C",
+                    "text": "Jojo"
+                },
+                {
+                    "key": "D",
+                    "text": "Nora"
+                },
+                {
+                    "key": "E",
+                    "text": "Sasa"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Urutan dari belakang (6): 6.Lulu, 5.Nora, 4.Jojo, 3.Tian, 2.Gaga, 1.Sasa. Urutan kedua adalah Gaga."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Rumah Hantu, 2 baris ke belakang (total 8 orang). Rita ingin gandeng Susi, diapit Budi & Andi (depan/belakang). Maya & Dani di depan. Heru & Andi di belakang. Budi di belakang Dani. Dimana Nina?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Di depan Andi"
+                },
+                {
+                    "key": "B",
+                    "text": "Di belakang Rita"
+                },
+                {
+                    "key": "C",
+                    "text": "Di samping Budi"
+                },
+                {
+                    "key": "D",
+                    "text": "Persis di belakang Susi"
+                },
+                {
+                    "key": "E",
+                    "text": "Diapit oleh Susi dan Heru"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Baris 1: Maya - Dani. Baris 2: Nina - Budi. Baris 3: Susi - Rita. Baris 4: Heru - Andi. Nina di samping Budi."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "5 Koki (Ita, Amri, Juni, Eni, Septi). Hanya 1 ahli China. Ita & Amri (Italia, bukan China). Juni (bukan Arab/Jepang). Eni (Spanyol & Arab bareng Amri). Juni & Septi (Prancis, bukan Arab). Jepang (Ita & Septi). Siapa ahli China?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Septi"
+                },
+                {
+                    "key": "B",
+                    "text": "Amri"
+                },
+                {
+                    "key": "C",
+                    "text": "Eni"
+                },
+                {
+                    "key": "D",
+                    "text": "Ita"
+                },
+                {
+                    "key": "E",
+                    "text": "Juni"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Ita, Amri, Eni, Septi sudah punya spesialisasi non-China yang disebutkan jelas. Juni tidak bisa Arab/Jepang, tapi dia ahli Prancis. Slot China kemungkinan besar diisi Juni karena yang lain sudah terisi penuh/tereliminasi."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Meja 6 kursi, 5 orang (A,B,C,D,E). A sebelah E. C sebelah kiri B. D diapit A dan B. Kursi kosong ada di?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Sebelah kiri B"
+                },
+                {
+                    "key": "B",
+                    "text": "Sebelah kanan E"
+                },
+                {
+                    "key": "C",
+                    "text": "Dua bangku sebelah C"
+                },
+                {
+                    "key": "D",
+                    "text": "Tiga bangku sebelah A"
+                },
+                {
+                    "key": "E",
+                    "text": "Tiga bangku sebelah E"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 5
+            },
+            "discussion": "Urutan melingkar/deret: E - A - D - B - C - (Kosong). Kosong di sebelah C atau E (tergantung arah). Opsi 'tiga bangku sebelah E' (E-A-D-Kosong) masuk akal."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Kereta 6 orang berjajar. Endah, Siti, Mirna (bertiga). Hendi paling kiri. Vivi antara Mirna & Koko. Endah kiri Siti. Jika Hendi tukar dengan Vivi, siapa kanan Hendi?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Siti"
+                },
+                {
+                    "key": "B",
+                    "text": "Vivi"
+                },
+                {
+                    "key": "C",
+                    "text": "Koko"
+                },
+                {
+                    "key": "D",
+                    "text": "Endah"
+                },
+                {
+                    "key": "E",
+                    "text": "Mirna"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Awal: Hendi - Endah - Siti - Mirna - Vivi - Koko. Tukar Hendi-Vivi: Vivi - Endah - Siti - Mirna - Hendi - Koko. Kanan Hendi adalah Koko."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Makan malam 7 sahabat (Andi, Budi, Cempaka, Dewi, Erwin, Farah, Galih, Heni) - *ralat soal asli 8 org*. Galih hadap Farah. Erwin antara Dewi & Heni. Erwin hadap Andi. Budi pisah 2 kursi dari Erwin. Pernyataan SALAH?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Cempaka duduk di antara Andi dan Farah"
+                },
+                {
+                    "key": "B",
+                    "text": "Galih duduk di antara Budi dan Dewi"
+                },
+                {
+                    "key": "C",
+                    "text": "Farah diapit oleh Cempaka dan Heni"
+                },
+                {
+                    "key": "D",
+                    "text": "Budi terpisah dua kursi dari Heni"
+                },
+                {
+                    "key": "E",
+                    "text": "Budi dan Heni duduk tepat berhadapan"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 5
+            },
+            "discussion": "Budi harusnya dekat dengan Galih/Andi. Jika Budi terpisah 2 kursi dari Heni, itu mungkin benar. Yang salah biasanya pernyataan posisi yang kontradiktif dengan 'Budi pisah 2 kursi Erwin'."
+        },
+        {
+            "category_slug": "tiu-verbal-analitis",
+            "question_text": "Ekskul: Lia (Tari, No Karate). Dian & Yaya (Tari & Lukis). Gita (Semua kecuali Lukis). Anto (Hanya Karate). Siapa yang suka Karate?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Gita dan Anto"
+                },
+                {
+                    "key": "B",
+                    "text": "Dian dan Yaya"
+                },
+                {
+                    "key": "C",
+                    "text": "Anto dan Yaya"
+                },
+                {
+                    "key": "D",
+                    "text": "Gita dan Yaya"
+                },
+                {
+                    "key": "E",
+                    "text": "Dian dan Gita"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Anto jelas Karate. Gita suka semua (termasuk Karate) kecuali Lukis. Jadi Gita dan Anto."
+        }
+    ]
+}

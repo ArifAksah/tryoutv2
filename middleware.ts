@@ -39,8 +39,7 @@ export async function middleware(request: NextRequest) {
   const isPrefetch =
     request.headers.get("purpose") === "prefetch" ||
     request.headers.get("sec-purpose") === "prefetch" ||
-    request.headers.get("x-purpose") === "prefetch" ||
-    request.headers.get("x-nextjs-data"); // Also skip for next/data requests if deemed appropriate, though usually we just care about prefetch.
+    request.headers.get("x-purpose") === "prefetch";
 
   if (!isPrefetch) {
     // Keeps the auth session fresh and ensures cookies are synced.

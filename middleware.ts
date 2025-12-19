@@ -34,8 +34,16 @@ export async function middleware(request: NextRequest) {
     },
   });
 
-  // Keeps the auth session fresh and ensures cookies are synced.
-  await supabase.auth.getUser();
+  // Avoid refreshing auth session on prefetch requests to prevent race conditions
+  // that trigger Supabase's "Token Reuse Detection".
+  const isPrefetch = request.headers.get("purpose") === "prefetch";
+
+  if (!isPrefetch) {
+    // Keeps the auth session fresh and ensures cookies are synced.
+    await supabase.auth.getUser();
+  } else {
+    console.log(`Skipping auth refresh for prefetch: ${request.nextUrl.pathname}`);
+  }
 
   return response;
 }

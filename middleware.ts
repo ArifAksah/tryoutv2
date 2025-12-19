@@ -38,21 +38,11 @@ export async function middleware(request: NextRequest) {
   // that trigger Supabase's "Token Reuse Detection".
   const isPrefetch = request.headers.get("purpose") === "prefetch";
 
-  console.log(`[Middleware] Path: ${request.nextUrl.pathname}, Prefetch: ${isPrefetch}`);
-  // Debug Headers for Desktop analysis
-  // if (request.nextUrl.pathname.startsWith('/')) {
-  //    const h = Object.fromEntries(request.headers.entries());
-  //    console.log('[Middleware Headers]', JSON.stringify(h));
-  // }
-
   if (!isPrefetch) {
     // Keeps the auth session fresh and ensures cookies are synced.
-    const { error } = await supabase.auth.getUser();
-    if (error) {
-      console.error(`[Middleware] Auth error:`, error.message);
-    }
+    await supabase.auth.getUser();
   } else {
-    // console.log(`Skipping auth refresh for prefetch: ${request.nextUrl.pathname}`);
+    console.log(`Skipping auth refresh for prefetch: ${request.nextUrl.pathname}`);
   }
 
   return response;

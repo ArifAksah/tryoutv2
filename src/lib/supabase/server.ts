@@ -22,7 +22,9 @@ export async function getSupabaseServerClient(mode: SupabaseServerClientMode = "
   return createServerClient(url, anonKey, {
     cookies: {
       getAll() {
-        return cookieStore.getAll();
+        const allCookies = cookieStore.getAll();
+        console.log(`ServerClient cookies found: ${allCookies.length}`, allCookies.map(c => c.name));
+        return allCookies;
       },
       setAll(cookiesToSet: Array<{ name: string; value: string; options: CookieOptions }>) {
         if (mode !== "write") return;

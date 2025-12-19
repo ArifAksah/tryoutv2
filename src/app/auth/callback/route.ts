@@ -29,6 +29,7 @@ export async function GET(request: NextRequest) {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   if (!supabaseUrl || !supabaseAnonKey) {
+    console.error("Auth callback failed: Missing Supabase environment variables in Vercel.");
     return response;
   }
 
@@ -46,13 +47,17 @@ export async function GET(request: NextRequest) {
   });
 
   const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
+
   if (exchangeError) {
+    console.error("Auth callback exchange error:", exchangeError);
     const loginUrl = new URL("/login", url.origin);
     loginUrl.searchParams.set("next", safeNext);
     loginUrl.searchParams.set("error", "oauth_exchange_failed");
     loginUrl.searchParams.set("error_description", exchangeError.message);
     return NextResponse.redirect(loginUrl);
   }
+
+  console.log("Auth callback success. Redirecting to:", safeNext);
 
   return response;
 }

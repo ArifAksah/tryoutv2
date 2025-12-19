@@ -2,6 +2,9 @@ import { NextResponse, type NextRequest } from "next/server";
 import { createServerClient, type CookieOptions } from "@supabase/ssr";
 
 export async function middleware(request: NextRequest) {
+  const cookieCount = request.cookies.getAll().length;
+  console.log(`Middleware start: ${request.nextUrl.pathname}, Cookies found: ${cookieCount}`);
+
   let response = NextResponse.next({
     request: {
       headers: request.headers,

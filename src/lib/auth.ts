@@ -6,7 +6,10 @@ import { getSupabaseServerClient } from "@/lib/supabase/server";
 export async function getCurrentUser() {
   const supabase = await getSupabaseServerClient("read");
   const { data, error } = await supabase.auth.getUser();
-  if (error) return null;
+  if (error) {
+    console.error("getCurrentUser auth error:", error);
+    return null;
+  }
   return data.user;
 }
 

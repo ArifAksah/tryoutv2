@@ -13,7 +13,7 @@ export async function getCurrentUser() {
 export async function requireUser(nextPath?: string) {
   const user = await getCurrentUser();
   if (!user) {
-    const next = nextPath ? `?next=${encodeURIComponent(nextPath)}` : "";
+    const next = nextPath && nextPath !== "/" ? `?next=${encodeURIComponent(nextPath)}` : "";
     redirect(`/login${next}`);
   }
   return user;

@@ -40,36 +40,39 @@ export function SidebarShell({
   return (
     <div className="min-h-screen md:grid md:grid-cols-[280px_1fr]">
       <aside className="border-b border-slate-200 bg-white md:sticky md:top-0 md:h-screen md:border-b-0 md:border-r">
-        <div className="flex items-start justify-between gap-4 px-6 py-5 md:block">
+        <div className="flex flex-wrap items-center justify-between gap-4 px-4 py-4 md:block md:px-6 md:py-5">
           <div className="space-y-1">
             <Link href={brandHref} className="inline-flex items-center gap-2 text-sm font-semibold text-slate-900">
-              <span className="tracking-wide">{brandLabel}</span>
+              <span className="tracking-wide text-lg md:text-sm">{brandLabel}</span>
             </Link>
-            <p className="text-xs text-slate-500">{title}</p>
+            <p className="text-xs text-slate-500 hidden md:block">{title}</p>
           </div>
 
-          <div className="flex flex-col items-end gap-2 md:mt-4 md:items-start">
+          <div className="flex items-center gap-3 md:mt-4 md:flex-col md:items-start md:gap-2">
             {roleLabel ? (
-              <span className="rounded-full border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-700">
+              <span className="rounded-full border border-slate-200 px-2 py-0.5 text-[10px] font-semibold text-slate-700 md:px-3 md:py-1 md:text-xs">
                 {roleLabel}
               </span>
             ) : null}
             {userEmail ? (
-              <span className="max-w-[16rem] truncate text-xs text-slate-500">{userEmail}</span>
+              <span className="hidden leading-none text-xs text-slate-500 md:block md:max-w-[16rem] md:truncate">
+                {userEmail}
+              </span>
             ) : null}
+            {/* Mobile-only avatar/initials could go here if needed */}
           </div>
         </div>
 
-        <nav className="flex gap-2 overflow-x-auto px-6 pb-5 md:flex-col md:overflow-visible">
+        <nav className="flex gap-2 overflow-x-auto px-4 pb-4 md:flex-col md:overflow-visible md:px-6 md:pb-5">
           {nav.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`shrink-0 rounded-lg border px-4 py-2 text-sm font-semibold transition md:shrink ${navItemClass(
+              className={`shrink-0 rounded-lg border px-3 py-2 text-xs font-semibold transition md:shrink md:px-4 md:text-sm ${navItemClass(
                 item.variant
               )}`}
             >
-              <span className="block">{item.label}</span>
+              <span className="block whitespace-nowrap">{item.label}</span>
               {item.description ? (
                 <span className="mt-0.5 hidden text-xs font-medium text-slate-500 md:block">
                   {item.description}
@@ -80,7 +83,7 @@ export function SidebarShell({
         </nav>
       </aside>
 
-      <main className="mx-auto w-full max-w-6xl px-6 py-8">{children}</main>
+      <main className="mx-auto w-full max-w-6xl px-4 py-6 md:px-6 md:py-8">{children}</main>
     </div>
   );
 }

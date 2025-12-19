@@ -26,8 +26,14 @@ export async function GET(request: NextRequest) {
     return response;
   }
 
+  console.log(`[DEBUG] Callback hit. Code: ${code ? "YES" : "NO"}, Error: ${error || "None"}`);
+  console.log(`[DEBUG] Redirecting to: ${safeNext}`);
+
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+  console.log(`[DEBUG] Callback using Supabase URL: ${supabaseUrl || "MISSING"}`);
+
   if (!supabaseUrl || !supabaseAnonKey) {
     console.error("Auth callback failed: Missing Supabase environment variables in Vercel.");
     return response;

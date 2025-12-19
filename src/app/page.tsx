@@ -160,31 +160,31 @@ export default async function Home() {
         { href: "/logout", label: "Keluar", description: "Sign out", variant: "danger" as const },
       ]}
     >
-      <div className="flex flex-col gap-8 pb-16 md:pb-10">
-        <section className="space-y-4">
-          <div className="space-y-2">
-            <h1 className="text-3xl font-bold text-slate-900">Selamat Datang, {user?.email?.split('@')[0] || 'User'}!</h1>
-            <p className="text-slate-600">Pilih jenis tryout yang ingin kamu kerjakan</p>
+      <div className="flex flex-col gap-6 pb-20 md:gap-8 md:pb-10">
+        <section className="space-y-3 md:space-y-4">
+          <div className="space-y-1 md:space-y-2">
+            <h1 className="text-2xl font-bold text-slate-900 md:text-3xl">Selamat Datang, {user?.email?.split('@')[0] || 'User'}!</h1>
+            <p className="text-sm text-slate-600 md:text-base">Pilih jenis tryout yang ingin kamu kerjakan</p>
           </div>
 
           <div className="grid gap-4 md:grid-cols-3">
-            <div className="rounded-lg border border-slate-200 bg-white p-6 hover:border-slate-300 transition">
-              <div className="space-y-2">
+            <div className="rounded-xl border border-slate-200 bg-white p-5 hover:border-slate-300 transition md:p-6">
+              <div className="space-y-3 md:space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">SKD</span>
                   <span className="rounded-full bg-sky-100 px-2.5 py-0.5 text-xs font-semibold text-sky-700">{skdSections.length} Modul</span>
                 </div>
                 <h3 className="text-lg font-bold text-slate-900">Seleksi Kompetensi Dasar</h3>
                 <p className="text-sm text-slate-600">TWK, TIU, dan TKP dalam satu paket</p>
-                <div className="mt-4 flex gap-2">
-                  <a href="#skd" className="flex-1 inline-block text-center rounded-lg border border-sky-600 px-4 py-2 text-sm font-semibold text-sky-700 hover:bg-sky-50 transition">
+                <div className="mt-4 flex flex-col gap-2 md:flex-row">
+                  <a href="#skd" className="flex-1 inline-block text-center rounded-lg border border-sky-600 px-4 py-2.5 text-sm font-semibold text-sky-700 hover:bg-sky-50 transition md:py-2">
                     Lihat Modul
                   </a>
                   <ConfirmStartTryoutButton
                     href="/tryout/real/skd"
                     durationMinutes={100}
                     title="Mulai Tryout Full SKD?"
-                    className="flex-1 inline-block text-center rounded-lg bg-sky-600 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-700 transition"
+                    className="flex-1 inline-block text-center rounded-lg bg-sky-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-sky-700 transition md:py-2"
                   >
                     Tryout Full ⏱️
                   </ConfirmStartTryoutButton>
@@ -192,21 +192,21 @@ export default async function Home() {
               </div>
             </div>
 
-            <div className="rounded-lg border border-slate-200 bg-white p-6 hover:border-slate-300 transition">
-              <div className="space-y-2">
+            <div className="rounded-xl border border-slate-200 bg-white p-5 hover:border-slate-300 transition md:p-6">
+              <div className="space-y-3 md:space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">SKB</span>
                   <span className="rounded-full bg-purple-100 px-2.5 py-0.5 text-xs font-semibold text-purple-700">{skbSections.length} Sekolah</span>
                 </div>
                 <h3 className="text-lg font-bold text-slate-900">Seleksi Kompetensi Bidang</h3>
                 <p className="text-sm text-slate-600">Materi per sekolah kedinasan</p>
-                <a href="#skb" className="mt-4 inline-block rounded-lg bg-purple-600 px-4 py-2 text-sm font-semibold text-white hover:bg-purple-700 transition">
+                <a href="#skb" className="mt-4 inline-block w-full text-center rounded-lg bg-purple-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-purple-700 transition md:w-auto md:py-2">
                   Mulai SKB →
                 </a>
               </div>
             </div>
 
-            <div className="rounded-lg border border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100 p-6">
+            <div className="rounded-xl border border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100 p-5 md:p-6">
               <div className="space-y-2">
                 <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">Statistik</span>
                 <div className="space-y-3 pt-2">
@@ -228,7 +228,7 @@ export default async function Home() {
 
         <section id="skd" className="space-y-4">
           <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-slate-900">SKD - Seleksi Kompetensi Dasar</h2>
+            <h2 className="text-xl font-bold text-slate-900 md:text-2xl">SKD - Seleksi Kompetensi Dasar</h2>
             <span className="rounded-full bg-sky-100 px-3 py-1 text-xs font-semibold text-sky-700">{skdSections.length} Modul</span>
           </div>
 
@@ -248,13 +248,13 @@ export default async function Home() {
                       {pkg.durationMinutes ? ` · ${pkg.durationMinutes} menit` : ""}
                       {pkg.slug ? ` · ${pkg.slug}` : ""}
                     </p>
-                    {pkg.description ? <p className="mt-2 text-sm text-slate-600">{pkg.description}</p> : null}
+                    {pkg.description ? <p className="mt-2 text-sm text-slate-600 line-clamp-2">{pkg.description}</p> : null}
                     <div className="mt-4">
                       <ConfirmStartTryoutButton
                         href={`/tryout/real/${encodeURIComponent(pkg.slug)}`}
                         durationMinutes={pkg.durationMinutes}
                         title={`Mulai Tryout: ${pkg.title}?`}
-                        className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
+                        className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700 md:py-2"
                       >
                         Mulai Tryout ⏱️
                       </ConfirmStartTryoutButton>
@@ -274,7 +274,7 @@ export default async function Home() {
 
         <section id="skb" className="space-y-4">
           <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-slate-900">SKB - Seleksi Kompetensi Bidang</h2>
+            <h2 className="text-xl font-bold text-slate-900 md:text-2xl">SKB - Seleksi Kompetensi Bidang</h2>
             <span className="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-700">{skbSections.length} Sekolah</span>
           </div>
 
@@ -294,13 +294,13 @@ export default async function Home() {
                       {pkg.durationMinutes ? ` · ${pkg.durationMinutes} menit` : ""}
                       {pkg.slug ? ` · ${pkg.slug}` : ""}
                     </p>
-                    {pkg.description ? <p className="mt-2 text-sm text-slate-600">{pkg.description}</p> : null}
+                    {pkg.description ? <p className="mt-2 text-sm text-slate-600 line-clamp-2">{pkg.description}</p> : null}
                     <div className="mt-4">
                       <ConfirmStartTryoutButton
                         href={`/tryout/real/${encodeURIComponent(pkg.slug)}`}
                         durationMinutes={pkg.durationMinutes}
                         title={`Mulai Tryout: ${pkg.title}?`}
-                        className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
+                        className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700 md:py-2"
                       >
                         Mulai Tryout ⏱️
                       </ConfirmStartTryoutButton>
@@ -328,7 +328,7 @@ export default async function Home() {
         {otherPackages.length > 0 ? (
           <section className="space-y-4">
             <div className="flex items-center justify-between">
-              <h2 className="text-2xl font-bold text-slate-900">Tryout Paket Lainnya</h2>
+              <h2 className="text-xl font-bold text-slate-900 md:text-2xl">Tryout Paket Lainnya</h2>
               <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">{otherPackages.length} Paket</span>
             </div>
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -346,7 +346,7 @@ export default async function Home() {
                       href={`/tryout/real/${encodeURIComponent(pkg.slug)}`}
                       durationMinutes={pkg.durationMinutes}
                       title={`Mulai Tryout: ${pkg.title}?`}
-                      className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
+                      className="inline-flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700 md:py-2"
                     >
                       Mulai Tryout ⏱️
                     </ConfirmStartTryoutButton>

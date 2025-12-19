@@ -23,7 +23,9 @@ export async function getSupabaseServerClient(mode: SupabaseServerClientMode = "
     cookies: {
       getAll() {
         const allCookies = cookieStore.getAll();
-        console.log(`ServerClient cookies found: ${allCookies.length}`, allCookies.map(c => c.name));
+        const activeUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "MISSING";
+        console.log(`[DEBUG] Active Project URL: ${activeUrl}`);
+        console.log(`[DEBUG] Cookies Received:`, allCookies.map(c => c.name));
         return allCookies;
       },
       setAll(cookiesToSet: Array<{ name: string; value: string; options: CookieOptions }>) {

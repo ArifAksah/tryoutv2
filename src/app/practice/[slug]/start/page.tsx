@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 
 type Props = {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ take?: string }>;
+  searchParams: Promise<{ take?: string; questionIds?: string }>;
 };
 
 export default async function PracticeStartPage({ params, searchParams }: Props) {

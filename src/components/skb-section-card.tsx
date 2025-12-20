@@ -9,9 +9,7 @@ interface SkbSectionCardProps {
 }
 
 export function SkbSectionCard({ section, questions }: SkbSectionCardProps) {
-  // Take only the first 10 questions to prevent overcrowding
-  const displayQuestions = questions.slice(0, 10);
-  const hasMore = questions.length > 10;
+  // displayQuestions and hasMore removed as list is no longer shown
 
   return (
     <article className="flex h-full flex-col gap-4 rounded-lg border border-slate-200 bg-white p-5 shadow-sm transition hover:shadow-md">
@@ -30,50 +28,7 @@ export function SkbSectionCard({ section, questions }: SkbSectionCardProps) {
         ) : null}
       </header>
 
-      <div className="flex-1 space-y-3 rounded-lg border border-slate-100 bg-slate-50 p-3">
-        <div className="flex items-center justify-between">
-          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-            Soal Tersedia ({questions.length})
-          </p>
-          <Link
-            href={`/sections/${section.id}`}
-            className="text-xs font-semibold text-sky-600 hover:underline"
-          >
-            Lihat Semua
-          </Link>
-        </div>
-
-        {displayQuestions.length > 0 ? (
-          <ul className="space-y-2">
-            {displayQuestions.map((q) => (
-              <li key={q.id} className="group flex items-start justify-between gap-3 rounded-md bg-white p-2.5 shadow-sm ring-1 ring-slate-200">
-                <div className="flex-1 space-y-1">
-                  <p className="line-clamp-2 text-sm text-slate-800">
-                    {q.questionText}
-                  </p>
-                  <p className="text-xs text-slate-400">
-                    Topik: {q.topicId}
-                  </p>
-                </div>
-                {/* Could add a direct play button or link to specific question if desired, 
-                    but usually we start practice by ID. 
-                    For now, link to the section practice.
-                */}
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <div className="py-4 text-center text-sm text-slate-500">
-            Belum ada soal tersedia.
-          </div>
-        )}
-
-        {hasMore && (
-          <div className="text-center pt-1">
-            <span className="text-xs text-slate-400">...dan {questions.length - 10} soal lainnya</span>
-          </div>
-        )}
-      </div>
+      {/* "Soal Tersedia" list removed as per request to focus on packages */}
 
       <div className="space-y-3 pt-2">
         <h4 className="text-xs font-semibold uppercase tracking-wide text-slate-500">

@@ -103,7 +103,7 @@ export default async function PracticeStartPage({ params, searchParams }: Props)
     questionType: q.question_type,
     options: ((q.options as any[]) ?? []).map((opt: any) => ({ // Updated options mapping
       key: opt.key,
-      text: opt.value,
+      text: opt.text || opt.value, // Fix: Use 'text' (from JSON/DB) or fallback to 'value'
     })),
     answerKey: q.answer_key,
     discussion: q.discussion,

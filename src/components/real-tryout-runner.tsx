@@ -206,11 +206,9 @@ export function RealTryoutRunner({ sessionId, startedAt, durationMinutes, questi
                   key={q.id}
                   type="button"
                   onClick={() => setCurrentIndex(idx)}
-                  className={`h-9 w-9 rounded-md border text-xs font-semibold transition ${
-                    statusClass
-                  } ${
-                    active ? "ring-2 ring-sky-300 ring-offset-1" : "hover:bg-slate-50"
-                  }`}
+                  className={`h-9 w-9 rounded-md border text-xs font-semibold transition ${statusClass
+                    } ${active ? "ring-2 ring-sky-300 ring-offset-1" : "hover:bg-slate-50"
+                    }`}
                 >
                   {idx + 1}
                 </button>
@@ -251,16 +249,22 @@ export function RealTryoutRunner({ sessionId, startedAt, durationMinutes, questi
                     type="button"
                     disabled={isSubmitting || submitted}
                     onClick={() => setAnswers((prev) => ({ ...prev, [currentQuestion.id]: key }))}
-                    className={`flex w-full items-start gap-3 rounded-lg border px-3 py-2 text-left text-sm transition ${
-                      isSelected
+                    className={`flex w-full items-start gap-3 rounded-lg border px-3 py-2 text-left text-sm transition ${isSelected
                         ? "border-sky-300 bg-sky-50 text-slate-900"
                         : "border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
-                    }`}
+                      }`}
                   >
                     <span className="mt-0.5 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full border border-slate-200 bg-white text-xs font-semibold text-slate-700">
                       {key}
                     </span>
-                    <MathText text={opt.text} className="text-slate-900" />
+                    <div className="w-full">
+                      {/* Debug if text is empty */}
+                      {!opt.text ? (
+                        <span className="text-rose-500 italic">(Teks jawaban kosong)</span>
+                      ) : (
+                        <MathText text={opt.text} className="text-slate-900" />
+                      )}
+                    </div>
                   </button>
                 );
               })}

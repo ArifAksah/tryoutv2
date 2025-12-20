@@ -203,47 +203,47 @@ export default async function RealTryoutPage({ params }: Props) {
       const { data, error } =
         slug === "skd"
           ? await supabase.rpc("start_skd_tryout", {
-              p_duration_minutes: 100,
-              p_take_tiu: 35,
-              p_take_tkp: 45,
-              p_take_twk: 30,
-            })
+            p_duration_minutes: 100,
+            p_take_tiu: 35,
+            p_take_tkp: 45,
+            p_take_twk: 30,
+          })
           : await supabase.rpc("start_category_tryout", {
-              p_category_slug: slug,
-              p_take: 30,
-            });
+            p_category_slug: slug,
+            p_take: 30,
+          });
 
-    if (error) {
-      return (
-        <SidebarShell
-          title="Tryout Real"
-          roleLabel={admin ? "Role: admin" : "Role: user"}
-          userEmail={user?.email}
-          nav={[
-            { href: "/", label: "Dashboard", description: "Kembali" },
-            { href: "/account", label: "Akun", description: "Profil" },
-            { href: "/leaderboard", label: "Leaderboard", description: "Ranking" },
-            { href: "/tryout/history", label: "Riwayat Tryout", description: "Review" },
-            { href: "/practice/history", label: "Riwayat Latihan", description: "Review" },
-            { href: "/admin", label: "Admin", description: "Bank soal", variant: "primary" },
-            { href: "/logout", label: "Sign out", description: "Keluar", variant: "danger" },
-          ]}
-        >
-          <div className="space-y-4">
-            <h1 className="text-2xl font-bold text-slate-900">Tryout Real</h1>
-            <div className="rounded-lg border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
-              Gagal memulai tryout: {error.message}
+      if (error) {
+        return (
+          <SidebarShell
+            title="Tryout Real"
+            roleLabel={admin ? "Role: admin" : "Role: user"}
+            userEmail={user?.email}
+            nav={[
+              { href: "/", label: "Dashboard", description: "Kembali" },
+              { href: "/account", label: "Akun", description: "Profil" },
+              { href: "/leaderboard", label: "Leaderboard", description: "Ranking" },
+              { href: "/tryout/history", label: "Riwayat Tryout", description: "Review" },
+              { href: "/practice/history", label: "Riwayat Latihan", description: "Review" },
+              { href: "/admin", label: "Admin", description: "Bank soal", variant: "primary" },
+              { href: "/logout", label: "Sign out", description: "Keluar", variant: "danger" },
+            ]}
+          >
+            <div className="space-y-4">
+              <h1 className="text-2xl font-bold text-slate-900">Tryout Real</h1>
+              <div className="rounded-lg border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
+                Gagal memulai tryout: {error.message}
+              </div>
+              <Link
+                href={`/sections/${encodeURIComponent(target.toLowerCase())}`}
+                className="inline-flex rounded-lg border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+              >
+                Kembali
+              </Link>
             </div>
-            <Link
-              href={`/sections/${encodeURIComponent(target.toLowerCase())}`}
-              className="inline-flex rounded-lg border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
-            >
-              Kembali
-            </Link>
-          </div>
-        </SidebarShell>
-      );
-    }
+          </SidebarShell>
+        );
+      }
 
       rows = ((data ?? []) as StartRowRaw[]).map(normalizeStartRow);
     }
@@ -303,6 +303,12 @@ export default async function RealTryoutPage({ params }: Props) {
       options: normalizeOptions(row.options),
     }));
 
+  if (questions.length > 0) {
+    console.log("[DEBUG] Tryout Questions Sample:", JSON.stringify(questions.slice(0, 3), null, 2));
+    console.log("[DEBUG] First Question Options Raw:", JSON.stringify(rows[0]?.options, null, 2));
+  }
+
+
   return (
     <SidebarShell
       title="Tryout Real"
@@ -354,9 +360,8 @@ export default async function RealTryoutPage({ params }: Props) {
                     return (
                       <div
                         key={s.id}
-                        className={`grid grid-cols-[120px_1fr_120px_120px] gap-3 px-4 py-2 text-sm ${
-                          isCurrent ? "bg-sky-50" : "bg-white"
-                        }`}
+                        className={`grid grid-cols-[120px_1fr_120px_120px] gap-3 px-4 py-2 text-sm ${isCurrent ? "bg-sky-50" : "bg-white"
+                          }`}
                       >
                         <div className="text-slate-700">
                           <span className={`font-semibold ${isCurrent ? "text-sky-700" : "text-slate-900"}`}>

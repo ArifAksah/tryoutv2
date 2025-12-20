@@ -134,6 +134,7 @@ export function SidebarShell({
                         <Link
                           key={item.href}
                           href={item.href}
+                          prefetch={false} // CRITICAL: Prevent prefetching logout route!
                           onClick={() => setIsOpen(false)}
                           className={`group flex items-center justify-between rounded-lg border px-3 py-2 text-sm font-medium transition ${navItemClass(
                             item.variant,

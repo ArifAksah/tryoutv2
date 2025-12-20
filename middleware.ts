@@ -27,9 +27,21 @@ export async function middleware(request: NextRequest) {
         response = NextResponse.next({
           request,
         });
-        cookiesToSet.forEach(({ name, value, options }) =>
-          response.cookies.set(name, value, options)
-        );
+        cookiesToSet.forEach(({ name, value, options }) => {
+          // Sanitize options to match the robust callback logic
+          const safeOptions = {
+            ...options,
+            path: '/',
+            sameSite: 'lax' as const,
+            secure: process.env.NODE_ENV === 'production',
+          };
+
+          if (safeOptions.domain) {
+            delete safeOptions.domain;
+          }
+
+          response.cookies.set(name, value, safeOptions);
+        });
       },
     },
   });

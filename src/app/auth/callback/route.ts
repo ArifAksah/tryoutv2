@@ -22,10 +22,30 @@ export async function GET(request: Request) {
             return cookieStore.getAll();
           },
           setAll(cookiesToSet) {
-            // Remove try/catch to ensure we see if this fails
-            cookiesToSet.forEach(({ name, value, options }) =>
-              cookieStore.set(name, value, options)
-            );
+            try {
+              cookiesToSet.forEach(({ name, value, options }) => {
+                // Sanitize options to prevent browser rejection
+                const safeOptions = {
+                  ...options,
+                  // Ensure Path is root
+                  path: '/',
+                  // Force SameSite Lax for typical redirect flows
+                  sameSite: 'lax' as const,
+                  // Ensure Secure is true on production
+                  secure: process.env.NODE_ENV === 'production',
+                };
+
+                // Remove domain to force "HostOnly" cookie (safest for Vercel)
+                if (safeOptions.domain) {
+                  delete safeOptions.domain;
+                }
+
+                console.log(`[Auth Callback] Setting Cookie: ${name} (Size: ${value.length})`);
+                cookieStore.set(name, value, safeOptions);
+              });
+            } catch (error) {
+              console.error("[Auth Callback] Failed to set credentials:", error);
+            }
           },
         },
       }

@@ -19,7 +19,19 @@ export async function GET(request: NextRequest) {
       },
       setAll(cookiesToSet: Array<{ name: string; value: string; options: CookieOptions }>) {
         cookiesToSet.forEach(({ name, value, options }) => {
-          response.cookies.set(name, value, options);
+          // Sanitize options to match login/middleware logic
+          const safeOptions = {
+            ...options,
+            path: '/',
+            sameSite: 'lax' as const,
+            secure: process.env.NODE_ENV === 'production',
+          };
+
+          if (safeOptions.domain) {
+            delete safeOptions.domain;
+          }
+
+          response.cookies.set(name, value, safeOptions);
         });
       },
     },

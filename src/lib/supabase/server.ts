@@ -37,14 +37,18 @@ export async function getSupabaseServerClient(mode: SupabaseServerClientMode = "
           console.error("[DEBUG] Failed to parse Supabase URL:", e);
         }
 
-        const found = allCookies.find(c => c.name === expectedName);
+        const found = allCookies.filter(c => c.name === expectedName);
 
         console.log(`[DEBUG] Supabase URL: ${activeUrl}`);
         console.log(`[DEBUG] Expected Cookie Name: ${expectedName}`);
-        console.log(`[DEBUG] Cookies Received Match? ${found ? "YES" : "NO"} (${found?.name})`);
+        console.log(`[DEBUG] Cookies Match Count: ${found.length}`);
 
-        if (!found) {
-          console.log(`[DEBUG] Available Cookies:`, allCookies.map(c => c.name));
+        if (found.length > 1) {
+          console.error(`[CRITICAL] DUPLICATE COOKIES DETECTED! Use Clear Site Data. Values:`, found.map(c => c.value.substring(0, 10) + '...'));
+        } else if (found.length === 1) {
+          console.log(`[DEBUG] Cookie found: ${found[0].name} (Size: ${found[0].value.length})`);
+        } else {
+          // console.log(`[DEBUG] No auth cookie found.`);
         }
 
         return allCookies;

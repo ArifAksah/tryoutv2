@@ -1,69 +1,68 @@
-import { NextResponse, type NextRequest } from "next/server";
+import { NextResponse } from "next/server";
+import { createServerClient } from "@supabase/ssr";
+import { cookies } from "next/headers";
 
-import { createServerClient, type CookieOptions } from "@supabase/ssr";
+export async function GET(request: Request) {
+  const { searchParams, origin } = new URL(request.url);
+  const code = searchParams.get("code");
+  const next = searchParams.get("next") ?? "/";
 
-export async function GET(request: NextRequest) {
-  const url = new URL(request.url);
-  const code = url.searchParams.get("code");
-  const next = url.searchParams.get("next") ?? "/";
-  const error = url.searchParams.get("error");
-  const errorDescription = url.searchParams.get("error_description");
+  // Error params from Supabase redirect
+  const error = searchParams.get("error");
+  const errorDescription = searchParams.get("error_description");
 
-  const safeNext = next.startsWith("/") ? next : "/";
+  if (code) {
+    const cookieStore = await cookies();
+    const supabase = createServerClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+      {
+        cookies: {
+          getAll() {
+            return cookieStore.getAll();
+          },
+          setAll(cookiesToSet) {
+            try {
+              cookiesToSet.forEach(({ name, value, options }) =>
+                cookieStore.set(name, value, options)
+              );
+            } catch {
+              // The `setAll` method was called from a Server Component.
+              // This can be ignored if you have middleware refreshing
+              // user sessions.
+            }
+          },
+        },
+      }
+    );
 
-  if (error) {
-    const loginUrl = new URL("/login", url.origin);
-    loginUrl.searchParams.set("next", safeNext);
-    loginUrl.searchParams.set("error", error);
-    if (errorDescription) loginUrl.searchParams.set("error_description", errorDescription);
-    return NextResponse.redirect(loginUrl);
+    const { error: sessionError } = await supabase.auth.exchangeCodeForSession(code);
+
+    if (!sessionError) {
+      // Support for load balancers / Vercel deployment URLs
+      const forwardedHost = request.headers.get('x-forwarded-host');
+      const isLocalEnv = process.env.NODE_ENV === 'development';
+
+      if (isLocalEnv) {
+        return NextResponse.redirect(`${origin}${next}`);
+      } else if (forwardedHost) {
+        return NextResponse.redirect(`https://${forwardedHost}${next}`);
+      } else {
+        return NextResponse.redirect(`${origin}${next}`);
+      }
+    } else {
+      console.error("Auth callback exchange error:", sessionError);
+      // Fallthrough to error handling
+    }
   }
 
-  const redirectUrl = new URL(safeNext, url.origin);
-  const response = NextResponse.redirect(redirectUrl);
+  // Login page with error
+  const loginUrl = new URL("/login", origin);
+  if (error) loginUrl.searchParams.set("error", error);
+  if (errorDescription) loginUrl.searchParams.set("error_description", errorDescription);
+  if (!error && !code) loginUrl.searchParams.set("error", "no_code");
 
-  if (!code) {
-    return response;
-  }
+  loginUrl.searchParams.set("next", next); // Preserve next param
 
-  console.log(`[DEBUG] Callback hit. Code: ${code ? "YES" : "NO"}, Error: ${error || "None"}`);
-  console.log(`[DEBUG] Redirecting to: ${safeNext}`);
-
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  console.log(`[DEBUG] Callback using Supabase URL: ${supabaseUrl || "MISSING"}`);
-
-  if (!supabaseUrl || !supabaseAnonKey) {
-    console.error("Auth callback failed: Missing Supabase environment variables in Vercel.");
-    return response;
-  }
-
-  const supabase = createServerClient(supabaseUrl, supabaseAnonKey, {
-    cookies: {
-      getAll() {
-        return request.cookies.getAll();
-      },
-      setAll(cookiesToSet: Array<{ name: string; value: string; options: CookieOptions }>) {
-        cookiesToSet.forEach(({ name, value, options }) => {
-          response.cookies.set(name, value, options);
-        });
-      },
-    },
-  });
-
-  const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
-
-  if (exchangeError) {
-    console.error("Auth callback exchange error:", exchangeError);
-    const loginUrl = new URL("/login", url.origin);
-    loginUrl.searchParams.set("next", safeNext);
-    loginUrl.searchParams.set("error", "oauth_exchange_failed");
-    loginUrl.searchParams.set("error_description", exchangeError.message);
-    return NextResponse.redirect(loginUrl);
-  }
-
-  console.log("Auth callback success. Redirecting to:", safeNext);
-
-  return response;
+  return NextResponse.redirect(loginUrl);
 }

@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/browser";
+import { signInWithGoogleAction } from "./actions";
 
 type Props = {
   nextPath: string;
@@ -11,14 +12,27 @@ type Props = {
 export function LoginClient({ nextPath, initialError = null }: Props) {
   const [error, setError] = useState<string | null>(initialError);
   const [pending, setPending] = useState(false);
+
+  // State for email/password form
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const redirectTo = useMemo(() => {
-    const origin = typeof window === "undefined" ? "" : window.location.origin;
-    const next = encodeURIComponent(nextPath || "/");
-    return `${origin}/auth/callback?next=${next}`;
-  }, [nextPath]);
+  const handleGoogleLogin = async () => {
+    setError(null);
+    setPending(true);
+    try {
+      const res = await signInWithGoogleAction(nextPath);
+
+      if (res?.error) {
+        setError(res.error);
+        setPending(false);
+      }
+
+    } catch (e) {
+      setError("Terjadi kesalahan saat menghubungi server Google.");
+      setPending(false);
+    }
+  };
 
   return (
     <div className="space-y-4 rounded-lg border border-slate-200 bg-white p-6">
@@ -34,24 +48,7 @@ export function LoginClient({ nextPath, initialError = null }: Props) {
         </p>
         <button
           type="button"
-          onClick={async () => {
-            setError(null);
-            setPending(true);
-            try {
-              const supabase = getSupabaseBrowserClient();
-              const { error } = await supabase.auth.signInWithOAuth({
-                provider: "google",
-                options: {
-                  redirectTo,
-                },
-              });
-              if (error) setError(error.message);
-            } catch (e) {
-              setError(e instanceof Error ? e.message : "Gagal memulai login Google");
-            } finally {
-              setPending(false);
-            }
-          }}
+          onClick={handleGoogleLogin}
           disabled={pending}
           className="w-full rounded-lg border border-sky-300 px-4 py-2 text-sm font-semibold text-sky-700 hover:bg-sky-50 disabled:opacity-60"
         >

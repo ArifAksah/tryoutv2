@@ -4,14 +4,20 @@ import { redirect } from "next/navigation";
 import { getSupabaseServerClient } from "@/lib/supabase/server";
 
 export async function getCurrentUser() {
-  const supabase = await getSupabaseServerClient("read");
-  const { data, error } = await supabase.auth.getUser();
-  if (error) {
-    console.error("getCurrentUser auth error:", error);
+  try {
+    const supabase = await getSupabaseServerClient("read");
+    const { data: { user }, error } = await supabase.auth.getUser();
+    if (error || !user) {
+      // It's normal for a user to not be logged in. 
+      // Don't log this as an error to prevent noise/crashes.
+      return null;
+    }
+    return user;
+  } catch (error) {
     return null;
   }
-  return data.user;
 }
+
 
 export async function requireUser(nextPath?: string) {
   const user = await getCurrentUser();

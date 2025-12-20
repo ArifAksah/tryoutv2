@@ -24,8 +24,29 @@ export async function getSupabaseServerClient(mode: SupabaseServerClientMode = "
       getAll() {
         const allCookies = cookieStore.getAll();
         const activeUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "MISSING";
-        console.log(`[DEBUG] Active Project URL: ${activeUrl}`);
-        console.log(`[DEBUG] Cookies Received:`, allCookies.map(c => c.name));
+
+        // Derive expected cookie name logic (simplified from supabase-js)
+        let expectedName = "unknown";
+        try {
+          const urlObj = new URL(activeUrl);
+          const hostname = urlObj.hostname;
+          // Usually projectId is the first part of hostname
+          const projectId = hostname.split('.')[0];
+          expectedName = `sb-${projectId}-auth-token`;
+        } catch (e) {
+          console.error("[DEBUG] Failed to parse Supabase URL:", e);
+        }
+
+        const found = allCookies.find(c => c.name === expectedName);
+
+        console.log(`[DEBUG] Supabase URL: ${activeUrl}`);
+        console.log(`[DEBUG] Expected Cookie Name: ${expectedName}`);
+        console.log(`[DEBUG] Cookies Received Match? ${found ? "YES" : "NO"} (${found?.name})`);
+
+        if (!found) {
+          console.log(`[DEBUG] Available Cookies:`, allCookies.map(c => c.name));
+        }
+
         return allCookies;
       },
       setAll(cookiesToSet: Array<{ name: string; value: string; options: CookieOptions }>) {

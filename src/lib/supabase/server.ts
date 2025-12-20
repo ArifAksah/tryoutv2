@@ -51,9 +51,25 @@ export async function getSupabaseServerClient(mode: SupabaseServerClientMode = "
       },
       setAll(cookiesToSet: Array<{ name: string; value: string; options: CookieOptions }>) {
         if (mode !== "write") return;
-        cookiesToSet.forEach(({ name, value, options }) => {
-          cookieStore.set(name, value, options);
-        });
+        try {
+          cookiesToSet.forEach(({ name, value, options }) => {
+            const safeOptions = {
+              ...options,
+              path: '/',
+              sameSite: 'lax' as const,
+              secure: process.env.NODE_ENV === 'production',
+            };
+
+            if (safeOptions.domain) {
+              delete safeOptions.domain;
+            }
+
+            cookieStore.set(name, value, safeOptions);
+          });
+        } catch (error) {
+          // Ignore errors in server components where cookies can't be set
+          // (This happens when getUser() refeshes tokens in a Server Component)
+        }
       },
     },
   });

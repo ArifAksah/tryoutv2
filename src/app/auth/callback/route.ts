@@ -22,15 +22,10 @@ export async function GET(request: Request) {
             return cookieStore.getAll();
           },
           setAll(cookiesToSet) {
-            try {
-              cookiesToSet.forEach(({ name, value, options }) =>
-                cookieStore.set(name, value, options)
-              );
-            } catch {
-              // The `setAll` method was called from a Server Component.
-              // This can be ignored if you have middleware refreshing
-              // user sessions.
-            }
+            // Remove try/catch to ensure we see if this fails
+            cookiesToSet.forEach(({ name, value, options }) =>
+              cookieStore.set(name, value, options)
+            );
           },
         },
       }
@@ -42,6 +37,8 @@ export async function GET(request: Request) {
       // Support for load balancers / Vercel deployment URLs
       const forwardedHost = request.headers.get('x-forwarded-host');
       const isLocalEnv = process.env.NODE_ENV === 'development';
+
+      console.log("[Auth Callback] Session exchanged successfully. Cookies set.");
 
       if (isLocalEnv) {
         return NextResponse.redirect(`${origin}${next}`);

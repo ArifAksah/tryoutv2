@@ -1,0 +1,649 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "20 Soal Latihan TIU Hubungan X dan Y (Paket 3 - Aljabar & Akar)",
+        "instructions": "Import ke kategori tiu-numerik-hubungan-x-dan-y"
+    },
+    "questions": [
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$x = -2^4$$ dan $$y = (-2)^4$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$x > y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$x < y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$x = y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$x \\geq y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$$x = -(2 \\times 2 \\times 2 \\times 2) = -16$$\n$$y = (-2) \\times (-2) \\times (-2) \\times (-2) = 16$$\n$$-16 < 16$$, jadi $$x < y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$x = \\sqrt{25} + \\sqrt{9}$$ dan $$y = \\sqrt{25+9}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$x > y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$x < y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$x = y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$x = 2y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "$$x = 5 + 3 = 8$$\n$$y = \\sqrt{34} \\approx 5,8$$\nJadi $$x > y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$a = 3$$ dan $$b = 4$$. $$X = (a+b)^2$$ dan $$Y = a^2 + b^2$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 0$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "$$X = (3+4)^2 = 7^2 = 49$$\n$$Y = 3^2 + 4^2 = 9 + 16 = 25$$\nJadi $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = 2024 \\times 2022$$ dan $$Y = 2023^2$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Misal $$a = 2023$$.\n$$X = (a+1)(a-1) = a^2 - 1$$\n$$Y = a^2$$\nJelas $$a^2 - 1 < a^2$$, maka $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = \\sqrt[3]{-8}$$ dan $$Y = -2$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = -Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Akar pangkat tiga dari bilangan negatif tetap negatif.\n$$(-2) \\times (-2) \\times (-2) = -8$$.\nJadi $$X = -2$$ dan $$Y = -2$$. $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$x > 1$$. $$P = x^2$$ dan $$Q = x^3$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$P > Q$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$P < Q$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$P = Q$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$P = 2Q$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Untuk bilangan $$x > 1$$, pangkat yang lebih besar menghasilkan nilai yang lebih besar.\nMisal $$x=2$$, $$P=4$$, $$Q=8$$. $$P < Q$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$0 < x < 1$$. $$P = x$$ dan $$Q = x^2$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$P > Q$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$P < Q$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$P = Q$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$Q = 2P$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Untuk pecahan positif kurang dari 1, dipangkatkan akan semakin kecil.\nMisal $$x = 0,5$$. $$P = 0,5$$, $$Q = 0,25$$.\nJadi $$P > Q$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\sqrt{72} - \\sqrt{32}$$ dan $$Y = \\sqrt{8}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = 6\\sqrt{2} - 4\\sqrt{2} = 2\\sqrt{2}$$\n$$Y = 2\\sqrt{2}$$\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$p = 2q$$ dan $$p, q > 0$$. $$X = p^2 + q^2$$ dan $$Y = (p+q)^2$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 0$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$$Y = (p+q)^2 = p^2 + q^2 + 2pq$$\nKarena $$p,q > 0$$, maka $$2pq$$ bernilai positif.\n$$Y = X + 2pq$$, sehingga $$Y > X$$ atau $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{1}{a}$$ dan $$Y = \\frac{1}{b}$$ dengan $$a > b > 0$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\geq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Jika pembilang sama, penyebut yang lebih besar ($$a$$) akan menghasilkan nilai yang lebih kecil.\nContoh: $$3 > 2$$, maka $$\\frac{1}{3} < \\frac{1}{2}$$.\nJadi $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = -3^2$$ dan $$Y = (-3)^2$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = |Y|$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$$X = -(3 \\times 3) = -9$$\n$$Y = (-3) \\times (-3) = 9$$\n$$-9 < 9$$, jadi $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\sqrt{10} + \\sqrt{5}$$ dan $$Y = \\sqrt{15}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Kuadratkan kedua sisi untuk membandingkan.\n$$X^2 = 10 + 5 + 2\\sqrt{50} = 15 + 2\\sqrt{50}$$\n$$Y^2 = 15$$\nJelas $$15 + 2\\sqrt{50} > 15$$, maka $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 1 - 0,0001$$ dan $$Y = 1 - 0,00001$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 10Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Semakin kecil pengurangnya, semakin besar hasilnya.\n$$0,0001 > 0,00001$$.\nKarena $$X$$ dikurangi bilangan yang lebih besar, maka $$X$$ lebih kecil.\nJadi $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{1}{2} + \\frac{1}{3}$$ dan $$Y = \\frac{1}{2} \\times \\frac{1}{3}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$Y = 2X$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "$$X = \\frac{5}{6}$$\n$$Y = \\frac{1}{6}$$\nJadi $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 2^{30}$$ dan $$Y = 8^{10}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 3Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Ubah ke basis yang sama.\n$$Y = (2^3)^{10} = 2^{30}$$\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = 1$$ jam $$20$$ menit dan $$Y = 80$$ menit.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = Y + 10$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = 60 + 20 = 80$$ menit.\n$$Y = 80$$ menit.\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 3\\sqrt{2}$$ dan $$Y = \\sqrt{18}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = \\sqrt{3^2 \\times 2} = \\sqrt{9 \\times 2} = \\sqrt{18}$$\n$$Y = \\sqrt{18}$$\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X$$ adalah keliling persegi dengan sisi 5, dan $$Y$$ adalah luas persegi panjang dengan panjang 10 dan lebar 2.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = Y + 2$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = 4 \\times 5 = 20$$\n$$Y = 10 \\times 2 = 20$$\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = \\frac{1}{2} + \\frac{1}{4}$$ dan $$Y = \\frac{3}{4}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = 0,5 + 0,25 = 0,75$$\n$$Y = 0,75$$\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = 13 + 18 - 5$$ dan $$Y = 13 - 5 + 18$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Penjumlahan dan pengurangan bersifat asosiatif jika tanda bilangannya tetap.\n$$X = 26$$\n$$Y = 26$$\nJadi $$X = Y$$."
+        }
+    ]
+}

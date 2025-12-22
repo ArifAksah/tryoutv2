@@ -1,0 +1,669 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "20 Soal Latihan TIU Numerik Hubungan X dan Y (Perbandingan Kuantitatif)",
+        "instructions": "Import ke kategori tiu-numerik-hubungan-x-dan-y"
+    },
+    "questions": [
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{1}{2} \\div 4 \\times 8$$ dan $$Y = 8 \\div 4 \\times \\frac{1}{2}$$. Manakah hubungan yang benar?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$2X = Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan X dan Y tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Hitung nilai X:\n$$X = \\frac{1}{2} \\times \\frac{1}{4} \\times 8 = \\frac{1}{8} \\times 8 = 1$$\nHitung nilai Y:\n$$Y = 8 \\times \\frac{1}{4} \\times \\frac{1}{2} = 2 \\times \\frac{1}{2} = 1$$\nJadi, $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 16\\frac{2}{3}\\% \\times 18$$ dan $$Y = \\frac{1}{6} \\times 18$$, maka...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 3Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Ingat pecahan istimewa:\n$$16\\frac{2}{3}\\%$$ nilainya sama dengan $$\\frac{1}{6}$$.\n$$X = \\frac{1}{6} \\times 18 = 3$$\n$$Y = \\frac{1}{6} \\times 18 = 3$$\nJadi, $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\sqrt{0,09}$$ dan $$Y = (0,3)^2$$. Manakah pernyataan yang benar?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Hitung nilai X:\n$$X = \\sqrt{0,09} = 0,3$$\nHitung nilai Y:\n$$Y = 0,3 \\times 0,3 = 0,09$$\nKarena $$0,3 > 0,09$$, maka $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = -(3^4)$$ dan $$Y = (-3)^4$$, maka hubungan X dan Y adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\geq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Perhatikan tanda kurung dan pangkat genap:\n$$X = -(3 \\times 3 \\times 3 \\times 3) = -81$$\n$$Y = (-3) \\times (-3) \\times (-3) \\times (-3) = 81$$\n$$-81 < 81$$, maka $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui tabel berikut:\n$$X = 2 - \\frac{1}{1 - \\frac{1}{2}}$$\n$$Y = \\frac{6}{4} \\div \\frac{3}{2}$$\nHubungan yang tepat adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Hitung X:\nSelesaikan penyebut paling bawah: $$1 - \\frac{1}{2} = 0,5$$ atau $$\\frac{1}{2}$$.\n$$X = 2 - \\frac{1}{0,5} = 2 - 2 = 0$$\nHitung Y:\n$$Y = \\frac{6}{4} \\times \\frac{2}{3} = \\frac{12}{12} = 1$$\n$$0 < 1$$, maka $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 17,5\\% \\text{ dari } 40$$ dan $$Y = 40\\% \\text{ dari } 17,5$$, maka...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Sifat komutatif perkalian pada persentase ($$a\\% \\times b = b\\% \\times a$$):\n$$X = \\frac{17,5}{100} \\times 40 = 7$$\n$$Y = \\frac{40}{100} \\times 17,5 = 7$$\nJadi, $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$a$$ dan $$b$$ bilangan positif. Jika $$X = \\frac{a}{b}$$ dan $$Y = \\frac{a}{b+1}$$, maka...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\leq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Untuk pembilang yang sama ($$a$$), semakin besar penyebut, semakin kecil nilai pecahannya.\nKarena $$b+1 > b$$ (untuk b positif), maka pecahan dengan penyebut $$b+1$$ nilainya lebih kecil.\nJadi, $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui:\n$$X = 33 \\times 29 + 33 \\times 21$$\n$$Y = 33 \\times 50$$\nManakah hubungan yang benar?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Gunakan sifat distributif perkalian pada X:\n$$X = 33 \\times (29 + 21)$$\n$$X = 33 \\times 50$$\nNilai $$X$$ sama persis dengan $$Y$$.\nJadi, $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = \\sqrt{72} - \\sqrt{72}$$ dan $$Y = \\sqrt{3} - \\sqrt{2}$$, maka...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Hitung X:\n$$X = 0$$ (karena bilangan dikurangi bilangan itu sendiri).\nHitung Y:\n$$\\sqrt{3} \\approx 1,73$$ dan $$\\sqrt{2} \\approx 1,41$$.\n$$Y = 1,73 - 1,41 = 0,32$$\nKarena $$0 < 0,32$$, maka $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{1}{13} - \\frac{1}{14}$$ dan $$Y = \\frac{1}{14} - \\frac{1}{15}$$. Hubungan X dan Y adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$2X = Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Samakan penyebut untuk melihat pola:\n$$X = \\frac{14-13}{13 \\times 14} = \\frac{1}{182}$$\n$$Y = \\frac{15-14}{14 \\times 15} = \\frac{1}{210}$$\nUntuk pembilang sama-sama 1, penyebut yang lebih kecil menghasilkan nilai yang lebih besar.\nKarena $$182 < 210$$, maka $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$a = 5$$ dan $$b = 3$$, serta $$X = (a-b)^2$$ dan $$Y = a^2 - b^2$$, maka...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$2X = Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Substitusi nilai a dan b:\n$$X = (5-3)^2 = 2^2 = 4$$\n$$Y = 5^2 - 3^2 = 25 - 9 = 16$$\n$$4 < 16$$, maka $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = 2 \\times \\frac{1}{4} + 0,5$$ dan $$Y = \\frac{3}{4} + 25\\%$$. Manakah pernyataan yang benar?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Hitung X:\n$$X = 0,5 + 0,5 = 1$$\nHitung Y:\n$$Y = 0,75 + 0,25 = 1$$\nJadi, $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = \\sqrt[3]{27}$$ dan $$Y = \\sqrt{9}$$. Hubungan X dan Y adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = Y^2$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Hitung X:\n$$3^3 = 27$$, maka $$X = 3$$.\nHitung Y:\n$$3^2 = 9$$, maka $$Y = 3$$.\nJadi, $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = 0,333...$$ dan $$Y = \\frac{1}{3}$$. Manakah yang benar?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 3Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Bilangan desimal berulang $$0,333...$$ adalah bentuk desimal dari pecahan $$\\frac{1}{3}$$.\nJadi, $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 1 - 0,01 - 0,1$$ dan $$Y = 1 - 0,1 - 0,01$$, maka...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Operasi pengurangan dan penjumlahan bersifat asosiatif jika tandanya diperhatikan.\n$$X = 1 - 0,11 = 0,89$$\n$$Y = 1 - 0,11 = 0,89$$\nUrutan pengurangan tidak mengubah hasil jika angkanya sama. Jadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{3}{4} + \\frac{1}{2}$$ dan $$Y = 1,2$$. Manakah hubungan yang benar?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = Y + 0,1$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Hitung X:\n$$X = 0,75 + 0,5 = 1,25$$\nBandingkan dengan Y = 1,2.\n$$1,25 > 1,20$$\nJadi, $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$p = 4$$ dan $$q = 3$$. \n$$X = p^2 - q^2$$\n$$Y = (p+q)(p-q)$$",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Ini adalah identitas aljabar dasar: $$a^2 - b^2 = (a+b)(a-b)$$.\nTanpa menghitung angka pun, kita tahu bahwa kedua bentuk tersebut setara.\n$$X = 16 - 9 = 7$$\n$$Y = (7)(1) = 7$$\nJadi, $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{1}{5} \\div 0,2$$ dan $$Y = 0,2 \\div \\frac{1}{5}$$. Manakah yang benar?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X + Y = 1$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Ubah semua ke bentuk yang sama (misal pecahan).\n$$0,2 = \\frac{1}{5}$$.\n$$X = \\frac{1}{5} \\div \\frac{1}{5} = 1$$\n$$Y = \\frac{1}{5} \\div \\frac{1}{5} = 1$$\nJadi, $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X$$ adalah bilangan genap dan $$Y$$ adalah bilangan ganjil, manakah pernyataan yang pasti benar tentang $$X + Y$$?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X + Y$$ adalah bilangan genap"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X + Y$$ adalah bilangan ganjil"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X + Y$$ habis dibagi 2"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X + Y$$ lebih besar dari X"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Sifat penjumlahan bilangan:\nGenap + Ganjil = Ganjil.\nContoh: $$2 + 3 = 5$$ (Ganjil).\nJadi, $$X + Y$$ pasti ganjil."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{12}{13}$$ dan $$Y = \\frac{13}{14}$$. Hubungan yang tepat adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Bandingkan dengan menyamakan penyebut atau kali silang.\n$$12 \\times 14$$ vs $$13 \\times 13$$\n$$168$$ vs $$169$$\nKarena $$168 < 169$$, maka $$X < Y$$.\nCara cepat: Untuk pecahan dengan selisih pembilang dan penyebut sama (di sini selisih 1), pecahan dengan angka yang lebih besar nilainya lebih besar."
+        }
+    ]
+}

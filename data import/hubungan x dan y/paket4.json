@@ -1,0 +1,649 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "20 Soal Latihan TIU Hubungan X dan Y (Paket 4 - Logika & Aplikasi)",
+        "instructions": "Import ke kategori tiu-numerik-hubungan-x-dan-y"
+    },
+    "questions": [
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$x = \\text{rata-rata dari } 5, 5, 5$$ dan $$y = \\text{median dari } 2, 5, 100$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$x > y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$x < y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$x = y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$x = 2y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$x = 5$$\n$$y$$ (nilai tengah data urut) = 5\nJadi $$x = y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = 1 - 0,001$$ dan $$Y = 1 - 0,0001$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 10Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Semakin kecil pengurang, semakin besar hasilnya.\n$$0,001 > 0,0001$$, jadi $$X$$ dikurangi lebih banyak.\nMaka $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$a$$ adalah bilangan ganjil positif. $$X = (-1)^a$$ dan $$Y = (-1)^{a+1}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 0$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$$a$$ ganjil, maka $$(-1)^{\\text{ganjil}} = -1$$, jadi $$X = -1$$.\n$$a+1$$ genap, maka $$(-1)^{\\text{genap}} = 1$$, jadi $$Y = 1$$.\n$$-1 < 1$$, maka $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{10}{3}$$ dan $$Y = 3,33$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$Y > X$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "$$X = 3,3333...$$\n$$Y = 3,3300$$\n$$3,3333 > 3,3300$$, jadi $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 12^2$$ dan $$Y = 10^2 + 2^2$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "$$X = 144$$\n$$Y = 100 + 4 = 104$$\n$$144 > 104$$, jadi $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X$$ adalah banyaknya hari pada tahun 2024 dan $$Y = 365$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = Y-1$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "2024 habis dibagi 4, maka merupakan tahun kabisat.\n$$X = 366$$\n$$Y = 365$$\nJadi $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 5!$$ dan $$Y = 5 \\times 4 \\times 3 \\times 2 \\times 1$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "Definisi faktorial $$5! = 5 \\times 4 \\times 3 \\times 2 \\times 1$$.\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{1}{2} \\times \\frac{3}{4}$$ dan $$Y = \\frac{3}{8}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = \\frac{1 \\times 3}{2 \\times 4} = \\frac{3}{8}$$\n$$Y = \\frac{3}{8}$$\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = \\sqrt{100} - \\sqrt{64}$$ dan $$Y = \\sqrt{36}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$$X = 10 - 8 = 2$$\n$$Y = 6$$\nJadi $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = 40$$ menit dan $$Y = \\frac{2}{3}$$ jam.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$Y = \\frac{2}{3} \\times 60$$ menit $$= 40$$ menit.\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 1 + 2 + 3$$ dan $$Y = 1 \\times 2 \\times 3$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = Y+1$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = 6$$\n$$Y = 6$$\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\sqrt[3]{-1}$$ dan $$Y = -1$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = |Y|$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$(-1)^3 = -1$$, maka $$X = -1$$.\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 25\\% \\times 16$$ dan $$Y = \\sqrt{16}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 2Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = \\frac{1}{4} \\times 16 = 4$$\n$$Y = 4$$\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X$$ adalah sisi persegi dengan luas 36, dan $$Y$$ adalah sisi kubus dengan volume 27.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = Y^2$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "$$X = \\sqrt{36} = 6$$\n$$Y = \\sqrt[3]{27} = 3$$\nJadi $$X > Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = \\frac{1}{2} \\div 2$$ dan $$Y = \\frac{1}{2} \\times 2$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$2X = Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$$X = \\frac{1}{4} = 0,25$$\n$$Y = 1$$\nJadi $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = -10^2$$ dan $$Y = (-10)^2$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\geq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$$X = -100$$\n$$Y = 100$$\nJadi $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X = 0,3 \\times 0,3$$ dan $$Y = 0,9$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X = 10Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$$X = 0,09$$\n$$Y = 0,90$$\nJadi $$X < Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{1}{2} + \\frac{1}{3}$$ dan $$Y = \\frac{5}{6}$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$$\nJadi $$X = Y$$."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Jika $$X$$ adalah bilangan ganjil dan $$Y$$ adalah bilangan genap, maka $$X \\times Y$$ adalah...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Bilangan Ganjil"
+                },
+                {
+                    "key": "B",
+                    "text": "Bilangan Genap"
+                },
+                {
+                    "key": "C",
+                    "text": "Bilangan Prima"
+                },
+                {
+                    "key": "D",
+                    "text": "Bilangan Pecahan"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Perkalian ganjil dan genap selalu menghasilkan genap.\nContoh: $$3 \\times 2 = 6$$ (Genap)."
+        },
+        {
+            "category_slug": "tiu-numerik-hubungan-x-dan-y",
+            "question_text": "Diketahui $$X = \\frac{2}{5}$$ dan $$Y = 40\\%$$.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$$X > Y$$"
+                },
+                {
+                    "key": "B",
+                    "text": "$$X < Y$$"
+                },
+                {
+                    "key": "C",
+                    "text": "$$X = Y$$"
+                },
+                {
+                    "key": "D",
+                    "text": "$$X \\neq Y$$"
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$$X = 0,4$$\n$$Y = 0,4$$\nJadi $$X = Y$$."
+        }
+    ]
+}

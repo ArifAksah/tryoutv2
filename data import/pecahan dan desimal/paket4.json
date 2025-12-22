@@ -1,0 +1,669 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "20 Soal Latihan TIU Numerik Berhitung (Paket 6 - Variasi Lanjutan)",
+        "instructions": "Import ke kategori tiu-numerik-berhitung"
+    },
+    "questions": [
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Hasil dari $\\frac{1}{1 + \\frac{1}{1 + \\frac{1}{4}}}$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "4/5"
+                },
+                {
+                    "key": "B",
+                    "text": "5/9"
+                },
+                {
+                    "key": "C",
+                    "text": "4/9"
+                },
+                {
+                    "key": "D",
+                    "text": "5/4"
+                },
+                {
+                    "key": "E",
+                    "text": "9/5"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Kerjakan dari bawah:\n$1 + \\frac{1}{4} = \\frac{5}{4}$.\n$\\frac{1}{5/4} = \\frac{4}{5}$.\n$1 + \\frac{4}{5} = \\frac{9}{5}$.\n$\\frac{1}{9/5} = \\frac{5}{9}$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Nilai dari $\\sqrt[3]{0,000125}$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "0,005"
+                },
+                {
+                    "key": "B",
+                    "text": "0,05"
+                },
+                {
+                    "key": "C",
+                    "text": "0,5"
+                },
+                {
+                    "key": "D",
+                    "text": "0,025"
+                },
+                {
+                    "key": "E",
+                    "text": "0,015"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$\\sqrt[3]{125} = 5$.\nAda 6 angka di belakang koma. Jika diakar pangkat 3, maka $6 \\div 3 = 2$ angka di belakang koma.\nJadi $0,05$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Hasil dari $2024^2 - 2023 \\times 2025$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "0"
+                },
+                {
+                    "key": "B",
+                    "text": "1"
+                },
+                {
+                    "key": "C",
+                    "text": "2"
+                },
+                {
+                    "key": "D",
+                    "text": "-1"
+                },
+                {
+                    "key": "E",
+                    "text": "2024"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Misal $x = 2024$.\n$2023 = x-1$ dan $2025 = x+1$.\nSoal menjadi: $x^2 - (x-1)(x+1)$.\n$x^2 - (x^2 - 1) = x^2 - x^2 + 1 = 1$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Jika $a = 0,666...$ dan $b = 0,333...$, maka nilai $\\log_b a$ adalah... (Asumsi log basis 10 atau relasi eksponen sederhana). *Koreksi soal agar relevan TIU: Hubungan a dan b*.",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$a = 2b$"
+                },
+                {
+                    "key": "B",
+                    "text": "$a = b$"
+                },
+                {
+                    "key": "C",
+                    "text": "$a = 0,5b$"
+                },
+                {
+                    "key": "D",
+                    "text": "$a = 3b$"
+                },
+                {
+                    "key": "E",
+                    "text": "$a = b^2$"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Konversi pecahan:\n$a = \\frac{2}{3}$\n$b = \\frac{1}{3}$\nJelas bahwa $\\frac{2}{3} = 2 \\times \\frac{1}{3}$, maka $a = 2b$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Hasil dari $12,5\\% + 0,5 + \\frac{1}{4}$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "0,725"
+                },
+                {
+                    "key": "B",
+                    "text": "0,875"
+                },
+                {
+                    "key": "C",
+                    "text": "0,825"
+                },
+                {
+                    "key": "D",
+                    "text": "0,925"
+                },
+                {
+                    "key": "E",
+                    "text": "1,0"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Ubah ke desimal:\n$12,5\\% = 0,125$\n$0,5 = 0,500$\n$\\frac{1}{4} = 0,25 = 0,250$\n$0,125 + 0,500 + 0,250 = 0,875$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Berapakah nilai dari $\\frac{3^5 \\times 3^{-2}}{3^2}$?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1"
+                },
+                {
+                    "key": "B",
+                    "text": "3"
+                },
+                {
+                    "key": "C",
+                    "text": "9"
+                },
+                {
+                    "key": "D",
+                    "text": "27"
+                },
+                {
+                    "key": "E",
+                    "text": "81"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Sifat eksponen:\n$\\frac{3^{5-2}}{3^2} = \\frac{3^3}{3^2} = 3^{3-2} = 3^1 = 3$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Hasil dari $0,4 \\times 0,05 \\times 20$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "0,04"
+                },
+                {
+                    "key": "B",
+                    "text": "0,4"
+                },
+                {
+                    "key": "C",
+                    "text": "4"
+                },
+                {
+                    "key": "D",
+                    "text": "40"
+                },
+                {
+                    "key": "E",
+                    "text": "0,004"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Kelompokkan untuk hitung mudah:\n$0,05 \\times 20 = 1$\n$0,4 \\times 1 = 0,4$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Jika $p = 4$ dan $q = 3$, maka nilai dari $\\sqrt{p^2 - 2pq + q^2}$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1"
+                },
+                {
+                    "key": "B",
+                    "text": "7"
+                },
+                {
+                    "key": "C",
+                    "text": "5"
+                },
+                {
+                    "key": "D",
+                    "text": "25"
+                },
+                {
+                    "key": "E",
+                    "text": "49"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Faktorkan dalam akar:\n$p^2 - 2pq + q^2 = (p-q)^2$\n$\\sqrt{(4-3)^2} = \\sqrt{1^2} = 1$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Manakah bilangan yang nilainya paling mendekati $5$?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "4,9"
+                },
+                {
+                    "key": "B",
+                    "text": "5,009"
+                },
+                {
+                    "key": "C",
+                    "text": "5,1"
+                },
+                {
+                    "key": "D",
+                    "text": "4,99"
+                },
+                {
+                    "key": "E",
+                    "text": "5,01"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Selisih dengan 5:\nA. $|5 - 4,9| = 0,1$\nB. $|5 - 5,009| = 0,009$ (Terkecil)\nC. $|5 - 5,1| = 0,1$\nD. $|5 - 4,99| = 0,01$\nE. $|5 - 5,01| = 0,01$"
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Hasil dari $\\frac{2}{5} + \\frac{3}{10} \\div \\frac{1}{2}$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1"
+                },
+                {
+                    "key": "B",
+                    "text": "1,2"
+                },
+                {
+                    "key": "C",
+                    "text": "0,8"
+                },
+                {
+                    "key": "D",
+                    "text": "0,7"
+                },
+                {
+                    "key": "E",
+                    "text": "1,5"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Kerjakan pembagian dulu:\n$\\frac{3}{10} \\div \\frac{1}{2} = \\frac{3}{10} \\times 2 = \\frac{6}{10} = \\frac{3}{5}$.\nPenjumlahan:\n$\\frac{2}{5} + \\frac{3}{5} = \\frac{5}{5} = 1$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Jika $15^2 + x = 17^2$, maka nilai $x$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "64"
+                },
+                {
+                    "key": "B",
+                    "text": "32"
+                },
+                {
+                    "key": "C",
+                    "text": "128"
+                },
+                {
+                    "key": "D",
+                    "text": "8"
+                },
+                {
+                    "key": "E",
+                    "text": "2"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "$225 + x = 289$\n$x = 289 - 225 = 64$\n(Ini adalah tripel Pythagoras 8, 15, 17, dimana $x=8^2=64$)."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Berapakah hasil dari $77 + 7,7 + 0,77 + 0,077$?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "85,447"
+                },
+                {
+                    "key": "B",
+                    "text": "85,547"
+                },
+                {
+                    "key": "C",
+                    "text": "84,547"
+                },
+                {
+                    "key": "D",
+                    "text": "85,777"
+                },
+                {
+                    "key": "E",
+                    "text": "86,547"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "77,000\n 7,700\n 0,770\n 0,077 (+)\n------\n85,547"
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Jika $a = 100\\%$ dan $b = 1/2 + 0,5$, maka...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$a > b$"
+                },
+                {
+                    "key": "B",
+                    "text": "$a < b$"
+                },
+                {
+                    "key": "C",
+                    "text": "$a = b$"
+                },
+                {
+                    "key": "D",
+                    "text": "$a = 0,5b$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$a = 100\\% = 1$\n$b = 0,5 + 0,5 = 1$\nJadi $a = b$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Hasil dari $3,2 \\div 0,004$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "80"
+                },
+                {
+                    "key": "B",
+                    "text": "800"
+                },
+                {
+                    "key": "C",
+                    "text": "8000"
+                },
+                {
+                    "key": "D",
+                    "text": "8"
+                },
+                {
+                    "key": "E",
+                    "text": "0,8"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "Geser koma 3 kali ke kanan:\n$3200 \\div 4 = 800$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Nilai dari $(2 + 2 \\div 2)^2$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "4"
+                },
+                {
+                    "key": "B",
+                    "text": "9"
+                },
+                {
+                    "key": "C",
+                    "text": "16"
+                },
+                {
+                    "key": "D",
+                    "text": "8"
+                },
+                {
+                    "key": "E",
+                    "text": "6"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "BODMAS: Bagi dulu, baru tambah.\n$(2 + 1)^2 = 3^2 = 9$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Jika $87,5\\%$ dari $P$ adalah $21$, maka $P = ...$",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "24"
+                },
+                {
+                    "key": "B",
+                    "text": "28"
+                },
+                {
+                    "key": "C",
+                    "text": "32"
+                },
+                {
+                    "key": "D",
+                    "text": "18"
+                },
+                {
+                    "key": "E",
+                    "text": "30"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Pecahan istimewa $87,5\\% = \\frac{7}{8}$.\n$\\frac{7}{8} P = 21$\n$P = 21 \\times \\frac{8}{7} = 3 \\times 8 = 24$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Hasil dari $\\sqrt{72} + \\sqrt{50} - \\sqrt{200}$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\sqrt{2}$"
+                },
+                {
+                    "key": "B",
+                    "text": "$2\\sqrt{2}$"
+                },
+                {
+                    "key": "C",
+                    "text": "$3\\sqrt{2}$"
+                },
+                {
+                    "key": "D",
+                    "text": "0"
+                },
+                {
+                    "key": "E",
+                    "text": "$-\\sqrt{2}$"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "Sederhanakan akar:\n$\\sqrt{36 \\times 2} + \\sqrt{25 \\times 2} - \\sqrt{100 \\times 2}$\n$= 6\\sqrt{2} + 5\\sqrt{2} - 10\\sqrt{2}$\n$= (6 + 5 - 10)\\sqrt{2} = 1\\sqrt{2} = \\sqrt{2}$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Berapakah $16^2 + 8^2$?",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "256"
+                },
+                {
+                    "key": "B",
+                    "text": "300"
+                },
+                {
+                    "key": "C",
+                    "text": "320"
+                },
+                {
+                    "key": "D",
+                    "text": "400"
+                },
+                {
+                    "key": "E",
+                    "text": "192"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 5
+            },
+            "discussion": "$16^2 = 256$\n$8^2 = 64$\n$256 + 64 = 320$."
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Jika $a/b = 3/4$ dan $b/c = 4/5$, maka $a/c = ...$",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "3/5"
+                },
+                {
+                    "key": "B",
+                    "text": "4/3"
+                },
+                {
+                    "key": "C",
+                    "text": "5/3"
+                },
+                {
+                    "key": "D",
+                    "text": "3/4"
+                },
+                {
+                    "key": "E",
+                    "text": "12/20"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 5
+            },
+            "discussion": "$$\\frac{a}{c} = \\frac{a}{b} \\times \\frac{b}{c}$$\n$$= \\frac{3}{4} \\times \\frac{4}{5} = \\frac{3}{5}$$"
+        },
+        {
+            "category_slug": "tiu-numerik-berhitung",
+            "question_text": "Hasil dari $3^0 + 3^1 + 3^2 + 3^3$ adalah...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "39"
+                },
+                {
+                    "key": "B",
+                    "text": "40"
+                },
+                {
+                    "key": "C",
+                    "text": "12"
+                },
+                {
+                    "key": "D",
+                    "text": "27"
+                },
+                {
+                    "key": "E",
+                    "text": "36"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 5
+            },
+            "discussion": "$1 + 3 + 9 + 27 = 40$."
+        }
+    ]
+}

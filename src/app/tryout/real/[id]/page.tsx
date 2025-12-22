@@ -159,6 +159,38 @@ export default async function RealTryoutPage({ params }: Props) {
     rows = ((data ?? []) as StartRowRaw[]).map(normalizeStartRow);
   } else {
     if (tryoutPackage) {
+      // Check Access Control
+      const { checkPackageAccess } = await import("@/lib/subscription");
+      const access = await checkPackageAccess(user?.id, tryoutPackage.id);
+
+      if (!access.allowed) {
+        return (
+          <SidebarShell
+            title="Akses Ditolak"
+            roleLabel={admin ? "Role: admin" : "Role: user"}
+            userEmail={user?.email}
+            nav={[
+              { href: "/", label: "Dashboard", description: "Kembali" },
+              { href: "/pricing", label: "Langganan", description: "Beli Paket", variant: "primary" },
+            ]}
+          >
+            <div className="flex min-h-[50vh] flex-col items-center justify-center p-8 text-center">
+              <div className="mb-4 text-4xl">🔒</div>
+              <h1 className="mb-2 text-2xl font-bold text-slate-900">Konten Terkunci</h1>
+              <p className="mb-6 max-w-md text-slate-600">
+                Maaf, paket tryout <strong>"{tryoutPackage.title}"</strong> hanya tersedia untuk member berlangganan paket tertentu.
+              </p>
+              <Link
+                href="/pricing"
+                className="rounded-xl bg-indigo-600 px-6 py-3 font-bold text-white shadow-lg shadow-indigo-200 transition hover:bg-indigo-700 active:scale-95"
+              >
+                Lihat Paket Langganan 💎
+              </Link>
+            </div>
+          </SidebarShell>
+        );
+      }
+
       modeLabel = `Tryout ${tryoutPackage.title}`;
       const { data, error } = await supabase.rpc("start_package_tryout", {
         p_package_slug: slug,

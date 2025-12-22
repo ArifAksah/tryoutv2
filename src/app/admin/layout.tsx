@@ -49,6 +49,16 @@ export default async function AdminLayout({ children }: { children: ReactNode })
           label: "Tryout Akbar",
           description: "Paket tryout custom",
         },
+        {
+          href: admin ? "/admin/plans" : "/admin/forbidden",
+          label: "Paket Berlangganan",
+          description: "Kelola harga & fitur",
+        },
+        {
+          href: admin ? "/admin/subscriptions" : "/admin/forbidden",
+          label: "Langganan User",
+          description: "Approve/Reject",
+        },
         { href: "/account", label: "Akun", description: "Profil" },
         { href: "/leaderboard", label: "Leaderboard", description: "Ranking" },
         { href: "/tryout/history", label: "Riwayat Tryout", description: "Review jawaban" },

@@ -12,7 +12,8 @@ Panduan lengkap untuk admin dalam mengelola soal, kategori, institutions, dan tr
 4. [Mengelola Bank Soal](#mengelola-bank-soal)
 5. [Mengelola Kategori](#mengelola-kategori)
 6. [Mengelola Institutions & Blueprints](#mengelola-institutions--blueprints)
-7. [Tips & Best Practices](#tips--best-practices)
+7. [Mengelola Paket Berlangganan](#mengelola-paket-berlangganan)
+8. [Tips & Best Practices](#tips--best-practices)
 
 ---
 
@@ -531,6 +532,53 @@ Blueprint menentukan komposisi soal untuk setiap sekolah.
 3. Soal dipilih **secara random** dari bank soal kategori terkait
 4. User kerjakan tryout dengan timer
 5. Scoring otomatis di server-side
+
+---
+
+## 💎 Mengelola Paket Berlangganan
+
+### 1. Membuat Paket Baru (Subscription Plan)
+
+1. **Admin Panel** → **Paket Berlangganan**
+2. Klik **"Buat Paket Baru"**
+3. Isi form:
+   - **Judul Paket**: Nama paket (e.g., "IELTS Intensive", "Paket SKD Premium")
+   - **Harga (Rp)**: Harga dalam Rupiah (e.g., 500000)
+   - **Deskripsi Singkat**: Penjelasan singkat paket
+   - **Fitur**: Daftar fitur, **satu per baris** (akan tampil sebagai bullet points)
+   - **Aktif**: Centang agar paket muncul di halaman User
+4. Klik **"Simpan"**
+
+**Contoh Fitur:**
+```
+Akses Bank Soal Lengkap
+Tryout 20x
+Pembahasan Video
+Akses 12 Bulan
+```
+
+### 2. Verifikasi Langganan User
+
+Saat user mendaftar paket di halaman `/pricing`, status mereka adalah **Waiting**. Admin harus menyetujui secara manual.
+
+1. **Admin Panel** → **Langganan User**
+2. Lihat daftar "Permintaan Langganan" (Status: Waiting)
+3. Cek bukti pembayaran (jika ada/diimplementasikan)
+4. Klik **"Approve"** untuk mengaktifkan, atau **"Reject"** untuk menolak
+5. Setelah di-approve, user akan melihat status "Langganan Aktif" di dashboard mereka.
+
+### 3. Mengelola Konten Paket (Access Control)
+
+Anda bisa mengatur paket tryout mana saja yang hanya bisa diakses oleh pelanggan paket ini.
+
+1. **Admin Panel** → **Paket Berlangganan**
+2. Pada kartu paket, klik tombol **"Konten"**
+3. Anda akan melihat daftar semua Exam Package (Tryout)
+4. **Centang** paket tryout yang ingin dimasukkan ke dalam paket langganan ini.
+5. **Cara Kerja:**
+   - Jika sebuah Tryout **TIDAK DICENTANG** di paket manapun, maka tryout tersebut **GRATIS/PUBLIC** (bisa diakses siapa saja).
+   - Jika sebuah Tryout **DICENTANG** di salah satu paket (misal: "IELTS Premium"), maka user **WAJIB** punya langganan "IELTS Premium" untuk membukanya.
+   - Jika user mencoba membuka tryout terkunci tanpa langganan, mereka akan diarahkan ke halaman pricing.
 
 ---
 

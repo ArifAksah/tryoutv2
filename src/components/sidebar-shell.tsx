@@ -68,8 +68,9 @@ export function SidebarShell({
     <div className="min-h-screen bg-slate-50 md:grid md:grid-cols-[260px_1fr]">
       {/* Mobile Header */}
       <div className="sticky top-0 z-30 flex items-center justify-between border-b border-slate-200 bg-white px-4 py-3 md:hidden">
-        <Link href={brandHref} className="text-lg font-bold text-slate-900">
-          {brandLabel}
+        <Link href={brandHref} className="flex items-center gap-3 text-xl font-bold text-slate-900">
+          <img src="/logo.png" alt="OmniTes Logo" className="h-10 w-10 object-contain" />
+          OmniTes
         </Link>
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -102,11 +103,12 @@ export function SidebarShell({
       >
         <div className="flex h-full flex-col">
           {/* Brand Header */}
-          <div className="hidden border-b border-slate-100 px-6 py-6 md:block">
-            <Link href={brandHref} className="flex items-center gap-2">
-              <span className="text-xl font-bold text-slate-900">{brandLabel}</span>
+          <div className="hidden border-b border-slate-100 px-6 py-4 md:block">
+            <Link href={brandHref} className="flex items-center gap-3">
+              <img src="/logo.png" alt="OmniTes Logo" className="h-14 w-14 object-contain" />
+              <span className="text-2xl font-bold text-slate-900">OmniTes</span>
             </Link>
-            <p className="mt-1 text-xs font-medium text-slate-500">{title}</p>
+            <p className="mt-2 text-xs font-medium text-slate-500">{title}</p>
           </div>
 
           {/* User Info Mobile (in Sidebar) */}

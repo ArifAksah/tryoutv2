@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tryout Sekolah Kedinasan",
+  title: "OmniTes - Platform Ujian Modern",
   description: "Struktur SKD (TWK, TIU, TKP) dan SKB per sekolah dengan Supabase.",
 };
 

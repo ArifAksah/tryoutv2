@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Latihan Soal UTBK SNBT - Pengetahuan dan Pemahaman Umum (Part 1: Soal 1-10)",
+        "instructions": "Import ke kategori ppu"
+    },
+    "questions": [
+        {
+            "category_slug": "ppu",
+            "question_text": "Bacalah teks berikut!\n\n(1) Fenomena *disrupsi* teknologi telah mengubah lanskap industri secara drastis. (2) Perusahaan konvensional yang lambat beradaptasi mulai berguguran satu per satu. (3) Sebaliknya, perusahaan rintisan (*startup*) yang lincah dan inovatif justru semakin merajalela menguasai pasar.\n\nMakna kata *disrupsi* dalam konteks kalimat di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Kekacauan yang tidak terkendali."
+                },
+                {
+                    "key": "B",
+                    "text": "Perubahan fundamental akibat inovasi yang mengubah tatanan lama."
+                },
+                {
+                    "key": "C",
+                    "text": "Kerusakan sistem jaringan komputer."
+                },
+                {
+                    "key": "D",
+                    "text": "Penurunan kualitas produk secara tiba-tiba."
+                },
+                {
+                    "key": "E",
+                    "text": "Penyatuan dua perusahaan besar."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Dalam konteks bisnis dan teknologi, 'disrupsi' mengacu pada inovasi yang menggantikan pasar dan jaringan nilai yang sudah ada, serta menggantikan produk, teknologi, atau aliansi yang mapan. Jadi, maknanya adalah perubahan mendasar/fundamental yang mengubah tatanan."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Cermati kalimat berikut!\n\n'Pemerintah sedang menggodok regulasi baru terkait penggunaan *kecerdasan buatan* di sektor publik.'\n\nFrasa *kecerdasan buatan* merupakan padanan kata dari istilah asing ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Virtual Reality"
+                },
+                {
+                    "key": "B",
+                    "text": "Augmented Reality"
+                },
+                {
+                    "key": "C",
+                    "text": "Artificial Intelligence"
+                },
+                {
+                    "key": "D",
+                    "text": "Machine Learning"
+                },
+                {
+                    "key": "E",
+                    "text": "Big Data"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Padanan istilah yang tepat:\n- Kecerdasan Buatan = Artificial Intelligence (AI).\n- Realitas Maya = Virtual Reality.\n- Pembelajaran Mesin = Machine Learning.\n- Mahadata = Big Data."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Bacalah teks berikut!\n\n(1) Batik merupakan warisan budaya Indonesia yang sudah diakui UNESCO. (2) Motif batik memiliki filosofi yang mendalam tergantung daerah asalnya. (3) Misalnya, motif parang melambangkan semangat yang tidak pernah padam. (4) Generasi muda diharapkan dapat melestarikan budaya ini dengan bangga memakainya.\n\nKata *ini* pada kalimat (4) merujuk pada ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Motif parang"
+                },
+                {
+                    "key": "B",
+                    "text": "UNESCO"
+                },
+                {
+                    "key": "C",
+                    "text": "Batik"
+                },
+                {
+                    "key": "D",
+                    "text": "Generasi muda"
+                },
+                {
+                    "key": "E",
+                    "text": "Filosofi mendalam"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Kata rujukan 'ini' mengacu pada subjek utama yang dibahas sejak awal teks dan disebutkan kembali sebagai objek yang harus dilestarikan dan dipakai. Objek tersebut adalah **Batik**."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Perhatikan kalimat berikut!\n\n'Dia *berlari* kencang mengejar bus sekolah yang sudah mulai melaju.'\n\nImbuhan *ber-* pada kata *berlari* memiliki makna yang sama dengan imbuhan *ber-* pada kalimat ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ayah *berdasi* merah saat pergi ke kantor."
+                },
+                {
+                    "key": "B",
+                    "text": "Adik *bersepeda* keliling taman."
+                },
+                {
+                    "key": "C",
+                    "text": "Ayam itu *bertelur* di kandang belakang."
+                },
+                {
+                    "key": "D",
+                    "text": "Jumlah siswa di kelas itu *berlima*."
+                },
+                {
+                    "key": "E",
+                    "text": "Kakek *berjalan* kaki setiap pagi."
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 50
+            },
+            "discussion": "Makna imbuhan *ber-*:\n- Berlari = Melakukan aktivitas (gerakan badan).\n- A (Berdasi) = Memakai/mengenakan.\n- B (Bersepeda) = Mengendarai.\n- C (Bertelur) = Menghasilkan/mengeluarkan.\n- D (Berlima) = Kumpulan jumlah.\n- E (**Berjalan**) = Melakukan aktivitas (gerakan badan). Ini yang paling setara dengan berlari."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Lawan kata (antonim) yang tepat untuk kata *Skeptis* adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ragu-ragu"
+                },
+                {
+                    "key": "B",
+                    "text": "Yakin"
+                },
+                {
+                    "key": "C",
+                    "text": "Pesimis"
+                },
+                {
+                    "key": "D",
+                    "text": "Curiga"
+                },
+                {
+                    "key": "E",
+                    "text": "Apatis"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Skeptis berarti kurang percaya atau ragu-ragu terhadap keberhasilan/kebenaran sesuatu. Lawan katanya adalah **Yakin** atau Optimis (percaya)."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Bacalah teks berikut!\n\n(1) Kenaikan harga pangan global diprediksi akan terus berlanjut hingga tahun depan. (2) Konflik geopolitik dan perubahan iklim menjadi pemicu utamanya. (3) Negara-negara importir pangan, termasuk Indonesia, harus segera mencari strategi mitigasi. (4) Diversifikasi pangan lokal bisa menjadi salah satu solusi jangka panjang.\n\nHbungan antara kalimat (1) dan (2) adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Perbandingan"
+                },
+                {
+                    "key": "B",
+                    "text": "Pertentangan"
+                },
+                {
+                    "key": "C",
+                    "text": "Sebab-Akibat"
+                },
+                {
+                    "key": "D",
+                    "text": "Penjelasan definisi"
+                },
+                {
+                    "key": "E",
+                    "text": "Urutan waktu"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Kalimat (1) menyatakan fenomena/akibat (Kenaikan harga pangan berlanjut). Kalimat (2) menjelaskan pemicu/sebabnya (Konflik & Iklim). Jadi hubungannya adalah **Sebab-Akibat** (atau Akibat-Sebab tergantung cara pandang, intinya hubungan Kausalitas)."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Perhatikan kalimat berikut!\n\n'Pembangunan infrastruktur jembatan gantung yang menghubungkan dua desa terpencil itu telah selesai dilaksanakan oleh kontraktor BUMN.'\n\nInti kalimat (Kalimat Inti) dari pernyataan panjang di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Jembatan gantung menghubungkan dua desa."
+                },
+                {
+                    "key": "B",
+                    "text": "Pembangunan infrastruktur telah selesai."
+                },
+                {
+                    "key": "C",
+                    "text": "Infrastruktur jembatan selesai dilaksanakan."
+                },
+                {
+                    "key": "D",
+                    "text": "Kontraktor BUMN menyelesaikan pembangunan."
+                },
+                {
+                    "key": "E",
+                    "text": "Dua desa terpencil telah terhubung."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Analisis Jabatan Kalimat:\n- Subjek (S): Pembangunan infrastruktur jembatan gantung yang menghubungkan dua desa terpencil itu (Inti S: **Pembangunan infrastruktur** atau **Pembangunan**).\n- Predikat (P): telah selesai dilaksanakan (Inti P: **telah selesai**).\n- Pelengkap/Ket: oleh kontraktor BUMN.\nJadi inti kalimatnya: **Pembangunan infrastruktur telah selesai**."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Manakah kelompok kata (frasa) berikut yang memiliki pola makna sama dengan *meja hijau* (kiasan)?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Meja makan"
+                },
+                {
+                    "key": "B",
+                    "text": "Kambing hitam"
+                },
+                {
+                    "key": "C",
+                    "text": "Rumah sakit"
+                },
+                {
+                    "key": "D",
+                    "text": "Kereta api"
+                },
+                {
+                    "key": "E",
+                    "text": "Kursi roda"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "- **Meja hijau**: Bermakna kiasan/idiom (pengadilan), bukan meja yang berwarna hijau.\n- Meja makan, Rumah sakit, Kereta api, Kursi roda: Bermakna denotatif/sebenarnya (gabungan kata).\n- **Kambing hitam**: Bermakna kiasan (orang yang dipersalahkan), bukan kambing yang berwarna hitam. Jadi polanya sama."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Bacalah kalimat berikut!\n\n'Para ilmuwan *mensintesis* senyawa baru untuk obat kanker.'\n\nBentuk dasar dari kata *mensintesis* adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tesis"
+                },
+                {
+                    "key": "B",
+                    "text": "Sintesis"
+                },
+                {
+                    "key": "C",
+                    "text": "Sintes"
+                },
+                {
+                    "key": "D",
+                    "text": "Sintesa"
+                },
+                {
+                    "key": "E",
+                    "text": "Anti-tesis"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Kata dasarnya adalah **Sintesis** (serapan baku dari *synthesis*). Jika diberi awalan Me-, huruf 's' di awal kata luluh menjadi 'ny' atau tetap 's' tergantung jenis serapannya. Namun dalam kaidah umum bahasa Indonesia untuk kata serapan asing yang belum luluh total, seringkali menjadi *Menyintesis* (luluh). Tapi pertanyaannya adalah **Bentuk Dasar**. Bentuk dasarnya adalah **Sintesis**."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Tujuan penulis dalam teks yang bersifat *persuasif* adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Menceritakan urutan peristiwa masa lalu."
+                },
+                {
+                    "key": "B",
+                    "text": "Menjelaskan cara membuat sesuatu."
+                },
+                {
+                    "key": "C",
+                    "text": "Menggambarkan suatu objek secara rinci."
+                },
+                {
+                    "key": "D",
+                    "text": "Meyakinkan atau membujuk pembaca agar menyetujui pandangannya."
+                },
+                {
+                    "key": "E",
+                    "text": "Memberikan informasi faktual yang objektif."
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 50
+            },
+            "discussion": "- Naratif: Menceritakan (A).\n- Prosedural: Menjelaskan cara (B).\n- Deskriptif: Menggambarkan (C).\n- **Persuasif**: Membujuk/Meyakinkan (D).\n- Eksposisi: Memberikan informasi (E)."
+        }
+    ]
+}

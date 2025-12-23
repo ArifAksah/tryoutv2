@@ -2,6 +2,7 @@
 
 import { useActionState, useState } from "react";
 import type { AdminActionState } from "../../questions/actions";
+import { SearchableSelect } from "./searchable-select";
 
 type Category = {
   id: string;
@@ -35,6 +36,7 @@ export function CategoryForm({ mode, action, categories, initial }: Props) {
   const [name, setName] = useState(initial.name);
   const [slug, setSlug] = useState(initial.slug);
   const [durationMinutes, setDurationMinutes] = useState(initial.durationMinutes);
+  const [parentId, setParentId] = useState(initial.parentId || "");
 
   const handleNameChange = (value: string) => {
     setName(value);
@@ -91,18 +93,18 @@ export function CategoryForm({ mode, action, categories, initial }: Props) {
 
       <label className="block space-y-2">
         <span className="text-sm font-semibold text-slate-900">Parent (Opsional)</span>
-        <select
-          name="parent_id"
-          defaultValue={initial.parentId}
-          className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-sky-400"
-        >
-          <option value="">-- Root Category (No Parent) --</option>
-          {availableParents.map((cat) => (
-            <option key={cat.id} value={cat.id}>
-              {cat.name} ({cat.type || "unknown"})
-            </option>
-          ))}
-        </select>
+        <input type="hidden" name="parent_id" value={parentId} />
+        <SearchableSelect
+          options={availableParents.map(c => ({
+            id: c.id,
+            name: c.name,
+            type: c.type
+          }))}
+          value={parentId}
+          onChange={setParentId}
+          placeholder="Cari parent category..."
+          emptyLabel="-- Root Category (No Parent) --"
+        />
         <p className="text-xs text-slate-500">
           Pilih parent jika ini adalah sub-kategori.
         </p>

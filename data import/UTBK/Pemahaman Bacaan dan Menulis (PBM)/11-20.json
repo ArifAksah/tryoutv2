@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Lanjutan Soal UTBK SNBT - Pemahaman Bacaan dan Menulis (Part 2: Soal 11-20 - Final)",
+        "instructions": "Import ke kategori pbm"
+    },
+    "questions": [
+        {
+            "category_slug": "pbm",
+            "question_text": "Penggunaan konjungsi (kata hubung) yang **TIDAK TEPAT** terdapat dalam kalimat ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Dia belajar dengan giat sehingga mendapatkan nilai bagus."
+                },
+                {
+                    "key": "B",
+                    "text": "Karena sakit, ia tidak masuk sekolah."
+                },
+                {
+                    "key": "C",
+                    "text": "Meskipun hujan turun, dia tetap berangkat bekerja."
+                },
+                {
+                    "key": "D",
+                    "text": "Pemerintah menaikkan harga BBM, maka rakyat melakukan protes."
+                },
+                {
+                    "key": "E",
+                    "text": "Jika kamu rajin, kamu akan sukses."
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 50
+            },
+            "discussion": "Kata 'maka' tidak boleh digunakan dalam kalimat majemuk bertingkat yang anak kalimatnya diletakkan di belakang induk kalimat tanpa didahului 'jika/sebab'. Namun, kesalahan yang lebih fatal dan umum diujikan adalah penggunaan koma sebelum 'maka'. Dalam kaidah baku, struktur 'Sebab..., maka...' sebenarnya kurang tepat. Kalimat D seharusnya: 'Pemerintah menaikkan harga BBM **sehingga** rakyat melakukan protes' atau 'Karena pemerintah menaikkan harga BBM, rakyat melakukan protes' (tanpa 'maka')."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Penulisan huruf kapital yang **BENAR** terdapat pada kalimat ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ayah membeli pisang ambon dan jeruk bali di pasar."
+                },
+                {
+                    "key": "B",
+                    "text": "Kami berencana mendaki gunung Semeru bulan depan."
+                },
+                {
+                    "key": "C",
+                    "text": "Dia berbicara menggunakan bahasa Inggris dengan lancar."
+                },
+                {
+                    "key": "D",
+                    "text": "Ibu memasak bika Ambon untuk tamu."
+                },
+                {
+                    "key": "E",
+                    "text": "Paman tinggal di danau Toba."
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Aturan PUEBI:\n- A. **Benar**. Nama jenis (pisang ambon, jeruk bali) tidak dikapitalisasi meskipun mengandung unsur geografis.\n- B. Salah. Seharusnya: Gunung Semeru (unsur geografi diikuti nama).\n- C. Salah. Seharusnya: bahasa Inggris ('bahasa' kecil, 'Inggris' besar).\n- D. Salah. Seharusnya: bika ambon (nama jenis makanan).\n- E. Salah. Seharusnya: Danau Toba."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Cermati penulisan gelar berikut!\n\nNama: Dr. Ir. H. Ahmad Fauzi, S.H., M.Pd.\n\nKesalahan penulisan gelar (jika ada) pada nama tersebut terletak pada ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Dr."
+                },
+                {
+                    "key": "B",
+                    "text": "Ir."
+                },
+                {
+                    "key": "C",
+                    "text": "S.H."
+                },
+                {
+                    "key": "D",
+                    "text": "M.Pd."
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak ada kesalahan."
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 50
+            },
+            "discussion": "Penulisan gelar sudah benar sesuai PUEBI:\n- Dr. (Doktor) - huruf besar D, kecil r, titik.\n- Ir. (Insinyur).\n- H. (Haji).\n- S.H. (Sarjana Hukum) - Setiap singkatan kata diberi titik.\n- M.Pd. (Magister Pendidikan) - P besar, d kecil.\n- Tanda koma memisahkan nama dan gelar, serta antargelar."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Manakah penulisan kata depan 'di' yang **SALAH**?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Buku itu disimpan di dalam lemari."
+                },
+                {
+                    "key": "B",
+                    "text": "Kakak sedang berada di luar kota."
+                },
+                {
+                    "key": "C",
+                    "text": "Dimana bumi dipijak, di situ langit dijunjung."
+                },
+                {
+                    "key": "D",
+                    "text": "Kucing itu tidur di bawah meja."
+                },
+                {
+                    "key": "E",
+                    "text": "Acara akan diadakan di aula sekolah."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Kata depan 'di' yang menunjukkan tempat harus dipisah. Penulisan yang benar adalah **Di mana**, bukan 'Dimana'. (Pengecualian untuk kata sambung/kiasan tertentu, tapi 'Di mana' sebagai kata tanya/tempat wajib pisah)."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Perhatikan kalimat berikut!\n\n'Untuk *meminimalisir* kerugian, perusahaan melakukan efisiensi karyawan.'\n\nKata baku yang tepat untuk mengganti kata yang dicetak miring adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Meminimalisasi"
+                },
+                {
+                    "key": "B",
+                    "text": "Meminimalkan"
+                },
+                {
+                    "key": "C",
+                    "text": "Meminimumkan"
+                },
+                {
+                    "key": "D",
+                    "text": "Meminimkan"
+                },
+                {
+                    "key": "E",
+                    "text": "Minimalisasi"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Akhiran *-isir* (seperti legalisir, minimalisir) bukan merupakan imbuhan baku dalam bahasa Indonesia. Sebaiknya gunakan akhiran *-kan* atau *-isasi* jika diserap utuh. Pilihan yang paling baku dan umum untuk menggantikan 'meminimalisir' adalah **Meminimalkan**."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Kalimat manakah yang menggunakan tanda hubung (-) dengan benar?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ibu membeli sayur-mayur di pasar."
+                },
+                {
+                    "key": "B",
+                    "text": "Dia lahir pada tahun 1990-an."
+                },
+                {
+                    "key": "C",
+                    "text": "Anak-anak sedang bermain di taman."
+                },
+                {
+                    "key": "D",
+                    "text": "Peringatan HUT ke-78 RI."
+                },
+                {
+                    "key": "E",
+                    "text": "Semua jawaban benar."
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 50
+            },
+            "discussion": "Semua penggunaan tanda hubung di atas benar:\n- A: Kata ulang berubah bunyi (sayur-mayur).\n- B: Angka dengan akhiran -an (1990-an).\n- C: Kata ulang murni (Anak-anak).\n- D: Angka dengan awalan ke- (ke-78).\nJadi, opsi E benar."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Bacalah paragraf berikut!\n\n(1) Sampah plastik sangat sulit terurai. (2) Butuh waktu ratusan tahun agar plastik bisa hancur secara alami. (3) Oleh karena itu, kita harus mengurangi penggunaan plastik. (4) Plastik terbuat dari minyak bumi. (5) Salah satu caranya adalah dengan membawa botol minum sendiri.\n\nUrutan kalimat agar menjadi paragraf yang padu adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(1)-(2)-(4)-(3)-(5)"
+                },
+                {
+                    "key": "B",
+                    "text": "(1)-(2)-(3)-(5)-(4)"
+                },
+                {
+                    "key": "C",
+                    "text": "(4)-(1)-(2)-(3)-(5)"
+                },
+                {
+                    "key": "D",
+                    "text": "(1)-(4)-(2)-(3)-(5)"
+                },
+                {
+                    "key": "E",
+                    "text": "(1)-(2)-(3)-(4)-(5)"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Logika paragraf:\n(4) Definisi/Asal usul (Plastik dari minyak bumi) -> (1) Sifat masalah (Sulit terurai) -> (2) Penjelasan sifat (Ratusan tahun) -> (3) Kesimpulan/Solusi umum (Kurangi plastik) -> (5) Contoh solusi konkret (Bawa botol sendiri).\nUrutan C paling logis karena menjelaskan benda dulu, lalu masalahnya, lalu solusinya."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Kata *'di mana'* pada kalimat berikut yang penggunaannya **TEPAT** adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Rumah di mana ia tinggal sangat besar."
+                },
+                {
+                    "key": "B",
+                    "text": "Ia tidak tahu di mana dompetnya terjatuh."
+                },
+                {
+                    "key": "C",
+                    "text": "Keputusan di mana diambil kemarin sangat penting."
+                },
+                {
+                    "key": "D",
+                    "text": "Keadaan di mana ekonomi sedang sulit membuat rakyat menjerit."
+                },
+                {
+                    "key": "E",
+                    "text": "Sekolah di mana tempat saya belajar sudah direnovasi."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Dalam bahasa Indonesia baku, kata 'di mana' **hanya** boleh digunakan sebagai kata tanya atau penunjuk tempat spesifik dalam klausa tanya tak langsung. Penggunaan 'di mana' sebagai penghubung (mirip *where* dalam bahasa Inggris) pada opsi A, C, D, dan E dianggap **tidak baku**. Contoh A seharusnya: 'Rumah **tempat** ia tinggal...'. Opsi B benar karena berfungsi sebagai kata tanya dalam kalimat."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Perhatikan kalimat berikut!\n\n'Banjir yang merendam *pemukiman* warga disebabkan oleh *tumpukan* sampah di *saluran* air.'\n\nBentukan kata (afiksasi) yang **KURANG TEPAT** pada kalimat di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Merendam"
+                },
+                {
+                    "key": "B",
+                    "text": "Pemukiman"
+                },
+                {
+                    "key": "C",
+                    "text": "Disebabkan"
+                },
+                {
+                    "key": "D",
+                    "text": "Tumpukan"
+                },
+                {
+                    "key": "E",
+                    "text": "Saluran"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Perbedaan **Permukiman** dan **Pemukiman**:\n- **Pemukiman**: Proses memukimkan (memindahkan penduduk, transmigrasi).\n- **Permukiman**: Tempat bermukim (daerah tempat tinggal).\nDalam konteks kalimat (banjir merendam rumah warga), kata yang tepat adalah **Permukiman**. Jadi, 'Pemukiman' kurang tepat."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Kalimat berikut yang merupakan kalimat **baku** adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Dia bilang kalau dia sakit."
+                },
+                {
+                    "key": "B",
+                    "text": "Kami sudah kasih tahu mereka."
+                },
+                {
+                    "key": "C",
+                    "text": "Mereka sedang membicarakan tentang rencana liburan."
+                },
+                {
+                    "key": "D",
+                    "text": "Kepada para hadirin dipersilakan duduk."
+                },
+                {
+                    "key": "E",
+                    "text": "Ia tidak datang karena hujan."
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 50
+            },
+            "discussion": "Analisis:\nA. 'Bilang' (cakapan) -> Berkata/Mengatakan.\nB. 'Kasih tahu' (cakapan) -> Memberitahu.\nC. 'Membicarakan tentang' (Pleonasme). 'Membicarakan' sudah mengandung arti 'bicara tentang'. Harusnya: 'Membicarakan rencana...'.\nD. 'Kepada para hadirin...' (Salah subjek). Subjeknya 'Kepada', jadi tidak logis. Harusnya: 'Para hadirin dipersilakan...'.\nE. **Benar**. Struktur S-P-K baku."
+        }
+    ]
+}

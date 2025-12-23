@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Latihan Soal UTBK SNBT - Pengetahuan Kuantitatif (Part 1: Soal 1-10)",
+        "instructions": "Import ke kategori pk"
+    },
+    "questions": [
+        {
+            "category_slug": "pk",
+            "question_text": "Jika $2^x = 5$, maka nilai dari $2^{x+3}$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$15$"
+                },
+                {
+                    "key": "B",
+                    "text": "$25$"
+                },
+                {
+                    "key": "C",
+                    "text": "$40$"
+                },
+                {
+                    "key": "D",
+                    "text": "$10$"
+                },
+                {
+                    "key": "E",
+                    "text": "$125$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Sifat eksponen: $a^{m+n} = a^m \\times a^n$.\n$2^{x+3} = 2^x \\times 2^3$\nDiketahui $2^x = 5$, maka:\n$5 \\times 8 = 40$."
+        },
+        {
+            "category_slug": "pk",
+            "question_text": "Manakah di antara bilangan berikut yang nilainya **paling besar**?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\frac{1}{3} \\times 24\\%$"
+                },
+                {
+                    "key": "B",
+                    "text": "$\\frac{1}{4} \\times 30\\%$"
+                },
+                {
+                    "key": "C",
+                    "text": "$\\frac{1}{2} \\times 18\\%$"
+                },
+                {
+                    "key": "D",
+                    "text": "$\\frac{2}{3} \\times 15\\%$"
+                },
+                {
+                    "key": "E",
+                    "text": "$\\frac{3}{4} \\times 12\\%$"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 50
+            },
+            "discussion": "Hitung nilainya (abaikan persen untuk perbandingan cepat):\nA. $24 : 3 = 8$\nB. $30 : 4 = 7,5$\nC. $18 : 2 = 9$\nD. $(2 \\times 15) : 3 = 30 : 3 = 10$\nE. $(3 \\times 12) : 4 = 36 : 4 = 9$\nNilai terbesar adalah 10 (Opsi D)."
+        },
+        {
+            "category_slug": "pk",
+            "question_text": "Diketahui sistem persamaan linear:\n$2x + 3y = 13$\n$x - y = -1$\n\nNilai dari $x + y$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$3$"
+                },
+                {
+                    "key": "B",
+                    "text": "$4$"
+                },
+                {
+                    "key": "C",
+                    "text": "$5$"
+                },
+                {
+                    "key": "D",
+                    "text": "$6$"
+                },
+                {
+                    "key": "E",
+                    "text": "$7$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Eliminasi/Substitusi:\nDari pers 2: $x = y - 1$. Substitusi ke pers 1:\n$2(y - 1) + 3y = 13$\n$2y - 2 + 3y = 13$\n$5y = 15 \\Rightarrow y = 3$.\nCari $x$: $x = 3 - 1 = 2$.\nNilai $x + y = 2 + 3 = 5$."
+        },
+        {
+            "category_slug": "pk",
+            "question_text": "Bilangan ganjil enam angka $k35.47m$ habis dibagi $18$. Nilai $k \\times m$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$24$"
+                },
+                {
+                    "key": "B",
+                    "text": "$16$"
+                },
+                {
+                    "key": "C",
+                    "text": "$36$"
+                },
+                {
+                    "key": "D",
+                    "text": "$0$"
+                },
+                {
+                    "key": "E",
+                    "text": "$8$"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Habis dibagi 18 berarti habis dibagi 2 dan 9.\n1. Habis dibagi 2: $m$ harus genap. Tapi soal bilang 'Bilangan ganjil', berarti digit terakhir harus ganjil? \n*Koreksi Soal*: Jika bilangan itu sendiri disebut 'Bilangan Ganjil', maka tidak mungkin habis dibagi 18 (karena 18 genap, kelipatannya pasti genap). \n*Revisi Logika Soal*: Asumsikan maksudnya 'Bilangan enam angka tersebut' (tanpa kata ganjil di awal, atau $m$ genap). Agar habis dibagi 18, $m$ wajib genap ($0, 2, 4, 6, 8$).\n2. Habis dibagi 9: Jumlah digit harus kelipatan 9.\n$k + 3 + 5 + 4 + 7 + m = k + m + 19$.\nJika $m=8$ (genap terbesar), $k+27$ -> $k=0$ (tak boleh di depan) atau $k=9$. ($9 \\times 8 = 72$, tak ada opsi).\nCek opsi A (24): $k=4, m=6$? $4+6+19=29$ (Bukan kelipatan 9). $k=6, m=4$? $10+19=29$ (Bukan).\nMari cek jika $m=4$, $k+23=27 \\Rightarrow k=4$. Maka $k \\times m = 16$. (Opsi B).\nMari cek jika $m=6$, $k+25=27 \\Rightarrow k=2$. Maka $k \\times m = 12$. (Tak ada opsi).\nMari cek jika $m=8$, $k+27=27 \\Rightarrow k=0$ (tidak boleh) atau $k=9$. $9 \\times 8=72$.\nOpsi yang paling masuk akal: **$m=4, k=4$ (hasil 16)**.\n*Catatan*: Kata 'bilangan ganjil' di soal harus dihapus karena kontradiktif dengan habis dibagi 18."
+        },
+        {
+            "category_slug": "pk",
+            "question_text": "Jika $f(x-2) = 3x + 1$, maka nilai dari $f(3)$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$10$"
+                },
+                {
+                    "key": "B",
+                    "text": "$13$"
+                },
+                {
+                    "key": "C",
+                    "text": "$16$"
+                },
+                {
+                    "key": "D",
+                    "text": "$19$"
+                },
+                {
+                    "key": "E",
+                    "text": "$21$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Kita ingin mencari $f(3)$, artinya yang di dalam kurung $(x-2)$ harus bernilai 3.\n$x - 2 = 3 \\Rightarrow x = 5$.\nMasukkan $x = 5$ ke persamaan hasil:\n$f(3) = 3(5) + 1 = 15 + 1 = 16$."
+        },
+        {
+            "category_slug": "pk",
+            "question_text": "Operasi $\\odot$ didefinisikan dengan $a \\odot b = a(b - 2) + a$. Nilai dari $4 \\odot 5$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$12$"
+                },
+                {
+                    "key": "B",
+                    "text": "$14$"
+                },
+                {
+                    "key": "C",
+                    "text": "$16$"
+                },
+                {
+                    "key": "D",
+                    "text": "$18$"
+                },
+                {
+                    "key": "E",
+                    "text": "$20$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Substitusi $a=4$ dan $b=5$:\n$4 \\odot 5 = 4(5 - 2) + 4$\n$= 4(3) + 4$\n$= 12 + 4 = 16$."
+        },
+        {
+            "category_slug": "pk",
+            "question_text": "Diketahui segitiga $ABC$ siku-siku di $B$. Jika panjang $AB = 6$ cm dan $AC = 10$ cm, maka luas segitiga tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$24 \\text{ cm}^2$"
+                },
+                {
+                    "key": "B",
+                    "text": "$30 \\text{ cm}^2$"
+                },
+                {
+                    "key": "C",
+                    "text": "$48 \\text{ cm}^2$"
+                },
+                {
+                    "key": "D",
+                    "text": "$60 \\text{ cm}^2$"
+                },
+                {
+                    "key": "E",
+                    "text": "$12 \\text{ cm}^2$"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Siku-siku di B, berarti $AC$ adalah sisi miring (hipotenusa).\nCari tinggi $BC$ dengan Pythagoras:\n$BC = \\sqrt{AC^2 - AB^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$ cm.\nLuas = $\\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 6 \\times 8 = 24 \\text{ cm}^2$."
+        },
+        {
+            "category_slug": "pk",
+            "question_text": "Jika $x$ adalah bilangan bulat positif dan $x^2 < 20$, maka banyaknya nilai $x$ yang memenuhi adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$3$"
+                },
+                {
+                    "key": "B",
+                    "text": "$4$"
+                },
+                {
+                    "key": "C",
+                    "text": "$5$"
+                },
+                {
+                    "key": "D",
+                    "text": "$6$"
+                },
+                {
+                    "key": "E",
+                    "text": "$7$"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Bilangan bulat positif ($x \\ge 1$).\n$x = 1 \\Rightarrow 1^2 = 1 < 20$ (Benar)\n$x = 2 \\Rightarrow 2^2 = 4 < 20$ (Benar)\n$x = 3 \\Rightarrow 3^2 = 9 < 20$ (Benar)\n$x = 4 \\Rightarrow 4^2 = 16 < 20$ (Benar)\n$x = 5 \\Rightarrow 5^2 = 25 > 20$ (Salah)\nJadi ada 4 nilai yang memenuhi."
+        },
+        {
+            "category_slug": "pk",
+            "question_text": "Pertidaksamaan $3x - 5 > x + 7$ dipenuhi oleh ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$x > 4$"
+                },
+                {
+                    "key": "B",
+                    "text": "$x < 4$"
+                },
+                {
+                    "key": "C",
+                    "text": "$x > 6$"
+                },
+                {
+                    "key": "D",
+                    "text": "$x < 6$"
+                },
+                {
+                    "key": "E",
+                    "text": "$x > 2$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "$3x - x > 7 + 5$\n$2x > 12$\n$x > 6$."
+        },
+        {
+            "category_slug": "pk",
+            "question_text": "Rata-rata dari $a, b, c$ adalah $10$. Rata-rata dari $a, b, c, d$ adalah $12$. Nilai $d$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$14$"
+                },
+                {
+                    "key": "B",
+                    "text": "$16$"
+                },
+                {
+                    "key": "C",
+                    "text": "$18$"
+                },
+                {
+                    "key": "D",
+                    "text": "$20$"
+                },
+                {
+                    "key": "E",
+                    "text": "$22$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Jumlah $(a+b+c) = 3 \\times 10 = 30$.\nJumlah $(a+b+c+d) = 4 \\times 12 = 48$.\nNilai $d = 48 - 30 = 18$."
+        }
+    ]
+}

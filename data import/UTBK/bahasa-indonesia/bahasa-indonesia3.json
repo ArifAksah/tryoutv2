@@ -1,0 +1,489 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Lanjutan Soal UTBK SNBT - Literasi Bahasa Indonesia (Part 3: Soal 16-30 - Final)",
+        "instructions": "Import ke kategori bahasa-indonesia"
+    },
+    "questions": [
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut dengan saksama!\n\nSebuah studi terbaru menunjukkan bahwa kenaikan suhu global sebesar $1.5^\\circ\\text{C}$ dapat memicu dampak yang tidak dapat dipulihkan pada ekosistem kutub. Peneliti mencatat bahwa laju pencairan es saat ini mencapai $1.2 \\times 10^3$ gigaton per tahun. Jika emisi gas rumah kaca ($CO_2$) tidak segera dikurangi sebesar $45\\%$ pada tahun 2030, diperkirakan permukaan air laut akan naik secara signifikan, mengancam pulau-pulau kecil.\n\nBerdasarkan data kuantitatif dalam teks, risiko utama yang ditekankan penulis adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Penurunan emisi gas rumah kaca sebesar 45%."
+                },
+                {
+                    "key": "B",
+                    "text": "Kenaikan suhu global yang masih di bawah 1.5 derajat Celcius."
+                },
+                {
+                    "key": "C",
+                    "text": "Dampak permanen pada ekosistem dan kenaikan muka air laut akibat pencairan es."
+                },
+                {
+                    "key": "D",
+                    "text": "Peningkatan produksi gigaton es di kutub."
+                },
+                {
+                    "key": "E",
+                    "text": "Perubahan iklim yang bisa dipulihkan setelah tahun 2030."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 33
+            },
+            "discussion": "Teks menggunakan data ($1.5^\\circ\\text{C}$ dan $1.2 \\times 10^3$ gigaton) untuk mendukung argumen tentang dampak yang 'tidak dapat dipulihkan' (permanen) dan ancaman 'kenaikan permukaan air laut'."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah paragraf berikut!\n\n(1) Pendidikan vokasi kini makin diminati karena dinilai lebih adaptif dengan dunia kerja. (2) Kurikulum yang berbasis praktik membuat lulusan vokasi memiliki keterampilan spesifik yang siap pakai. (3) Namun, stigma bahwa pendidikan vokasi adalah 'pilihan kedua' masih melekat di sebagian masyarakat. (4) Padahal, data serapan tenaga kerja lulusan vokasi mencapai $78\\%$ dalam enam bulan pertama pascalulus. (5) Pemerintah terus mengampanyekan keunggulan SMK dan Politeknik.\n\nKalimat yang menolak pandangan umum (counter-argument) terdapat pada nomor ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(1)"
+                },
+                {
+                    "key": "B",
+                    "text": "(2)"
+                },
+                {
+                    "key": "C",
+                    "text": "(3)"
+                },
+                {
+                    "key": "D",
+                    "text": "(4)"
+                },
+                {
+                    "key": "E",
+                    "text": "(5)"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 33
+            },
+            "discussion": "Kalimat (3) menyebutkan pandangan umum (stigma negatif). Kalimat (4) diawali dengan konjungsi pertentangan 'Padahal' dan menyajikan data statistik ($78\\%$) untuk membantah atau menolak stigma tersebut."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Perhatikan kalimat logika berikut!\n\nPremis 1: Jika masyarakat disiplin membuang sampah, maka risiko banjir berkurang.\nPremis 2: Risiko banjir tidak berkurang.\n\nKesimpulan yang sah dari kedua premis di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Masyarakat disiplin membuang sampah."
+                },
+                {
+                    "key": "B",
+                    "text": "Masyarakat tidak disiplin membuang sampah."
+                },
+                {
+                    "key": "C",
+                    "text": "Pemerintah tidak membersihkan selokan."
+                },
+                {
+                    "key": "D",
+                    "text": "Banjir disebabkan oleh curah hujan tinggi."
+                },
+                {
+                    "key": "E",
+                    "text": "Risiko banjir akan berkurang tahun depan."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 34
+            },
+            "discussion": "Menggunakan prinsip Modus Tollens dalam logika:\nPremis 1: $p \\rightarrow q$ (Jika disiplin, banjir berkurang)\nPremis 2: $\\sim q$ (Banjir TIDAK berkurang)\nKesimpulan: $\\sim p$ (Maka, masyarakat TIDAK disiplin)."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Manakah penulisan angka dan bilangan berikut yang **TEPAT** sesuai PUEBI?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ibu membeli 3 kg telur dan 5 kg beras."
+                },
+                {
+                    "key": "B",
+                    "text": "Sebanyak 2.500 orang tamu undangan hadir dalam acara itu."
+                },
+                {
+                    "key": "C",
+                    "text": "Dia menonton drama itu sampai tiga kali."
+                },
+                {
+                    "key": "D",
+                    "text": "Perusahaan itu membutuhkan dana pinjaman 5 milyar rupiah."
+                },
+                {
+                    "key": "E",
+                    "text": "Abad ke 20 ditandai dengan kemajuan teknologi."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 33
+            },
+            "discussion": "Aturan PUEBI:\n- Opsi A salah: Bilangan satu atau dua kata ditulis huruf (tiga kg, lima kg).\n- Opsi B salah: Awal kalimat tidak boleh angka (Seharusnya: Dua ribu lima ratus...).\n- Opsi C benar: 'tiga kali' ditulis huruf karena hanya satu kata.\n- Opsi D salah: 'milyar' tidak baku, seharusnya 'miliar'.\n- Opsi E salah: Penulisan abad pakai angka Romawi (Abad XX) atau 'ke-20' (pakai tanda hubung)."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah kutipan cerpen berikut!\n\n'Langit di atas kota itu seperti layar televisi yang mati, berwarna abu-abu statis. Hujan tidak turun, tapi udara terasa basah dan lengket. Di sudut jalan, seorang tua penjual koran menatap nanar tumpukan kertas yang tak tersentuh sejak pagi. Berita utama hari itu: 'Inflasi Meroket, Daya Beli Hancur'. Ia menghela napas, seolah beban seluruh dunia menindih paru-parunya.'\n\nSuasana yang tergambar dalam kutipan tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tegang dan mencekam."
+                },
+                {
+                    "key": "B",
+                    "text": "Suram dan putus asa."
+                },
+                {
+                    "key": "C",
+                    "text": "Marah dan penuh dendam."
+                },
+                {
+                    "key": "D",
+                    "text": "Sepi dan damai."
+                },
+                {
+                    "key": "E",
+                    "text": "Sibuk dan bising."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Penggunaan majas 'layar televisi mati', 'abu-abu', 'menatap nanar', dan 'beban menindih paru-paru' menciptakan atmosfer kesedihan, kelesuan ekonomi, dan keputusasaan (suram)."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Apa kelemahan utama dari argumen berikut?\n\n'Semua orang sukses yang saya kenal bangun pagi pukul 04.00. Jadi, jika kamu ingin sukses, kamu wajib bangun pukul 04.00 setiap hari.'",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Argumen terlalu bertele-tele."
+                },
+                {
+                    "key": "B",
+                    "text": "Melakukan generalisasi yang terburu-buru (hasty generalization)."
+                },
+                {
+                    "key": "C",
+                    "text": "Tidak menyertakan definisi sukses."
+                },
+                {
+                    "key": "D",
+                    "text": "Bahasa yang digunakan tidak baku."
+                },
+                {
+                    "key": "E",
+                    "text": "Premis yang digunakan saling bertentangan."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Ini adalah sesat pikir (*logical fallacy*) jenis *hasty generalization*. Hanya karena sampel kecil ('orang yang saya kenal') melakukan X, bukan berarti X adalah syarat mutlak ($X \\rightarrow Y$) untuk semua kasus kesuksesan. Banyak faktor lain yang mempengaruhi kesuksesan."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut!\n\nTanaman hidroponik membutuhkan nutrisi yang terukur. Kadar kepekatan nutrisi biasanya diukur dalam satuan ppm (*parts per million*). Untuk tanaman selada, kepekatan ideal adalah $560 - 840$ ppm. Jika kepekatan di bawah $500$ ppm, daun akan menguning karena kekurangan unsur hara. Sebaliknya, jika melebihi $1000$ ppm, akar tanaman bisa terbakar (*nutrient burn*).\n\nBerdasarkan teks, apa yang akan terjadi jika seorang petani memberikan nutrisi dengan kepekatan $1200$ ppm pada selada?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tanaman tumbuh lebih cepat dan subur."
+                },
+                {
+                    "key": "B",
+                    "text": "Daun akan menguning karena defisiensi."
+                },
+                {
+                    "key": "C",
+                    "text": "Tanaman akan mengalami kerusakan akar atau terbakar."
+                },
+                {
+                    "key": "D",
+                    "text": "Tanaman mencapai kondisi ideal."
+                },
+                {
+                    "key": "E",
+                    "text": "Tanaman membutuhkan tambahan air."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 33
+            },
+            "discussion": "Teks menyatakan batas atas aman adalah $1000$ ppm. Jika diberikan $1200$ ppm (dimana $1200 > 1000$), maka sesuai teks: 'akar tanaman bisa terbakar (*nutrient burn*)'."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Cermati penggunaan tanda baca pada kalimat berikut!\n\n'Mahasiswa itu mengambil jurusan: Teknik Informatika, karena ia bercita-cita menjadi *programmer*.'\n\nKesalahan penggunaan tanda baca pada kalimat tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Penggunaan tanda koma (,) sebelum kata 'karena'."
+                },
+                {
+                    "key": "B",
+                    "text": "Penggunaan tanda titik dua (:) setelah kata 'jurusan'."
+                },
+                {
+                    "key": "C",
+                    "text": "Penulisan miring kata 'programmer'."
+                },
+                {
+                    "key": "D",
+                    "text": "Penggunaan huruf kapital pada 'Teknik Informatika'."
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak ada kesalahan."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Tanda titik dua (:) tidak digunakan jika rangkaian perincian merupakan pelengkap yang mengakhiri pernyataan. Kalimat tersebut seharusnya: 'Mahasiswa itu mengambil jurusan Teknik Informatika karena...'. Tanda titik dua dihapus."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks rumpang berikut!\n\nKrisis energi di Eropa memicu (...) harga gas alam secara drastis. Pemerintah setempat berupaya mencari (...) energi alternatif untuk mengurangi ketergantungan pada pasokan impor. Salah satu langkah yang diambil adalah mengaktifkan kembali pembangkit listrik tenaga batu bara yang sebelumnya sempat (...).\n\nKata yang tepat untuk melengkapi teks tersebut secara berurutan adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "fluktuasi, sumber, rusak"
+                },
+                {
+                    "key": "B",
+                    "text": "lonjakan, sumber, dipensiunkan"
+                },
+                {
+                    "key": "C",
+                    "text": "penurunan, cadangan, dibangun"
+                },
+                {
+                    "key": "D",
+                    "text": "stabilitas, potensi, ditutup"
+                },
+                {
+                    "key": "E",
+                    "text": "inflasi, alokasi, berjalan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Konteks 'krisis' biasanya menyebabkan 'lonjakan' harga. Untuk mengurangi ketergantungan, dicari 'sumber' alternatif. Pembangkit batu bara yang diaktifkan kembali berarti sebelumnya sudah berhenti atau 'dipensiunkan' (istilah teknis: *decommissioned*)."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Jika teks A membahas 'Manfaat puasa bagi kesehatan fisik (detoksifikasi)' dan teks B membahas 'Manfaat puasa bagi kesehatan mental (pengendalian diri)', maka topik gabungan yang paling tepat untuk kedua teks tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Cara melakukan puasa yang benar."
+                },
+                {
+                    "key": "B",
+                    "text": "Dampak puasa terhadap metabolisme tubuh."
+                },
+                {
+                    "key": "C",
+                    "text": "Manfaat puasa secara holistik bagi manusia."
+                },
+                {
+                    "key": "D",
+                    "text": "Tradisi puasa di berbagai kebudayaan."
+                },
+                {
+                    "key": "E",
+                    "text": "Resiko kesehatan jika berpuasa tanpa sahur."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 33
+            },
+            "discussion": "Holistik berarti menyeluruh (mencakup fisik dan mental). Gabungan kedua teks tersebut membahas manfaat puasa dari kedua aspek tersebut."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Perhatikan kalimat berikut:\n\n'Meskipun data BPS menunjukkan penurunan angka kemiskinan sebesar $0.8\\%$, namun banyak pengamat meragukan akurasi data tersebut di lapangan.'\n\nPerbaikan agar kalimat tersebut menjadi efektif adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Menghilangkan kata 'sebesar'."
+                },
+                {
+                    "key": "B",
+                    "text": "Mengganti 'namun' dengan 'tetapi'."
+                },
+                {
+                    "key": "C",
+                    "text": "Menghilangkan kata 'namun'."
+                },
+                {
+                    "key": "D",
+                    "text": "Menghilangkan kata 'Meskipun'."
+                },
+                {
+                    "key": "E",
+                    "text": "Jawaban C dan D benar (bisa pilih salah satu)."
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 34
+            },
+            "discussion": "Kalimat ini tidak efektif karena menggunakan konjungsi ganda ('Meskipun' dan 'namun'). Solusinya adalah menghilangkan salah satunya. \nVersi 1: 'Meskipun data..., banyak pengamat...' (Hapus namun).\nVersi 2: 'Data BPS menunjukkan..., namun banyak pengamat...' (Hapus Meskipun)."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut!\n\n(1) Urbanisasi yang tidak terkendali menyebabkan masalah sosial di kota besar. (2) Pemukiman kumuh menjamur di bantaran sungai. (3) Tingkat kriminalitas pun cenderung meningkat seiring dengan tingginya angka pengangguran. (4) Oleh karena itu, pembangunan desa harus diprioritaskan agar penduduk tidak perlu merantau. (5) Kota besar menjadi magnet bagi pencari kerja.\n\nSusunan kalimat yang padu agar menjadi paragraf yang logis adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(5)-(1)-(2)-(3)-(4)"
+                },
+                {
+                    "key": "B",
+                    "text": "(1)-(2)-(3)-(5)-(4)"
+                },
+                {
+                    "key": "C",
+                    "text": "(5)-(2)-(3)-(1)-(4)"
+                },
+                {
+                    "key": "D",
+                    "text": "(1)-(5)-(2)-(3)-(4)"
+                },
+                {
+                    "key": "E",
+                    "text": "(2)-(3)-(1)-(5)-(4)"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 33
+            },
+            "discussion": "Urutan logis (Sebab-Akibat-Solusi):\n(5) Sebab awal (Magnet kota) -> (1) Akibat umum (Urbanisasi) -> (2) & (3) Dampak spesifik (Kumuh & Kriminal) -> (4) Kesimpulan/Solusi (Bangun desa)."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Apa makna peribahasa 'Besar pasak daripada tiang' yang paling relevan dengan konteks literasi finansial?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Investasi yang memberikan hasil besar."
+                },
+                {
+                    "key": "B",
+                    "text": "Pengeluaran lebih besar daripada pendapatan."
+                },
+                {
+                    "key": "C",
+                    "text": "Orang yang sombong dengan kekayaannya."
+                },
+                {
+                    "key": "D",
+                    "text": "Hutang yang lunas tepat waktu."
+                },
+                {
+                    "key": "E",
+                    "text": "Cita-cita yang terlalu tinggi."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Peribahasa ini menggambarkan struktur bangunan yang goyah karena pasaknya lebih besar dari tiangnya. Dalam konteks keuangan, ini bermakna gaya hidup boros dimana belanja/pengeluaran ($Expenditure$) melebihi pemasukan ($Income$)."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut!\n\nDalam debat tentang kecerdasan buatan, kubu pro menyatakan bahwa AI akan membebaskan manusia dari pekerjaan repetitif. Di sisi lain, kubu kontra berargumen bahwa ketergantungan pada AI akan menumpulkan kemampuan kognitif manusia. Seorang pendidik menengahi dengan mengatakan, 'Kita tidak bisa menolak teknologi, tapi kita harus mengendalikan penggunaannya agar tetap menjadi subjek, bukan objek teknologi.'\n\nPosisi pendidik dalam teks tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Apatis"
+                },
+                {
+                    "key": "B",
+                    "text": "Konservatif (Menolak perubahan)"
+                },
+                {
+                    "key": "C",
+                    "text": "Moderat (Jalan tengah)"
+                },
+                {
+                    "key": "D",
+                    "text": "Radikal"
+                },
+                {
+                    "key": "E",
+                    "text": "Skeptis"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 33
+            },
+            "discussion": "Pendidik tersebut tidak memihak mutlak ke salah satu sisi, melainkan mencari keseimbangan (menerima teknologi TAPI dengan kontrol). Ini adalah ciri sikap moderat."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Perhatikan data berikut!\n- Tahun 2020: Penjualan mobil listrik $1.500$ unit.\n- Tahun 2021: Penjualan mobil listrik $3.000$ unit.\n- Tahun 2022: Penjualan mobil listrik $6.000$ unit.\n\nInterpretasi yang paling tepat berdasarkan tren data di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Penjualan mobil listrik menurun setiap tahun."
+                },
+                {
+                    "key": "B",
+                    "text": "Penjualan mobil listrik mengalami stagnasi."
+                },
+                {
+                    "key": "C",
+                    "text": "Penjualan mobil listrik tumbuh secara eksponensial (meningkat 100% per tahun)."
+                },
+                {
+                    "key": "D",
+                    "text": "Penjualan mobil listrik hanya diminati kalangan atas."
+                },
+                {
+                    "key": "E",
+                    "text": "Masyarakat mulai meninggalkan mobil bensin sepenuhnya."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 34
+            },
+            "discussion": "Pola deret angka penjualan: $1.500 \\rightarrow 3.000 \\rightarrow 6.000$. Setiap tahun jumlahnya dikali 2 (naik $100\\%$). Ini menunjukkan pertumbuhan eksponensial/sangat pesat."
+        }
+    ]
+}

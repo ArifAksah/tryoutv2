@@ -12,7 +12,7 @@ export type ExamSection = {
   id: string;
   name: string;
   code: string;
-  type: "SKD" | "SKB";
+  type: "SKD" | "SKB" | string;
   description?: string;
   school?: string;
   topics: Topic[];
@@ -325,10 +325,10 @@ async function fetchCategoryBasedStructure(
   supabase: Awaited<ReturnType<typeof getSupabaseServerClient>>,
   roots: Array<{ id: string; slug: string }>
 ): Promise<ExamSection[]> {
-  const rootById = new Map<string, "SKD" | "SKB">();
+  const rootById = new Map<string, string>();
   roots.forEach((r) => {
-    // If root slug is 'skd', it's SKD. Everything else is SKB.
-    rootById.set(r.id, r.slug === "skd" ? "SKD" : "SKB");
+    // If root slug is 'skd', it's SKD. Otherwise use the root slug uppercased (e.g. UTBK).
+    rootById.set(r.id, r.slug === "skd" ? "SKD" : r.slug.toUpperCase());
   });
 
   const rootIds = roots.map((r) => r.id);

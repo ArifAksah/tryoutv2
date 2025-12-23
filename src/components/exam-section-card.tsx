@@ -21,6 +21,12 @@ const accentByType: Record<ExamSection["type"], AccentStyles> = {
   },
 };
 
+const defaultAccent: AccentStyles = {
+  container: "border-indigo-200 bg-white",
+  badge: "border-indigo-200 bg-indigo-50 text-indigo-700",
+  bullet: "bg-indigo-500",
+};
+
 const badgeByCode: Record<string, string> = {
   TWK: "border-sky-200 bg-sky-50 text-sky-700",
   TIU: "border-violet-200 bg-violet-50 text-violet-700",
@@ -49,7 +55,7 @@ function TopicItem({ topic, bulletClass }: { topic: Topic; bulletClass: string }
 }
 
 export function ExamSectionCard({ section }: { section: ExamSection }) {
-  const accent = accentByType[section.type];
+  const accent = accentByType[section.type as keyof typeof accentByType] ?? defaultAccent;
   const codeBadge = badgeByCode[section.code] ?? accent.badge;
   // Fix: Each section (TWK/TIU/TKP) should have its own tryout URL
   const realTryoutHref = `/tryout/real/${section.id}`;

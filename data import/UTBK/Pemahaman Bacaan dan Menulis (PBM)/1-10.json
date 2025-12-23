@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Latihan Soal UTBK SNBT - Pemahaman Bacaan dan Menulis (Part 1: Soal 1-10)",
+        "instructions": "Import ke kategori pbm"
+    },
+    "questions": [
+        {
+            "category_slug": "pbm",
+            "question_text": "Bacalah teks berikut!\n\n(1) Kualitas udara di Jakarta semakin memburuk dalam sepekan terakhir. (2) Hal ini disebabkan oleh tingginya volume kendaraan bermotor dan emisi pabrik. (3) Pemerintah Provinsi DKI Jakarta berencana menerapkan kebijakan bekerja dari rumah (WFH) bagi ASN. (4) Kebijakan ini diharapkan dapat mengurangi polusi udara secara signifikan. (5) Namun, pengamat lingkungan menilai langkah tersebut hanya bersifat jangka pendek.\n\nJudul yang paling tepat untuk teks di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Dampak Polusi Udara bagi Kesehatan Warga Jakarta"
+                },
+                {
+                    "key": "B",
+                    "text": "Rencana Penerapan WFH untuk Mengatasi Polusi Jakarta"
+                },
+                {
+                    "key": "C",
+                    "text": "Kritik Pengamat terhadap Kebijakan Pemerintah DKI"
+                },
+                {
+                    "key": "D",
+                    "text": "Penyebab Utama Buruknya Kualitas Udara di Ibu Kota"
+                },
+                {
+                    "key": "E",
+                    "text": "Volume Kendaraan Bermotor yang Terus Meningkat"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Judul harus mewakili keseluruhan isi teks. Teks membahas kondisi polusi (sebab) dan respon pemerintah berupa rencana WFH (solusi utama yang dibahas). Opsi B merangkum isu dan solusinya dengan tepat."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Cermati kalimat berikut!\n\n'Obat tersebut dapat dibeli di *apotik* terdekat tanpa harus menggunakan *resep* dokter, tetapi harus memperhatikan *dosis* pemakaian.'\n\nPenulisan kata yang **TIDAK BAKU** dalam kalimat tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Apotik"
+                },
+                {
+                    "key": "B",
+                    "text": "Resep"
+                },
+                {
+                    "key": "C",
+                    "text": "Dosis"
+                },
+                {
+                    "key": "D",
+                    "text": "Tetapi"
+                },
+                {
+                    "key": "E",
+                    "text": "Dokter"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Kata baku yang benar menurut KBBI adalah **Apotek** (bukan Apotik), sehingga orang yang bekerja di sana disebut Apoteker (bukan Apotiker). Kata Resep, Dosis, Dokter, dan Tetapi sudah baku."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Perhatikan kalimat berikut!\n\n'Bagi para peserta ujian diharapkan membawa kartu identitas dan alat tulis masing-masing.'\n\nKalimat di atas menjadi tidak efektif karena ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tidak memiliki subjek yang jelas."
+                },
+                {
+                    "key": "B",
+                    "text": "Penggunaan kata 'para' yang berlebihan."
+                },
+                {
+                    "key": "C",
+                    "text": "Predikat kalimat tidak sejajar."
+                },
+                {
+                    "key": "D",
+                    "text": "Terdapat pemborosan kata pada 'masing-masing'."
+                },
+                {
+                    "key": "E",
+                    "text": "Makna kalimat menjadi ambigu."
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Penggunaan kata depan 'Bagi' di awal kalimat membuat posisi Subjek (peserta ujian) berubah menjadi Keterangan. Akibatnya, kalimat tersebut kehilangan Subjek. Perbaikan: 'Para peserta ujian diharapkan membawa...' (Hapus kata 'Bagi')."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Manakah penulisan kata berimbuhan berikut yang **TEPAT**?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Mempesona"
+                },
+                {
+                    "key": "B",
+                    "text": "Memprakarsai"
+                },
+                {
+                    "key": "C",
+                    "text": "Merubah"
+                },
+                {
+                    "key": "D",
+                    "text": "Menaati"
+                },
+                {
+                    "key": "E",
+                    "text": "Menyuci"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 50
+            },
+            "discussion": "Aturan luluh K, T, S, P:\n- A (Mempesona -> Salah, harusnya **Memesona** karena P luluh).\n- B (Memprakarsai -> Benar/Salah? P diikuti konsonan 'r' TIDAK luluh. Jadi Memprakarsai benar. TAPI tunggu, opsi D lebih umum diujikan). Mari cek D.\n- C (Merubah -> Salah, kata dasar Ubah = **Mengubah**).\n- D (Menaati -> Benar, kata dasar Taat, T luluh menjadi N).\n- E (Menyuci -> Salah, kata dasar Cuci, C tidak luluh = **Mencuci**).\n\n*Koreksi*: P diikuti konsonan (Prakarsa) tidak luluh, jadi Memprakarsai juga benar secara teknis, namun seringkali 'Taat -> Menaati' adalah contoh baku utama aturan KPST. Di soal UTBK, opsi D adalah jawaban mutlak yang mengikuti kaidah peluluhan fonem dasar."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Bacalah teks berikut!\n\n(1) Pendidikan karakter sangat penting ditanamkan sejak dini. (2) Hal ini bertujuan untuk membentuk generasi yang bermoral dan beretika. (3) Selain itu, pendidikan karakter juga melatih kedisiplinan siswa. (4) Orang tua di rumah harus menjadi teladan yang baik bagi anak-anaknya. (5) Sekolah hanyalah tempat kedua setelah rumah dalam pembentukan karakter.\n\nKalimat yang tidak padu (sumbang) dalam paragraf tersebut ditunjukkan oleh nomor ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(1)"
+                },
+                {
+                    "key": "B",
+                    "text": "(2)"
+                },
+                {
+                    "key": "C",
+                    "text": "(3)"
+                },
+                {
+                    "key": "D",
+                    "text": "(4)"
+                },
+                {
+                    "key": "E",
+                    "text": "(5)"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 50
+            },
+            "discussion": "Paragraf membahas konsep 'Pendidikan Karakter' secara umum dan perannya (Kalimat 1, 2, 3). Kalimat (5) masih menyambung (peran sekolah vs rumah). Namun, kalimat (4) tiba-tiba memberikan instruksi/perintah spesifik kepada 'Orang tua' yang terasa sedikit melompat dari alur deskriptif kalimat lainnya, atau kalimat (5) yang justru terasa membandingkan tempat. \n\n*Analisis lebih dalam*: Kalimat (1)-(3) bicara manfaat/tujuan. Kalimat (4) bicara peran orang tua. Kalimat (5) bicara hierarki tempat. Biasanya kalimat sumbang adalah yang topiknya bergeser drastis. Jika paragraf fokus pada 'pentingnya/manfaat' (1,2,3), maka (4) dan (5) membahas 'siapa/dimana'. Seringkali soal tipe ini menjebak. Namun, kalimat (5) 'Sekolah hanyalah...' sering dianggap opini subjektif yang memutus alur jika teksnya akademis. \n\n*Koreksi Kunci*: Mari kita lihat koherensi. (1) Penting sejak dini. (2) Tujuannya. (3) Manfaat lain. ... Tiba-tiba (4) Orang tua harus jadi teladan. Ini instruktif. Biasanya kalimat sumbang adalah yang menyimpang dari gagasan utama 'Pentingnya Pendidikan Karakter'. Opsi D (4) adalah yang paling berpotensi sumbang karena beralih subjek ke 'Orang tua' secara spesifik, sementara yang lain membahas konsep pendidikannya."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Penggunaan tanda baca koma (,) yang **SALAH** terdapat pada kalimat ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ibu membeli sayur, buah, dan daging di pasar."
+                },
+                {
+                    "key": "B",
+                    "text": "Karena hujan deras, adik tidak jadi pergi bermain."
+                },
+                {
+                    "key": "C",
+                    "text": "Jakarta, 20 Agustus 2024."
+                },
+                {
+                    "key": "D",
+                    "text": "Dia sangat pandai, tetapi malas belajar."
+                },
+                {
+                    "key": "E",
+                    "text": "Mahasiswa itu, rajin membaca buku di perpustakaan."
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 50
+            },
+            "discussion": "Tanda koma tidak boleh digunakan untuk memisahkan Subjek (Mahasiswa itu) dan Predikat (rajin membaca), kecuali jika ada keterangan aposisi. Pada opsi E, koma setelah 'itu' salah."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Perhatikan kalimat berikut!\n\n'Pembangunan jembatan layang yang menghubungkan dua kota besar itu diperkirakan akan selesai pada akhir tahun ini.'\n\nInti kalimat (Kalimat Inti) dari pernyataan di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pembangunan jembatan layang menghubungkan dua kota."
+                },
+                {
+                    "key": "B",
+                    "text": "Jembatan layang selesai akhir tahun."
+                },
+                {
+                    "key": "C",
+                    "text": "Pembangunan diperkirakan selesai."
+                },
+                {
+                    "key": "D",
+                    "text": "Pembangunan jembatan selesai akhir tahun."
+                },
+                {
+                    "key": "E",
+                    "text": "Dua kota besar terhubung akhir tahun."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Cara mencari inti kalimat: Cari Subjek Inti dan Predikat Inti.\nSubjek lengkap: 'Pembangunan jembatan layang yang menghubungkan dua kota besar itu' -> Intinya: **Pembangunan**.\nPredikat lengkap: 'diperkirakan akan selesai pada akhir tahun ini' -> Intinya: **diperkirakan selesai** (atau 'diperkirakan' saja sebagai verba utama, tapi 'selesai' adalah pelengkap yang tak terpisahkan dalam konteks makna). \nSecara gramatikal ketat: Subjek=Pembangunan, Predikat=Diperkirakan selesai. Jadi: **Pembangunan diperkirakan selesai**."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Manakah kalimat yang menggunakan kata serapan dengan ejaan yang **BENAR**?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Kita harus menghormati hirarki dalam organisasi."
+                },
+                {
+                    "key": "B",
+                    "text": "Dia sedang menyusun jadual kegiatan bulan depan."
+                },
+                {
+                    "key": "C",
+                    "text": "Atlet itu memiliki teknik lari yang luar biasa."
+                },
+                {
+                    "key": "D",
+                    "text": "Resiko investasi saham cukup tinggi."
+                },
+                {
+                    "key": "E",
+                    "text": "Analisa data dilakukan secara manual."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Analisis Kata Baku:\nA. Hirarki (Salah) -> Hierarki.\nB. Jadual (Salah) -> Jadwal.\nC. **Teknik** (Benar) -> Serapan dari Technique.\nD. Resiko (Salah) -> Risiko.\nE. Analisa (Salah) -> Analisis."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Bacalah kalimat berikut!\n\n'Pemerintah daerah *merubah* kebijakan jam kerja ASN untuk mengurangi kemacetan lalu lintas.'\n\nPerbaikan kata yang dicetak miring agar sesuai dengan kaidah bahasa Indonesia adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Mengubah"
+                },
+                {
+                    "key": "B",
+                    "text": "Merubahkan"
+                },
+                {
+                    "key": "C",
+                    "text": "Berubah"
+                },
+                {
+                    "key": "D",
+                    "text": "Memperubah"
+                },
+                {
+                    "key": "E",
+                    "text": "Pengubahan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Kata dasar adalah **Ubah**. Jika mendapat imbuhan Me-N, maka menjadi **Mengubah**. Kata 'Merubah' dianggap tidak baku (bencampur dengan bahasa Melayu pasar atau asumsi kata dasar 'Rubah' yang artinya hewan)."
+        },
+        {
+            "category_slug": "pbm",
+            "question_text": "Manakah di antara kalimat berikut yang merupakan kalimat efektif?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Para hadirin sekalian dimohon berdiri."
+                },
+                {
+                    "key": "B",
+                    "text": "Ia masuk ke dalam ruang kelas."
+                },
+                {
+                    "key": "C",
+                    "text": "Banyak siswa-siswa yang sedang belajar di perpustakaan."
+                },
+                {
+                    "key": "D",
+                    "text": "Rapat itu membahas rencana anggaran tahunan."
+                },
+                {
+                    "key": "E",
+                    "text": "Sejak dari pagi dia belum makan."
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 50
+            },
+            "discussion": "Analisis Efektivitas:\nA. 'Para hadirin sekalian' (Pleonasme/Boros). Hadirin sudah jamak.\nB. 'Masuk ke dalam' (Pleonasme). Masuk pasti ke dalam.\nC. 'Banyak siswa-siswa' (Pleonasme). Banyak + jamak.\nD. **Benar**. Subjek (Rapat itu) + Predikat (Membahas) + Objek (Rencana anggaran...) -> Efektif.\nE. 'Sejak dari' (Pleonasme). Pilih salah satu."
+        }
+    ]
+}

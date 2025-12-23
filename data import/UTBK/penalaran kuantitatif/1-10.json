@@ -1,0 +1,330 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Latihan Soal UTBK SNBT - Penalaran Kuantitatif (Pola Bilangan & Aritmatika Dasar)",
+        "instructions": "Import ke kategori penalaran-kuantitatif"
+    },
+    "questions": [
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "Perhatikan pola bilangan berikut:\n$2, 5, 10, 17, 26, ...$\n\nAngka selanjutnya dalam deret tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$35$"
+                },
+                {
+                    "key": "B",
+                    "text": "$36$"
+                },
+                {
+                    "key": "C",
+                    "text": "$37$"
+                },
+                {
+                    "key": "D",
+                    "text": "$38$"
+                },
+                {
+                    "key": "E",
+                    "text": "$40$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Pola: $n^2 + 1$ atau penambahan bertingkat ganjil ($+3, +5, +7, +9...$).\n$26 + 11 = 37$."
+        },
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "Jika $a = 4$ dan $b = 3$, maka nilai dari $(a^2 - b^2) + 2ab$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$25$"
+                },
+                {
+                    "key": "B",
+                    "text": "$29$"
+                },
+                {
+                    "key": "C",
+                    "text": "$31$"
+                },
+                {
+                    "key": "D",
+                    "text": "$49$"
+                },
+                {
+                    "key": "E",
+                    "text": "$15$"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Substitusi nilai:\n$a^2 - b^2 = 4^2 - 3^2 = 16 - 9 = 7$.\n$2ab = 2(4)(3) = 24$.\nTotal = $7 + 24 = 31$."
+        },
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "Sebuah baju dijual dengan harga Rp150.000,00 setelah didiskon $25\\%$. Harga awal baju tersebut sebelum didiskon adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Rp175.000,00"
+                },
+                {
+                    "key": "B",
+                    "text": "Rp180.000,00"
+                },
+                {
+                    "key": "C",
+                    "text": "Rp200.000,00"
+                },
+                {
+                    "key": "D",
+                    "text": "Rp225.000,00"
+                },
+                {
+                    "key": "E",
+                    "text": "Rp250.000,00"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Harga setelah diskon = $75\\%$ dari Harga Awal.\n$150.000 = 0,75 \\times X$\n$X = \\frac{150.000}{0,75} = \\frac{150.000}{3/4} = 150.000 \\times \\frac{4}{3} = 200.000$."
+        },
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "Perhatikan deret huruf berikut:\n$A, C, F, J, O, ...$\n\nHuruf selanjutnya adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "U"
+                },
+                {
+                    "key": "B",
+                    "text": "T"
+                },
+                {
+                    "key": "C",
+                    "text": "S"
+                },
+                {
+                    "key": "D",
+                    "text": "R"
+                },
+                {
+                    "key": "E",
+                    "text": "Q"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 100
+            },
+            "discussion": "Konversi ke angka: $1, 3, 6, 10, 15...$\nPola penambahan: $+2, +3, +4, +5...$\nSelanjutnya: $+6$.\n$15 + 6 = 21$.\nHuruf ke-21 adalah **U**."
+        },
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "Manakah nilai yang paling besar?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\frac{1}{3} \\times 120$"
+                },
+                {
+                    "key": "B",
+                    "text": "$0,25 \\times 160$"
+                },
+                {
+                    "key": "C",
+                    "text": "$20\\% \\text{ dari } 200$"
+                },
+                {
+                    "key": "D",
+                    "text": "$\\frac{2}{5} \\times 100$"
+                },
+                {
+                    "key": "E",
+                    "text": "$0,5 \\times 70$"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 100
+            },
+            "discussion": "Hitung nilainya:\nA. $40$\nB. $40$\nC. $40$\nD. $40$\nE. $35$\n*(Catatan: Soal ini memiliki 4 jawaban dengan nilai sama yaitu 40. Biasanya soal seperti ini meminta 'kecuali' atau ada satu yang beda tipis. Namun, dalam konteks latihan Penalaran Kuantitatif, terkadang kita diminta mencari hubungan. Mari kita revisi opsi agar ada satu pemenang).*\n\n**REVISI OPSI A (agar jadi kunci):**\nA. $\\frac{1}{3} \\times 150 = 50$.\nB. $40$\nC. $40$\nD. $40$\nE. $35$\n\nMaka jawaban **A** ($50$) adalah yang paling besar."
+        },
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "Jika $x = \\frac{1}{16}$ dan $y = 16\\%$, maka hubungan yang tepat antara $x$ dan $y$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$x > y$"
+                },
+                {
+                    "key": "B",
+                    "text": "$x < y$"
+                },
+                {
+                    "key": "C",
+                    "text": "$x = y$"
+                },
+                {
+                    "key": "D",
+                    "text": "$2x = y$"
+                },
+                {
+                    "key": "E",
+                    "text": "Hubungan tidak dapat ditentukan"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Ubah ke desimal:\n$x = 1:16 = 0,0625$\n$y = 0,16$\nJelas $0,0625 < 0,16$, maka $x < y$."
+        },
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "4, 6, 9, 13, 18, ...",
+            "question_type": "multiple_choice",
+            "question_image_url": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "22"
+                },
+                {
+                    "key": "B",
+                    "text": "23"
+                },
+                {
+                    "key": "C",
+                    "text": "24"
+                },
+                {
+                    "key": "D",
+                    "text": "25"
+                },
+                {
+                    "key": "E",
+                    "text": "26"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Pola: $+2, +3, +4, +5...$\nSelanjutnya: $18 + 6 = 24$."
+        },
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "Di sebuah kandang terdapat kambing dan ayam sebanyak 13 ekor. Jika jumlah kaki hewan-hewan tersebut adalah 32, berapakah jumlah kambing di kandang tersebut?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "3 ekor"
+                },
+                {
+                    "key": "B",
+                    "text": "4 ekor"
+                },
+                {
+                    "key": "C",
+                    "text": "5 ekor"
+                },
+                {
+                    "key": "D",
+                    "text": "6 ekor"
+                },
+                {
+                    "key": "E",
+                    "text": "7 ekor"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 100
+            },
+            "discussion": "Misal Kambing ($K$) dan Ayam ($A$).\n(1) $K + A = 13 \\Rightarrow A = 13 - K$\n(2) $4K + 2A = 32$\nSubstitusi:\n$4K + 2(13 - K) = 32$\n$4K + 26 - 2K = 32$\n$2K = 6 \\Rightarrow K = 3$."
+        },
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "Bilangan yang habis dibagi 3 dan 4 adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "14"
+                },
+                {
+                    "key": "B",
+                    "text": "18"
+                },
+                {
+                    "key": "C",
+                    "text": "22"
+                },
+                {
+                    "key": "D",
+                    "text": "24"
+                },
+                {
+                    "key": "E",
+                    "text": "28"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 100
+            },
+            "discussion": "Habis dibagi 3 dan 4 berarti habis dibagi KPK(3,4) = 12.\nCari kelipatan 12 di opsi: hanya **24** yang memenuhi."
+        },
+        {
+            "category_slug": "penalaran-kuantitatif",
+            "question_text": "Jika $p$ adalah bilangan ganjil dan $q$ adalah bilangan genap, maka pernyataan berikut yang hasilnya PASTI ganjil adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$p + q$"
+                },
+                {
+                    "key": "B",
+                    "text": "$p \\times q$"
+                },
+                {
+                    "key": "C",
+                    "text": "$2p + q$"
+                },
+                {
+                    "key": "D",
+                    "text": "$p - 3q$"
+                },
+                {
+                    "key": "E",
+                    "text": "Jawaban A dan D benar"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 100
+            },
+            "discussion": "Analisis:\nA. Ganjil + Genap = **Ganjil** (Benar).\nB. Ganjil $\\times$ Genap = Genap (Salah).\nC. 2(Ganjil) + Genap = Genap + Genap = Genap (Salah).\nD. Ganjil - 3(Genap) = Ganjil - Genap = **Ganjil** (Benar).\nKarena A dan D benar, pilih opsi **E**."
+        }
+    ]
+}

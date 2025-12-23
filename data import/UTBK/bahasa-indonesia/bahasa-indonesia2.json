@@ -1,0 +1,393 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Lanjutan Soal UTBK SNBT - Literasi Bahasa Indonesia (Part 2: Soal 4-15)",
+        "instructions": "Import ke kategori bahasa-indonesia"
+    },
+    "questions": [
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut!\n\n(1) Fenomena *doom spending* kini marak terjadi di kalangan generasi muda, khususnya Gen Z dan Milenial. (2) Istilah ini merujuk pada perilaku belanja impulsif untuk barang-barang mewah atau pengalaman liburan sebagai bentuk pelarian dari pesimisme terhadap kondisi ekonomi masa depan. (3) Banyak anak muda merasa putus asa karena harga properti yang melambung tinggi membuat mereka merasa tidak akan pernah mampu membeli rumah. (4) Akibatnya, mereka memilih menghabiskan uang untuk kepuasan sesaat daripada menabung. (5) Psikolog menyarankan agar fenomena ini diatasi dengan literasi finansial yang lebih baik.\n\nPenyebab utama munculnya perilaku *doom spending* berdasarkan teks di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Kurangnya literasi finansial di kalangan generasi muda."
+                },
+                {
+                    "key": "B",
+                    "text": "Keinginan untuk memamerkan barang mewah di media sosial."
+                },
+                {
+                    "key": "C",
+                    "text": "Pesimisme terhadap kondisi ekonomi dan ketidakmampuan membeli properti."
+                },
+                {
+                    "key": "D",
+                    "text": "Mudahnya akses pinjaman online dan kartu kredit."
+                },
+                {
+                    "key": "E",
+                    "text": "Pengaruh lingkungan pergaulan yang hedonis."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 33
+            },
+            "discussion": "Soal No. 4 (Sebab-Akibat). Jawaban terdapat pada kalimat (2) dan (3). Teks menjelaskan bahwa perilaku ini adalah bentuk 'pelarian dari pesimisme terhadap kondisi ekonomi masa depan' dan rasa putus asa karena 'harga properti yang melambung tinggi'."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Cermati teks berikut!\n\nKecerdasan buatan atau Artificial Intelligence (AI) kini semakin merambah ke berbagai sektor kehidupan. Meski menawarkan efisiensi, kehadiran AI memicu kekhawatiran terkait penggantian tenaga kerja manusia. Namun, para ahli berpendapat bahwa AI seharusnya dilihat sebagai alat bantu (*tools*) yang dapat meningkatkan produktivitas, bukan sebagai pengganti total peran manusia. Kreativitas, empati, dan penilaian moral adalah hal-hal yang sulit ditiru oleh mesin.\n\nSikap penulis terhadap kehadiran AI dalam teks tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Menolak keras karena mengancam lapangan kerja."
+                },
+                {
+                    "key": "B",
+                    "text": "Ragu-ragu akan manfaat efisiensi yang ditawarkan."
+                },
+                {
+                    "key": "C",
+                    "text": "Netral dan hanya memaparkan fakta tanpa opini."
+                },
+                {
+                    "key": "D",
+                    "text": "Optimis namun tetap berhati-hati dan menekankan kolaborasi."
+                },
+                {
+                    "key": "E",
+                    "text": "Sangat antusias tanpa mempedulikan dampak negatifnya."
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 33
+            },
+            "discussion": "Soal No. 5 (Sikap Penulis). Penulis mengakui adanya kekhawatiran, namun menegaskan bahwa AI adalah alat bantu produktivitas dan manusia memiliki kelebihan yang tidak dimiliki mesin. Ini menunjukkan sikap optimis yang terukur."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Perhatikan kalimat berikut:\n'Pemerintah terus menggenjot *hilirisasi* industri nikel untuk memberikan nilai tambah bagi perekonomian nasional.'\n\nMakna kata *hilirisasi* dalam konteks kalimat tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Penjualan bahan mentah ke luar negeri."
+                },
+                {
+                    "key": "B",
+                    "text": "Pengolahan bahan baku menjadi barang jadi atau setengah jadi."
+                },
+                {
+                    "key": "C",
+                    "text": "Pencarian sumber daya alam baru di daerah terpencil."
+                },
+                {
+                    "key": "D",
+                    "text": "Pemberian subsidi kepada pengusaha tambang lokal."
+                },
+                {
+                    "key": "E",
+                    "text": "Kerja sama antarnegara dalam bidang pertambangan."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Soal No. 6 (Makna Kata). Hilirisasi adalah strategi mengolah bahan mentah (hulu) menjadi produk jadi (hilir) untuk meningkatkan nilai tambah."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah kedua teks berikut!\n\nTeks 1:\nBekerja dari rumah (WFH) menjadi tren pascapandemi. Karyawan merasa lebih bahagia karena tidak perlu bermacet-macetan di jalan. Waktu yang biasanya habis di perjalanan kini bisa digunakan untuk berolahraga atau berkumpul dengan keluarga.\n\nTeks 2:\nMeski WFH populer, banyak perusahaan mulai memanggil karyawan kembali ke kantor (WFO). Manajemen merasa kolaborasi tim menjadi kurang efektif saat dilakukan secara daring. Selain itu, budaya perusahaan sulit dibangun jika karyawan jarang bertatap muka.\n\nApa perbedaan pandangan utama mengenai sistem kerja pada kedua teks tersebut?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Teks 1 membahas dampak ekonomi, Teks 2 membahas dampak sosial."
+                },
+                {
+                    "key": "B",
+                    "text": "Teks 1 fokus pada keuntungan karyawan, Teks 2 fokus pada kepentingan manajemen perusahaan."
+                },
+                {
+                    "key": "C",
+                    "text": "Teks 1 menolak WFH, Teks 2 mendukung WFH sepenuhnya."
+                },
+                {
+                    "key": "D",
+                    "text": "Teks 1 membahas masa pandemi, Teks 2 membahas masa depan."
+                },
+                {
+                    "key": "E",
+                    "text": "Teks 1 mengkritik kemacetan, Teks 2 mengkritik teknologi daring."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 34
+            },
+            "discussion": "Soal No. 7 (Komparasi Teks). Teks 1 menyoroti sisi positif bagi karyawan (kebahagiaan, waktu). Teks 2 menyoroti tantangan bagi perusahaan (kolaborasi, budaya kerja)."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut!\n\n(1) Literasi digital bukan sekadar kemampuan menggunakan perangkat teknologi. (2) Lebih dari itu, literasi digital mencakup kemampuan berpikir kritis dalam menyaring informasi. (3) Di era banjir informasi ini, hoaks menyebar dengan sangat cepat melalui media sosial. (4) Seseorang dengan literasi digital yang baik akan memverifikasi kebenaran berita sebelum membagikannya. (5) Oleh sebab itu, kurikulum pendidikan perlu memasukkan materi ini sejak dini.\n\nKalimat fakta dalam paragraf tersebut ditunjukkan oleh nomor ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(1) dan (2)"
+                },
+                {
+                    "key": "B",
+                    "text": "(3) saja"
+                },
+                {
+                    "key": "C",
+                    "text": "(4) dan (5)"
+                },
+                {
+                    "key": "D",
+                    "text": "(1) dan (5)"
+                },
+                {
+                    "key": "E",
+                    "text": "(2) dan (4)"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Soal No. 8 (Fakta vs Opini). Kalimat (3) menyatakan fenomena yang benar-benar terjadi (hoaks menyebar cepat). Kalimat lain berupa opini/saran."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut!\n\n(1) Kenaikan harga beras dalam beberapa bulan terakhir memicu kekhawatiran di kalangan masyarakat berpenghasilan rendah. (2) Faktor cuaca ekstrem El Nino disebut sebagai penyebab utama gagal panen. (3) Selain itu, terhambatnya distribusi pupuk bersubsidi juga memperparah kondisi petani. (4) Pemerintah memutuskan impor beras untuk menstabilkan stok. (5) Namun, kebijakan ini menuai pro dan kontra karena dianggap merugikan petani lokal saat panen raya.\n\nKalimat yang menyatakan opini kontra terdapat pada nomor ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(1)"
+                },
+                {
+                    "key": "B",
+                    "text": "(2)"
+                },
+                {
+                    "key": "C",
+                    "text": "(3)"
+                },
+                {
+                    "key": "D",
+                    "text": "(4)"
+                },
+                {
+                    "key": "E",
+                    "text": "(5)"
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 33
+            },
+            "discussion": "Soal No. 9 (Opini). Kalimat (5) memuat pandangan subjektif bahwa kebijakan tersebut 'merugikan petani lokal', yang merupakan argumen kontra."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Cermati paragraf berikut!\n\nBanyak orang mengira bahwa *introvert* adalah pemalu, padahal keduanya berbeda. Pemalu berkaitan dengan ketakutan akan penilaian sosial, sedangkan introvert berkaitan dengan bagaimana seseorang merespons stimulasi sosial. Seorang introvert mungkin percaya diri di depan umum, tetapi ia butuh waktu sendiri untuk memulihkan energi setelahnya. Sebaliknya, seorang pemalu mungkin ingin berinteraksi, tetapi terhalang oleh rasa cemas.\n\nSimpulan yang paling tepat dari paragraf di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Introvert dan pemalu adalah dua kepribadian yang saling bertolak belakang."
+                },
+                {
+                    "key": "B",
+                    "text": "Orang yang pemalu pasti tidak bisa bicara di depan umum."
+                },
+                {
+                    "key": "C",
+                    "text": "Perbedaan utama introvert dan pemalu terletak pada sumber energi dan respon terhadap stimulasi sosial."
+                },
+                {
+                    "key": "D",
+                    "text": "Seorang introvert membenci interaksi sosial karena melelahkan."
+                },
+                {
+                    "key": "E",
+                    "text": "Rasa cemas adalah ciri utama dari seorang introvert."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 33
+            },
+            "discussion": "Soal No. 10 (Simpulan). Opsi C merangkum inti perbandingan dalam teks secara akurat (introvert = energi, pemalu = cemas)."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Perhatikan kalimat di bawah ini!\n\n'Keberhasilan proyek kereta cepat ini sangat bergantung *pada* kolaborasi antara pemerintah, investor swasta, *dan* dukungan masyarakat setempat.'\n\nPerbaikan penggunaan kata hubung (konjungsi) atau preposisi yang dicetak miring agar kalimat menjadi efektif adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "TIDAK PERLU PERBAIKAN"
+                },
+                {
+                    "key": "B",
+                    "text": "Mengganti 'pada' dengan 'kepada'"
+                },
+                {
+                    "key": "C",
+                    "text": "Mengganti 'dan' dengan 'serta'"
+                },
+                {
+                    "key": "D",
+                    "text": "Menghilangkan kata 'pada'"
+                },
+                {
+                    "key": "E",
+                    "text": "Menambahkan 'adanya' sebelum dukungan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 34
+            },
+            "discussion": "Soal No. 11 (Kalimat Efektif). Kalimat sudah benar. 'Bergantung pada' adalah pasangan kata yang tepat, dan 'dan' digunakan untuk perincian terakhir."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Apa judul yang paling tepat untuk teks berikut?\n\nIndonesia memiliki potensi energi terbarukan yang melimpah, mulai dari panas bumi, tenaga surya, hingga tenaga bayu. Namun, pemanfaatannya masih sangat minim, baru sekitar 12% dari total potensi. Kendala utamanya adalah biaya investasi awal yang tinggi dan belum meratanya teknologi penyimpana energi. Padahal, transisi ke energi hijau sangat mendesak demi mengurangi emisi karbon sesuai target global.",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Potensi Panas Bumi di Indonesia"
+                },
+                {
+                    "key": "B",
+                    "text": "Tantangan dan Potensi Energi Terbarukan di Indonesia"
+                },
+                {
+                    "key": "C",
+                    "text": "Mahalnya Biaya Investasi Energi Surya"
+                },
+                {
+                    "key": "D",
+                    "text": "Target Global Pengurangan Emisi Karbon"
+                },
+                {
+                    "key": "E",
+                    "text": "Kegagalan Transisi Energi Hijau"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Soal No. 12 (Judul Teks). Teks membahas dua sisi: potensi besar (awal teks) dan kendala/tantangan (tengah teks). Judul B mencakup keduanya."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Manakah penulisan kata serapan yang **SALAH** menurut ejaan bahasa Indonesia (PUEBI)?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Analisa"
+                },
+                {
+                    "key": "B",
+                    "text": "Sistem"
+                },
+                {
+                    "key": "C",
+                    "text": "Hierarki"
+                },
+                {
+                    "key": "D",
+                    "text": "Kualitas"
+                },
+                {
+                    "key": "E",
+                    "text": "Apotek"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 33
+            },
+            "discussion": "Soal No. 13 (Ejaan/Kata Baku). Kata baku yang benar adalah **Analisis**, bukan Analisa. Kata lain sudah benar."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut!\n\nIndustri tekstil dalam negeri sedang *megap-megap* menghadapi gempuran pakaian impor bekas (thrifting) dan produk murah dari luar negeri. Banyak pabrik terpaksa merumahkan karyawan karena stok menumpuk di gudang. Asosiasi pertekstilan mendesak pemerintah untuk memperketat aturan bea masuk guna melindungi produsen lokal.\n\nMakna kiasan kata *megap-megap* pada teks di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Bernapas tersengal-sengal karena lelah."
+                },
+                {
+                    "key": "B",
+                    "text": "Mengalami kesulitan besar dan hampir bangkrut."
+                },
+                {
+                    "key": "C",
+                    "text": "Sedang berusaha bangkit kembali."
+                },
+                {
+                    "key": "D",
+                    "text": "Kalah dalam persaingan kualitas."
+                },
+                {
+                    "key": "E",
+                    "text": "Marah karena kebijakan pemerintah."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Soal No. 14 (Makna Kiasan). Megap-megap di sini berarti kondisi kritis atau kesulitan finansial hebat."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Perhatikan kalimat berikut:\n\n'Meskipun hujan turun sangat deras, *tetapi* para peserta upacara tetap bertahan di lapangan.'\n\nAlasan kalimat tersebut tidak efektif adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Subjek kalimat tidak jelas."
+                },
+                {
+                    "key": "B",
+                    "text": "Penggunaan dua konjungsi pertentangan (ganda) yang mubazir."
+                },
+                {
+                    "key": "C",
+                    "text": "Kata 'deras' seharusnya 'lebat'."
+                },
+                {
+                    "key": "D",
+                    "text": "Predikat tidak sejajar."
+                },
+                {
+                    "key": "E",
+                    "text": "Struktur kalimat terbalik."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Soal No. 15 (Kalimat Efektif). Kata 'Meskipun' dan 'Tetapi' tidak boleh digunakan bersamaan dalam satu kalimat."
+        }
+    ]
+}

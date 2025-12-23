@@ -181,6 +181,7 @@ export async function fetchQuestionsForSection(sectionId: string): Promise<Quest
     .maybeSingle();
 
   if (!sectionError && sectionCat) {
+    // Fetch direct sub-topics (Level 1) - these are likely the tabs in the UI
     const { data: subcats, error: subcatError } = await supabase
       .from("categories")
       .select("id, slug")
@@ -191,18 +192,68 @@ export async function fetchQuestionsForSection(sectionId: string): Promise<Quest
       console.warn("Supabase categories(subtopics) error", subcatError.message);
     }
 
+    // Map to track which "Main Topic" (L1 Slug) each category belongs to.
+    // This allows questions in sub-sub-topics to appear under their L1 Parent.
     const categoryIdToSlug = new Map<string, string>();
-    categoryIdToSlug.set(sectionCat.id, sectionId);
-    const subIds = (subcats ?? []).map((c) => {
-      categoryIdToSlug.set(c.id, c.slug);
-      return c.id;
-    });
 
-    const categoryIds = [sectionCat.id, ...subIds];
+    // Questions in the Root Section itself map to the Section Slug
+    categoryIdToSlug.set(sectionCat.id, sectionId);
+
+    // Initialize list of all IDs to fetch questions for
+    const allCategoryIds = [sectionCat.id];
+
+    // Initialize recursion frontier with L1 IDs
+    let currentLevelIds: string[] = [];
+
+    // Process L1 keys
+    if (subcats && subcats.length > 0) {
+      for (const sub of subcats) {
+        categoryIdToSlug.set(sub.id, sub.slug); // L1 maps to itself
+        allCategoryIds.push(sub.id);
+        currentLevelIds.push(sub.id);
+      }
+    }
+
+    // Loop to fetch descendants level by level (safety cap at 5 levels)
+    // We start fetching children of L1, then children of L2, etc.
+    for (let i = 0; i < 5; i++) {
+      if (currentLevelIds.length === 0) break;
+
+      const { data: children, error: childrenError } = await supabase
+        .from("categories")
+        .select("id, slug, parent_id")
+        .in("parent_id", currentLevelIds);
+
+      if (childrenError) {
+        console.warn("Supabase categories(recursive) error", childrenError.message);
+        break;
+      }
+
+      if (!children || children.length === 0) break;
+
+      const nextLevelIds: string[] = [];
+
+      for (const child of children) {
+        // Propagate the ancestral slug from the parent
+        // If parent has a mapped slug, child inherits it.
+        // If parent is somehow missing, fallback to child's own slug.
+        const parentSlug = child.parent_id ? categoryIdToSlug.get(child.parent_id) : undefined;
+        const resolvedSlug = parentSlug ?? child.slug;
+
+        categoryIdToSlug.set(child.id, resolvedSlug);
+
+        allCategoryIds.push(child.id);
+        nextLevelIds.push(child.id);
+      }
+
+      // Prepare for next iteration
+      currentLevelIds = nextLevelIds;
+    }
+
     const { data, error } = await supabase
       .from("questions")
       .select("id, category_id, question_text, question_type, options, answer_key, discussion")
-      .in("category_id", categoryIds)
+      .in("category_id", allCategoryIds)
       .order("inserted_at", { ascending: true })
       .order("id", { ascending: true });
 
@@ -213,12 +264,12 @@ export async function fetchQuestionsForSection(sectionId: string): Promise<Quest
     }
 
     if (!data || data.length === 0) {
-      const fallback = sampleQuestions.filter((q) => q.sectionId === sectionId);
-      return { questions: fallback, source: "sample" } as const;
+      return { questions: [], source: "supabase" } as const;
     }
 
     const questions: Question[] = data.map((row) => {
       const choices = normalizeChoices(row.options);
+      // Use the mapped ancestor slug for the topicId
       const topicSlug =
         typeof row.category_id === "string" ? categoryIdToSlug.get(row.category_id) ?? sectionId : sectionId;
 

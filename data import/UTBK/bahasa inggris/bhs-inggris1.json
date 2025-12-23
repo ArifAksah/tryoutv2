@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Latihan Soal UTBK SNBT - Literasi dalam Bahasa Inggris (Part 1: Soal 1-10)",
+        "instructions": "Import ke kategori bahasa-inggris"
+    },
+    "questions": [
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following text carefully!\n\nOver the past decade, the 'gig economy' has transformed the workforce. Platforms like Uber, DoorDash, and Upwork allow individuals to work as independent contractors rather than full-time employees. Proponents argue that this system offers flexibility and autonomy, allowing workers to set their own schedules. However, critics point out that gig workers often lack basic protections such as health insurance, paid leave, and job security. A 2022 survey indicated that $45\\%$ of gig workers feel anxious about their financial stability.\n\nWhat is the main idea of the text above?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "The gig economy is the best solution for modern unemployment."
+                },
+                {
+                    "key": "B",
+                    "text": "Gig workers earn more money than full-time employees."
+                },
+                {
+                    "key": "C",
+                    "text": "The gig economy offers flexibility but lacks worker protection."
+                },
+                {
+                    "key": "D",
+                    "text": "Uber and DoorDash are the largest companies in the world."
+                },
+                {
+                    "key": "E",
+                    "text": "Financial anxiety is increasing among all types of workers."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Teks membahas dua sisi dari *gig economy*: sisi positif (flexibility, autonomy) dan sisi negatif (lack of protections, financial anxiety). Pilihan C merangkum kedua aspek ini dengan tepat."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the text again!\n\n'...proponents argue that this system offers flexibility and *autonomy*...'\n\nThe word *autonomy* in the text is closest in meaning to ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Dependence"
+                },
+                {
+                    "key": "B",
+                    "text": "Independence"
+                },
+                {
+                    "key": "C",
+                    "text": "Authority"
+                },
+                {
+                    "key": "D",
+                    "text": "Automation"
+                },
+                {
+                    "key": "E",
+                    "text": "Responsibility"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Autonomy berarti kemampuan untuk mengatur diri sendiri atau kebebasan. Sinonim yang paling tepat adalah **Independence** (kemandirian)."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Based on the text about 'gig economy', which statement is **TRUE**?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Gig workers receive full health insurance from the platforms."
+                },
+                {
+                    "key": "B",
+                    "text": "Critics believe the gig economy is perfect."
+                },
+                {
+                    "key": "C",
+                    "text": "Less than half of gig workers feel anxious about money."
+                },
+                {
+                    "key": "D",
+                    "text": "Gig workers are classified as full-time employees."
+                },
+                {
+                    "key": "E",
+                    "text": "Upwork is a platform for traditional 9-to-5 jobs."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Teks menyatakan 'A 2022 survey indicated that $45\\%$ of gig workers feel anxious'. Karena $45\\%$ kurang dari setengah ($50\\%$), maka pernyataan 'Less than half...' adalah benar."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following text!\n\nBees are crucial for the environment because they pollinate crops and wild plants. Without bees, food production would decline significantly, affecting global food security. Unfortunately, bee populations are collapsing due to habitat loss, pesticide use, and climate change. Scientists are urging governments to ban harmful chemicals and plant bee-friendly flowers in urban areas to save these insects.\n\nThe author's tone regarding the bee population can be described as ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Indifferent"
+                },
+                {
+                    "key": "B",
+                    "text": "Optimistic"
+                },
+                {
+                    "key": "C",
+                    "text": "Concerned"
+                },
+                {
+                    "key": "D",
+                    "text": "Sarcastic"
+                },
+                {
+                    "key": "E",
+                    "text": "Humorous"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Penulis menggunakan kata-kata seperti *crucial*, *unfortunately*, *collapsing*, dan *urging* yang menunjukkan rasa kekhawatiran dan kepedulian serius terhadap masalah tersebut. Jadi, *tone*-nya adalah **Concerned**."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the text about bees again.\n\nWhat is the author's suggestion to solve the problem?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Stop eating honey."
+                },
+                {
+                    "key": "B",
+                    "text": "Ban harmful chemicals and plant bee-friendly flowers."
+                },
+                {
+                    "key": "C",
+                    "text": "Replace bees with robotic pollinators."
+                },
+                {
+                    "key": "D",
+                    "text": "Move all bees to rural areas."
+                },
+                {
+                    "key": "E",
+                    "text": "Increase the use of pesticides."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Jawaban terdapat pada kalimat terakhir: 'Scientists are urging governments to **ban harmful chemicals and plant bee-friendly flowers**...'."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following text!\n\n(1) Electric vehicles (EVs) are becoming more popular as battery technology improves. (2) However, 'range anxiety'—the fear that the car will run out of power before reaching a charging station—remains a barrier for many buyers. (3) To address this, governments are investing in charging infrastructure. (4) Some new EV models now boast a range of over $500$ km on a single charge. (5) Consequently, sales are expected to double by 2025.\n\nWhat does the word 'this' in sentence (3) refer to?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "The popularity of EVs."
+                },
+                {
+                    "key": "B",
+                    "text": "Battery technology improvements."
+                },
+                {
+                    "key": "C",
+                    "text": "Range anxiety."
+                },
+                {
+                    "key": "D",
+                    "text": "Government investment."
+                },
+                {
+                    "key": "E",
+                    "text": "The year 2025."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Kalimat (3) berbunyi 'To address this...' (Untuk mengatasi hal ini...). Hal yang perlu diatasi adalah masalah yang disebutkan di kalimat sebelumnya (2), yaitu ketakutan kehabisan daya atau **Range anxiety**."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following text!\n\nCoffee is one of the most consumed beverages in the world. While it is known for its ability to boost alertness, excessive consumption can lead to negative side effects such as insomnia, jitteriness, and increased heart rate. Health experts recommend limiting caffeine intake to $400$ mg per day, which is roughly equivalent to four cups of brewed coffee.\n\nWhat can be inferred from the text?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Coffee is dangerous and should be banned."
+                },
+                {
+                    "key": "B",
+                    "text": "Drinking one cup of coffee is likely safe for most people."
+                },
+                {
+                    "key": "C",
+                    "text": "Decaffeinated coffee is better than brewed coffee."
+                },
+                {
+                    "key": "D",
+                    "text": "Everyone reacts to caffeine in the same way."
+                },
+                {
+                    "key": "E",
+                    "text": "Drinking 500 mg of caffeine has no side effects."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Teks menyatakan batas aman adalah $400$ mg (sekitar 4 cangkir). Maka, dapat disimpulkan (*inferred*) bahwa minum 1 cangkir masih jauh di bawah batas aman dan kemungkinan besar aman."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following paragraph!\n\nNomophobia is the fear of being without a mobile phone. It affects a large percentage of the population, especially teenagers. Symptoms include anxiety when the phone is not nearby, constantly checking for notifications, and feeling stressed when the battery is low. Experts suggest 'digital detox' as a way to cope with this addiction.\n\nThe paragraph mainly discusses ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "The benefits of digital detox."
+                },
+                {
+                    "key": "B",
+                    "text": "How to charge your battery efficiently."
+                },
+                {
+                    "key": "C",
+                    "text": "The definition and symptoms of Nomophobia."
+                },
+                {
+                    "key": "D",
+                    "text": "Why teenagers love mobile phones."
+                },
+                {
+                    "key": "E",
+                    "text": "New mobile phone technologies."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Paragraf dimulai dengan definisi Nomophobia, diikuti dengan siapa yang terdampak, gejalanya (*symptoms*), dan solusinya. Inti utamanya adalah menjelaskan apa itu Nomophobia dan gejalanya."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the text about Nomophobia again.\n\n'...constantly checking for notifications...'\n\nThe word *constantly* can be replaced by ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Rarely"
+                },
+                {
+                    "key": "B",
+                    "text": "Continuously"
+                },
+                {
+                    "key": "C",
+                    "text": "Suddenly"
+                },
+                {
+                    "key": "D",
+                    "text": "Quietly"
+                },
+                {
+                    "key": "E",
+                    "text": "Slowly"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Constantly berarti terus-menerus. Sinonim yang tepat adalah **Continuously**."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Which of the following sentences uses correct grammar?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "She go to the library yesterday."
+                },
+                {
+                    "key": "B",
+                    "text": "If I was you, I would study harder."
+                },
+                {
+                    "key": "C",
+                    "text": "The data were analyzed by the researchers."
+                },
+                {
+                    "key": "D",
+                    "text": "He don't like playing football."
+                },
+                {
+                    "key": "E",
+                    "text": "I have lived here since 5 years."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Analisis:\nA. Salah: 'Yesterday' harus lampau (She *went*).\nB. Salah: Conditional Type 2 harusnya 'If I *were* you'.\nC. **Benar**: 'Data' adalah bentuk jamak (plural) dari datum, jadi menggunakan 'were'. (Meski dalam *modern usage* sering dianggap singular, dalam akademis ketat sering dianggap plural).\nD. Salah: He *doesn't* like.\nE. Salah: Durasi waktu menggunakan 'for' (for 5 years), 'since' untuk titik waktu (since 2019)."
+        }
+    ]
+}

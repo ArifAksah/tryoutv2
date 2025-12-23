@@ -1,0 +1,105 @@
+{
+    "metadata": {
+        "version": "1.1",
+        "description": "Latihan Soal UTBK SNBT - Literasi dalam Bahasa Indonesia (Skala IRT Simulasi)",
+        "instructions": "Import ke kategori bahasa-indonesia"
+    },
+    "questions": [
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut untuk menjawab soal ini!\n\nKecerdasan buatan atau Artificial Intelligence (AI) kini semakin merambah ke berbagai sektor kehidupan, mulai dari kesehatan hingga pendidikan. Meski menawarkan efisiensi dan kemudahan, kehadiran AI juga memicu kekhawatiran terkait penggantian tenaga kerja manusia. Namun, para ahli berpendapat bahwa AI seharusnya dilihat sebagai alat bantu (tools) yang dapat meningkatkan produktivitas, bukan sebagai pengganti total peran manusia. Kreativitas dan empati adalah dua hal yang sulit ditiru oleh mesin.\n\nGagasan utama paragraf di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Kecerdasan buatan mulai merambah sektor kesehatan dan pendidikan."
+                },
+                {
+                    "key": "B",
+                    "text": "Kekhawatiran manusia terhadap kehadiran teknologi AI."
+                },
+                {
+                    "key": "C",
+                    "text": "AI sebaiknya dipandang sebagai alat bantu peningkat produktivitas."
+                },
+                {
+                    "key": "D",
+                    "text": "Kreativitas dan empati tidak bisa dimiliki oleh mesin."
+                },
+                {
+                    "key": "E",
+                    "text": "Efisiensi kerja yang ditawarkan oleh kecerdasan buatan."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 33
+            },
+            "discussion": "Poin Soal: 33 (Estimasi Bobot Sedang). Gagasan utama adalah ide pokok yang mendasari sebuah paragraf. Paragraf tersebut diawali dengan fenomena AI, dilanjutkan dengan kekhawatiran, dan diakhiri dengan pendapat ahli sebagai penegas."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Perhatikan kalimat berikut:\n'Pemerintah berupaya melakukan *diversifikasi* pangan agar masyarakat tidak hanya bergantung pada beras sebagai sumber karbohidrat utama.'\n\nMakna kata *diversifikasi* pada kalimat tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Penghematan"
+                },
+                {
+                    "key": "B",
+                    "text": "Penganekaragaman"
+                },
+                {
+                    "key": "C",
+                    "text": "Penyederhanaan"
+                },
+                {
+                    "key": "D",
+                    "text": "Pengelompokan"
+                },
+                {
+                    "key": "E",
+                    "text": "Peningkatan mutu"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 33
+            },
+            "discussion": "Poin Soal: 33 (Estimasi Bobot Mudah). Dalam Kamus Besar Bahasa Indonesia (KBBI), diversifikasi berarti penganekaragaman."
+        },
+        {
+            "category_slug": "bahasa-indonesia",
+            "question_text": "Bacalah teks berikut!\n\n(1) Sampah plastik menjadi masalah lingkungan yang serius di Indonesia. (2) Data menunjukkan bahwa Indonesia merupakan salah satu penyumbang sampah plastik terbesar ke laut. (3) Banyak biota laut yang mati karena tidak sengaja memakan plastik. (4) Oleh karena itu, kampanye pengurangan penggunaan kantong plastik sekali pakai harus digalakkan lebih masif. (5) Masyarakat diharapkan membawa tas belanja sendiri dari rumah.\n\nKalimat yang menyatakan hubungan sebab-akibat terdapat pada nomor ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(1) dan (2)"
+                },
+                {
+                    "key": "B",
+                    "text": "(2) dan (3)"
+                },
+                {
+                    "key": "C",
+                    "text": "(3) dan (4)"
+                },
+                {
+                    "key": "D",
+                    "text": "(4) dan (5)"
+                },
+                {
+                    "key": "E",
+                    "text": "(1) dan (5)"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 34
+            },
+            "discussion": "Poin Soal: 34 (Estimasi Bobot Sulit/HOTS). Hubungan sebab-akibat terlihat jelas pada kalimat (3) dan (4). Kalimat (3) adalah sebab, dan kalimat (4) adalah akibat/kesimpulan."
+        }
+    ]
+}

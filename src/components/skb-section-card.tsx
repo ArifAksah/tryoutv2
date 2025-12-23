@@ -16,7 +16,7 @@ export function SkbSectionCard({ section, questions }: SkbSectionCardProps) {
       <header className="space-y-2">
         <div className="flex items-center gap-2">
           <span className="rounded-full bg-purple-100 px-2.5 py-0.5 text-xs font-semibold text-purple-700">
-            SKB
+            {section.type}
           </span>
           <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
             {section.code}
@@ -76,7 +76,7 @@ export function SkbSectionCard({ section, questions }: SkbSectionCardProps) {
         <ConfirmStartTryoutButton
           href={`/tryout/real/${section.id}`}
           durationMinutes={60}
-          title={`Mulai Tryout SKB: ${section.code}?`}
+          title={`Mulai Tryout ${section.type}: ${section.code}?`}
           className="flex-1 inline-flex items-center justify-center rounded-lg border border-purple-600 px-4 py-2 text-sm font-semibold text-purple-700 hover:bg-purple-50"
         >
           Tryout ⏱️

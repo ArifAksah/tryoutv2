@@ -148,6 +148,50 @@ export async function deleteTryoutBlueprint(formData: FormData): Promise<void> {
   redirect(`/admin/tryouts${packageId ? `?package=${encodeURIComponent(packageId)}` : ""}`);
 }
 
+export async function applyMasterBlueprint(formData: FormData): Promise<void> {
+  await requireAdminUser("/admin/tryouts");
+
+  const packageId = getString(formData, "package_id");
+  const institutionId = getString(formData, "institution_id");
+
+  if (!packageId || !institutionId) redirect(`/admin/tryouts?package=${encodeURIComponent(packageId)}`);
+
+  const supabase = await getSupabaseServerClient("write");
+
+  // 1. Fetch Master Blueprints
+  const { data: masters, error: masterError } = await supabase
+    .from("exam_blueprints")
+    .select("category_id, question_count")
+    .eq("institution_id", institutionId);
+
+  if (masterError || !masters || masters.length === 0) {
+    redirect(`/admin/tryouts?package=${encodeURIComponent(packageId)}&error=${encodeURIComponent("Master blueprint kosong.")}`);
+  }
+
+  // 2. Clear existing package blueprints (optional, but requested for 'schema' consistency)
+  // Actually safer to delete all before applying schema to assume 'reset'.
+  await supabase.from("exam_package_blueprints").delete().eq("package_id", packageId);
+
+  // 3. Insert new rows
+  const rows = masters.map(m => ({
+    package_id: packageId,
+    category_id: m.category_id,
+    question_count: m.question_count,
+    updated_at: new Date().toISOString()
+  }));
+
+  const { error: insertError } = await supabase
+    .from("exam_package_blueprints")
+    .insert(rows);
+
+  if (insertError) {
+    redirect(`/admin/tryouts?package=${encodeURIComponent(packageId)}&error=${encodeURIComponent(insertError.message)}`);
+  }
+
+  revalidatePath("/admin/tryouts");
+  redirect(`/admin/tryouts?package=${encodeURIComponent(packageId)}`);
+}
+
 function distributeProportional(weights: number[], total: number): number[] {
   const sum = weights.reduce((a, b) => a + b, 0);
   if (sum <= 0) return weights.map(() => 0);

@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Latihan Soal UTBK SNBT - Penalaran Deduktif (Logika Formal)",
+        "instructions": "Import ke kategori penalaran-deduktif"
+    },
+    "questions": [
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Semua mamalia bernapas dengan paru-paru. Ikan paus adalah mamalia.\n\nSimpulan yang paling tepat adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ikan paus bernapas dengan insang."
+                },
+                {
+                    "key": "B",
+                    "text": "Ikan paus bernapas dengan paru-paru."
+                },
+                {
+                    "key": "C",
+                    "text": "Sebagian mamalia bernapas dengan paru-paru."
+                },
+                {
+                    "key": "D",
+                    "text": "Ikan paus adalah ikan yang istimewa."
+                },
+                {
+                    "key": "E",
+                    "text": "Semua yang bernapas dengan paru-paru adalah ikan paus."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Premis 1: Semua A adalah B (Mamalia -> Paru-paru).\nPremis 2: C adalah A (Paus -> Mamalia).\nKesimpulan: C adalah B (Paus -> Paru-paru). Ini adalah silogisme kategorik standar."
+        },
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Jika hari ini hujan, maka jalanan basah. Hari ini jalanan tidak basah.\n\nSimpulan yang sah adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Hari ini hujan."
+                },
+                {
+                    "key": "B",
+                    "text": "Hari ini tidak hujan."
+                },
+                {
+                    "key": "C",
+                    "text": "Kemarin hujan."
+                },
+                {
+                    "key": "D",
+                    "text": "Jalanan basah karena disiram air."
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat ditarik kesimpulan."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Menggunakan Modus Tollens:\nPremis 1: $P \\rightarrow Q$ (Jika hujan, maka basah).\nPremis 2: $\\sim Q$ (Tidak basah).\nKesimpulan: $\\sim P$ (Tidak hujan)."
+        },
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Semua anggota klub renang pandai berenang. Sebagian siswa kelas 12 adalah anggota klub renang.\n\nSimpulan yang tepat adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Semua siswa kelas 12 pandai berenang."
+                },
+                {
+                    "key": "B",
+                    "text": "Sebagian siswa kelas 12 pandai berenang."
+                },
+                {
+                    "key": "C",
+                    "text": "Semua yang pandai berenang adalah siswa kelas 12."
+                },
+                {
+                    "key": "D",
+                    "text": "Siswa kelas 12 yang tidak pandai berenang bukan anggota klub renang."
+                },
+                {
+                    "key": "E",
+                    "text": "Jawaban B dan D benar."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Premis 1: Semua A = B.\nPremis 2: Sebagian C = A.\nKesimpulan: Sebagian C = B (Sebagian siswa kelas 12 pandai berenang). \nCatatan: Opsi D juga secara logika benar (kontraposisi), tetapi dalam soal silogisme dasar, opsi B adalah kesimpulan langsung yang paling tepat dicari."
+        },
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Tidak ada bunga mawar yang berwarna biru. Semua yang berduri adalah bunga mawar.\n\nSimpulan yang tepat adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Semua yang berduri tidak berwarna biru."
+                },
+                {
+                    "key": "B",
+                    "text": "Sebagian yang berduri berwarna biru."
+                },
+                {
+                    "key": "C",
+                    "text": "Tidak ada yang berduri yang bukan bunga mawar."
+                },
+                {
+                    "key": "D",
+                    "text": "Semua bunga mawar berduri."
+                },
+                {
+                    "key": "E",
+                    "text": "Sebagian bunga mawar berwarna biru."
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 100
+            },
+            "discussion": "Premis 1: Mawar $\\rightarrow$ Tidak Biru.\nPremis 2: Berduri $\\rightarrow$ Mawar.\nGabungan: Berduri $\\rightarrow$ Mawar $\\rightarrow$ Tidak Biru.\nKesimpulan: Semua yang berduri tidak berwarna biru."
+        },
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Jika harga BBM naik, maka harga bahan pokok naik. Jika harga bahan pokok naik, maka daya beli masyarakat turun.\n\nDiketahui daya beli masyarakat tidak turun. Simpulan yang tepat adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Harga BBM naik."
+                },
+                {
+                    "key": "B",
+                    "text": "Harga bahan pokok naik."
+                },
+                {
+                    "key": "C",
+                    "text": "Harga BBM tidak naik."
+                },
+                {
+                    "key": "D",
+                    "text": "Harga bahan pokok turun."
+                },
+                {
+                    "key": "E",
+                    "text": "Pemerintah memberikan subsidi."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Silogisme Hipotetik:\n$P \\rightarrow Q$ (BBM naik -> Sembako naik)\n$Q \\rightarrow R$ (Sembako naik -> Daya beli turun)\nKesimpulan rantai: $P \\rightarrow R$.\nFakta: $\\sim R$ (Daya beli TIDAK turun).\nModus Tollens pada rantai: $\\sim R \\rightarrow \\sim P$ (Harga BBM tidak naik)."
+        },
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Semua karyawan wajib hadir rapat. Pak Budi tidak hadir rapat.\n\nSimpulan yang paling tepat adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pak Budi bukan karyawan."
+                },
+                {
+                    "key": "B",
+                    "text": "Pak Budi karyawan yang malas."
+                },
+                {
+                    "key": "C",
+                    "text": "Pak Budi sedang sakit."
+                },
+                {
+                    "key": "D",
+                    "text": "Pak Budi lupa jadwal rapat."
+                },
+                {
+                    "key": "E",
+                    "text": "Sebagian karyawan tidak hadir rapat."
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 100
+            },
+            "discussion": "Premis 1: Jika Karyawan $\\rightarrow$ Hadir Rapat.\nPremis 2: Tidak Hadir Rapat.\nKesimpulan (Modus Tollens): Bukan Karyawan.\n(Catatan: Dalam logika formal, kita hanya melihat struktur kalimat, bukan alasan/penyebab lain)."
+        },
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Ingkaran (Negasi) dari pernyataan 'Semua peserta lulus ujian' adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Semua peserta tidak lulus ujian."
+                },
+                {
+                    "key": "B",
+                    "text": "Tidak ada peserta yang lulus ujian."
+                },
+                {
+                    "key": "C",
+                    "text": "Ada peserta yang tidak lulus ujian."
+                },
+                {
+                    "key": "D",
+                    "text": "Beberapa peserta lulus ujian."
+                },
+                {
+                    "key": "E",
+                    "text": "Peserta rajin belajar."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Negasi dari kuantor universal 'Semua' ($\\\\forall$) adalah kuantor eksistensial 'Ada/Beberapa' ($\\\\exists$) ditambah kata 'tidak'.\nSemua A adalah B $\\rightarrow$ Negasinya: Ada A yang bukan B."
+        },
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Diketahui:\n1. Baju merah lebih mahal dari baju biru.\n2. Baju kuning lebih murah dari baju biru.\n3. Baju hijau lebih mahal dari baju merah.\n\nUrutan baju dari yang paling murah adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Hijau, Merah, Biru, Kuning"
+                },
+                {
+                    "key": "B",
+                    "text": "Kuning, Biru, Merah, Hijau"
+                },
+                {
+                    "key": "C",
+                    "text": "Biru, Kuning, Merah, Hijau"
+                },
+                {
+                    "key": "D",
+                    "text": "Kuning, Merah, Biru, Hijau"
+                },
+                {
+                    "key": "E",
+                    "text": "Hijau, Biru, Merah, Kuning"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Analisis pertidaksamaan:\n1. Merah > Biru\n2. Biru > Kuning (karena Kuning lebih murah)\n3. Hijau > Merah\nGabungan: Hijau > Merah > Biru > Kuning.\nUrutan dari termurah: Kuning, Biru, Merah, Hijau."
+        },
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Semua dokter memiliki izin praktik. Sebagian pengusaha memiliki izin praktik.\n\nSimpulan yang mungkin benar adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Semua pengusaha adalah dokter."
+                },
+                {
+                    "key": "B",
+                    "text": "Semua yang memiliki izin praktik adalah dokter."
+                },
+                {
+                    "key": "C",
+                    "text": "Sebagian pengusaha adalah dokter."
+                },
+                {
+                    "key": "D",
+                    "text": "Tidak ada pengusaha yang dokter."
+                },
+                {
+                    "key": "E",
+                    "text": "Sebagian dokter adalah pengusaha."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Premis 1: Dokter $\\rightarrow$ Izin Praktik.\nPremis 2: Sebagian Pengusaha $\\cap$ Izin Praktik (Beririsan).\nKarena keduanya beririsan di himpunan 'Izin Praktik', maka ada kemungkinan (potensi) irisan antara Pengusaha dan Dokter. Kesimpulan yang paling logis dan tidak bertentangan adalah 'Sebagian pengusaha (mungkin) adalah dokter' atau irisan keduanya ada."
+        },
+        {
+            "category_slug": "penalaran-deduktif",
+            "question_text": "Jika Ani lulus ujian, maka ia akan dibelikan sepeda atau laptop. Ternyata Ani tidak dibelikan laptop.\n\nSimpulan yang sah adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ani tidak lulus ujian."
+                },
+                {
+                    "key": "B",
+                    "text": "Ani dibelikan sepeda."
+                },
+                {
+                    "key": "C",
+                    "text": "Ani dibelikan sepeda jika ia lulus ujian."
+                },
+                {
+                    "key": "D",
+                    "text": "Ani tidak dibelikan sepeda."
+                },
+                {
+                    "key": "E",
+                    "text": "Tidak dapat disimpulkan."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Premis: Lulus $\\rightarrow$ (Sepeda $\\lor$ Laptop).\nFakta: $\\sim$ Laptop.\nDalam logika, $P \\rightarrow (A \\lor B)$. Jika $P$ terjadi dan $B$ tidak terjadi, maka $A$ harus terjadi. TAPI, kita tidak tahu apakah $P$ (Ani lulus) benar-benar terjadi atau tidak. Soal hanya bilang 'Ternyata tidak dibelikan laptop'.\n- Jika Ani lulus, maka dia PASTI dapat sepeda (karena tidak dapat laptop).\n- Jika Ani tidak lulus, dia juga tidak dapat laptop (konsisten).\nJadi simpulan yang paling aman dan sah secara logika kondisional adalah: **Jika Ani lulus ujian, maka dia dibelikan sepeda.** (Karena opsi laptop sudah hilang)."
+        }
+    ]
+}

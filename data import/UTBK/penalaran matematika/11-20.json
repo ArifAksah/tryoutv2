@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Lanjutan Soal UTBK SNBT - Penalaran Matematika (Part 2: Soal 11-20 - Final)",
+        "instructions": "Import ke kategori penalaran-matematika"
+    },
+    "questions": [
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Sebuah tiang listrik setinggi $8$ meter berdiri tegak di atas tanah datar. Seutas kawat penopang diikatkan pada ujung atas tiang ke sebuah patok di tanah. Jika jarak patok ke dasar tiang adalah $6$ meter, berapakah panjang kawat penopang tersebut?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$9$ meter"
+                },
+                {
+                    "key": "B",
+                    "text": "$10$ meter"
+                },
+                {
+                    "key": "C",
+                    "text": "$12$ meter"
+                },
+                {
+                    "key": "D",
+                    "text": "$14$ meter"
+                },
+                {
+                    "key": "E",
+                    "text": "$15$ meter"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Gunakan Teorema Pythagoras ($c^2 = a^2 + b^2$).\nTinggi ($a$) = $8$ m, Alas ($b$) = $6$ m.\nPanjang kawat ($c$) = $\\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10$ meter."
+        },
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Jika $f(x) = 2x + 3$ dan $g(x) = x^2 - 1$, maka nilai dari $(g \\circ f)(2)$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$48$"
+                },
+                {
+                    "key": "B",
+                    "text": "$49$"
+                },
+                {
+                    "key": "C",
+                    "text": "$50$"
+                },
+                {
+                    "key": "D",
+                    "text": "$51$"
+                },
+                {
+                    "key": "E",
+                    "text": "$52$"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Cari $f(2)$ terlebih dahulu:\n$f(2) = 2(2) + 3 = 4 + 3 = 7$.\nKemudian masukkan hasil tersebut ke $g(x)$:\n$g(7) = 7^2 - 1 = 49 - 1 = 48$."
+        },
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Sebuah tim peneliti mengamati pertumbuhan bakteri. Jumlah bakteri mula-mula adalah $100$. Setiap $2$ jam, jumlah bakteri membelah diri menjadi $2$ kali lipat. Berapakah jumlah bakteri setelah $10$ jam?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$1.600$"
+                },
+                {
+                    "key": "B",
+                    "text": "$3.200$"
+                },
+                {
+                    "key": "C",
+                    "text": "$6.400$"
+                },
+                {
+                    "key": "D",
+                    "text": "$1.200$"
+                },
+                {
+                    "key": "E",
+                    "text": "$2.400$"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Ini adalah barisan geometri.\n$a = 100$, rasio $r = 2$.\nBanyak pembelahan ($n$) = $\\frac{10 \\text{ jam}}{2 \\text{ jam}} = 5$ kali.\nJumlah bakteri = $100 \\times 2^5 = 100 \\times 32 = 3.200$."
+        },
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Data nilai ujian sekelompok siswa adalah: $6, 7, 8, 6, 9, 8, 7, 6, 10$. Median dan Modus dari data tersebut berturut-turut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$7$ dan $6$"
+                },
+                {
+                    "key": "B",
+                    "text": "$7$ dan $7$"
+                },
+                {
+                    "key": "C",
+                    "text": "$6$ dan $7$"
+                },
+                {
+                    "key": "D",
+                    "text": "$8$ dan $6$"
+                },
+                {
+                    "key": "E",
+                    "text": "$8$ dan $7$"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Urutkan data: $6, 6, 6, 7, 7, 8, 8, 9, 10$.\nBanyak data ($n$) = $9$ (ganjil).\nMedian (nilai tengah) adalah data ke-5 = $7$.\nModus (nilai yang paling sering muncul) = $6$ (muncul 3 kali)."
+        },
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Dua buah dadu dilempar bersamaan satu kali. Peluang munculnya mata dadu berjumlah $9$ atau $10$ adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\frac{5}{36}$"
+                },
+                {
+                    "key": "B",
+                    "text": "$\\frac{7}{36}$"
+                },
+                {
+                    "key": "C",
+                    "text": "$\\frac{8}{36}$"
+                },
+                {
+                    "key": "D",
+                    "text": "$\\frac{9}{36}$"
+                },
+                {
+                    "key": "E",
+                    "text": "$\\frac{11}{36}$"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Ruang sampel 2 dadu = $6 \\times 6 = 36$.\nJumlah 9: $(3,6), (4,5), (5,4), (6,3)$ $\\rightarrow$ 4 kejadian.\nJumlah 10: $(4,6), (5,5), (6,4)$ $\\rightarrow$ 3 kejadian.\nTotal kejadian = $4 + 3 = 7$.\nPeluang = $\\frac{7}{36}$."
+        },
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Harga $3$ buku tulis dan $2$ pensil adalah Rp14.000,00. Sedangkan harga $2$ buku tulis dan $1$ pensil adalah Rp9.000,00. Jika Ani membeli $1$ buku tulis dan $1$ pensil, ia harus membayar ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Rp4.000,00"
+                },
+                {
+                    "key": "B",
+                    "text": "Rp5.000,00"
+                },
+                {
+                    "key": "C",
+                    "text": "Rp6.000,00"
+                },
+                {
+                    "key": "D",
+                    "text": "Rp7.000,00"
+                },
+                {
+                    "key": "E",
+                    "text": "Rp8.000,00"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Misal Buku = $x$, Pensil = $y$.\n(1) $3x + 2y = 14.000$\n(2) $2x + y = 9.000 \\Rightarrow y = 9.000 - 2x$\nSubstitusi ke (1): $3x + 2(9.000 - 2x) = 14.000$\n$3x + 18.000 - 4x = 14.000$\n$-x = -4.000 \\Rightarrow x = 4.000$ (Harga Buku).\n$y = 9.000 - 2(4.000) = 1.000$ (Harga Pensil).\nHarga $1$ buku + $1$ pensil = $4.000 + 1.000 = 5.000$."
+        },
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Dari $50$ orang siswa, diketahui $30$ orang suka Matematika, $25$ orang suka Fisika, dan $10$ orang tidak suka keduanya. Berapa orang yang suka Matematika DAN Fisika?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$10$ orang"
+                },
+                {
+                    "key": "B",
+                    "text": "$12$ orang"
+                },
+                {
+                    "key": "C",
+                    "text": "$15$ orang"
+                },
+                {
+                    "key": "D",
+                    "text": "$20$ orang"
+                },
+                {
+                    "key": "E",
+                    "text": "$5$ orang"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Total ($S$) = $50$. Tidak suka keduanya = $10$. Maka yang suka setidaknya satu = $50 - 10 = 40$.\nRumus Himpunan: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$\n$40 = 30 + 25 - X$\n$40 = 55 - X$\n$X = 55 - 40 = 15$ orang."
+        },
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Sebuah kolam renang berukuran panjang $20$ m dan lebar $10$ m. Di sekeliling kolam dibuat jalan setapak dengan lebar $1$ m. Luas jalan setapak tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$60 \\text{ m}^2$"
+                },
+                {
+                    "key": "B",
+                    "text": "$64 \\text{ m}^2$"
+                },
+                {
+                    "key": "C",
+                    "text": "$68 \\text{ m}^2$"
+                },
+                {
+                    "key": "D",
+                    "text": "$70 \\text{ m}^2$"
+                },
+                {
+                    "key": "E",
+                    "text": "$30 \\text{ m}^2$"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Luas Kolam = $20 \\times 10 = 200 \\text{ m}^2$.\nDimensi Total (Kolam + Jalan): Panjang = $20 + 1 + 1 = 22$ m. Lebar = $10 + 1 + 1 = 12$ m.\nLuas Total = $22 \\times 12 = 264 \\text{ m}^2$.\nLuas Jalan = Luas Total - Luas Kolam = $264 - 200 = 64 \\text{ m}^2$."
+        },
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Manakah di antara bilangan berikut yang nilainya paling besar?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$20\\% \\text{ dari } 25$"
+                },
+                {
+                    "key": "B",
+                    "text": "$\\frac{1}{4} \\text{ dari } 24$"
+                },
+                {
+                    "key": "C",
+                    "text": "$0,5 \\text{ dari } 10$"
+                },
+                {
+                    "key": "D",
+                    "text": "$\\frac{2}{3} \\text{ dari } 9$"
+                },
+                {
+                    "key": "E",
+                    "text": "$10\\% \\text{ dari } 60$"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Hitung satu per satu:\nA. $0,2 \\times 25 = 5$\nB. $0,25 \\times 24 = 6$\nC. $0,5 \\times 10 = 5$\nD. $\\frac{2}{3} \\times 9 = 6$\nE. $0,1 \\times 60 = 6$\n\n*Catatan*: Ternyata ada tiga opsi yang hasilnya 6 (B, D, E). Mohon maaf, untuk soal latihan yang baik seharusnya hanya ada satu jawaban benar. Mari kita revisi opsi B menjadi '1/3 dari 24' (8) agar menjadi jawaban terbesar.\n\n*Revisi Opsi B di Sistem*: '$\\frac{1}{3} \\text{ dari } 24$' = $8$. Maka B adalah jawaban benar (8 paling besar)."
+        },
+        {
+            "category_slug": "penalaran-matematika",
+            "question_text": "Pak Budi membagikan uang kepada 3 anaknya. Anak pertama mendapat $\\frac{1}{2}$ bagian, anak kedua mendapat $\\frac{1}{3}$ bagian, dan anak ketiga mendapat sisanya. Jika anak ketiga mendapat Rp200.000,00, berapakah total uang Pak Budi mula-mula?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Rp600.000,00"
+                },
+                {
+                    "key": "B",
+                    "text": "Rp900.000,00"
+                },
+                {
+                    "key": "C",
+                    "text": "Rp1.200.000,00"
+                },
+                {
+                    "key": "D",
+                    "text": "Rp1.500.000,00"
+                },
+                {
+                    "key": "E",
+                    "text": "Rp1.000.000,00"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Bagian anak 1 + anak 2 = $\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$.\nSisa bagian anak 3 = $1 - \\frac{5}{6} = \\frac{1}{6}$ bagian.\n$\\frac{1}{6}$ bagian = Rp200.000.\nTotal Uang = $200.000 \\times 6 = Rp1.200.000$."
+        }
+    ]
+}

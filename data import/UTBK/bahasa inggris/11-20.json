@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Lanjutan Soal UTBK SNBT - Literasi dalam Bahasa Inggris (Part 2: Soal 11-20 - Final)",
+        "instructions": "Import ke kategori bahasa-inggris"
+    },
+    "questions": [
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following text!\n\n(1) In recent years, the concept of 'minimalism' has gained popularity as a lifestyle choice. (2) It emphasizes living with less and valuing experiences over material possessions. (3) Supporters claim that clearing out physical clutter leads to mental clarity and reduced stress. (4) However, critics argue that minimalism is a privilege, as it is easier for wealthy people to discard items, knowing they can replace them if needed. (5) Despite the debate, many people find it liberating.\n\nWhich sentence presents a counter-argument to the benefits of minimalism?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Sentence (1)"
+                },
+                {
+                    "key": "B",
+                    "text": "Sentence (2)"
+                },
+                {
+                    "key": "C",
+                    "text": "Sentence (3)"
+                },
+                {
+                    "key": "D",
+                    "text": "Sentence (4)"
+                },
+                {
+                    "key": "E",
+                    "text": "Sentence (5)"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 50
+            },
+            "discussion": "Counter-argument (argumen kontra) ditandai dengan kata transisi 'However' pada kalimat (4), yang menyoroti kritik bahwa minimalisme adalah sebuah *privilege*."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the text again!\n\n'...many people find it *liberating*.'\n\nThe antonym of the word *liberating* is ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Freeing"
+                },
+                {
+                    "key": "B",
+                    "text": "Restrictive"
+                },
+                {
+                    "key": "C",
+                    "text": "Exciting"
+                },
+                {
+                    "key": "D",
+                    "text": "Boring"
+                },
+                {
+                    "key": "E",
+                    "text": "Relaxing"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Liberating artinya membebaskan. Lawan kata (antonim) yang tepat adalah **Restrictive** (mengekang/membatasi)."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following text!\n\nArtificial sweeteners are often used as a sugar substitute in diet sodas and snacks. They provide the sweetness of sugar without the calories, making them attractive for weight loss. However, some studies suggest that artificial sweeteners might actually increase appetite and cravings for sugary food, potentially leading to weight gain in the long run. The World Health Organization (WHO) has recently advised against using non-sugar sweeteners for weight control.\n\nWhat is the primary purpose of the text?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "To promote the use of artificial sweeteners."
+                },
+                {
+                    "key": "B",
+                    "text": "To explain how to make diet soda."
+                },
+                {
+                    "key": "C",
+                    "text": "To discuss the potential drawbacks of artificial sweeteners."
+                },
+                {
+                    "key": "D",
+                    "text": "To list all types of non-sugar sweeteners."
+                },
+                {
+                    "key": "E",
+                    "text": "To criticize the World Health Organization."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Teks tersebut membahas sisi lain atau kekurangan (*drawbacks*) dari pemanis buatan, seperti meningkatkan nafsu makan dan rekomendasi WHO untuk tidak menggunakannya."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following text!\n\nA study conducted by the University of Oxford found that playing video games for short periods can actually be beneficial for mental health. The research involved $3,274$ players and focused on games like 'Animal Crossing'. The results showed a positive correlation between play time and feelings of well-being. This challenges the common stereotype that video games are solely harmful or isolating.\n\nAccording to the text, what is the new finding regarding video games?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Video games are addictive and dangerous."
+                },
+                {
+                    "key": "B",
+                    "text": "Only children should play video games."
+                },
+                {
+                    "key": "C",
+                    "text": "Playing games can be linked to positive mental well-being."
+                },
+                {
+                    "key": "D",
+                    "text": "Animal Crossing is the only good game."
+                },
+                {
+                    "key": "E",
+                    "text": "Video games cause isolation."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Teks menyatakan: 'The results showed a positive correlation between play time and feelings of well-being'. Ini adalah temuan baru yang dibahas."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the text about video games again.\n\n'...stereotypes that video games are *solely* harmful...'\n\nThe word *solely* implies that ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Video games are partially harmful."
+                },
+                {
+                    "key": "B",
+                    "text": "Video games are only harmful and nothing else."
+                },
+                {
+                    "key": "C",
+                    "text": "Video games are rarely harmful."
+                },
+                {
+                    "key": "D",
+                    "text": "Video games are sometimes harmful."
+                },
+                {
+                    "key": "E",
+                    "text": "Video games are not harmful at all."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Solely berarti 'hanya' atau 'semata-mata' (*only*). Jadi, 'solely harmful' berarti dianggap hanya berbahaya saja tanpa ada sisi positifnya."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following text!\n\nHydroponics is a method of growing plants without soil, using mineral nutrient solutions in an aqueous solvent. This technique allows farmers to grow crops in areas with poor soil quality or limited space, such as urban rooftops. Moreover, hydroponic systems use up to $90\\%$ less water than traditional farming because the water is recirculated. As the global population rises, hydroponics could be a key solution to food security.\n\nWhich of the following is **NOT** mentioned as a benefit of hydroponics?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "It can be done without soil."
+                },
+                {
+                    "key": "B",
+                    "text": "It saves a significant amount of water."
+                },
+                {
+                    "key": "C",
+                    "text": "It allows farming in limited spaces."
+                },
+                {
+                    "key": "D",
+                    "text": "It produces vegetables that taste better than organic ones."
+                },
+                {
+                    "key": "E",
+                    "text": "It can be a solution for food security."
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 50
+            },
+            "discussion": "Teks menyebutkan hemat air, tanpa tanah, hemat tempat, dan ketahanan pangan. Tidak ada pernyataan mengenai 'rasa yang lebih enak' (*taste better*) dibanding organik."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following incomplete text!\n\nLearning a second language improves cognitive functions. It enhances memory, problem-solving skills, and multitasking abilities. (...), bilingual individuals often show signs of dementia later in life than monolinguals, suggesting that language learning protects the brain.\n\nWhich transition word best fills the blank?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "However"
+                },
+                {
+                    "key": "B",
+                    "text": "Therefore"
+                },
+                {
+                    "key": "C",
+                    "text": "Furthermore"
+                },
+                {
+                    "key": "D",
+                    "text": "In contrast"
+                },
+                {
+                    "key": "E",
+                    "text": "Despite"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Kalimat pertama dan kedua menyebutkan manfaat positif. Kalimat ketiga menambahkan manfaat positif lainnya (perlindungan dari demensia). Kata hubung yang tepat untuk menambahkan informasi sejenis adalah **Furthermore** (Selain itu)."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Read the following text!\n\nThe *Tyrannosaurus rex* is one of the most famous dinosaurs. Recent studies of its bone structure suggest that it grew incredibly fast during its teenage years, gaining up to $2$ kg per day. This rapid growth spurt allowed it to become the apex predator of its time. However, this massive size came at a cost: adult T-rexes were likely slow runners compared to their smaller, more agile prey.\n\nWhat is the implication of the T-rex's rapid growth?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "It became the smallest dinosaur."
+                },
+                {
+                    "key": "B",
+                    "text": "It could fly easily."
+                },
+                {
+                    "key": "C",
+                    "text": "It became a top predator quickly."
+                },
+                {
+                    "key": "D",
+                    "text": "It needed less food."
+                },
+                {
+                    "key": "E",
+                    "text": "It lived longer than other dinosaurs."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Teks menyatakan: 'This rapid growth spurt allowed it to become the **apex predator** of its time.' Apex predator berarti predator puncak/teratas."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "Which sentence contains an error in parallel structure?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "She likes hiking, swimming, and to run."
+                },
+                {
+                    "key": "B",
+                    "text": "The movie was funny, exciting, and touching."
+                },
+                {
+                    "key": "C",
+                    "text": "He wants to travel the world, meet new people, and learn new cultures."
+                },
+                {
+                    "key": "D",
+                    "text": "To learn is to grow."
+                },
+                {
+                    "key": "E",
+                    "text": "The report is concise, accurate, and thorough."
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Struktur paralel mengharuskan bentuk kata yang setara. Opsi A mencampur *gerund* (hiking, swimming) dengan *infinitive* (to run). Seharusnya: 'She likes hiking, swimming, and **running**'."
+        },
+        {
+            "category_slug": "bahasa-inggris",
+            "question_text": "What is the best title for a passage describing the process of photosynthesis, its importance to oxygen production, and its role in the food chain?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "How to Grow Plants Indoors"
+                },
+                {
+                    "key": "B",
+                    "text": "The History of Biology"
+                },
+                {
+                    "key": "C",
+                    "text": "Photosynthesis: The Engine of Life"
+                },
+                {
+                    "key": "D",
+                    "text": "Oxygen Levels in the Atmosphere"
+                },
+                {
+                    "key": "E",
+                    "text": "The Food Chain of Animals"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Judul harus mencakup keseluruhan isi teks. Teks membahas proses fotosintesis, pentingnya oksigen, dan rantai makanan. Judul **'Photosynthesis: The Engine of Life'** merangkum peran vital fotosintesis tersebut secara menyeluruh."
+        }
+    ]
+}

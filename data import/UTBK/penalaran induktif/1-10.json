@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Latihan Soal UTBK SNBT - Penalaran Induktif (Generalisasi & Kausalitas)",
+        "instructions": "Import ke kategori penalaran-induktif"
+    },
+    "questions": [
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "Desa A memiliki tingkat kesehatan yang tinggi karena warganya rajin berolahraga. Desa B memiliki tingkat kesehatan yang tinggi karena warganya rajin mengonsumsi sayur dan buah. Desa C memiliki warganya yang rajin berolahraga dan mengonsumsi sayur buah.\n\nSimpulan yang paling mungkin terjadi pada Desa C adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tingkat kesehatan Desa C lebih rendah dari Desa A."
+                },
+                {
+                    "key": "B",
+                    "text": "Tingkat kesehatan Desa C sama dengan Desa B."
+                },
+                {
+                    "key": "C",
+                    "text": "Desa C memiliki tingkat kesehatan yang sangat tinggi."
+                },
+                {
+                    "key": "D",
+                    "text": "Warga Desa C tidak pernah sakit."
+                },
+                {
+                    "key": "E",
+                    "text": "Tingkat kesehatan Desa C tidak dapat diprediksi."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Penalaran Generalisasi: Jika faktor X (olahraga) menyebabkan kesehatan tinggi, dan faktor Y (sayur) juga menyebabkan kesehatan tinggi, maka gabungan keduanya (Desa C melakukan X dan Y) secara induktif akan menghasilkan tingkat kesehatan yang 'sangat tinggi' (efek kumulatif)."
+        },
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "Banyak pengendara motor berteduh di bawah jembatan layang menyebabkan kemacetan lalu lintas. Polisi lalu lintas datang untuk menertibkan pengendara yang berteduh.\n\nManakah pernyataan berikut yang paling mungkin menjadi akibat dari situasi tersebut?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Hujan berhenti seketika."
+                },
+                {
+                    "key": "B",
+                    "text": "Kemacetan lalu lintas berangsur-angsur terurai."
+                },
+                {
+                    "key": "C",
+                    "text": "Pengendara motor meninggalkan motornya di jalan."
+                },
+                {
+                    "key": "D",
+                    "text": "Jembatan layang menjadi sepi dari kendaraan."
+                },
+                {
+                    "key": "E",
+                    "text": "Polisi menutup jembatan layang."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Sebab-Akibat: Penyebab macet adalah pengendara berteduh. Tindakan (solusi) adalah polisi menertibkan mereka. Maka akibat logisnya adalah masalah (kemacetan) akan berkurang atau terurai."
+        },
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "Penelitian menunjukkan bahwa konsumsi kopi hitam tanpa gula dapat meningkatkan metabolisme tubuh. Pak Budi rutin meminum kopi hitam tanpa gula setiap pagi.\n\nManakah pernyataan yang **memperkuat** dugaan bahwa metabolisme Pak Budi meningkat?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pak Budi sering merasa lelah di siang hari."
+                },
+                {
+                    "key": "B",
+                    "text": "Berat badan Pak Budi cenderung stabil dan energik sepanjang hari."
+                },
+                {
+                    "key": "C",
+                    "text": "Pak Budi menambahkan krimer ke dalam kopinya."
+                },
+                {
+                    "key": "D",
+                    "text": "Pak Budi jarang berolahraga."
+                },
+                {
+                    "key": "E",
+                    "text": "Dokter menyarankan Pak Budi mengurangi kafein."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Peningkatan metabolisme biasanya ditandai dengan pembakaran energi yang efisien (berat badan terjaga) dan tubuh terasa bugar/energik. Opsi B adalah fakta empiris yang mendukung (memperkuat) klaim penelitian tersebut pada kasus Pak Budi."
+        },
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "Guru A mengatakan, 'Siswa yang aktif di organisasi sekolah cenderung memiliki kemampuan kepemimpinan yang baik.'\n\nManakah pernyataan di bawah ini yang, jika benar, akan **memperlemah** argumen Guru A?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ketua OSIS tahun ini sangat dihormati oleh teman-temannya."
+                },
+                {
+                    "key": "B",
+                    "text": "Banyak pemimpin perusahaan besar dulunya aktif di organisasi sekolah."
+                },
+                {
+                    "key": "C",
+                    "text": "Sebagian besar siswa yang aktif di organisasi memiliki nilai akademik rata-rata."
+                },
+                {
+                    "key": "D",
+                    "text": "Banyak siswa yang aktif di organisasi tidak mampu mengambil keputusan saat situasi genting."
+                },
+                {
+                    "key": "E",
+                    "text": "Siswa yang tidak ikut organisasi lebih fokus belajar."
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 100
+            },
+            "discussion": "Argumen Guru A: Aktif Organisasi $\\rightarrow$ Kepemimpinan Baik. Untuk memperlemah, cari fakta yang menunjukkan sebaliknya (Aktif tapi TIDAK punya skill kepemimpinan). Opsi D menyatakan siswa aktif 'tidak mampu mengambil keputusan' (ciri pemimpin buruk), sehingga argumen guru menjadi lemah."
+        },
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "KEMARAU : HUJAN = ... : ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "SIANG : MALAM"
+                },
+                {
+                    "key": "B",
+                    "text": "MATAHARI : AWAN"
+                },
+                {
+                    "key": "C",
+                    "text": "KERING : BASAH"
+                },
+                {
+                    "key": "D",
+                    "text": "PANAS : DINGIN"
+                },
+                {
+                    "key": "E",
+                    "text": "API : AIR"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 100
+            },
+            "discussion": "Analogi Hubungan: Kemarau dan Hujan adalah nama *musim* yang datang bergantian (siklus) dan berlawanan. Hubungan yang paling setara adalah Siang dan Malam (siklus waktu yang bergantian dan berlawanan). Opsi C (Kering : Basah) adalah *sifat* dari musimnya, bukan nama periodenya."
+        },
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "Pada tahun 2020, penjualan mobil listrik meningkat 20%. Pada tahun 2021, meningkat 25%. Pada tahun 2022, meningkat 30%.\n\nBerdasarkan tren tersebut, manakah prediksi yang paling mungkin terjadi pada tahun 2023?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Penjualan mobil listrik akan turun drastis."
+                },
+                {
+                    "key": "B",
+                    "text": "Penjualan mobil listrik meningkat sekitar 35%."
+                },
+                {
+                    "key": "C",
+                    "text": "Penjualan mobil listrik tetap sama dengan tahun 2022."
+                },
+                {
+                    "key": "D",
+                    "text": "Semua orang akan membeli mobil listrik."
+                },
+                {
+                    "key": "E",
+                    "text": "Pabrik mobil listrik akan bangkrut."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Pola Tren Data: Kenaikan persentase bertambah 5% setiap tahun (20% -> 25% -> 30%). Induksi yang paling logis adalah tren berlanjut, yaitu kenaikan sebesar 35%."
+        },
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "Buah mangga di Pasar A manis rasanya. Buah jeruk di Pasar A manis rasanya. Buah jambu di Pasar A manis rasanya.\n\nGeneralisasi yang paling mungkin benar adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Semua buah di dunia manis rasanya."
+                },
+                {
+                    "key": "B",
+                    "text": "Buah-buahan yang dijual di Pasar A cenderung manis rasanya."
+                },
+                {
+                    "key": "C",
+                    "text": "Hanya Pasar A yang menjual buah manis."
+                },
+                {
+                    "key": "D",
+                    "text": "Buah di pasar lain rasanya masam."
+                },
+                {
+                    "key": "E",
+                    "text": "Pedagang di Pasar A menambahkan gula pada buahnya."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Generalisasi Sampel: Dari 3 sampel buah di lokasi yang sama (Pasar A) semuanya manis. Kesimpulan yang paling aman (probabilitas tinggi) adalah membatasi ruang lingkup pada 'Pasar A', bukan seluruh dunia."
+        },
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "Lampu di ruang tamu berkedip-kedip lalu mati. Televisi di ruang keluarga tiba-tiba mati. Kipas angin di kamar tidur berhenti berputar.\n\nSimpulan penyebab yang paling mungkin adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Lampu ruang tamu rusak."
+                },
+                {
+                    "key": "B",
+                    "text": "Televisi perlu diservis."
+                },
+                {
+                    "key": "C",
+                    "text": "Terjadi pemadaman listrik di rumah tersebut."
+                },
+                {
+                    "key": "D",
+                    "text": "Kipas angin kehabisan baterai."
+                },
+                {
+                    "key": "E",
+                    "text": "Hantu sedang mengganggu."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 100
+            },
+            "discussion": "Induksi Sebab-Akibat: Tiga alat elektronik di ruangan berbeda mati secara bersamaan/berurutan. Penyebab tunggal yang paling masuk akal (Common Cause) yang bisa mempengaruhi ketiganya sekaligus adalah putusnya aliran listrik utama (pemadaman)."
+        },
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "Semakin sering seseorang membaca buku, semakin luas wawasannya. Andi sangat jarang membaca buku.\n\nSimpulan yang paling mungkin adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Andi tidak memiliki wawasan sama sekali."
+                },
+                {
+                    "key": "B",
+                    "text": "Wawasan Andi mungkin tidak seluas orang yang rajin membaca."
+                },
+                {
+                    "key": "C",
+                    "text": "Andi orang yang bodoh."
+                },
+                {
+                    "key": "D",
+                    "text": "Andi lebih suka menonton film."
+                },
+                {
+                    "key": "E",
+                    "text": "Membaca buku tidak penting bagi Andi."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 100
+            },
+            "discussion": "Hubungan korelasi positif: Sering baca $\\approx$ Luas wawasan. Jika Jarang baca $\\approx$ Kurang luas wawasan. Kata 'mungkin' pada opsi B membuat simpulan ini lebih tepat secara induktif (tidak mutlak/menghakimi seperti opsi A atau C)."
+        },
+        {
+            "category_slug": "penalaran-induktif",
+            "question_text": "Kertas : Kayu = ... : ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Roti : Gandum"
+                },
+                {
+                    "key": "B",
+                    "text": "Meja : Kursi"
+                },
+                {
+                    "key": "C",
+                    "text": "Plastik : Sampah"
+                },
+                {
+                    "key": "D",
+                    "text": "Emas : Perhiasan"
+                },
+                {
+                    "key": "E",
+                    "text": "Sapi : Susu"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 100
+            },
+            "discussion": "Analogi Bahan Baku: Kertas terbuat dari (bahan dasarnya) Kayu. Hubungan yang setara adalah Roti terbuat dari Gandum. (Emas : Perhiasan terbalik, harusnya Perhiasan : Emas)."
+        }
+    ]
+}

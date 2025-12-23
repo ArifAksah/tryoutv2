@@ -1,0 +1,329 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Lanjutan Soal UTBK SNBT - Pengetahuan dan Pemahaman Umum (Part 2: Soal 11-20 - Final)",
+        "instructions": "Import ke kategori ppu"
+    },
+    "questions": [
+        {
+            "category_slug": "ppu",
+            "question_text": "Cermati kalimat berikut!\n\n'Dampak perubahan iklim sudah terasa sangat *signifikan* bagi para petani di daerah tropis.'\n\nSinonim yang paling tepat untuk kata *signifikan* dalam kalimat tersebut adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Berbahaya"
+                },
+                {
+                    "key": "B",
+                    "text": "Nyata/Berarti"
+                },
+                {
+                    "key": "C",
+                    "text": "Meluas"
+                },
+                {
+                    "key": "D",
+                    "text": "Mengerikan"
+                },
+                {
+                    "key": "E",
+                    "text": "Mendadak"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Kata 'signifikan' dalam KBBI berarti penting atau berarti. Dalam konteks dampak, signifikan merujuk pada pengaruh yang cukup besar, nyata, atau berarti, bukan sekadar berbahaya atau mendadak."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Manakah kalimat berikut yang **TIDAK** efektif karena mengandung unsur pleonasme (pemborosan kata)?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Para tamu undangan dipersilakan mencicipi hidangan."
+                },
+                {
+                    "key": "B",
+                    "text": "Dia sangat rajin belajar demi lulus ujian."
+                },
+                {
+                    "key": "C",
+                    "text": "Kita harus saling tolong-menolong dalam kebaikan."
+                },
+                {
+                    "key": "D",
+                    "text": "Mereka naik ke lantai dua menggunakan lift."
+                },
+                {
+                    "key": "E",
+                    "text": "Agar supaya hasil maksimal, kita perlu bekerja keras."
+                }
+            ],
+            "answer_key": {
+                "correct": "E",
+                "score": 50
+            },
+            "discussion": "Kalimat E menggunakan dua kata hubung yang bermakna sama secara bersamaan, yaitu **'Agar'** dan **'Supaya'**. Seharusnya pilih salah satu saja: 'Agar hasil maksimal...' atau 'Supaya hasil maksimal...'."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Bacalah teks berikut!\n\n(1) Literasi digital di Indonesia masih tergolong rendah dibandingkan negara tetangga. (2) Banyak masyarakat yang mudah termakan hoaks tanpa memverifikasi sumbernya. (3) Pemerintah telah meluncurkan program Siberkreasi untuk mengatasi masalah ini. (4) Namun, peran aktif keluarga dalam mengedukasi anggota rumah tangga tetap menjadi kunci utama.\n\nKalimat utama paragraf tersebut terletak pada nomor ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(1)"
+                },
+                {
+                    "key": "B",
+                    "text": "(2)"
+                },
+                {
+                    "key": "C",
+                    "text": "(3)"
+                },
+                {
+                    "key": "D",
+                    "text": "(4)"
+                },
+                {
+                    "key": "E",
+                    "text": "Tersirat di seluruh paragraf"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Paragraf ini berjenis deduktif. Gagasan utamanya ada di awal (Kalimat 1: Literasi digital masih rendah). Kalimat (2), (3), dan (4) adalah kalimat penjelas yang menjabarkan bukti rendahnya literasi (hoaks) dan upaya penanganannya."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Perhatikan penggunaan imbuhan berikut!\n\nKata *mewarnai* pada kalimat 'Adik sedang *mewarnai* gambar' memiliki makna gramatikal yang sama dengan kata ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Menanami"
+                },
+                {
+                    "key": "B",
+                    "text": "Membaiki"
+                },
+                {
+                    "key": "C",
+                    "text": "Menjauhi"
+                },
+                {
+                    "key": "D",
+                    "text": "Menandatangani"
+                },
+                {
+                    "key": "E",
+                    "text": "Membawakan"
+                }
+            ],
+            "answer_key": {
+                "correct": "A",
+                "score": 50
+            },
+            "discussion": "Imbuhan *Me-i* pada 'Mewarnai' bermakna kausatif lokatif (memberikan warna pada objek / melakukan pekerjaan pada tempat). \n- **Menanami** = Menanam sesuatu pada lahan (memberi tanaman pada lahan). Maknanya setara.\n- Menjauhi = Menjadi jauh dari.\n- Membawakan = (Akhiran -kan) Melakukan untuk orang lain (benefaktif)."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Konjungsi antarkalimat yang tepat untuk mengisi bagian rumpang berikut adalah ...\n\n'Inflasi tahun ini mencapai angka tertinggi dalam satu dekade terakhir. (...), bank sentral memutuskan untuk menaikkan suku bunga acuan.'",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Akan tetapi"
+                },
+                {
+                    "key": "B",
+                    "text": "Di samping itu"
+                },
+                {
+                    "key": "C",
+                    "text": "Oleh karena itu"
+                },
+                {
+                    "key": "D",
+                    "text": "Sebaliknya"
+                },
+                {
+                    "key": "E",
+                    "text": "Selanjutnya"
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Kalimat kedua merupakan akibat atau konsekuensi logis dari kalimat pertama (Inflasi tinggi -> Naikkan suku bunga). Konjungsi yang menyatakan konsekuensi/simpulan adalah **Oleh karena itu** atau **Akibatnya**."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Manakah deretan kata berikut yang semuanya merupakan kata **baku**?",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Apotek, praktek, atlet"
+                },
+                {
+                    "key": "B",
+                    "text": "Kualitas, jadwal, izin"
+                },
+                {
+                    "key": "C",
+                    "text": "Nasihat, analisa, sistem"
+                },
+                {
+                    "key": "D",
+                    "text": "Resiko, sekadar, ubah"
+                },
+                {
+                    "key": "E",
+                    "text": "Hakekat, izin, zaman"
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Analisis:\nA. Praktek (Salah) -> Praktik.\nB. **Benar** (Kualitas, Jadwal, Izin).\nC. Analisa (Salah) -> Analisis.\nD. Resiko (Salah) -> Risiko.\nE. Hakekat (Salah) -> Hakikat."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Ungkapan *gulung tikar* dalam kalimat 'Banyak usaha kecil yang gulung tikar akibat pandemi' bermakna ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Berpindah lokasi usaha."
+                },
+                {
+                    "key": "B",
+                    "text": "Mengalami kerugian besar (bangkrut)."
+                },
+                {
+                    "key": "C",
+                    "text": "Sedang merenovasi tempat."
+                },
+                {
+                    "key": "D",
+                    "text": "Mengganti jenis usaha."
+                },
+                {
+                    "key": "E",
+                    "text": "Menutup sementara tokonya."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "*Gulung tikar* adalah idiom yang berarti bangkrut atau usaha yang tutup permanen karena rugi."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Perhatikan kalimat luas berikut!\n\n'Keberhasilan seorang atlet dalam meraih medali emas di ajang olimpiade ditentukan oleh disiplin latihan dan mental yang kuat.'\n\nSubjek dari kalimat di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Keberhasilan"
+                },
+                {
+                    "key": "B",
+                    "text": "Seorang atlet"
+                },
+                {
+                    "key": "C",
+                    "text": "Medali emas"
+                },
+                {
+                    "key": "D",
+                    "text": "Keberhasilan seorang atlet dalam meraih medali emas di ajang olimpiade"
+                },
+                {
+                    "key": "E",
+                    "text": "Ditentukan oleh disiplin latihan"
+                }
+            ],
+            "answer_key": {
+                "correct": "D",
+                "score": 50
+            },
+            "discussion": "Kalimat ini adalah kalimat pasif. Yang dibicarakan (apa yang ditentukan?) adalah frasa nomina yang panjang: **'Keberhasilan seorang atlet dalam meraih medali emas di ajang olimpiade'**. Seluruh frasa ini menduduki jabatan Subjek."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Bacalah teks berikut!\n\nTanaman herbal seperti jahe, kunyit, dan temulawak telah lama digunakan sebagai obat tradisional. Kandungan kurkumin pada kunyit dipercaya dapat meningkatkan daya tahan tubuh. Sementara itu, jahe merah sering diolah menjadi minuman hangat untuk meredakan masuk angin. Masyarakat kini mulai kembali melirik pengobatan alami ini sebagai alternatif obat kimia.\n\nTopik utama bacaan di atas adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Cara mengolah jahe merah."
+                },
+                {
+                    "key": "B",
+                    "text": "Bahaya obat kimia bagi tubuh."
+                },
+                {
+                    "key": "C",
+                    "text": "Manfaat dan popularitas tanaman herbal."
+                },
+                {
+                    "key": "D",
+                    "text": "Kandungan kurkumin pada kunyit."
+                },
+                {
+                    "key": "E",
+                    "text": "Sejarah pengobatan tradisional."
+                }
+            ],
+            "answer_key": {
+                "correct": "C",
+                "score": 50
+            },
+            "discussion": "Teks membahas jenis tanaman herbal, manfaat spesifiknya (kunyit, jahe), dan tren masyarakat yang kembali menggunakannya. Jadi topik utamanya mencakup **Manfaat dan popularitas tanaman herbal**."
+        },
+        {
+            "category_slug": "ppu",
+            "question_text": "Premis 1: Jika seseorang menderita anemia, maka ia mudah merasa lelah.\nPremis 2: Andi tidak mudah merasa lelah.\n\nSimpulan yang sah adalah ...",
+            "question_type": "multiple_choice",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Andi menderita anemia."
+                },
+                {
+                    "key": "B",
+                    "text": "Andi tidak menderita anemia."
+                },
+                {
+                    "key": "C",
+                    "text": "Andi sangat sehat."
+                },
+                {
+                    "key": "D",
+                    "text": "Andi rajin berolahraga."
+                },
+                {
+                    "key": "E",
+                    "text": "Orang yang anemia pasti Andi."
+                }
+            ],
+            "answer_key": {
+                "correct": "B",
+                "score": 50
+            },
+            "discussion": "Menggunakan logika Modus Tollens:\n$P \\rightarrow Q$ (Jika Anemia, maka Lelah).\n$\\sim Q$ (Tidak Lelah).\nKesimpulan: $\\sim P$ (Tidak Anemia)."
+        }
+    ]
+}
